@@ -69,14 +69,7 @@ function UpdatePlanet(planet, dt)
             newObj.physics.angle = newObj.base.initialDirection + math.random(0, newObj.base.initialDirectionRange)
             newObj.physics.velocity = PolarVec(SPEED_FACTOR * (newObj.base.initialVelocity + math.random(0, newObj.base.initialVelocity)), newObj.physics.angle)
 
-            scen.objects[#scen.objects + 1] = newObj
-            for i = #scen.objects, 2, -1 do
-                if scen.objects[i].layer >= scen.objects[i - 1].layer then
-                    break
-                end
-            
-            scen.objects[i], scen.objects[i - 1] = scen.objects[i - 1], scen.objects[i]
-            end
+            AddObject(newObj, scen)
             sound.play("ComboBeep")
             StopBuilding(planet)
         end

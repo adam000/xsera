@@ -56,14 +56,7 @@ function LoadScenario(id)
             CalculateBuildables(new, scen)
         end
         
-        scen.objects[#scen.objects + 1] = new
-        for i = #scen.objects, 2, -1 do
-            if scen.objects[i].layer >= scen.objects[i - 1].layer then
-                break
-            end
-            
-            scen.objects[i], scen.objects[i - 1] = scen.objects[i - 1], scen.objects[i]
-        end
+        AddObject(new, scen)
     end
     
     InitConditions(scen)
@@ -202,10 +195,4 @@ function ObjectIterator(list)
         return index, k
     end
     return jaggedListIterator, list, {nil, nil}
-end
-
-function AddObject(obj, scen)
-    local list = scen.objects[obj.layer]
-    list[#list + 1] = obj
-    return {obj.layer, #list}
 end
