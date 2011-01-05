@@ -314,13 +314,15 @@ function render()
 	graphics.end_warp()
 	
 	DrawGrid()
-	
-	for objectId, object in pairs(scen.objects) do
-		if objectId ~= scen.playerShipId then
-			DrawObject(object)
-		end
-	end
-
+    
+    for layerId, layer in ipairs({1, 2, 3, 0}) do
+        for objectId, object in pairs(scen.objects) do
+            if objectId ~= scen.playerShipId
+            and object.layer == layer then
+                DrawObject(object)
+            end
+        end
+    end
 	graphics.draw_particles()
 		
 	DrawObject(scen.playerShip)
