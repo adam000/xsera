@@ -236,14 +236,7 @@ Actions["create object"] = function(action, source, direct)
         new.ai.creator = srcMotion.object_id
         
         CreateTrigger(new)
-        scen.objects[new.physics.object_id] = new
-        for i = #scen.objects, 2, -1 do
-            if scen.objects[i - 1] ~= nil and scen.objects[i].layer >= scen.objects[i - 1].layer then
-                break
-            end
-            
-            scen.objects[i], scen.objects[i - 1] = scen.objects[i - 1], scen.objects[i]
-        end
+        AddObject(new, scen)
     end
 end
 

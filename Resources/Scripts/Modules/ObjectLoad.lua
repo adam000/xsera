@@ -135,3 +135,9 @@ function CopyActions(object)
         object.triggers.periodic = periodic
     end
 end
+
+function AddObject(obj, scen)
+    local position = #scen.objects + 1
+    scen.objects[position] = obj
+    return position
+end
