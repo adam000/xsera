@@ -38,7 +38,7 @@ end
 function key( k )
     if RELEASE_BUILD ~= true then
         if k == "e" then
-            consoleDraw = true
+            keyboard[4][10].active = true
         end
     end
     if k == "escape" then
@@ -79,8 +79,8 @@ function update()
     dt = newTime - last_time
     last_time = newTime
 
-    if menu_display == nil and consoleDraw == false then
-        if keyboard[4][7].active == true then
+    if menu_display == nil and keyboard[4][10].active == false then
+        if keyboard[4][7].active then
             dt = dt * 50
         end
 
@@ -227,22 +227,22 @@ function update()
             Warp(o)
 
             local rvel
-            if o.base.attributes.canTurn == true then
+            if o.base.attributes.canTurn then
                 rvel = o.base.rotation.turnRate
             else
                 rvel = DEFAULT_ROTATION_RATE
             end
 
-            if o.control.left == true then
+            if o.control.left then
                 o.physics.angularVelocity = rvel * 2.0
-            elseif o.control.right == true then
+            elseif o.control.right then
                 o.physics.angularVelocity = -rvel * 2.0
             else
                 o.physics.angularVelocity = 0
             end
 
             if o.warp.stage < WARP_RUNNING then
-                if o.control.accel == true then
+                if o.control.accel then
                     -- apply a forward force in the direction the ship is facing
                     local angle = o.physics.angle
                     local thrust = o.base.thrust * SPEED_FACTOR
@@ -360,7 +360,7 @@ function mouse_up()
 	if mdown then
         print(cameraRatio.current)
         local mousePos = GetMouseCoords()
-        if keyboard[2][5].active == true then -- TARGET
+        if keyboard[2][5].active then -- TARGET
             selection.targetId, selection.target = NextTargetUnderCursor(selection.targetId, true)
         else -- CONTROL
             selection.controlId, selection.control = NextTargetUnderCursor(selection.controlId, false)
@@ -380,7 +380,7 @@ end
 function RemoveDead()
     --Remove destroyed or expired objects
     for i, o in pairs(scen.objects) do
-        if o.status.dead == true then
+        if o.status.dead then
             if scen.playerShipId == i then
                 AddPlayerBody()
             end

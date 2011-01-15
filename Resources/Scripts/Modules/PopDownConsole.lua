@@ -1,15 +1,13 @@
 import('Console')
 import('Camera')
 
-consoleDraw = false
-
 function PopDownConsole()
-    if (consoleDraw == false) and (key == ConsoleKey) then
+    if not keyboard[4][10].active and key == ConsoleKey then
         key = normal_key
         keyup = normal_keyup
         ConsoleAdd("$Leaving console...")
     end
-    if consoleDraw == true and key == normal_key then
+    if keyboard[4][10].active and key == normal_key then
         isPopDown = true
         ConsoleAdd("$Loading console...")
         SetNewPrint()
@@ -19,7 +17,7 @@ function PopDownConsole()
         ConsoleAdd("$Console loaded.")
         ConsoleAdd(">")
     end
-    if consoleDraw == true then
+    if keyboard[4][10].active then
         local cam = CameraToWindow()
         graphics.set_camera(cam[1], cam[2], cam[3], cam[4])
         graphics.draw_box(cam[4], cam[1], cam[4] - (CONSOLE_MAX - 1) * FONT_SIZE, cam[3], 2, ClutColour(1, 17))

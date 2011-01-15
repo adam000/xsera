@@ -101,7 +101,7 @@ function CameraFollow(dt, zoomLevel)
 end
 
 function CameraSnap()
-    if cameraChanging == true then
+    if cameraChanging then
         cameraRatio.curr = cameraRatio.target
         camera = { w = WINDOW.width / cameraRatio.curr, h }
         camera.h = camera.w / aspectRatio

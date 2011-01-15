@@ -81,7 +81,7 @@ Actions["alter health"] = function(action, source, direct)
     local p
     if action.subjectOverride ~= nil then
         p = scen.objects[action.subjectOverride]
-    elseif action.reflexive == true then
+    elseif action.reflexive then
         p = source
     else
         p = direct
@@ -98,7 +98,7 @@ Actions["alter energy"] = function(action, source, direct)
     local p
     if action.subjectOverride ~= nil then
         p = scen.objects[action.subjectOverride]
-    elseif action.reflexive == true then
+    elseif action.reflexive then
         p = source
     else
         p = direct
@@ -127,13 +127,13 @@ Actions["alter velocity"] = function(action, source, direct)
     local angle = source.physics.angle
     local delta = PolarVec(math.sqrt(action.minimum)+math.random(0.0,math.sqrt(action.range)), angle)
     
-    if action.reflexive == true then
+    if action.reflexive then
         p = source.physics
     else
         p = direct.physics
     end
 
-    if action.relative == true then
+    if action.relative then
         p.velocity = p.velocity +  delta
     else
         p.velocity = delta
@@ -153,7 +153,7 @@ Actions["create object"] = function(action, source, direct)
     local srcMotion
     local offset = vec(0,0)
     local owner = -1
-    if action.reflexive == true then --There may be more conditions to consider
+    if action.reflexive then --There may be more conditions to consider
         if source.type == nil then --Weapon firing
             srcMotion = direct.physics
             offset = RotatePoint(source.positions[source.lastPos],srcMotion.angle-math.pi/2.0)
@@ -204,7 +204,7 @@ Actions["create object"] = function(action, source, direct)
         end
         
         
-        if source.base.attributes.autoTarget == true then
+        if source.base.attributes.autoTarget then
         
             if aimMethod == "smart" then
                 local vel = (new.base.initialVelocity or 0) * SPEED_FACTOR
@@ -212,7 +212,7 @@ Actions["create object"] = function(action, source, direct)
             else
                 new.physics.angle = findAngle(targ.position, new.physics.position)
             end
-        elseif action.directionRelative == true then
+        elseif action.directionRelative then
             new.physics.angle = srcMotion.angle
         else
             new.physics.angle = RandomReal(0, 2.0 * math.pi)
@@ -224,11 +224,11 @@ Actions["create object"] = function(action, source, direct)
         
         new.physics.velocity = PolarVec(SPEED_FACTOR * iv, new.physics.angle)
 
-        if action.velocityRelative == true then    
+        if action.velocityRelative then    
             new.physics.velocity = new.physics.velocity + srcMotion.velocity
         end
         
-        if new.base.attributes.isGuided == true then
+        if new.base.attributes.isGuided then
             new.control.accel = true
         end
         
@@ -254,7 +254,7 @@ Actions["declare winner"] = function(action, source, direct)
 end
 
 Actions["die"] = function(action, source, direct)
-    if action.reflexive == true then
+    if action.reflexive then
         source.status.dead = true
     else
         direct.status.dead = true
@@ -268,7 +268,7 @@ end
 Actions["make sparks"] = function(action, source, direct)
     --Aquire parent
     local parent
-    if action.reflexive == true then
+    if action.reflexive then
         parent = source
     else
         parent = direct
@@ -287,7 +287,7 @@ end
 Actions["play sound"] = function(action, source, direct)
     local rsound = data.sounds[action.soundId]
     local parent
-    if action.reflexive == true then
+    if action.reflexive then
         parent = source
     else
         parent = direct

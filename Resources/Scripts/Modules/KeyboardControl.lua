@@ -12,7 +12,7 @@ down = { esc = false, rtrn = false, q = false, o = false, caps = false }
 
 function escape_keyup(k)
     if k == "escape" then
-        if down.esc == true then
+        if down.esc then
             down.esc = "act"
         end
     elseif k == "return" then
@@ -167,7 +167,7 @@ function DoMoveOrder()
     and selection.control ~= scen.playerShip
     and selection.control.base.attributes.canAcceptDestination == true
     and (selection.target == nil
-    or selection.target.base.attributes.canBeDestination == true) then
+    or selection.target.base.attributes.canBeDestination) then
         selection.control.ai.objectives.dest = selection.target
     end
 end
@@ -424,7 +424,8 @@ keyboard = { { "Ship",
                 { key = "F5", name = "Expert Net Settings", action = DoExpertNet, active = false }, 
                 { key = "F6", name = "Fast Motion", active = false }, 
                 { key = "escape", name = "Escape Menu", action = DoEscapeMenu, active = false }, 
-                { key = "Mcaps", name = "Pause", action = DoPause, active = false } }, 
+                { key = "Mcaps", name = "Pause", action = DoPause, active = false },
+                { key = "`", name = "Console", active = false } }, 
             { "HotKeys",
                 { key = "1", name = "HotKey 1", action = DoHotkey1, active = false }, 
                 { key = "2", name = "HotKey 2", action = DoHotkey2, active = false }, 
@@ -520,7 +521,7 @@ end
 function KeyDoActivated()
     for _, i in ipairs(keyboard) do
         for _, j in ipairs(i) do
-            if j.active == true then
+            if j.active then
                 if j.action ~= nil then
                     j.action()
                 end

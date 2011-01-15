@@ -48,11 +48,7 @@ end
 
 function key ( k )
     if k == 'p' then
-        if creditsRolling == true then
-            creditsRolling = false
-        else
-            creditsRolling = true
-        end
+        creditsRolling = not creditsRolling
     elseif k == 'q' then
         speed = speed + 10
     elseif k == 'a' then

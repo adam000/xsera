@@ -1,11 +1,11 @@
 function TestConditions(scen)
     for idx, cond in pairs(scen.conditions) do
         local type = cond.type
-        if cond.active == true then
+        if cond.active then
             cond.isTrue = Test[type](cond)
-            if cond.isTrue == true then
+            if cond.isTrue then
                 CallAction(cond.action)
-                if cond.flags.trueOnlyOnce == true then
+                if cond.flags.trueOnlyOnce then
                     cond.active = false
                 end
             end

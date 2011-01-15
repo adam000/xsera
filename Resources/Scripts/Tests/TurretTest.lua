@@ -37,15 +37,15 @@ function update()
     local currentTime = mode_manager.time()
     dt = currentTime - lastTime
     lastTime = currentTime
-    if keys.left == true then
+    if keys.left then
         angle = angle + turnRate * dt
-    elseif keys.right == true then
+    elseif keys.right then
         angle = angle - turnRate * dt
     end
     
-    if keys.up == true then
+    if keys.up then
         power = power + powerUpRate * dt
-    elseif keys.down == true then
+    elseif keys.down then
         power = power - powerUpRate * dt
     end
     Physics.UpdateSystem(dt, projectiles)

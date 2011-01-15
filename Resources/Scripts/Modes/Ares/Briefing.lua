@@ -46,9 +46,9 @@ function update()
         ChangeSpecial("LEFT", nil, background1)
         ChangeSpecial("LEFT", nil, background2)
     end
-    if doLevelSwitch == true then
+    if doLevelSwitch then
         if scenLevels[menuNum + 1] ~= nil then
-            if scenLevels[menuNum + 1].unlocked == true then
+            if scenLevels[menuNum + 1].unlocked then
                 ChangeSpecial("RGHT", nil, background1)
             end
         else
@@ -84,7 +84,7 @@ function render()
     graphics.draw_image("Panels/PanelRight", { x = 303, y = -14 }, { x = 35, y = 476 })
     local num = 1
     -- Screen Info
-    if doLevelSwitch == true then
+    if doLevelSwitch then
     -- When we load the scenario data, change all instances of "scenLevels" to "scen.levels"
         while background1[num] ~= nil do
             SwitchBox(background1[num])
@@ -143,7 +143,7 @@ function keyup(k)
     if k == "escape" then
         mode_manager.switch('Ares/Splash')
     elseif k == "return" then
-        if doLevelSwitch == true then
+        if doLevelSwitch then
             if scenLevels[menuNum].mode ~= nil then
                 sound.play_music("FRED")
                 doLevelSwitch = false
@@ -161,21 +161,21 @@ end
 
 function key(k)
     if k == "escape" then
-        if doLevelSwitch == true then
+        if doLevelSwitch then
             ChangeSpecial("ESC", "click", background1)
         else
             ChangeSpecial("ESC", "click", background2)
         end
     elseif k == "return" then
-        if doLevelSwitch == true then
+        if doLevelSwitch then
             ChangeSpecial("RTRN", "click", background1)
         else
             ChangeSpecial("RTRN", "click", background2)
         end
     elseif k == "l" then
-        if doLevelSwitch == true then
+        if doLevelSwitch then
             if scenLevels[menuNum + 1] ~= nil then
-                if scenLevels[menuNum + 1].unlocked == true then
+                if scenLevels[menuNum + 1].unlocked then
                     menuNum = menuNum + 1
                 end
             end

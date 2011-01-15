@@ -73,7 +73,7 @@ end
 
 function key ( k )
     if k == "x" then
-        if RELEASE_BUILD == true then
+        if RELEASE_BUILD then
             mode_manager.switch("Ares/Splash")
         else -- debug build tests
             mode_manager.switch("../Tests/TestMenu")

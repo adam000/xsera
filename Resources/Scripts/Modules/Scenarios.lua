@@ -25,7 +25,7 @@ function LoadScenario(id)
         new.physics.position = state.position
         new.ai.owner = state.owner
 
-        if state.attributes.isPlayerShip == true then
+        if state.attributes.isPlayerShip then
             if scen.playerShip == nil then
                 scen.playerShip = new
                 scen.playerShipId = new.physics.object_id
@@ -167,7 +167,7 @@ function GenerateStatusLines(scen)
             out = {line.preString, false}
         elseif line.type == 1 then
         --true/false
-            if scen.conditions[line.number + 1].isTrue == true then
+            if scen.conditions[line.number + 1].isTrue then
                 out = {line.prestring..line.truestring..line.poststring,false}
             else
                 out = {line.prestring..line.falsestring..line.poststring,false}
