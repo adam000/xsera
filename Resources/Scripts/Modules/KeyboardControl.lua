@@ -241,21 +241,9 @@ function DoTransferControl()
     and (
     not(RELEASE_BUILD)
     or scen.playerShip.ai.owner == control.ai.owner)
+    and selection.control.base.attributes.isDestination
     then
-        scen.playerShipId = selection.control.physics.object_id
-        scen.playerShip.ai.objectives.target = nil
-        scen.playerShip.ai.objectives.dest = nil
-        ChangePlayerShip()
---[[        scen.playerShip.control = {
-            accel = false;
-            decel = false;
-            left = false;
-            right = false;
-            beam = false;
-            pulse = false;
-            special = false;
-            warp = false;
-        }--]]
+        SetPlayerShip(selection.controlId)
     else
         sound.play("NaughtyBeep")
     end

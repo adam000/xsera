@@ -398,32 +398,40 @@ function AddPlayerBody()
     body.physics.position = scen.playerShip.physics.position
     body.physics.angle = scen.playerShip.physics.angle
 
-    scen.playerShipId = body.physics.object_id
-    scen.objects[body.physics.object_id] = body
-    --[SCOTT] We need a module for ship selection.
-    ChangePlayerShip()
+    local bodyId = body.physics.object_id
+    scen.objects[bodyId] = body
+    SetPlayerShip(bodyId)
 end
 
-function ChangePlayerShip()
-    
-    scen.playerShip = scen.objects[scen.playerShipId]
-    if scen.playerShip == nil then
-        scen.playerShipId, scen.playerShip = next(scen.objects,scen.playerShipId)
-        if scen.playerShip == nil then
-            scen.playerShipId, scen.playerShip = next(scen.objects)
+function NextPlayerShip()
+    --isDestination=false means that the object is controlable
+    local idStart = scen.playerShipId
+    local cursorId = idStart
+    local cursor
+    repeat
+        cursorId, cursor = next(scen.objects, cursorId)
+        if not cursor.base.attributes.isDestination then
+            SetPlayerShip(cursorId)
+            break
         end
-    end
-            
+    until cursorId == idStart
+end
+
+function SetPlayerShip(id)
+    scen.playerShipId = id
+    scen.playerShip = scen.objects[id]
+    scen.playerShip.ai.objectives.target = nil
+    scen.playerShip.ai.objectives.dest = nil
     scen.playerShip.control = {
-        accel = false;
-        decel = false;
-        left = false;
-        right = false;
-        beam = false;
-        pulse = false;
-        special = false;
-        warp = false;
-    }
+            accel = false;
+            decel = false;
+            left = false;
+            right = false;
+            beam = false;
+            pulse = false;
+            special = false;
+            warp = false;
+        }
 end
 
 function Collide(a,b)
