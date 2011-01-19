@@ -404,13 +404,13 @@ function AddPlayerBody()
 end
 
 function NextPlayerShip()
-    --isDestination=false means that the object is controlable
+    --canAcceptDestination=false means that the object is controllable
     local idStart = scen.playerShipId
     local cursorId = idStart
     local cursor
     repeat
         cursorId, cursor = next(scen.objects, cursorId)
-        if not cursor.base.attributes.isDestination then
+        if cursor.base.attributes.canAcceptDestination then
             SetPlayerShip(cursorId)
             break
         end
