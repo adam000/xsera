@@ -240,8 +240,8 @@ function DoTransferControl()
     if selection.control ~= nil
     and (
     not(RELEASE_BUILD)
-    or scen.playerShip.ai.owner == control.ai.owner)
-    and selection.control.base.attributes.isDestination
+    or scen.playerShip.ai.owner == selection.control.ai.owner)
+    and selection.control.base.attributes.canAcceptDestination
     then
         SetPlayerShip(selection.controlId)
     else
