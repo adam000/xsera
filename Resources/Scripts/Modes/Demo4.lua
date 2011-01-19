@@ -36,11 +36,6 @@ function init()
 end
 
 function key( k )
-    if RELEASE_BUILD ~= true then
-        if k == "e" then
-            keyboard[4][10].active = true
-        end
-    end
     if k == "escape" then
         menu_display = "esc_menu"
         keyup = escape_keyup
