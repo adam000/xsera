@@ -19259,7 +19259,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[25] = {
 			layer = 2;
@@ -19445,7 +19445,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[26] = {
 			layer = 3;
@@ -22331,7 +22331,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.09765625;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[42] = {
 			layer = 2;
@@ -28525,7 +28525,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[76] = {
 			layer = 0;
@@ -29451,7 +29451,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[81] = {
 			layer = 3;
@@ -30531,7 +30531,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[87] = {
 			layer = 2;
@@ -30903,7 +30903,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[89] = {
 			layer = 2;
@@ -32011,7 +32011,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[95] = {
 			layer = 2;
@@ -32197,7 +32197,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[96] = {
 			layer = 0;
@@ -33295,7 +33295,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[102] = {
 			layer = 0;
@@ -34733,7 +34733,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[110] = {
 			layer = 2;
@@ -36379,7 +36379,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[119] = {
 			layer = 2;
@@ -36569,7 +36569,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[120] = {
 			layer = 2;
@@ -36755,7 +36755,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[121] = {
 			layer = 2;
@@ -37669,7 +37669,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[126] = {
 			layer = 2;
@@ -37855,7 +37855,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[127] = {
 			layer = 2;
@@ -38049,7 +38049,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[128] = {
 			layer = 2;
@@ -38239,7 +38239,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[129] = {
 			layer = 2;
@@ -40251,7 +40251,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[140] = {
 			layer = 2;
@@ -40437,7 +40437,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[141] = {
 			layer = 1;
@@ -44267,7 +44267,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[162] = {
 			layer = 0;
@@ -46663,7 +46663,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[175] = {
 			layer = 0;
@@ -47207,7 +47207,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[178] = {
 			layer = 2;
@@ -47393,7 +47393,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[179] = {
 			layer = 2;
@@ -47579,7 +47579,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[180] = {
 			layer = 2;
@@ -51787,7 +51787,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.75;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[203] = {
 			layer = 2;
@@ -52341,7 +52341,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[206] = {
 			layer = 2;
@@ -52709,7 +52709,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[208] = {
 			layer = 2;
@@ -52887,7 +52887,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[209] = {
 			layer = 1;
@@ -53595,7 +53595,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[213] = {
 			layer = 2;
@@ -53773,7 +53773,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[214] = {
 			layer = 2;
@@ -53947,7 +53947,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[215] = {
 			layer = 1;
@@ -54497,7 +54497,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.3984375;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[218] = {
 			layer = 1;
@@ -55985,7 +55985,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[226] = {
 			layer = 0;
@@ -59833,7 +59833,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[247] = {
 			layer = 0;
@@ -60395,7 +60395,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[250] = {
 			layer = 2;
@@ -60585,7 +60585,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[251] = {
 			layer = 0;
@@ -64953,7 +64953,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 1.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[275] = {
 			layer = 2;
@@ -65147,7 +65147,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 1.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[276] = {
 			layer = 1;
@@ -65325,7 +65325,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[277] = {
 			layer = 1;
@@ -65507,7 +65507,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[278] = {
 			layer = 1;
@@ -65685,7 +65685,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[279] = {
 			layer = 1;
@@ -65867,7 +65867,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[280] = {
 			layer = 2;
@@ -67161,7 +67161,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.0;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[287] = {
 			layer = 2;
@@ -67347,7 +67347,7 @@ data = {
 				isGuided = false;
 			};
 			buildRatio = 0.69921875;
-			iconShape = nil;
+			iconShape = "plus";
 		};
 		[288] = {
 			layer = 2;
