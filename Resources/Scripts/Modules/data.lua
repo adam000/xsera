@@ -13772,6 +13772,8 @@ data = {
 				x = 302;
 			};
 			playerNum = 2;
+			scoreString = {
+			};
 			movie = nil;
 			isTraining = false;
 			startTime = 0;
@@ -14208,6 +14210,8 @@ data = {
 				x = 200;
 			};
 			playerNum = 2;
+			scoreString = {
+			};
 			movie = nil;
 			isTraining = false;
 			startTime = 0;
@@ -14259,6 +14263,8 @@ data = {
 				x = 100;
 			};
 			playerNum = 3;
+			scoreString = {
+			};
 			movie = nil;
 			isTraining = false;
 			startTime = 0;
@@ -14315,6 +14321,8 @@ data = {
 				x = -1;
 			};
 			playerNum = 2;
+			scoreString = {
+			};
 			movie = nil;
 			isTraining = false;
 			startTime = 256;
@@ -14366,6 +14374,8 @@ data = {
 				x = 100;
 			};
 			playerNum = 2;
+			scoreString = {
+			};
 			movie = nil;
 			isTraining = false;
 			startTime = 0;
@@ -14417,6 +14427,8 @@ data = {
 				x = -1;
 			};
 			playerNum = 2;
+			scoreString = {
+			};
 			movie = nil;
 			isTraining = false;
 			startTime = 0;
@@ -14468,6 +14480,8 @@ data = {
 				x = -1;
 			};
 			playerNum = 2;
+			scoreString = {
+			};
 			movie = nil;
 			isTraining = false;
 			startTime = 0;
@@ -14519,6 +14533,8 @@ data = {
 				x = -1;
 			};
 			playerNum = 2;
+			scoreString = {
+			};
 			movie = nil;
 			isTraining = false;
 			startTime = 0;
