@@ -2,6 +2,7 @@
 import('PrintRecursive')
 
 local Actions = {}
+local AlterActions = {}
 
 function ActivateTrigger(sender, owner)
     if owner == nil then
@@ -67,77 +68,17 @@ setmetatable(Actions, {__index = function(table, key)
     return function(action, source, direct) end
 end})
 
+setmetatable(AlterActions, {__index = function(table, key)
+    print("[lua] Warning: Unimplemented alter action " .. key)
+    return function(action, source, direct) end
+end})
+
 
 --local function noAction(action, source, direct) end
-
+--MARK: Actions
 -- Actions["activate special"]         = noAction
--- Actions["alter absolute cash"]      = noAction
--- Actions["alter absolute location"]  = noAction
--- Actions["alter age"]                = noAction
--- Actions["alter base type"]          = noAction
--- Actions["alter cloak"]              = noAction
--- Actions["alter active condition"] = noAction
-Actions["alter health"] = function(action, source, direct)
-    local p
-    if action.subjectOverride ~= nil then
-        p = scen.objects[action.subjectOverride]
-    elseif action.reflexive then
-        p = source
-    else
-        p = direct
-    end
-
-    if p ~= nil then
-        p.status.health = p.status.health + action.value
-        if p.status.health > p.status.healthMax then
-            p.status.health = p.status.healthMax
-        end
-    end
-end
-Actions["alter energy"] = function(action, source, direct)
-    local p
-    if action.subjectOverride ~= nil then
-        p = scen.objects[action.subjectOverride]
-    elseif action.reflexive then
-        p = source
-    else
-        p = direct
-    end
-
-    if p ~= nil then
-        p.status.energy = p.status.energy + action.value
-        if p.status.energy > p.status.energyMax then
-            p.status.energy = p.status.energyMax
-        end
-    end
-end
--- Actions["alter hidden"]       = noAction
--- Actions["alter-location-action"]     = noAction
--- Actions["alter max velocity"] = noAction
--- Actions["alter occupation"]   = noAction
--- Actions["alter offline"]      = noAction
--- Actions["alter owner"]        = noAction
--- Actions["alter special weapon"]      = noAction
--- Actions["alter beam weapon"]      = noAction
--- Actions["alter pulse weapon"]      = noAction
--- Actions["alter spin"]         = noAction
--- Actions["alter thrust"]       = noAction
-Actions["alter velocity"] = function(action, source, direct)
-    local p
-    local angle = source.physics.angle
-    local delta = PolarVec(math.sqrt(action.minimum)+math.random(0.0,math.sqrt(action.range)), angle)
-    
-    if action.reflexive then
-        p = source.physics
-    else
-        p = direct.physics
-    end
-
-    if action.relative then
-        p.velocity = p.velocity +  delta
-    else
-        p.velocity = delta
-    end
+Actions["alter"] = function(action, source, direct)
+    AlterActions[action.alterType](action, source, direct)
 end
 -- Actions["assume initial object"] = noAction
 Actions["change score"] = function(action, source, direct)
@@ -299,3 +240,73 @@ end
 
 --Actions["set destination"] = noAction
 --Actions["set zoom level"]        = noAction
+
+--MARK: Alter Actions
+-- AlterActions["absolute cash"]      = noAction
+-- AlterActions["absolute location"]  = noAction
+-- AlterActions["age"]                = noAction
+-- AlterActions["base type"]          = noAction
+-- AlterActions["cloak"]              = noAction
+-- AlterActions["active condition"] = noAction
+AlterActions["health"] = function(action, source, direct)
+    local p
+    if action.subjectOverride ~= nil then
+        p = scen.objects[action.subjectOverride]
+    elseif action.reflexive then
+        p = source
+    else
+        p = direct
+    end
+
+    if p ~= nil then
+        p.status.health = p.status.health + action.value
+        if p.status.health > p.status.healthMax then
+            p.status.health = p.status.healthMax
+        end
+    end
+end
+AlterActions["energy"] = function(action, source, direct)
+    local p
+    if action.subjectOverride ~= nil then
+        p = scen.objects[action.subjectOverride]
+    elseif action.reflexive then
+        p = source
+    else
+        p = direct
+    end
+
+    if p ~= nil then
+        p.status.energy = p.status.energy + action.value
+        if p.status.energy > p.status.energyMax then
+            p.status.energy = p.status.energyMax
+        end
+    end
+end
+-- AlterActions["hidden"]       = noAction
+-- AlterActions["location"]     = noAction
+-- AlterActions["max velocity"] = noAction
+-- AlterActions["occupation"]   = noAction
+-- AlterActions["offline"]      = noAction
+-- AlterActions["owner"]        = noAction
+-- AlterActions["special weapon"]      = noAction
+-- AlterActions["beam weapon"]      = noAction
+-- AlterActions["pulse weapon"]      = noAction
+-- AlterActions["spin"]         = noAction
+-- AlterActions["thrust"]       = noAction
+AlterActions["velocity"] = function(action, source, direct)
+    local p
+    local angle = source.physics.angle
+    local delta = PolarVec(math.sqrt(action.minimum)+math.random(0.0,math.sqrt(action.range)), angle)
+    
+    if action.reflexive then
+        p = source.physics
+    else
+        p = direct.physics
+    end
+
+    if action.relative then
+        p.velocity = p.velocity +  delta
+    else
+        p.velocity = delta
+    end
+end
