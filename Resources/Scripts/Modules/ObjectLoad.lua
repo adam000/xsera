@@ -109,14 +109,15 @@ end
 function CopyActions(object)
     local base = object.base
     object.triggers = {}
-    
-    if base.action ~= nil then
+    --[[
+    if base.actions ~= nil then
         for id = 1, #base.action do
             if base.action[id] ~= nil then
                 object.triggers[base.action[id].trigger] = base.action[id]
             end
         end
     end
+    --]]
     
     if object.triggers.activate ~= nil
     and object.triggers.activate.count > 255 then

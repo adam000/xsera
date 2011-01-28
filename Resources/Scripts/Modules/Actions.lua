@@ -6,7 +6,7 @@ local AlterActions = {}
 
 function ActivateTrigger(sender, owner)
     if owner == nil then
-        CallAction(sender.triggers.activate,sender)
+        CallActions(sender.triggers.activate.seq,sender)
     
     elseif owner.status.energy >= sender.base.device.energyCost
     and (sender.base.device.ammo == -1 or sender.ammo > 0)
@@ -26,37 +26,35 @@ function ActivateTrigger(sender, owner)
             sender.lastPos = sender.lastPos + 1
         end
         
-        CallAction(sender.base.actions.activate,sender,owner)
+        CallActions(sender.base.actions.activate.seq,sender,owner)
     end
 end
 
 
 function ExpireTrigger(owner)
-    CallAction(owner.base.actions.expire,owner,nil)
+    CallActions(owner.base.actions.expire.seq,owner,nil)
 end
 
 function DestroyTrigger(owner)
-    CallAction(owner.base.actions.destroy,owner,nil)
+    CallActions(owner.base.actions.destroy.seq,owner,nil)
 end
 
 function CreateTrigger(owner)
-    CallAction(owner.base.actions.create,owner,nil)
+    CallActions(owner.base.actions.create.seq,owner,nil)
 end
 
 function CollideTrigger(owner,other)
-    CallAction(owner.base.actions.collide,owner,other)
+    CallActions(owner.base.actions.collide.seq,owner,other)
 end
 
 function ArriveTrigger(owner,other)
-    CallAction(owner.base.actions.arrive,owner,other)
+    CallActions(owner.base.actions.arrive.seq,owner,other)
 end
 
-function CallAction(trigger, source, direct)
-    if trigger ~= nil then
-        local id
-        local max = trigger.id + trigger.count - 1
-        for id = trigger.id, max do
-            local action = data.actions[id]
+function CallActions(trigger, source, direct)
+    if trigger[0] ~= nil then
+        for id = 0, #trigger do
+            local action = trigger[id]
             Actions[action.type](action, source, direct)
         end
     end
