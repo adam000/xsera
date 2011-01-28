@@ -70854,14 +70854,16 @@ data = {
 	};
 	conditions = {
 		[0] = {
-			count = 1;
 			counter = {
 				player = 0;
 				amount = 4;
 				id = 0;
 			};
 			direct = -1;
-			start = 285;
+			actions = {
+				count = 1;
+				start = 285;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -70872,56 +70874,64 @@ data = {
 			subject = -1;
 		};
 		[1] = {
-			count = 1;
 			direct = -1;
-			value = 1;
-			start = 286;
+			actions = {
+				count = 1;
+				start = 286;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "destruction";
 			subject = -1;
 		};
 		[2] = {
-			count = 3;
 			direct = -1;
-			value = 17;
-			start = 99;
+			actions = {
+				count = 3;
+				start = 99;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 17;
 			type = "destruction";
 			subject = -1;
 		};
 		[3] = {
-			count = 1;
 			direct = -1;
-			value = 180;
-			start = 48;
+			actions = {
+				count = 1;
+				start = 48;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 180;
 			type = "time";
 			subject = -1;
 		};
 		[4] = {
-			count = 2;
 			counter = {
 				player = 0;
 				amount = 1;
 				id = 1;
 			};
 			direct = -1;
-			start = 82;
+			actions = {
+				count = 2;
+				start = 82;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -70932,14 +70942,16 @@ data = {
 			subject = -1;
 		};
 		[5] = {
-			count = 1;
 			counter = {
 				player = 0;
 				amount = 4;
 				id = 1;
 			};
 			direct = -1;
-			start = 287;
+			actions = {
+				count = 1;
+				start = 287;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -70950,14 +70962,16 @@ data = {
 			subject = -1;
 		};
 		[6] = {
-			count = 1;
 			counter = {
 				player = 1;
 				amount = 7;
 				id = 1;
 			};
 			direct = -1;
-			start = 288;
+			actions = {
+				count = 1;
+				start = 288;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -70968,98 +70982,112 @@ data = {
 			subject = -1;
 		};
 		[7] = {
-			count = 2;
 			direct = -1;
-			value = 1200;
-			start = 124;
+			actions = {
+				count = 2;
+				start = 124;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1200;
 			type = "time";
 			subject = -1;
 		};
 		[8] = {
-			count = 1;
 			direct = -1;
-			value = 1;
-			start = 289;
+			actions = {
+				count = 1;
+				start = 289;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
 				initiallyTrue = false;
 				trueOnlyOnce = false;
 			};
+			value = 1;
 			type = "owner";
 			subject = 0;
 		};
 		[9] = {
-			count = 1;
 			direct = -1;
-			value = 0;
-			start = 290;
+			actions = {
+				count = 1;
+				start = 290;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
 				initiallyTrue = false;
 				trueOnlyOnce = false;
 			};
+			value = 0;
 			type = "owner";
 			subject = 5;
 		};
 		[10] = {
-			count = 2;
 			direct = -1;
-			value = 3600;
-			start = 195;
+			actions = {
+				count = 2;
+				start = 195;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 3600;
 			type = "time";
 			subject = -1;
 		};
 		[11] = {
-			count = 1;
 			direct = -1;
-			value = 6;
-			start = 291;
+			actions = {
+				count = 1;
+				start = 291;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 6;
 			type = "destruction";
 			subject = 0;
 		};
 		[12] = {
-			count = 1;
 			direct = -1;
-			value = 17;
-			start = 292;
+			actions = {
+				count = 1;
+				start = 292;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 17;
 			type = "destruction";
 			subject = -1;
 		};
 		[13] = {
-			count = 1;
 			counter = {
 				player = 0;
 				amount = 3;
 				id = 0;
 			};
 			direct = 1;
-			start = 112;
+			actions = {
+				count = 1;
+				start = 112;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71070,79 +71098,91 @@ data = {
 			subject = 1;
 		};
 		[14] = {
-			count = 2;
 			direct = 7;
-			value = 0;
-			start = 113;
+			actions = {
+				count = 2;
+				start = 113;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "owner";
 			subject = 6;
 		};
 		[15] = {
-			count = 2;
 			direct = 7;
-			value = 1;
-			start = 84;
+			actions = {
+				count = 2;
+				start = 84;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "owner";
 			subject = 6;
 		};
 		[16] = {
-			count = 3;
 			direct = -1;
-			value = 7200;
-			start = 58;
+			actions = {
+				count = 3;
+				start = 58;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 7200;
 			type = "time";
 			subject = -1;
 		};
 		[17] = {
-			count = 1;
 			direct = -1;
-			value = 0;
-			start = 293;
+			actions = {
+				count = 1;
+				start = 293;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
 				initiallyTrue = false;
 				trueOnlyOnce = false;
 			};
+			value = 0;
 			type = "owner";
 			subject = 8;
 		};
 		[18] = {
-			count = 1;
 			direct = -1;
-			value = 1;
-			start = 294;
+			actions = {
+				count = 1;
+				start = 294;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
 				initiallyTrue = false;
 				trueOnlyOnce = false;
 			};
+			value = 1;
 			type = "owner";
 			subject = 9;
 		};
 		[19] = {
-			count = 4;
 			direct = 5;
-			start = 126;
+			actions = {
+				count = 4;
+				start = 126;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71154,9 +71194,11 @@ data = {
 			subject = 7;
 		};
 		[20] = {
-			count = 6;
 			direct = 5;
-			start = 130;
+			actions = {
+				count = 6;
+				start = 130;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71168,9 +71210,11 @@ data = {
 			subject = 9;
 		};
 		[21] = {
-			count = 7;
 			direct = 15;
-			start = 136;
+			actions = {
+				count = 7;
+				start = 136;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71182,37 +71226,43 @@ data = {
 			subject = 7;
 		};
 		[22] = {
-			count = 1;
 			direct = -1;
-			value = 5;
-			start = 296;
+			actions = {
+				count = 1;
+				start = 296;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 5;
 			type = "destruction";
 			subject = -1;
 		};
 		[23] = {
-			count = 1;
 			direct = -1;
-			value = 10;
-			start = 297;
+			actions = {
+				count = 1;
+				start = 297;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 10;
 			type = "destruction";
 			subject = -1;
 		};
 		[24] = {
-			count = 2;
 			direct = 6;
-			start = 202;
+			actions = {
+				count = 2;
+				start = 202;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71224,23 +71274,27 @@ data = {
 			subject = 10;
 		};
 		[25] = {
-			count = 2;
 			direct = -1;
-			value = 360;
-			start = 169;
+			actions = {
+				count = 2;
+				start = 169;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 360;
 			type = "time";
 			subject = -1;
 		};
 		[26] = {
-			count = 4;
 			direct = 0;
-			start = 171;
+			actions = {
+				count = 4;
+				start = 171;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71252,9 +71306,11 @@ data = {
 			subject = 4;
 		};
 		[27] = {
-			count = 3;
 			direct = 2;
-			start = 175;
+			actions = {
+				count = 3;
+				start = 175;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71266,9 +71322,11 @@ data = {
 			subject = 4;
 		};
 		[28] = {
-			count = 5;
 			direct = 3;
-			start = 178;
+			actions = {
+				count = 5;
+				start = 178;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71280,28 +71338,32 @@ data = {
 			subject = 4;
 		};
 		[29] = {
-			count = 6;
 			direct = -1;
-			value = 18000;
-			start = 187;
+			actions = {
+				count = 6;
+				start = 187;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 18000;
 			type = "time";
 			subject = -1;
 		};
 		[30] = {
-			count = 2;
 			counter = {
 				player = 0;
 				amount = 5;
 				id = 0;
 			};
 			direct = -1;
-			start = 193;
+			actions = {
+				count = 2;
+				start = 193;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71312,98 +71374,112 @@ data = {
 			subject = -1;
 		};
 		[31] = {
-			count = 1;
 			direct = -1;
-			value = 1;
-			start = 302;
+			actions = {
+				count = 1;
+				start = 302;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "owner";
 			subject = 9;
 		};
 		[32] = {
-			count = 1;
 			direct = -1;
-			value = 0;
-			start = 303;
+			actions = {
+				count = 1;
+				start = 303;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "owner";
 			subject = 10;
 		};
 		[33] = {
-			count = 1;
 			direct = -1;
-			value = 1;
-			start = 298;
+			actions = {
+				count = 1;
+				start = 298;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "owner";
 			subject = 1;
 		};
 		[34] = {
-			count = 1;
 			direct = -1;
-			value = 0;
-			start = 299;
+			actions = {
+				count = 1;
+				start = 299;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "owner";
 			subject = 8;
 		};
 		[35] = {
-			count = 1;
 			direct = -1;
-			value = 1;
-			start = 300;
+			actions = {
+				count = 1;
+				start = 300;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "owner";
 			subject = 12;
 		};
 		[36] = {
-			count = 1;
 			direct = -1;
-			value = 0;
-			start = 301;
+			actions = {
+				count = 1;
+				start = 301;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "owner";
 			subject = 13;
 		};
 		[37] = {
-			count = 3;
 			counter = {
 				player = 0;
 				amount = 6;
 				id = 1;
 			};
 			direct = -1;
-			start = 204;
+			actions = {
+				count = 3;
+				start = 204;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71414,9 +71490,11 @@ data = {
 			subject = -1;
 		};
 		[38] = {
-			count = 6;
 			direct = 10;
-			start = 209;
+			actions = {
+				count = 6;
+				start = 209;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71428,9 +71506,11 @@ data = {
 			subject = 0;
 		};
 		[39] = {
-			count = 3;
 			direct = 7;
-			start = 223;
+			actions = {
+				count = 3;
+				start = 223;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -71442,9 +71522,11 @@ data = {
 			subject = 10;
 		};
 		[40] = {
-			count = 2;
 			direct = 3;
-			start = 221;
+			actions = {
+				count = 2;
+				start = 221;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71456,93 +71538,107 @@ data = {
 			subject = 2;
 		};
 		[41] = {
-			count = 1;
 			direct = -1;
-			value = 1;
-			start = 305;
+			actions = {
+				count = 1;
+				start = 305;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "owner";
 			subject = 0;
 		};
 		[42] = {
-			count = 1;
 			direct = -1;
-			value = 0;
-			start = 306;
+			actions = {
+				count = 1;
+				start = 306;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "owner";
 			subject = 1;
 		};
 		[43] = {
-			count = 3;
 			direct = -1;
-			value = 1;
-			start = 241;
+			actions = {
+				count = 3;
+				start = 241;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "destruction";
 			subject = -1;
 		};
 		[44] = {
-			count = 1;
 			direct = -1;
-			value = 60;
-			start = 244;
+			actions = {
+				count = 1;
+				start = 244;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 60;
 			type = "time";
 			subject = -1;
 		};
 		[45] = {
-			count = 4;
 			direct = -1;
-			value = 2400;
-			start = 245;
+			actions = {
+				count = 4;
+				start = 245;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 2400;
 			type = "time";
 			subject = -1;
 		};
 		[46] = {
-			count = 7;
 			direct = -1;
-			value = 0;
-			start = 249;
+			actions = {
+				count = 7;
+				start = 249;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "destruction";
 			subject = -1;
 		};
 		[47] = {
-			count = 1;
-			start = 496;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 496;
+			};
 			player = 1;
 			flags = {
 				hasBeenTrue = false;
@@ -71554,42 +71650,48 @@ data = {
 			subject = -1;
 		};
 		[48] = {
-			count = 7;
 			direct = -1;
-			value = 3600;
-			start = 256;
+			actions = {
+				count = 7;
+				start = 256;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 3600;
 			type = "time";
 			subject = -1;
 		};
 		[49] = {
-			count = 2;
 			direct = -1;
-			value = 16;
-			start = 267;
+			actions = {
+				count = 2;
+				start = 267;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 16;
 			type = "destruction";
 			subject = -1;
 		};
 		[50] = {
-			count = 1;
 			counter = {
 				player = 0;
 				amount = 5;
 				id = 0;
 			};
 			direct = -1;
-			start = 306;
+			actions = {
+				count = 1;
+				start = 306;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71600,14 +71702,16 @@ data = {
 			subject = -1;
 		};
 		[51] = {
-			count = 2;
 			counter = {
 				player = 0;
 				amount = 2;
 				id = 0;
 			};
 			direct = -1;
-			start = 277;
+			actions = {
+				count = 2;
+				start = 277;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71618,42 +71722,48 @@ data = {
 			subject = -1;
 		};
 		[52] = {
-			count = 1;
 			direct = -1;
-			value = 28167;
-			start = 281;
+			actions = {
+				count = 1;
+				start = 281;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 28167;
 			type = "time";
 			subject = -1;
 		};
 		[53] = {
-			count = 1;
 			direct = -1;
-			value = 0;
-			start = 554;
+			actions = {
+				count = 1;
+				start = 554;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "owner";
 			subject = 1;
 		};
 		[54] = {
-			count = 1;
 			counter = {
 				player = 0;
 				amount = 2;
 				id = 0;
 			};
 			direct = -1;
-			start = 284;
+			actions = {
+				count = 1;
+				start = 284;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71664,14 +71774,16 @@ data = {
 			subject = -1;
 		};
 		[55] = {
-			count = 1;
 			counter = {
 				player = 0;
 				amount = 5;
 				id = 0;
 			};
 			direct = -1;
-			start = 304;
+			actions = {
+				count = 1;
+				start = 304;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71682,51 +71794,54 @@ data = {
 			subject = -1;
 		};
 		[56] = {
-			count = 1;
 			direct = -1;
-			value = 1;
-			start = 294;
+			actions = {
+				count = 1;
+				start = 294;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "owner";
 			subject = 0;
 		};
 		[57] = {
-			count = 1;
 			direct = -1;
-			value = 0;
-			start = 295;
+			actions = {
+				count = 1;
+				start = 295;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "owner";
 			subject = 5;
 		};
 		[58] = {
-			count = 2;
 			direct = -1;
-			value = 3600;
-			start = 195;
+			actions = {
+				count = 2;
+				start = 195;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 3600;
 			type = "time";
 			subject = -1;
 		};
 		[59] = {
-			count = 7;
-			direct = -1;
-			start = 308;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71734,59 +71849,72 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "half health";
+			direct = -1;
+			actions = {
+				count = 7;
+				start = 308;
+			};
 			subject = 1;
 		};
 		[60] = {
-			count = 2;
 			direct = -1;
-			value = 4760;
-			start = 323;
+			actions = {
+				count = 2;
+				start = 323;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 4760;
 			type = "time";
 			subject = -1;
 		};
 		[61] = {
-			count = 1;
 			direct = -1;
-			value = 5500;
-			start = 325;
+			actions = {
+				count = 1;
+				start = 325;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 5500;
 			type = "time";
 			subject = -1;
 		};
 		[62] = {
-			count = 1;
 			direct = -1;
-			value = 3;
-			start = 326;
+			actions = {
+				count = 1;
+				start = 326;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 3;
 			type = "time";
 			subject = -1;
 		};
 		[63] = {
-			count = 1;
 			counter = {
 				player = 0;
 				amount = 10;
 				id = 1;
 			};
 			direct = -1;
-			start = 465;
+			actions = {
+				count = 1;
+				start = 465;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -71797,9 +71925,11 @@ data = {
 			subject = -1;
 		};
 		[64] = {
-			count = 8;
 			direct = 1;
-			start = 356;
+			actions = {
+				count = 8;
+				start = 356;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71811,9 +71941,11 @@ data = {
 			subject = -2;
 		};
 		[65] = {
-			count = 8;
 			direct = 2;
-			start = 356;
+			actions = {
+				count = 8;
+				start = 356;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71825,9 +71957,6 @@ data = {
 			subject = -2;
 		};
 		[66] = {
-			count = 3;
-			direct = -1;
-			start = 364;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -71835,12 +71964,14 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 3;
+				start = 364;
+			};
 			subject = 3;
 		};
 		[67] = {
-			count = 3;
-			direct = -1;
-			start = 367;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -71848,12 +71979,14 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 3;
+				start = 367;
+			};
 			subject = 3;
 		};
 		[68] = {
-			count = 1;
-			direct = -1;
-			start = 370;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -71861,12 +71994,14 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is target";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 370;
+			};
 			subject = 1;
 		};
 		[69] = {
-			count = 1;
-			direct = -1;
-			start = 371;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -71874,12 +72009,19 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is target";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 371;
+			};
 			subject = 2;
 		};
 		[70] = {
-			count = 1;
 			direct = 1;
-			start = 372;
+			actions = {
+				count = 1;
+				start = 372;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -71891,9 +72033,11 @@ data = {
 			subject = 3;
 		};
 		[71] = {
-			count = 1;
 			direct = 2;
-			start = 373;
+			actions = {
+				count = 1;
+				start = 373;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -71905,9 +72049,6 @@ data = {
 			subject = 3;
 		};
 		[72] = {
-			count = 2;
-			direct = -1;
-			start = 374;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -71915,12 +72056,14 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is target";
+			direct = -1;
+			actions = {
+				count = 2;
+				start = 374;
+			};
 			subject = 1;
 		};
 		[73] = {
-			count = 2;
-			direct = -1;
-			start = 375;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -71928,12 +72071,14 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is target";
+			direct = -1;
+			actions = {
+				count = 2;
+				start = 375;
+			};
 			subject = 2;
 		};
 		[74] = {
-			count = 1;
-			direct = -1;
-			start = 377;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -71941,12 +72086,19 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 377;
+			};
 			subject = 3;
 		};
 		[75] = {
-			count = 4;
 			direct = 1;
-			start = 378;
+			actions = {
+				count = 4;
+				start = 378;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -71958,9 +72110,11 @@ data = {
 			subject = 3;
 		};
 		[76] = {
-			count = 4;
 			direct = 2;
-			start = 382;
+			actions = {
+				count = 4;
+				start = 382;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -71972,9 +72126,11 @@ data = {
 			subject = 3;
 		};
 		[77] = {
-			count = 5;
 			direct = 5;
-			start = 390;
+			actions = {
+				count = 5;
+				start = 390;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -71986,9 +72142,6 @@ data = {
 			subject = -2;
 		};
 		[78] = {
-			count = 1;
-			direct = -1;
-			start = 395;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -71996,12 +72149,19 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 395;
+			};
 			subject = 5;
 		};
 		[79] = {
-			count = 6;
 			direct = 6;
-			start = 409;
+			actions = {
+				count = 6;
+				start = 409;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72013,9 +72173,11 @@ data = {
 			subject = -2;
 		};
 		[80] = {
-			count = 7;
 			direct = 15;
-			start = 396;
+			actions = {
+				count = 7;
+				start = 396;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72027,9 +72189,11 @@ data = {
 			subject = -2;
 		};
 		[81] = {
-			count = 6;
 			direct = 0;
-			start = 403;
+			actions = {
+				count = 6;
+				start = 403;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72041,9 +72205,11 @@ data = {
 			subject = -2;
 		};
 		[82] = {
-			count = 2;
 			direct = 18;
-			start = 419;
+			actions = {
+				count = 2;
+				start = 419;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72055,14 +72221,16 @@ data = {
 			subject = -2;
 		};
 		[83] = {
-			count = 1;
 			counter = {
 				player = 0;
 				amount = 5;
 				id = 0;
 			};
 			direct = -1;
-			start = 423;
+			actions = {
+				count = 1;
+				start = 423;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72073,9 +72241,11 @@ data = {
 			subject = -1;
 		};
 		[84] = {
-			count = 1;
 			direct = 0;
-			start = 818;
+			actions = {
+				count = 1;
+				start = 818;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -72087,14 +72257,16 @@ data = {
 			subject = 1;
 		};
 		[85] = {
-			count = 4;
 			counter = {
 				player = 0;
 				amount = 1;
 				id = 0;
 			};
 			direct = -1;
-			start = 426;
+			actions = {
+				count = 4;
+				start = 426;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -72105,28 +72277,32 @@ data = {
 			subject = 1;
 		};
 		[86] = {
-			count = 2;
 			direct = 0;
-			value = 50000;
-			start = 430;
+			actions = {
+				count = 2;
+				start = 430;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
 				initiallyTrue = false;
 				trueOnlyOnce = false;
 			};
+			value = 50000;
 			type = "distance greater";
 			subject = 1;
 		};
 		[87] = {
-			count = 1;
 			counter = {
 				player = 0;
 				amount = 21;
 				id = 1;
 			};
 			direct = -1;
-			start = 443;
+			actions = {
+				count = 1;
+				start = 443;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72137,14 +72313,16 @@ data = {
 			subject = -1;
 		};
 		[88] = {
-			count = 1;
 			counter = {
 				player = 0;
 				amount = 10;
 				id = 2;
 			};
 			direct = -1;
-			start = 487;
+			actions = {
+				count = 1;
+				start = 487;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72155,42 +72333,48 @@ data = {
 			subject = -1;
 		};
 		[89] = {
-			count = 1;
 			direct = -1;
-			value = 1;
-			start = 581;
+			actions = {
+				count = 1;
+				start = 581;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "destruction";
 			subject = -1;
 		};
 		[90] = {
-			count = 1;
 			direct = -1;
-			value = 1280;
-			start = 425;
+			actions = {
+				count = 1;
+				start = 425;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1280;
 			type = "velocity less than or equal";
 			subject = 1;
 		};
 		[91] = {
-			count = 1;
 			counter = {
 				player = 0;
 				amount = 5;
 				id = 0;
 			};
 			direct = -1;
-			start = 445;
+			actions = {
+				count = 1;
+				start = 445;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72201,9 +72385,11 @@ data = {
 			subject = -1;
 		};
 		[92] = {
-			count = 1;
 			direct = 0;
-			start = 446;
+			actions = {
+				count = 1;
+				start = 446;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -72215,14 +72401,16 @@ data = {
 			subject = 1;
 		};
 		[93] = {
-			count = 5;
 			counter = {
 				player = 0;
 				amount = 1;
 				id = 0;
 			};
 			direct = -1;
-			start = 447;
+			actions = {
+				count = 5;
+				start = 447;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -72233,28 +72421,32 @@ data = {
 			subject = 1;
 		};
 		[94] = {
-			count = 1;
 			direct = 0;
-			value = 50000;
-			start = 452;
+			actions = {
+				count = 1;
+				start = 452;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
 				initiallyTrue = false;
 				trueOnlyOnce = false;
 			};
+			value = 50000;
 			type = "distance greater";
 			subject = 1;
 		};
 		[95] = {
-			count = 1;
 			counter = {
 				player = 0;
 				amount = 11;
 				id = 1;
 			};
 			direct = -1;
-			start = 453;
+			actions = {
+				count = 1;
+				start = 453;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72265,14 +72457,16 @@ data = {
 			subject = -1;
 		};
 		[96] = {
-			count = 1;
 			counter = {
 				player = 0;
 				amount = 5;
 				id = 2;
 			};
 			direct = -1;
-			start = 486;
+			actions = {
+				count = 1;
+				start = 486;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72283,261 +72477,294 @@ data = {
 			subject = -1;
 		};
 		[97] = {
-			count = 1;
 			direct = -1;
-			value = 7;
-			start = 476;
+			actions = {
+				count = 1;
+				start = 476;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 7;
 			type = "destruction";
 			subject = -1;
 		};
 		[98] = {
-			count = 2;
 			direct = -1;
-			value = 0;
-			start = 477;
+			actions = {
+				count = 2;
+				start = 477;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
 				initiallyTrue = true;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "owner";
 			subject = 3;
 		};
 		[99] = {
-			count = 2;
 			direct = -1;
-			value = 0;
-			start = 479;
+			actions = {
+				count = 2;
+				start = 479;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
 				initiallyTrue = true;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "owner";
 			subject = 4;
 		};
 		[100] = {
-			count = 1;
 			direct = -1;
-			value = 0;
-			start = 481;
+			actions = {
+				count = 1;
+				start = 481;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
 				initiallyTrue = true;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "owner";
 			subject = 5;
 		};
 		[101] = {
-			count = 2;
 			direct = -1;
-			value = 1;
-			start = 482;
+			actions = {
+				count = 2;
+				start = 482;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
 				initiallyTrue = true;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "owner";
 			subject = 3;
 		};
 		[102] = {
-			count = 2;
 			direct = -1;
-			value = 1;
-			start = 482;
+			actions = {
+				count = 2;
+				start = 482;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
 				initiallyTrue = true;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "owner";
 			subject = 4;
 		};
 		[103] = {
-			count = 1;
 			direct = -1;
-			value = 1;
-			start = 484;
+			actions = {
+				count = 1;
+				start = 484;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "owner";
 			subject = 0;
 		};
 		[104] = {
-			count = 1;
 			direct = -1;
-			value = 4780;
-			start = 497;
+			actions = {
+				count = 1;
+				start = 497;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 4780;
 			type = "time";
 			subject = -1;
 		};
 		[105] = {
-			count = 1;
 			direct = -1;
-			value = 1;
-			start = 599;
+			actions = {
+				count = 1;
+				start = 599;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "owner";
 			subject = 2;
 		};
 		[106] = {
-			count = 1;
 			direct = -1;
-			value = 0;
-			start = 600;
+			actions = {
+				count = 1;
+				start = 600;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "owner";
 			subject = 3;
 		};
 		[107] = {
-			count = 4;
 			direct = -1;
-			value = 51000;
-			start = 506;
+			actions = {
+				count = 4;
+				start = 506;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 51000;
 			type = "time";
 			subject = -1;
 		};
 		[108] = {
-			count = 1;
 			direct = -1;
-			value = 46800;
-			start = 510;
+			actions = {
+				count = 1;
+				start = 510;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 46800;
 			type = "time";
 			subject = -1;
 		};
 		[109] = {
-			count = 4;
 			direct = -1;
-			value = 4780;
-			start = 543;
+			actions = {
+				count = 4;
+				start = 543;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 4780;
 			type = "time";
 			subject = -1;
 		};
 		[110] = {
-			count = 1;
 			direct = -1;
-			value = 1;
-			start = 548;
+			actions = {
+				count = 1;
+				start = 548;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "owner";
 			subject = 2;
 		};
 		[111] = {
-			count = 1;
 			direct = -1;
-			value = 0;
-			start = 549;
+			actions = {
+				count = 1;
+				start = 549;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "owner";
 			subject = 3;
 		};
 		[112] = {
-			count = 1;
 			direct = -1;
-			value = 4780;
-			start = 547;
+			actions = {
+				count = 1;
+				start = 547;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 4780;
 			type = "time";
 			subject = -1;
 		};
 		[113] = {
-			count = 1;
 			direct = -1;
-			value = 1;
-			start = 597;
+			actions = {
+				count = 1;
+				start = 597;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "owner";
 			subject = 2;
 		};
 		[114] = {
-			count = 1;
 			direct = -1;
-			value = 0;
-			start = 598;
+			actions = {
+				count = 1;
+				start = 598;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "owner";
 			subject = 3;
 		};
 		[115] = {
-			count = 1;
-			direct = -1;
-			start = 550;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72545,12 +72772,19 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "half health";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 550;
+			};
 			subject = 2;
 		};
 		[116] = {
-			count = 2;
-			start = 551;
 			direct = -1;
+			actions = {
+				count = 2;
+				start = 551;
+			};
 			player = 1;
 			flags = {
 				hasBeenTrue = false;
@@ -72562,23 +72796,27 @@ data = {
 			subject = -1;
 		};
 		[117] = {
-			count = 1;
 			direct = -1;
-			value = 0;
-			start = 553;
+			actions = {
+				count = 1;
+				start = 553;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "owner";
 			subject = 1;
 		};
 		[118] = {
-			count = 1;
 			direct = 1;
-			start = 583;
+			actions = {
+				count = 1;
+				start = 583;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72590,9 +72828,11 @@ data = {
 			subject = 4;
 		};
 		[119] = {
-			count = 1;
 			direct = 0;
-			start = 584;
+			actions = {
+				count = 1;
+				start = 584;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72604,42 +72844,48 @@ data = {
 			subject = 5;
 		};
 		[120] = {
-			count = 3;
 			direct = -1;
-			value = 0;
-			start = 585;
+			actions = {
+				count = 3;
+				start = 585;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "destruction";
 			subject = -1;
 		};
 		[121] = {
-			count = 3;
 			direct = -1;
-			value = 1;
-			start = 588;
+			actions = {
+				count = 3;
+				start = 588;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "destruction";
 			subject = -1;
 		};
 		[122] = {
-			count = 1;
 			counter = {
 				player = 0;
 				amount = 3;
 				id = 0;
 			};
 			direct = -1;
-			start = 591;
+			actions = {
+				count = 1;
+				start = 591;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72650,14 +72896,16 @@ data = {
 			subject = -1;
 		};
 		[123] = {
-			count = 1;
 			counter = {
 				player = 1;
 				amount = 3;
 				id = 0;
 			};
 			direct = -1;
-			start = 592;
+			actions = {
+				count = 1;
+				start = 592;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -72668,52 +72916,60 @@ data = {
 			subject = -1;
 		};
 		[124] = {
-			count = 1;
 			direct = -1;
-			value = 0;
-			start = 595;
+			actions = {
+				count = 1;
+				start = 595;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "owner";
 			subject = 8;
 		};
 		[125] = {
-			count = 1;
 			direct = -1;
-			value = 1;
-			start = 596;
+			actions = {
+				count = 1;
+				start = 596;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "owner";
 			subject = 8;
 		};
 		[126] = {
-			count = 4;
 			direct = -1;
-			value = 0;
-			start = 601;
+			actions = {
+				count = 4;
+				start = 601;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "time";
 			subject = -1;
 		};
 		[127] = {
-			count = 1;
 			screen = 4;
 			direct = -1;
-			start = 605;
+			actions = {
+				count = 1;
+				start = 605;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72725,10 +72981,12 @@ data = {
 			subject = -1;
 		};
 		[128] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 606;
+			};
 			page = 3;
-			start = 606;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72740,10 +72998,12 @@ data = {
 			subject = -1;
 		};
 		[129] = {
-			count = 3;
 			screen = 1;
 			direct = -1;
-			start = 607;
+			actions = {
+				count = 3;
+				start = 607;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -72755,10 +73015,12 @@ data = {
 			subject = -1;
 		};
 		[130] = {
-			count = 3;
 			direct = -1;
+			actions = {
+				count = 3;
+				start = 610;
+			};
 			page = 6;
-			start = 610;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72770,24 +73032,28 @@ data = {
 			subject = -1;
 		};
 		[131] = {
-			count = 1;
 			direct = -1;
-			value = 0;
-			start = 613;
+			actions = {
+				count = 1;
+				start = 613;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
 				initiallyTrue = true;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "zoom level";
 			subject = -1;
 		};
 		[132] = {
-			count = 3;
 			direct = -1;
+			actions = {
+				count = 3;
+				start = 614;
+			};
 			page = 2;
-			start = 614;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72799,9 +73065,11 @@ data = {
 			subject = -1;
 		};
 		[133] = {
-			count = 2;
 			direct = 5;
-			start = 617;
+			actions = {
+				count = 2;
+				start = 617;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -72813,9 +73081,11 @@ data = {
 			subject = 0;
 		};
 		[134] = {
-			count = 2;
 			direct = 5;
-			start = 619;
+			actions = {
+				count = 2;
+				start = 619;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -72827,10 +73097,12 @@ data = {
 			subject = 4;
 		};
 		[135] = {
-			count = 2;
 			direct = -1;
+			actions = {
+				count = 2;
+				start = 621;
+			};
 			page = 4;
-			start = 621;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72842,24 +73114,28 @@ data = {
 			subject = -1;
 		};
 		[136] = {
-			count = 1;
 			direct = -1;
-			value = 7;
-			start = 623;
+			actions = {
+				count = 1;
+				start = 623;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
 				initiallyTrue = true;
 				trueOnlyOnce = true;
 			};
+			value = 7;
 			type = "zoom level";
 			subject = -1;
 		};
 		[137] = {
-			count = 2;
 			direct = -1;
+			actions = {
+				count = 2;
+				start = 624;
+			};
 			page = 1;
-			start = 624;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72871,10 +73147,12 @@ data = {
 			subject = -1;
 		};
 		[138] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 626;
+			};
 			page = 3;
-			start = 626;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72886,10 +73164,12 @@ data = {
 			subject = -1;
 		};
 		[139] = {
-			count = 2;
 			direct = -1;
+			actions = {
+				count = 2;
+				start = 627;
+			};
 			page = 6;
-			start = 627;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72901,24 +73181,28 @@ data = {
 			subject = -1;
 		};
 		[140] = {
-			count = 1;
 			direct = -1;
-			value = 1;
-			start = 629;
+			actions = {
+				count = 1;
+				start = 629;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
 				initiallyTrue = true;
 				trueOnlyOnce = true;
 			};
+			value = 1;
 			type = "zoom level";
 			subject = -1;
 		};
 		[141] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 630;
+			};
 			page = 2;
-			start = 630;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72930,10 +73214,12 @@ data = {
 			subject = -1;
 		};
 		[142] = {
-			count = 2;
 			direct = -1;
+			actions = {
+				count = 2;
+				start = 631;
+			};
 			page = 4;
-			start = 631;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72945,10 +73231,12 @@ data = {
 			subject = -1;
 		};
 		[143] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 633;
+			};
 			page = 3;
-			start = 633;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72960,10 +73248,12 @@ data = {
 			subject = -1;
 		};
 		[144] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 634;
+			};
 			page = 11;
-			start = 634;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72975,10 +73265,12 @@ data = {
 			subject = -1;
 		};
 		[145] = {
-			count = 6;
 			direct = -1;
+			actions = {
+				count = 6;
+				start = 635;
+			};
 			page = 17;
-			start = 635;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -72990,38 +73282,44 @@ data = {
 			subject = -1;
 		};
 		[146] = {
-			count = 1;
 			direct = -1;
-			value = 7;
-			start = 641;
+			actions = {
+				count = 1;
+				start = 641;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
 				initiallyTrue = true;
 				trueOnlyOnce = true;
 			};
+			value = 7;
 			type = "destruction";
 			subject = -1;
 		};
 		[147] = {
-			count = 1;
 			direct = -1;
-			value = 8;
-			start = 642;
+			actions = {
+				count = 1;
+				start = 642;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
 				initiallyTrue = true;
 				trueOnlyOnce = true;
 			};
+			value = 8;
 			type = "destruction";
 			subject = -1;
 		};
 		[148] = {
-			count = 2;
 			screen = 1;
 			direct = -1;
-			start = 664;
+			actions = {
+				count = 2;
+				start = 664;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73033,10 +73331,12 @@ data = {
 			subject = -1;
 		};
 		[149] = {
-			count = 1;
 			screen = 4;
 			direct = -1;
-			start = 666;
+			actions = {
+				count = 1;
+				start = 666;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73048,24 +73348,28 @@ data = {
 			subject = -1;
 		};
 		[150] = {
-			count = 5;
 			direct = -1;
-			value = 0;
-			start = 643;
+			actions = {
+				count = 5;
+				start = 643;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "time";
 			subject = -1;
 		};
 		[151] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 648;
+			};
 			page = 3;
-			start = 648;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73077,9 +73381,6 @@ data = {
 			subject = -1;
 		};
 		[152] = {
-			count = 1;
-			direct = -1;
-			start = 649;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73087,13 +73388,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 649;
+			};
 			subject = 1;
 		};
 		[153] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 663;
+			};
 			page = 8;
-			start = 663;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73105,9 +73413,6 @@ data = {
 			subject = -1;
 		};
 		[154] = {
-			count = 2;
-			direct = -1;
-			start = 650;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73115,13 +73420,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 2;
+				start = 650;
+			};
 			subject = 6;
 		};
 		[155] = {
-			count = 3;
 			direct = -1;
+			actions = {
+				count = 3;
+				start = 651;
+			};
 			page = 2;
-			start = 651;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73133,9 +73445,6 @@ data = {
 			subject = -1;
 		};
 		[156] = {
-			count = 1;
-			direct = -1;
-			start = 654;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73143,13 +73452,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 654;
+			};
 			subject = 5;
 		};
 		[157] = {
-			count = 8;
 			direct = -1;
+			actions = {
+				count = 8;
+				start = 655;
+			};
 			page = 2;
-			start = 655;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73161,9 +73477,6 @@ data = {
 			subject = -1;
 		};
 		[158] = {
-			count = 1;
-			direct = -1;
-			start = 667;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73171,13 +73484,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 667;
+			};
 			subject = 1;
 		};
 		[159] = {
-			count = 7;
 			direct = -1;
+			actions = {
+				count = 7;
+				start = 668;
+			};
 			page = 2;
-			start = 668;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73189,9 +73509,6 @@ data = {
 			subject = -1;
 		};
 		[160] = {
-			count = 1;
-			direct = -1;
-			start = 675;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73199,13 +73516,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 675;
+			};
 			subject = 5;
 		};
 		[161] = {
-			count = 6;
 			direct = -1;
+			actions = {
+				count = 6;
+				start = 676;
+			};
 			page = 2;
-			start = 676;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73217,9 +73541,6 @@ data = {
 			subject = -1;
 		};
 		[162] = {
-			count = 1;
-			direct = -1;
-			start = 682;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73227,13 +73548,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 682;
+			};
 			subject = 2;
 		};
 		[163] = {
-			count = 4;
 			direct = -1;
+			actions = {
+				count = 4;
+				start = 683;
+			};
 			page = 2;
-			start = 683;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73245,10 +73573,12 @@ data = {
 			subject = -1;
 		};
 		[164] = {
-			count = 2;
 			direct = -1;
+			actions = {
+				count = 2;
+				start = 687;
+			};
 			page = 4;
-			start = 687;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73260,9 +73590,6 @@ data = {
 			subject = -1;
 		};
 		[165] = {
-			count = 1;
-			direct = -1;
-			start = 689;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73270,13 +73597,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 689;
+			};
 			subject = 5;
 		};
 		[166] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 690;
+			};
 			page = 2;
-			start = 690;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73288,9 +73622,6 @@ data = {
 			subject = -1;
 		};
 		[167] = {
-			count = 1;
-			direct = -1;
-			start = 691;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73298,13 +73629,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 691;
+			};
 			subject = 6;
 		};
 		[168] = {
-			count = 4;
 			direct = -1;
+			actions = {
+				count = 4;
+				start = 692;
+			};
 			page = 2;
-			start = 692;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73316,9 +73654,6 @@ data = {
 			subject = -1;
 		};
 		[169] = {
-			count = 1;
-			direct = -1;
-			start = 696;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73326,13 +73661,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is target";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 696;
+			};
 			subject = 1;
 		};
 		[170] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 697;
+			};
 			page = 4;
-			start = 697;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73344,9 +73686,6 @@ data = {
 			subject = -1;
 		};
 		[171] = {
-			count = 1;
-			direct = -1;
-			start = 698;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73354,13 +73693,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is target";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 698;
+			};
 			subject = 6;
 		};
 		[172] = {
-			count = 2;
 			direct = -1;
+			actions = {
+				count = 2;
+				start = 699;
+			};
 			page = 2;
-			start = 699;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73372,9 +73718,6 @@ data = {
 			subject = -1;
 		};
 		[173] = {
-			count = 1;
-			direct = 1;
-			start = 701;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73382,13 +73725,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is target";
+			direct = 1;
+			actions = {
+				count = 1;
+				start = 701;
+			};
 			subject = 7;
 		};
 		[174] = {
-			count = 3;
 			direct = -1;
+			actions = {
+				count = 3;
+				start = 702;
+			};
 			page = 2;
-			start = 702;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -73400,9 +73750,6 @@ data = {
 			subject = -1;
 		};
 		[175] = {
-			count = 1;
-			direct = -1;
-			start = 705;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73410,13 +73757,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is target";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 705;
+			};
 			subject = 1;
 		};
 		[176] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 706;
+			};
 			page = 1;
-			start = 706;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -73428,9 +73782,6 @@ data = {
 			subject = -1;
 		};
 		[177] = {
-			count = 1;
-			direct = -1;
-			start = 707;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73438,13 +73789,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is target";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 707;
+			};
 			subject = 6;
 		};
 		[178] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 708;
+			};
 			page = 1;
-			start = 708;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -73456,9 +73814,6 @@ data = {
 			subject = -1;
 		};
 		[179] = {
-			count = 1;
-			direct = -1;
-			start = 709;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73466,13 +73821,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is target";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 709;
+			};
 			subject = 7;
 		};
 		[180] = {
-			count = 2;
 			direct = -1;
+			actions = {
+				count = 2;
+				start = 710;
+			};
 			page = 3;
-			start = 710;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73484,9 +73846,6 @@ data = {
 			subject = -1;
 		};
 		[181] = {
-			count = 1;
-			direct = -1;
-			start = 712;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73494,13 +73853,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is target";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 712;
+			};
 			subject = 1;
 		};
 		[182] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 713;
+			};
 			page = 1;
-			start = 713;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73512,9 +73878,6 @@ data = {
 			subject = -1;
 		};
 		[183] = {
-			count = 6;
-			direct = -1;
-			start = 714;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73522,12 +73885,19 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "autopilot";
+			direct = -1;
+			actions = {
+				count = 6;
+				start = 714;
+			};
 			subject = -1;
 		};
 		[184] = {
-			count = 4;
 			direct = 5;
-			start = 720;
+			actions = {
+				count = 4;
+				start = 720;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73539,9 +73909,11 @@ data = {
 			subject = 1;
 		};
 		[185] = {
-			count = 1;
 			direct = 6;
-			start = 724;
+			actions = {
+				count = 1;
+				start = 724;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73553,9 +73925,6 @@ data = {
 			subject = -2;
 		};
 		[186] = {
-			count = 3;
-			direct = -1;
-			start = 725;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73563,27 +73932,36 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "not autopilot";
+			direct = -1;
+			actions = {
+				count = 3;
+				start = 725;
+			};
 			subject = -1;
 		};
 		[187] = {
-			count = 6;
 			direct = -1;
-			value = 0;
-			start = 729;
+			actions = {
+				count = 6;
+				start = 729;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
 				initiallyTrue = false;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "time";
 			subject = -1;
 		};
 		[188] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 735;
+			};
 			page = 2;
-			start = 735;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73595,9 +73973,6 @@ data = {
 			subject = 1;
 		};
 		[189] = {
-			count = 1;
-			direct = -1;
-			start = 736;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73605,13 +73980,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 736;
+			};
 			subject = 1;
 		};
 		[190] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 737;
+			};
 			page = 3;
-			start = 737;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73623,10 +74005,12 @@ data = {
 			subject = -1;
 		};
 		[191] = {
-			count = 1;
 			screen = 2;
 			direct = -1;
-			start = 738;
+			actions = {
+				count = 1;
+				start = 738;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73638,10 +74022,12 @@ data = {
 			subject = -1;
 		};
 		[192] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 739;
+			};
 			page = 5;
-			start = 739;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73653,10 +74039,12 @@ data = {
 			subject = -1;
 		};
 		[193] = {
-			count = 2;
 			direct = -1;
+			actions = {
+				count = 2;
+				start = 740;
+			};
 			page = 6;
-			start = 740;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73668,10 +74056,12 @@ data = {
 			subject = -1;
 		};
 		[194] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 742;
+			};
 			page = 8;
-			start = 742;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73683,10 +74073,12 @@ data = {
 			subject = -1;
 		};
 		[195] = {
-			count = 2;
 			direct = -1;
+			actions = {
+				count = 2;
+				start = 743;
+			};
 			page = 10;
-			start = 743;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73698,9 +74090,6 @@ data = {
 			subject = -1;
 		};
 		[196] = {
-			count = 2;
-			direct = -1;
-			start = 745;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73708,17 +74097,24 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "object being built";
+			direct = -1;
+			actions = {
+				count = 2;
+				start = 745;
+			};
 			subject = -1;
 		};
 		[197] = {
-			count = 2;
 			counter = {
 				player = 0;
 				amount = 1;
 				id = 0;
 			};
 			direct = -1;
-			start = 747;
+			actions = {
+				count = 2;
+				start = 747;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73729,9 +74125,6 @@ data = {
 			subject = -1;
 		};
 		[198] = {
-			count = 1;
-			direct = -1;
-			start = 751;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73739,13 +74132,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 751;
+			};
 			subject = 5;
 		};
 		[199] = {
-			count = 2;
 			direct = -1;
+			actions = {
+				count = 2;
+				start = 752;
+			};
 			page = 3;
-			start = 752;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73757,9 +74157,6 @@ data = {
 			subject = -1;
 		};
 		[200] = {
-			count = 6;
-			direct = -1;
-			start = 754;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73767,17 +74164,24 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is target";
+			direct = -1;
+			actions = {
+				count = 6;
+				start = 754;
+			};
 			subject = 2;
 		};
 		[201] = {
-			count = 1;
 			counter = {
 				player = 0;
 				amount = 2;
 				id = 0;
 			};
 			direct = -1;
-			start = 760;
+			actions = {
+				count = 1;
+				start = 760;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73788,10 +74192,12 @@ data = {
 			subject = -1;
 		};
 		[202] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 761;
+			};
 			page = 2;
-			start = 761;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73803,10 +74209,12 @@ data = {
 			subject = -1;
 		};
 		[203] = {
-			count = 2;
 			direct = -1;
+			actions = {
+				count = 2;
+				start = 762;
+			};
 			page = 3;
-			start = 762;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73818,9 +74226,6 @@ data = {
 			subject = -1;
 		};
 		[204] = {
-			count = 3;
-			direct = -1;
-			start = 764;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73828,12 +74233,14 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 3;
+				start = 764;
+			};
 			subject = 2;
 		};
 		[205] = {
-			count = 4;
-			direct = -1;
-			start = 767;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73841,12 +74248,19 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is target";
+			direct = -1;
+			actions = {
+				count = 4;
+				start = 767;
+			};
 			subject = 1;
 		};
 		[206] = {
-			count = 2;
 			direct = 2;
-			start = 771;
+			actions = {
+				count = 2;
+				start = 771;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73858,9 +74272,6 @@ data = {
 			subject = 1;
 		};
 		[207] = {
-			count = 2;
-			direct = -1;
-			start = 773;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73868,12 +74279,14 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 2;
+				start = 773;
+			};
 			subject = 6;
 		};
 		[208] = {
-			count = 1;
-			direct = 1;
-			start = 775;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73881,13 +74294,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "direct is subject target";
+			direct = 1;
+			actions = {
+				count = 1;
+				start = 775;
+			};
 			subject = 6;
 		};
 		[209] = {
-			count = 5;
 			direct = -1;
+			actions = {
+				count = 5;
+				start = 776;
+			};
 			page = 3;
-			start = 776;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73899,24 +74319,28 @@ data = {
 			subject = -1;
 		};
 		[210] = {
-			count = 2;
 			direct = -1;
-			value = 0;
-			start = 781;
+			actions = {
+				count = 2;
+				start = 781;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
 				initiallyTrue = true;
 				trueOnlyOnce = true;
 			};
+			value = 0;
 			type = "owner";
 			subject = 1;
 		};
 		[211] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 783;
+			};
 			page = 2;
-			start = 783;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -73928,9 +74352,6 @@ data = {
 			subject = -1;
 		};
 		[212] = {
-			count = 2;
-			direct = -1;
-			start = 784;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73938,12 +74359,14 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 2;
+				start = 784;
+			};
 			subject = 6;
 		};
 		[213] = {
-			count = 2;
-			direct = -1;
-			start = 786;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73951,12 +74374,14 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is target";
+			direct = -1;
+			actions = {
+				count = 2;
+				start = 786;
+			};
 			subject = 4;
 		};
 		[214] = {
-			count = 2;
-			direct = 4;
-			start = 788;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73964,12 +74389,14 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "direct is subject target";
+			direct = 4;
+			actions = {
+				count = 2;
+				start = 788;
+			};
 			subject = 6;
 		};
 		[215] = {
-			count = 2;
-			direct = 4;
-			start = 790;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73977,12 +74404,14 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "direct is subject target";
+			direct = 4;
+			actions = {
+				count = 2;
+				start = 790;
+			};
 			subject = 5;
 		};
 		[216] = {
-			count = 1;
-			direct = 4;
-			start = 792;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -73990,13 +74419,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "direct is subject target";
+			direct = 4;
+			actions = {
+				count = 1;
+				start = 792;
+			};
 			subject = 2;
 		};
 		[217] = {
-			count = 3;
 			direct = -1;
+			actions = {
+				count = 3;
+				start = 793;
+			};
 			page = 2;
-			start = 793;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -74008,9 +74444,6 @@ data = {
 			subject = -1;
 		};
 		[218] = {
-			count = 4;
-			direct = -1;
-			start = 796;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -74018,12 +74451,14 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is target";
+			direct = -1;
+			actions = {
+				count = 4;
+				start = 796;
+			};
 			subject = 0;
 		};
 		[219] = {
-			count = 1;
-			direct = 0;
-			start = 800;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -74031,12 +74466,14 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "direct is subject target";
+			direct = 0;
+			actions = {
+				count = 1;
+				start = 800;
+			};
 			subject = 2;
 		};
 		[220] = {
-			count = 1;
-			direct = 0;
-			start = 801;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -74044,12 +74481,14 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "direct is subject target";
+			direct = 0;
+			actions = {
+				count = 1;
+				start = 801;
+			};
 			subject = 5;
 		};
 		[221] = {
-			count = 2;
-			direct = 0;
-			start = 802;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -74057,13 +74496,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "direct is subject target";
+			direct = 0;
+			actions = {
+				count = 2;
+				start = 802;
+			};
 			subject = 6;
 		};
 		[222] = {
-			count = 2;
 			direct = -1;
+			actions = {
+				count = 2;
+				start = 804;
+			};
 			page = 3;
-			start = 804;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -74075,10 +74521,12 @@ data = {
 			subject = -1;
 		};
 		[223] = {
-			count = 1;
 			screen = 3;
 			direct = -1;
-			start = 806;
+			actions = {
+				count = 1;
+				start = 806;
+			};
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -74090,10 +74538,12 @@ data = {
 			subject = -1;
 		};
 		[224] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 807;
+			};
 			page = 2;
-			start = 807;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -74105,9 +74555,6 @@ data = {
 			subject = -1;
 		};
 		[225] = {
-			count = 4;
-			direct = -1;
-			start = 808;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -74115,12 +74562,14 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "is auxiliary";
+			direct = -1;
+			actions = {
+				count = 4;
+				start = 808;
+			};
 			subject = 2;
 		};
 		[226] = {
-			count = 1;
-			direct = -1;
-			start = 812;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x3;
@@ -74128,13 +74577,20 @@ data = {
 				trueOnlyOnce = true;
 			};
 			type = "subject is player";
+			direct = -1;
+			actions = {
+				count = 1;
+				start = 812;
+			};
 			subject = 2;
 		};
 		[227] = {
-			count = 1;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 799;
+			};
 			page = 4;
-			start = 799;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -74146,10 +74602,12 @@ data = {
 			subject = -1;
 		};
 		[228] = {
-			count = 4;
 			direct = -1;
+			actions = {
+				count = 4;
+				start = 813;
+			};
 			page = 5;
-			start = 813;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x1;
@@ -74161,9 +74619,11 @@ data = {
 			subject = -1;
 		};
 		[229] = {
-			count = 1;
-			start = 817;
 			direct = -1;
+			actions = {
+				count = 1;
+				start = 817;
+			};
 			player = 1;
 			flags = {
 				hasBeenTrue = false;
@@ -74175,9 +74635,6 @@ data = {
 			subject = -1;
 		};
 		[230] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74185,12 +74642,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[231] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74198,12 +74657,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[232] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74211,12 +74672,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[233] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74224,12 +74687,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[234] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74237,12 +74702,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[235] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74250,12 +74717,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[236] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74263,12 +74732,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[237] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74276,12 +74747,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[238] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74289,12 +74762,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[239] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74302,12 +74777,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[240] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74315,12 +74792,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[241] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74328,12 +74807,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[242] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74341,12 +74822,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[243] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74354,12 +74837,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[244] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74367,12 +74852,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[245] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74380,12 +74867,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[246] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74393,12 +74882,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[247] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74406,12 +74897,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[248] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74419,12 +74912,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[249] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74432,12 +74927,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[250] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74445,12 +74942,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[251] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74458,12 +74957,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[252] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74471,12 +74972,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[253] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74484,12 +74987,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[254] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74497,12 +75002,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[255] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74510,12 +75017,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[256] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74523,12 +75032,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[257] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74536,12 +75047,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[258] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74549,12 +75062,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[259] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74562,12 +75077,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[260] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74575,12 +75092,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[261] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74588,12 +75107,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[262] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74601,12 +75122,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[263] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74614,12 +75137,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[264] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74627,12 +75152,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[265] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74640,12 +75167,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[266] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74653,12 +75182,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[267] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74666,12 +75197,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[268] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74679,12 +75212,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[269] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74692,12 +75227,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[270] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74705,12 +75242,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[271] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74718,12 +75257,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[272] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74731,12 +75272,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[273] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74744,12 +75287,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[274] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74757,12 +75302,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[275] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74770,12 +75317,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[276] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74783,12 +75332,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[277] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74796,12 +75347,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[278] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74809,12 +75362,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[279] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74822,12 +75377,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[280] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74835,12 +75392,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[281] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74848,12 +75407,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[282] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74861,12 +75422,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[283] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74874,12 +75437,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[284] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74887,12 +75452,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[285] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74900,12 +75467,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[286] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74913,12 +75482,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[287] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74926,12 +75497,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[288] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74939,12 +75512,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[289] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74952,12 +75527,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[290] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74965,12 +75542,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[291] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74978,12 +75557,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[292] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -74991,12 +75572,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[293] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -75004,12 +75587,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[294] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -75017,12 +75602,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[295] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -75030,12 +75617,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[296] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -75043,12 +75632,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[297] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -75056,12 +75647,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[298] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -75069,12 +75662,14 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 		[299] = {
-			count = 0;
-			direct = 0;
-			start = 0;
 			flags = {
 				hasBeenTrue = false;
 				hex = 0x0;
@@ -75082,6 +75677,11 @@ data = {
 				trueOnlyOnce = false;
 			};
 			type = "none";
+			direct = 0;
+			actions = {
+				count = 0;
+				start = 0;
+			};
 			subject = 0;
 		};
 	};
