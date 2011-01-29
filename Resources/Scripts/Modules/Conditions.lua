@@ -4,7 +4,7 @@ function TestConditions(scen)
         if cond.active then
             cond.isTrue = Test[type](cond)
             if cond.isTrue then
-                CallAction(cond.action)
+                CallActions(cond.actions)
                 if cond.flags.trueOnlyOnce then
                     cond.active = false
                 end

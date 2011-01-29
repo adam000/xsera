@@ -2,10 +2,11 @@
 import('PrintRecursive')
 
 local Actions = {}
+local AlterActions = {}
 
 function ActivateTrigger(sender, owner)
     if owner == nil then
-        CallAction(sender.triggers.activate,sender)
+        CallActions(sender.triggers.activate.seq,sender)
     
     elseif owner.status.energy >= sender.base.device.energyCost
     and (sender.base.device.ammo == -1 or sender.ammo > 0)
@@ -25,37 +26,35 @@ function ActivateTrigger(sender, owner)
             sender.lastPos = sender.lastPos + 1
         end
         
-        CallAction(sender.base.actions.activate,sender,owner)
+        CallActions(sender.base.actions.activate.seq,sender,owner)
     end
 end
 
 
 function ExpireTrigger(owner)
-    CallAction(owner.base.actions.expire,owner,nil)
+    CallActions(owner.base.actions.expire.seq,owner,nil)
 end
 
 function DestroyTrigger(owner)
-    CallAction(owner.base.actions.destroy,owner,nil)
+    CallActions(owner.base.actions.destroy.seq,owner,nil)
 end
 
 function CreateTrigger(owner)
-    CallAction(owner.base.actions.create,owner,nil)
+    CallActions(owner.base.actions.create.seq,owner,nil)
 end
 
 function CollideTrigger(owner,other)
-    CallAction(owner.base.actions.collide,owner,other)
+    CallActions(owner.base.actions.collide.seq,owner,other)
 end
 
 function ArriveTrigger(owner,other)
-    CallAction(owner.base.actions.arrive,owner,other)
+    CallActions(owner.base.actions.arrive.seq,owner,other)
 end
 
-function CallAction(trigger, source, direct)
-    if trigger ~= nil then
-        local id
-        local max = trigger.id + trigger.count - 1
-        for id = trigger.id, max do
-            local action = data.actions[id]
+function CallActions(trigger, source, direct)
+    if trigger[0] ~= nil then
+        for id = 0, #trigger do
+            local action = trigger[id]
             Actions[action.type](action, source, direct)
         end
     end
@@ -67,77 +66,17 @@ setmetatable(Actions, {__index = function(table, key)
     return function(action, source, direct) end
 end})
 
+setmetatable(AlterActions, {__index = function(table, key)
+    print("[lua] Warning: Unimplemented alter action " .. key)
+    return function(action, source, direct) end
+end})
+
 
 --local function noAction(action, source, direct) end
-
+--MARK: Actions
 -- Actions["activate special"]         = noAction
--- Actions["alter absolute cash"]      = noAction
--- Actions["alter absolute location"]  = noAction
--- Actions["alter age"]                = noAction
--- Actions["alter base type"]          = noAction
--- Actions["alter cloak"]              = noAction
--- Actions["alter active condition"] = noAction
-Actions["alter health"] = function(action, source, direct)
-    local p
-    if action.subjectOverride ~= nil then
-        p = scen.objects[action.subjectOverride]
-    elseif action.reflexive then
-        p = source
-    else
-        p = direct
-    end
-
-    if p ~= nil then
-        p.status.health = p.status.health + action.value
-        if p.status.health > p.status.healthMax then
-            p.status.health = p.status.healthMax
-        end
-    end
-end
-Actions["alter energy"] = function(action, source, direct)
-    local p
-    if action.subjectOverride ~= nil then
-        p = scen.objects[action.subjectOverride]
-    elseif action.reflexive then
-        p = source
-    else
-        p = direct
-    end
-
-    if p ~= nil then
-        p.status.energy = p.status.energy + action.value
-        if p.status.energy > p.status.energyMax then
-            p.status.energy = p.status.energyMax
-        end
-    end
-end
--- Actions["alter hidden"]       = noAction
--- Actions["alter-location-action"]     = noAction
--- Actions["alter max velocity"] = noAction
--- Actions["alter occupation"]   = noAction
--- Actions["alter offline"]      = noAction
--- Actions["alter owner"]        = noAction
--- Actions["alter special weapon"]      = noAction
--- Actions["alter beam weapon"]      = noAction
--- Actions["alter pulse weapon"]      = noAction
--- Actions["alter spin"]         = noAction
--- Actions["alter thrust"]       = noAction
-Actions["alter velocity"] = function(action, source, direct)
-    local p
-    local angle = source.physics.angle
-    local delta = PolarVec(math.sqrt(action.minimum)+math.random(0.0,math.sqrt(action.range)), angle)
-    
-    if action.reflexive then
-        p = source.physics
-    else
-        p = direct.physics
-    end
-
-    if action.relative then
-        p.velocity = p.velocity +  delta
-    else
-        p.velocity = delta
-    end
+Actions["alter"] = function(action, source, direct)
+    AlterActions[action.alterType](action, source, direct)
 end
 -- Actions["assume initial object"] = noAction
 Actions["change score"] = function(action, source, direct)
@@ -299,3 +238,73 @@ end
 
 --Actions["set destination"] = noAction
 --Actions["set zoom level"]        = noAction
+
+--MARK: Alter Actions
+-- AlterActions["absolute cash"]      = noAction
+-- AlterActions["absolute location"]  = noAction
+-- AlterActions["age"]                = noAction
+-- AlterActions["base type"]          = noAction
+-- AlterActions["cloak"]              = noAction
+-- AlterActions["active condition"] = noAction
+AlterActions["health"] = function(action, source, direct)
+    local p
+    if action.subjectOverride ~= nil then
+        p = scen.objects[action.subjectOverride]
+    elseif action.reflexive then
+        p = source
+    else
+        p = direct
+    end
+
+    if p ~= nil then
+        p.status.health = p.status.health + action.value
+        if p.status.health > p.status.healthMax then
+            p.status.health = p.status.healthMax
+        end
+    end
+end
+AlterActions["energy"] = function(action, source, direct)
+    local p
+    if action.subjectOverride ~= nil then
+        p = scen.objects[action.subjectOverride]
+    elseif action.reflexive then
+        p = source
+    else
+        p = direct
+    end
+
+    if p ~= nil then
+        p.status.energy = p.status.energy + action.value
+        if p.status.energy > p.status.energyMax then
+            p.status.energy = p.status.energyMax
+        end
+    end
+end
+-- AlterActions["hidden"]       = noAction
+-- AlterActions["location"]     = noAction
+-- AlterActions["max velocity"] = noAction
+-- AlterActions["occupation"]   = noAction
+-- AlterActions["offline"]      = noAction
+-- AlterActions["owner"]        = noAction
+-- AlterActions["special weapon"]      = noAction
+-- AlterActions["beam weapon"]      = noAction
+-- AlterActions["pulse weapon"]      = noAction
+-- AlterActions["spin"]         = noAction
+-- AlterActions["thrust"]       = noAction
+AlterActions["velocity"] = function(action, source, direct)
+    local p
+    local angle = source.physics.angle
+    local delta = PolarVec(math.sqrt(action.minimum)+math.random(0.0,math.sqrt(action.range)), angle)
+    
+    if action.reflexive then
+        p = source.physics
+    else
+        p = direct.physics
+    end
+
+    if action.relative then
+        p.velocity = p.velocity +  delta
+    else
+        p.velocity = delta
+    end
+end

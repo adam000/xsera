@@ -16,10 +16,8 @@ function LoadScenario(id)
         }
     end
 
-    local max = scen.base.initialObjects.first + scen.base.initialObjects.count - 1
-    
-    for id = scen.base.initialObjects.first, max do
-        local state = data.initials[id]
+    for id = 0, #scen.base.initialObjects do
+        local state = scen.base.initialObjects[id]
         local new = NewObject(state.type)
 
         new.physics.position = state.position
@@ -76,20 +74,20 @@ function InitConditions(scen)
             scen.counters[pl][ctr] = 0
         end
     end
+    if (scen.base.conditions[0] ~= nil) then
+        for idx = 0, #scen.base.conditions do
+            local cond = deepcopy(scen.base.conditions[idx])
 
-    local max = scen.base.conditions.first + scen.base.conditions.count - 1
-    for idx = scen.base.conditions.first, max do
-        local cond = deepcopy(data.conditions[idx])
+            if cond.flags.initiallyTrue ~= true then
+                    cond.active = true
+                        cond.isTrue = true
+                else
+                    cond.active = false
+                        cond.isTrue = true
+                end
 
-        if cond.flags.initiallyTrue ~= true then
-                cond.active = true
-                    cond.isTrue = true
-            else
-                cond.active = false
-                    cond.isTrue = true
-            end
-
-        table.insert(scen.conditions, cond)
+            table.insert(scen.conditions, cond)
+        end
     end
 end
 
