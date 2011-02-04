@@ -130,19481 +130,7 @@ data = {
 		};
 	};
 	scenarios = {
-		[0] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 10;
-				time = 120;
-			};
-			starmap = {
-				y = 393;
-				x = 282;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Destroy all 4";
-				[1] = "_-relay dishes.";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 2 \r\\iThe Stars Have Ears";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 0.00390625;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 0.0;
-					race = 300;
-					type = "cpu";
-					name = "The Prophets of Salril";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 4521;
-						x = 7043;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 36;
-					earning = 1.0;
-					nameOverride = "Relay Dish 2";
-				};
-				[1] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 8695;
-						x = 7652;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 61;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 4695;
-						x = 6434;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 16;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 2086;
-						x = 2608;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 16;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 2434;
-						x = 3739;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 17;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -1913;
-						x = -347;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 64;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 17;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2347;
-						x = -1130;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 17;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2782;
-						x = -347;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 18;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -5043;
-						x = -1043;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 64;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 18;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -4173;
-						x = -2695;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 18;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -4434;
-						x = -1826;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 18;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -4956;
-						x = -1913;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[12] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6782;
-						x = -8695;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 42;
-					earning = 0.0;
-				};
-				[13] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 8347;
-						x = -6695;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 42;
-					earning = 0.0;
-				};
-				[14] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1200;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -4173;
-						x = -1652;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 104;
-					earning = 1.0;
-					nameOverride = "Relay Dish 1";
-				};
-				[15] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 0;
-						x = 0;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 27;
-					earning = 0.0;
-					nameOverride = "Myrmidon Station";
-				};
-				[16] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 2000;
-						x = 3217;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 36;
-					earning = 1.0;
-					nameOverride = "Relay Dish 3";
-				};
-				[17] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -1130;
-						x = 2000;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 36;
-					earning = 1.0;
-					nameOverride = "Sprist";
-				};
-				[18] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -4347;
-						x = 1043;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 36;
-					earning = 1.0;
-					nameOverride = "Elysium System";
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					kind = "object";
-					title = "Myrmidon";
-					content = 4100;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 15;
-				};
-				[1] = {
-					kind = "object";
-					title = "Cruiser";
-					content = 4104;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[2] = {
-					kind = "object";
-					title = "Relay Dish 1";
-					content = 4101;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[3] = {
-					kind = "object";
-					title = "Cruiser";
-					content = 4102;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 2;
-				};
-				[4] = {
-					kind = "object";
-					title = "Relay Dish 2";
-					content = 4105;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 16;
-				};
-				[5] = {
-					kind = "object";
-					title = "Relay Dish 3";
-					content = 4106;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 17;
-				};
-				[6] = {
-					kind = "object";
-					title = "Relay Dish 4";
-					content = 4108;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 18;
-				};
-				[7] = {
-					kind = "object";
-					title = "Myrmidon Station";
-					content = 4107;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 14;
-				};
-				[8] = {
-					content = 4109;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Obish Escorts";
-				};
-			};
-			conditions = {
-				[0] = {
-					counter = {
-						player = 0;
-						amount = 4;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 10301;
-							nextLevel = 5;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 10302;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "destruction";
-					subject = -1;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 12;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 13;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 120;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 4210;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 17;
-					type = "destruction";
-					subject = -1;
-				};
-			};
-			id = 4;
-			songId = 5001;
-		};
 		[1] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 2;
-				time = 180;
-			};
-			starmap = {
-				y = 401;
-				x = 224;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Collect 4";
-				[1] = "_-asteroid samples";
-			};
-			movie = ":Ares Data Ä:Part 3";
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 7 \r\\iOn the Rocks";
-			players = {
-				[1] = {
-					netRaceFlags = -18392;
-					earningPower = 0.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 0.0;
-					race = 200;
-					type = "cpu";
-					name = "The Gaitori Union";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -17913;
-						x = -22129;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 62;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 5;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 4347;
-						x = -2696;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 80;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -8800;
-						x = -8000;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 83;
-					earning = 1.0;
-					nameOverride = "Fansi";
-				};
-				[3] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1001;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 3000;
-						x = -4000;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Myrmidon";
-				};
-				[4] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -200;
-						x = 200;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 27;
-					earning = 0.0;
-					nameOverride = "Philemon Alpha";
-				};
-				[5] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 3497;
-						x = -3678;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 61;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 2;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -8804;
-						x = -6978;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 59;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -17673;
-						x = -11760;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 17;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 7;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -17325;
-						x = -10543;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 59;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = 7;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -16021;
-						x = -11673;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 59;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					kind = "object";
-					title = "Asteroid IR7-7e";
-					content = 4030;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 2;
-				};
-				[1] = {
-					kind = "object";
-					title = "Asteroid IR7-7e";
-					content = 4037;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 2;
-				};
-				[2] = {
-					kind = "object";
-					title = "Asteroid IR7-7e";
-					content = 4031;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 2;
-				};
-				[3] = {
-					kind = "object";
-					title = "Astrominer";
-					content = 4032;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[4] = {
-					kind = "object";
-					title = "Philemon Beta";
-					content = 4033;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 5;
-				};
-				[5] = {
-					kind = "object";
-					title = "Schooner";
-					content = 4034;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 6;
-				};
-				[6] = {
-					kind = "object";
-					title = "Heavy Cruiser";
-					content = 4035;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[7] = {
-					content = 4036;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Philemon";
-				};
-			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 4220;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 180;
-					type = "time";
-					subject = -1;
-				};
-				[1] = {
-					counter = {
-						player = 0;
-						amount = 1;
-						id = 1;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 120;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 4221;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 2;
-							minimum = 7;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[2] = {
-					counter = {
-						player = 0;
-						amount = 4;
-						id = 1;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 10801;
-							nextLevel = 11;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[3] = {
-					counter = {
-						player = 1;
-						amount = 7;
-						id = 1;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 10802;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					type = "counter";
-					subject = -1;
-				};
-			};
-			id = 10;
-			songId = 5001;
-		};
-		[2] = {
-			par = {
-				losses = 8;
-				ratio = 0.0;
-				kills = 14;
-				time = 960;
-			};
-			starmap = {
-				y = 368;
-				x = 201;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Proteus";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 9 \r\\iHand Over Fist";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 1;
-					earningPower = 1.25;
-					race = 200;
-					type = "cpu";
-					name = "The Gaitori Union";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 500;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 300;
-						[3] = 800;
-						[4] = 600;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1002;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 38956;
-						x = 12043;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Proteus Beta";
-				};
-				[1] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -32695;
-						x = -33825;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 39456;
-						x = 13586;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -7478;
-						x = 6260;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 7;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 500;
-					builds = {
-						[0] = 100;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1003;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 13652;
-						x = -7999;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Proteus Gamma";
-				};
-				[5] = {
-					distanceRange = 500;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 300;
-						[3] = 800;
-						[4] = 600;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1004;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -7565;
-						x = 7304;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Philemon";
-				};
-				[6] = {
-					distanceRange = 500;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 9000;
-						x = -600;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 27;
-					earning = 0.0;
-					nameOverride = "Proteus Alpha";
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4020;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Proteus";
-				};
-				[1] = {
-					kind = "object";
-					title = "Proteus Alpha";
-					content = 4021;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[2] = {
-					kind = "object";
-					title = "Proteus Alpha";
-					content = 4022;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[3] = {
-					kind = "object";
-					title = "Proteus Alpha";
-					content = 4023;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[4] = {
-					kind = "object";
-					title = "Philemon Beta";
-					content = 4024;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 4;
-				};
-				[5] = {
-					kind = "object";
-					title = "Proteus Gamma";
-					content = 4025;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 5;
-				};
-				[6] = {
-					kind = "object";
-					title = "Proteus Gamma";
-					content = 4026;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 5;
-				};
-				[7] = {
-					kind = "object";
-					title = "Proteus Gamma";
-					content = 4027;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 5;
-				};
-				[8] = {
-					kind = "object";
-					title = "Proteus Gamma";
-					content = 4028;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 5;
-				};
-				[9] = {
-					content = 4029;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Proteus Gamma";
-				};
-			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 2;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 4200;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1200;
-					type = "time";
-					subject = -1;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 11001;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					value = 1;
-					type = "owner";
-					subject = 0;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 11002;
-							nextLevel = 13;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					value = 0;
-					type = "owner";
-					subject = 5;
-				};
-			};
-			id = 12;
-			songId = 5003;
-		};
-		[3] = {
-			par = {
-				losses = 25;
-				ratio = 0.0;
-				kills = 10;
-				time = 120;
-			};
-			starmap = {
-				y = 311;
-				x = 192;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Destroy all";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 10 \r\\iAssassin";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 0.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 0.0078125;
-					race = 200;
-					type = "cpu";
-					name = "The Gaitori Union";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 6;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6521;
-						x = 1565;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 61;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -2086;
-						x = 1913;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 27;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 6;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 7565;
-						x = 956;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 6;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 8086;
-						x = 1913;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 13;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 6;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 7391;
-						x = 2173;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 13;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 6;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6782;
-						x = 521;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 42;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6782;
-						x = 2434;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 47;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 6;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 8521;
-						x = 2782;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 61;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 6;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 7739;
-						x = 2956;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 42;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 6;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 8782;
-						x = 1043;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 13;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 17;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 1826;
-						x = 1478;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 62;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 17;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 1913;
-						x = 2869;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 62;
-					earning = 0.0;
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 17;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 1130;
-						x = 1130;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 7;
-					earning = 0.0;
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 17;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 956;
-						x = 2260;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[14] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 17;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 1391;
-						x = 3217;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[15] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1005;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 2260;
-						x = -434;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Bokleo Alpha";
-				};
-				[16] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 6;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 3217;
-						x = -1652;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[17] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 2695;
-						x = 2000;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[18] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 16;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 2695;
-						x = -1565;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 14;
-					earning = 0.0;
-				};
-				[19] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 16;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 3565;
-						x = -782;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 14;
-					earning = 0.0;
-				};
-				[20] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 16;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 869;
-						x = -1565;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 7;
-					earning = 0.0;
-				};
-				[21] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 16;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 1043;
-						x = -2956;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 7;
-					earning = 0.0;
-				};
-				[22] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 16;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -260;
-						x = -1565;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 7;
-					earning = 0.0;
-				};
-				[23] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 16;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -86;
-						x = -3043;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 7;
-					earning = 0.0;
-				};
-				[24] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 16;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 2086;
-						x = -1913;
-					};
-					rotation = {
-						range = 360;
-						minumum = 0;
-					};
-					type = 7;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4040;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Sprist System";
-				};
-				[1] = {
-					kind = "object";
-					title = "";
-					content = 4041;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 17;
-				};
-				[2] = {
-					kind = "object";
-					title = "The Open Eye of Zom";
-					content = 4042;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 16;
-				};
-				[3] = {
-					kind = "object";
-					title = "ISN 2020187";
-					content = 4043;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 6;
-				};
-			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 11101;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 6;
-					type = "destruction";
-					subject = 0;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 4065;
-							nextLevel = 14;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 17;
-					type = "destruction";
-					subject = -1;
-				};
-			};
-			id = 13;
-			songId = 5004;
-		};
-		[4] = {
-			par = {
-				losses = 30;
-				ratio = 0.0;
-				kills = 95;
-				time = 1320;
-			};
-			starmap = {
-				y = 222;
-				x = 130;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Bokleo";
-				[1] = "_-Gamma";
-				[2] = "-Free Bazidanese";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 14 \r\\iCaptivating";
-			players = {
-				[1] = {
-					netRaceFlags = 34;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 34;
-					earningPower = 1.25;
-					race = 200;
-					type = "cpu";
-					name = "The Gaitori Union";
-				};
-			};
-			netRaceFlags = 34;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 73651;
-						x = 18261;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 61;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 0;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 77;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -85;
-						x = -341;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 75;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -235;
-						x = 287;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 75;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 260;
-						x = 173;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 75;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -12955;
-						x = -10782;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 62;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1006;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -869;
-						x = 434;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Bokleo Gamma";
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -608;
-						x = -260;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 78;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 800;
-						[3] = 300;
-						[4] = 250;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1007;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -21477;
-						x = -4782;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Asteroid IR7-7e";
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1008;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 72259;
-						x = 22783;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Bokleo Beta";
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 9;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 80607;
-						x = 15826;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 47;
-					earning = 0.0;
-					nameOverride = "EACSR Banadee";
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 9;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 74433;
-						x = 32260;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 47;
-					earning = 0.0;
-					nameOverride = "ISN 8738810";
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -19826;
-						x = -12434;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-					nameOverride = "The Open Eye of Zom";
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -18868;
-						x = -5738;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-					nameOverride = "The Silent Question of Doz";
-				};
-				[14] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -14347;
-						x = -15043;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-					nameOverride = "EXPLSN";
-				};
-				[15] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -15391;
-						x = -10173;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[16] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -16259;
-						x = -16434;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[17] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 16;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -20086;
-						x = -8869;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 17;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4050;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Bokleo Alpha";
-				};
-				[1] = {
-					kind = "object";
-					title = "Bazidanese";
-					content = 4051;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[2] = {
-					kind = "object";
-					title = "Tractor Moor";
-					content = 4052;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 2;
-				};
-				[3] = {
-					kind = "object";
-					title = "Border Drone";
-					content = 4053;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 7;
-				};
-				[4] = {
-					kind = "object";
-					title = "Bokleo Beta";
-					content = 4054;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 6;
-				};
-				[5] = {
-					kind = "object";
-					title = "Bokleo Gamma";
-					content = 4055;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 8;
-				};
-				[6] = {
-					kind = "object";
-					title = "Bokleo Alpha";
-					content = 4056;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 9;
-				};
-				[7] = {
-					kind = "object";
-					title = "ISN 8738810";
-					content = 4057;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 10;
-				};
-				[8] = {
-					kind = "object";
-					title = "ISN 2020187";
-					content = 4058;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 11;
-				};
-				[9] = {
-					kind = "object";
-					title = "The Gentle Fingers of Zom";
-					content = 4059;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 12;
-				};
-				[10] = {
-					kind = "object";
-					title = "The Chaste Dream of Doz";
-					content = 4060;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 13;
-				};
-				[11] = {
-					kind = "object";
-					title = "The Silent Question of Doz";
-					content = 4061;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 14;
-				};
-				[12] = {
-					kind = "object";
-					title = "Heavy Cruiser";
-					content = 4062;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-			};
-			conditions = {
-				[0] = {
-					counter = {
-						player = 0;
-						amount = 3;
-						id = 0;
-					};
-					direct = 1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							retainAmmoCount = false;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "base type";
-							type = "alter";
-							id = 67;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = 1;
-				};
-				[1] = {
-					direct = 7;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[1] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							value = 0;
-							delay = 0;
-							subjectOverride = -1;
-							useObjectsOwner = false;
-							directOverride = -1;
-							owner = 0;
-							alterType = "owner";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 6;
-				};
-				[2] = {
-					direct = 7;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[1] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							value = 1;
-							delay = 0;
-							subjectOverride = -1;
-							useObjectsOwner = false;
-							directOverride = -1;
-							owner = 0;
-							alterType = "owner";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 6;
-				};
-				[3] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 15;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 16;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 17;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 7200;
-					type = "time";
-					subject = -1;
-				};
-				[4] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 11501;
-							nextLevel = 18;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					value = 0;
-					type = "owner";
-					subject = 8;
-				};
-				[5] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 10401;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					value = 1;
-					type = "owner";
-					subject = 9;
-				};
-			};
-			id = 17;
-			songId = 5003;
-		};
-		[5] = {
-			par = {
-				losses = 4;
-				ratio = 0.0;
-				kills = 16;
-				time = 180;
-			};
-			starmap = {
-				y = 354;
-				x = 271;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Demeter";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 3 \r\\iWhile The Iron Is Hot";
-			players = {
-				[1] = {
-					netRaceFlags = 172;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 0.84765625;
-					race = 300;
-					type = "cpu";
-					name = "The Prophets of Salril";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1009;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 4695;
-						x = 260;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Demeter Beta";
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 4782;
-						x = 782;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 86;
-						x = -3478;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 27;
-					earning = 0.0;
-					nameOverride = "Demeter Alpha";
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -8336;
-						x = -1251;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -8695;
-						x = 260;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 87;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 300;
-						[3] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1010;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -7477;
-						x = -347;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Relay Dish 4";
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4070;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Demeter";
-				};
-				[1] = {
-					kind = "object";
-					title = "Cruiser";
-					content = 4071;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[2] = {
-					kind = "object";
-					title = "Demeter Alpha";
-					content = 4072;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[3] = {
-					kind = "object";
-					title = "Demeter Alpha";
-					content = 4073;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[4] = {
-					kind = "object";
-					title = "Demeter Beta";
-					content = 4074;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 5;
-				};
-				[5] = {
-					kind = "object";
-					title = "Demeter Beta";
-					content = 4075;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 5;
-				};
-				[6] = {
-					kind = "object";
-					title = "Demeter Beta";
-					content = 4076;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 5;
-				};
-			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 10401;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 0;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 10402;
-							nextLevel = 7;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 5;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5310;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 400;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 4;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 3600;
-					type = "time";
-					subject = -1;
-				};
-			};
-			id = 6;
-			songId = 5002;
-		};
-		[6] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 25;
-				time = 720;
-			};
-			starmap = {
-				y = 460;
-				x = 259;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Rescue 11";
-				[1] = "_-Obiards";
-				[2] = "2\\0\\0\\0\\f\\t\\In transport: \\/5";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 4 \r\\iShoplifter 1";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 202;
-					earningPower = 1.5;
-					race = 300;
-					type = "cpu";
-					name = "The Prophets of Salril";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 0;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 225;
-					earning = 0.0;
-					nameOverride = "ISN 8738810";
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 956;
-						x = 695;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 217;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -6086;
-						x = -5130;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 216;
-					earning = 1.0;
-					nameOverride = "Cell 2";
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -7130;
-						x = 4086;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 216;
-					earning = 1.0;
-					nameOverride = "Cell 3";
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -11652;
-						x = -1042;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 216;
-					earning = 1.0;
-					nameOverride = "Lalande Alpha";
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 956;
-						x = -608;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 61;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 1826;
-						x = 260;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 42;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -18956;
-						x = 520;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 218;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 2;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -6610;
-						x = -4175;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 3;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -7566;
-						x = 3129;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 3;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -7566;
-						x = 3998;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 4;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -10696;
-						x = -436;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 4;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -11653;
-						x = -262;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 4;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -9653;
-						x = -697;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 64;
-					earning = 0.0;
-				};
-				[14] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 2;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -6610;
-						x = -4175;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[15] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 2;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -7043;
-						x = -3826;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 38;
-					earning = 0.0;
-				};
-				[16] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 9;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -5652;
-						x = 4347;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 38;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4750;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Elysium System";
-				};
-				[1] = {
-					content = 4751;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Elysium System";
-				};
-				[2] = {
-					kind = "object";
-					title = "Heavy Cruiser";
-					content = 4752;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 5;
-				};
-				[3] = {
-					kind = "object";
-					title = "Transport";
-					content = 4753;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[4] = {
-					kind = "object";
-					title = "Cell 1";
-					content = 4754;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 3;
-				};
-				[5] = {
-					kind = "object";
-					title = "Passenger Liner";
-					content = 4755;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[6] = {
-					content = 4756;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Elysium System";
-				};
-				[7] = {
-					kind = "object";
-					title = "Escort";
-					content = 4757;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 6;
-				};
-				[8] = {
-					content = 4758;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Elysium System";
-				};
-			};
-			conditions = {
-				[0] = {
-					counter = {
-						player = 0;
-						amount = 5;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							retainAmmoCount = true;
-							delay = 0;
-							subjectOverride = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "base type";
-							type = "alter";
-							id = 88;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[1] = {
-					direct = 0;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 1;
-				};
-				[2] = {
-					counter = {
-						player = 0;
-						amount = 1;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							velocityRelative = true;
-							distanceRange = 0;
-							reflexive = true;
-							min = 1;
-							inclusiveFilter = 0;
-							directionRelative = true;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							baseType = 214;
-							directOverride = -1;
-							owner = 0;
-							type = "create object";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							amount = -1;
-							score = 0;
-							directOverride = -1;
-							owner = 0;
-							type = "change score";
-							exclusiveFilter = 0;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[3] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = 6;
-							directOverride = -1;
-							owner = 0;
-							type = "activate special";
-							exclusiveFilter = 0;
-						};
-						[4] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							retainAmmoCount = true;
-							delay = 0;
-							subjectOverride = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "base type";
-							type = "alter";
-							id = 217;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					type = "counter greater";
-					subject = 1;
-				};
-				[3] = {
-					direct = 0;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					value = 50000;
-					type = "distance greater";
-					subject = 1;
-				};
-				[4] = {
-					counter = {
-						player = 0;
-						amount = 11;
-						id = 1;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 10502;
-							nextLevel = 8;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[5] = {
-					counter = {
-						player = 0;
-						amount = 5;
-						id = 2;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 10501;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-			};
-			id = 7;
-			songId = 5003;
-		};
-		[7] = {
-			par = {
-				losses = 15;
-				ratio = 0.0;
-				kills = 15;
-				time = 420;
-			};
-			starmap = {
-				y = 366;
-				x = 250;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Aeneas";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 5 \r\\iOut of the Frying Pan...";
-			players = {
-				[1] = {
-					netRaceFlags = 172;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 202;
-					earningPower = 1.5;
-					race = 300;
-					type = "cpu";
-					name = "The Prophets of Salril";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 0;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 800;
-						[3] = 850;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1011;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 1304;
-						x = 1130;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Aeneas Beta";
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 521;
-						x = 1913;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 95;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -9304;
-						x = -11391;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 94;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 2173;
-						x = 1652;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 95;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -8245;
-						x = -9664;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 243;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -3990;
-						x = -4004;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -9367;
-						x = -9184;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 800;
-						[3] = 850;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1012;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -9304;
-						x = -9130;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Hades System";
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4250;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Aeneas System";
-				};
-				[1] = {
-					kind = "object";
-					title = "Cruiser";
-					content = 4255;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[2] = {
-					kind = "object";
-					title = "Aeneas Beta";
-					content = 4251;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 8;
-				};
-				[3] = {
-					kind = "object";
-					title = "Aeneas Alpha";
-					content = 4256;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[4] = {
-					kind = "object";
-					title = "Aeneas Alpha";
-					content = 4252;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[5] = {
-					kind = "object";
-					title = "Aeneas Beta";
-					content = 4253;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 8;
-				};
-				[6] = {
-					kind = "object";
-					title = "Flak Drone";
-					content = 4254;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 6;
-				};
-				[7] = {
-					kind = "object";
-					title = "Heavy Destroyer";
-					content = 4257;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 5;
-				};
-			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 10601;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 1;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 10602;
-							nextLevel = 9;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 8;
-				};
-			};
-			id = 8;
-			songId = 5004;
-		};
-		[8] = {
-			par = {
-				losses = 12;
-				ratio = 0.0;
-				kills = 45;
-				time = 450;
-			};
-			starmap = {
-				y = 431;
-				x = 237;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Hades";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 6 \r\\i...Into the Fire";
-			players = {
-				[1] = {
-					netRaceFlags = 172;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 176;
-					earningPower = 1.25;
-					race = 300;
-					type = "cpu";
-					name = "The Prophets of Salril";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 3739;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 114;
-					earning = 1.0;
-					nameOverride = "Power Station O-3";
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 2434;
-						x = 3826;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 114;
-					earning = 1.0;
-					nameOverride = "Power Station G-1";
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 2173;
-						x = -5043;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 114;
-					earning = 1.0;
-					nameOverride = "Power Station O-2";
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -4434;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 114;
-					earning = 1.0;
-					nameOverride = "Power Station G-3";
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -4869;
-						x = 5739;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 114;
-					earning = 1.0;
-					nameOverride = "Secorem Jump Gate";
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -7739;
-						x = -6521;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 114;
-					earning = 1.0;
-					nameOverride = "Power Station G-2";
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 2477;
-						x = 4032;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 3956;
-						x = -196;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 2130;
-						x = -5272;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -7368;
-						x = -6369;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -4282;
-						x = 141;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -4716;
-						x = 5532;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 800;
-						[3] = 850;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1013;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 9478;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Hades Beta";
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 300;
-						[3] = 800;
-						[4] = 850;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1014;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -9130;
-						x = 1652;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Power Station O-1";
-				};
-				[14] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 8782;
-						x = 956;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[15] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -9130;
-						x = -86;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 64;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4450;
-					kind = "no point";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Hades System";
-				};
-				[1] = {
-					kind = "object";
-					title = "Hades Alpha";
-					content = 4451;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 12;
-				};
-				[2] = {
-					kind = "object";
-					title = "Power Station O-1";
-					content = 4452;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 2;
-				};
-				[3] = {
-					kind = "object";
-					title = "Power Station O-2";
-					content = 4453;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[4] = {
-					kind = "object";
-					title = "Power Station O-3";
-					content = 4454;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[5] = {
-					kind = "object";
-					title = "Hades Beta";
-					content = 4455;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 13;
-				};
-				[6] = {
-					kind = "object";
-					title = "Power Station G-1";
-					content = 4456;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 5;
-				};
-				[7] = {
-					kind = "object";
-					title = "Power Station G-2";
-					content = 4457;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 3;
-				};
-				[8] = {
-					kind = "object";
-					title = "Power Station G-3";
-					content = 4458;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 4;
-				};
-			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 10701;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 12;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 10702;
-							nextLevel = 10;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 13;
-				};
-			};
-			id = 9;
-			songId = 5000;
-		};
-		[9] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 8;
-				time = 435;
-			};
-			starmap = {
-				y = 160;
-				x = 179;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Rescue 21";
-				[1] = "_-humans";
-				[2] = "2\\0\\0\\0\\f\\t\\On board: \\/5";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 11 \r\\iShoplifter 2";
-			players = {
-				[1] = {
-					netRaceFlags = 229;
-					earningPower = 0.00390625;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 0.0;
-					race = 200;
-					type = "cpu";
-					name = "The Audemedon Axis";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 599;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 0;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 286;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 3304;
-						x = 521;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 206;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -22347;
-						x = -3564;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 210;
-					earning = 1.0;
-					nameOverride = "Simlab 2";
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -36869;
-						x = 2434;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 210;
-					earning = 1.0;
-					nameOverride = "Simlab 3";
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -10608;
-						x = 521;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 210;
-					earning = 1.0;
-					nameOverride = "Cell 1";
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 4;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -8782;
-						x = 1739;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 112;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 4;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -8782;
-						x = -521;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 14;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 4;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -9043;
-						x = 260;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 14;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 3478;
-						x = 1304;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 13;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 4000;
-						x = -347;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 13;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 2;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -22173;
-						x = -1741;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 7;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 2;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -23304;
-						x = -5217;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 62;
-					earning = 0.0;
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 3;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -33391;
-						x = 4869;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 110;
-					earning = 0.0;
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 3;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -35478;
-						x = -1043;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 110;
-					earning = 0.0;
-				};
-				[14] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 3;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -34782;
-						x = 5217;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 110;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4900;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Heshac System";
-				};
-				[1] = {
-					content = 4901;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Heshac System";
-				};
-				[2] = {
-					kind = "object";
-					title = "Heavy Destroyer";
-					content = 4902;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[3] = {
-					kind = "object";
-					title = "";
-					content = 4903;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[4] = {
-					kind = "object";
-					title = "Lab";
-					content = 4904;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 2;
-				};
-				[5] = {
-					kind = "object";
-					title = "Heavy Destroyer";
-					content = 4905;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[6] = {
-					kind = "object";
-					title = "Cruiser";
-					content = 4906;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 12;
-				};
-				[7] = {
-					content = 4907;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Heshac System";
-				};
-			};
-			conditions = {
-				[0] = {
-					counter = {
-						player = 0;
-						amount = 5;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							retainAmmoCount = true;
-							delay = 0;
-							subjectOverride = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "base type";
-							type = "alter";
-							id = 129;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[1] = {
-					direct = 0;
-					actions = {
-						[0] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 7;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 1;
-				};
-				[2] = {
-					counter = {
-						player = 0;
-						amount = 1;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							velocityRelative = true;
-							distanceRange = 0;
-							reflexive = true;
-							min = 1;
-							inclusiveFilter = 0;
-							directionRelative = true;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							baseType = 207;
-							directOverride = -1;
-							owner = 0;
-							type = "create object";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							amount = -1;
-							score = 0;
-							directOverride = -1;
-							owner = 0;
-							type = "change score";
-							exclusiveFilter = 0;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[3] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							retainAmmoCount = true;
-							delay = 0;
-							subjectOverride = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "base type";
-							type = "alter";
-							id = 206;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					type = "counter greater";
-					subject = 1;
-				};
-				[3] = {
-					direct = 0;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 7;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					value = 50000;
-					type = "distance greater";
-					subject = 1;
-				};
-				[4] = {
-					counter = {
-						player = 0;
-						amount = 21;
-						id = 1;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 11201;
-							nextLevel = 15;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[5] = {
-					counter = {
-						player = 0;
-						amount = 10;
-						id = 2;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 11202;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[6] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 11203;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "destruction";
-					subject = -1;
-				};
-				[7] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1280;
-					type = "velocity less than or equal";
-					subject = 1;
-				};
-			};
-			id = 14;
-			songId = 5000;
-		};
-		[10] = {
-			par = {
-				losses = 20;
-				ratio = 1.19921875;
-				kills = 10;
-				time = 900;
-			};
-			starmap = {
-				y = 259;
-				x = 158;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Fansi";
-				[1] = "_-Beta";
-				[2] = "-Ensure safety";
-				[3] = "_-of 5 cargo ships";
-				[4] = "-";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 307;
-			name = "\\i Chapter 12 \r\\iMake Way";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 172;
-					earningPower = 3.0;
-					race = 200;
-					type = "cpu";
-					name = "The Gaitori Union";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -14259;
-						x = -14609;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 115;
-					earning = 0.0;
-					nameOverride = "Demeter";
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = -14259;
-						x = -14609;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 116;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 9;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -15478;
-						x = -21999;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 4347;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 118;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 9473;
-						x = 3821;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 104;
-					earning = 0.75;
-					nameOverride = "Orbital Shipyard";
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 4347;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 118;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 4347;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 118;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 4347;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 118;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 4347;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 118;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 300;
-						[3] = 800;
-						[4] = 850;
-						[5] = 860;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1019;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -18088;
-						x = -11133;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Fansi Beta";
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 300;
-						[3] = 800;
-						[4] = 850;
-						[5] = 860;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1020;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 43826;
-						x = 22957;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Bunker Station 1";
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 3826;
-						x = 695;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 104;
-					earning = 0.75;
-					nameOverride = "Bunker Station 2";
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 4173;
-						x = 20173;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -2;
-					position = {
-						y = 956;
-						x = -2346;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[14] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 14868;
-						x = 6935;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[15] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 11;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 8000;
-						x = 21913;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 119;
-					earning = 0.0;
-				};
-				[16] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 4;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 2434;
-						x = 18086;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 119;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4300;
-					kind = "absolute";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Fansi";
-				};
-				[1] = {
-					kind = "object";
-					title = "Orbital Shipyard";
-					content = 4310;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[2] = {
-					kind = "object";
-					title = "Cargo Ship";
-					content = 4320;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 11;
-				};
-				[3] = {
-					kind = "object";
-					title = "Flak Drone";
-					content = 4330;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 13;
-				};
-				[4] = {
-					kind = "object";
-					title = "Bunker Station 1";
-					content = 4340;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 11;
-				};
-				[5] = {
-					kind = "object";
-					title = "Bunker Station 2";
-					content = 4350;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 4;
-				};
-				[6] = {
-					kind = "object";
-					title = "Fansi Alpha";
-					content = 4360;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 9;
-				};
-				[7] = {
-					kind = "object";
-					title = "Engineer Pod";
-					content = 4370;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 9;
-				};
-				[8] = {
-					kind = "object";
-					title = "Assault Transport";
-					content = 4380;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 9;
-				};
-				[9] = {
-					kind = "object";
-					title = "Fansi Beta";
-					content = 4390;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 10;
-				};
-				[10] = {
-					kind = "object";
-					title = "Engineer Pod";
-					content = 4400;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 10;
-				};
-				[11] = {
-					kind = "object";
-					title = "Carrier";
-					content = 4410;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 12;
-				};
-			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5300;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 1200;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 3;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 1200;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 5;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[3] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 1200;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 6;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[4] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 1200;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 7;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[5] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 1200;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 8;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 18000;
-					type = "time";
-					subject = -1;
-				};
-				[1] = {
-					counter = {
-						player = 0;
-						amount = 5;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5301;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 11301;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 9;
-				};
-				[3] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 11302;
-							nextLevel = 16;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 10;
-				};
-			};
-			id = 15;
-			songId = 5001;
-		};
-		[11] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 9;
-				time = 120;
-			};
-			starmap = {
-				y = 330;
-				x = 287;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Destroy all 5";
-				[1] = "_-transports.";
-			};
-			movie = ":Ares Data Ä:Part 2";
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 1 \r\\iEasy Street";
-			players = {
-				[1] = {
-					netRaceFlags = 256;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 16516;
-					earningPower = 1.0;
-					race = 300;
-					type = "cpu";
-					name = "The Prophets of Salril";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 643;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -97391;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Proxima Centauri System";
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -35129;
-						x = -694;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 179;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -42782;
-						x = -347;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 179;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -47999;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 179;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -53564;
-						x = -173;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 179;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -57565;
-						x = -522;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 179;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 5;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -23652;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -33912;
-						x = -87;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 38;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -33651;
-						x = -782;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 38;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 2;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -41390;
-						x = 87;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 38;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 2;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -41129;
-						x = -695;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 38;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 3;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -46607;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 38;
-					earning = 0.0;
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 3;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -46869;
-						x = -43;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 38;
-					earning = 0.0;
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 3;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -46345;
-						x = -348;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 38;
-					earning = 0.0;
-				};
-				[14] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 4;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -52173;
-						x = -348;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[15] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 5;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -56172;
-						x = -1217;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[16] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 5;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -56172;
-						x = -347;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[17] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 5;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -55999;
-						x = 696;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4800;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Charon System";
-				};
-				[1] = {
-					kind = "object";
-					title = "Cruiser";
-					content = 4801;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 6;
-				};
-				[2] = {
-					kind = "object";
-					title = "Transport";
-					content = 4802;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[3] = {
-					kind = "object";
-					title = "Fighter";
-					content = 4803;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 7;
-				};
-				[4] = {
-					kind = "object";
-					title = "Charon Station";
-					content = 4804;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-			};
-			conditions = {
-				[0] = {
-					counter = {
-						player = 0;
-						amount = 2;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = 17;
-							directOverride = 6;
-							owner = 0;
-							type = "set destination";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[1] = {
-					counter = {
-						player = 0;
-						amount = 5;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 10201;
-							nextLevel = 3;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-			};
-			id = 2;
-			songId = 5000;
-		};
-		[12] = {
-			par = {
-				losses = 1;
-				ratio = 0.0;
-				kills = 6;
-				time = 270;
-			};
-			starmap = {
-				y = 286;
-				x = 211;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Collect 10";
-				[1] = "_-asteroid samples";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 8 \r\\iAstrotrash Plus!";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 172;
-					earningPower = 1.0;
-					race = 200;
-					type = "cpu";
-					name = "The Gaitori Union";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -1391;
-						x = -22956;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 61;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -3565;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 14;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 32768;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 182;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -32768;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 185;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = -2259;
-						x = -24000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 80;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = -2259;
-						x = -24000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 80;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = -2259;
-						x = -23305;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 80;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = 0;
-						x = 32768;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 186;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4700;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Palyos Belt";
-				};
-				[1] = {
-					kind = "object";
-					title = "Heavy Cruiser";
-					content = 4701;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[2] = {
-					kind = "object";
-					title = "Astrominer";
-					content = 4702;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 4;
-				};
-				[3] = {
-					content = 4703;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Asteroid";
-				};
-			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 2;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 2;
-							minimum = 4;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 4760;
-					type = "time";
-					subject = -1;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 7;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 5500;
-					type = "time";
-					subject = -1;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							relative = false;
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = 0;
-							range = 0;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "velocity";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 3;
-					type = "time";
-					subject = -1;
-				};
-				[3] = {
-					counter = {
-						player = 0;
-						amount = 10;
-						id = 1;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 10901;
-							nextLevel = 12;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					type = "counter greater";
-					subject = -1;
-				};
-			};
-			id = 11;
-			songId = 5002;
-		};
-		[13] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = -1;
-				time = -1;
-			};
-			starmap = {
-				y = 288;
-				x = 302;
-			};
-			playerNum = 2;
-			scoreString = {
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 0.5;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 1536;
-					earningPower = 0.0;
-					race = 100;
-					type = "cpu";
-					name = "The Cantharan Order";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -85;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Command Buoy A";
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 591;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -6260;
-						x = -86;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Command Buoy B";
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 591;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -9478;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Combat Buoy A";
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -4869;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 188;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 109;
-						x = 87;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 203;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 1802;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1024;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -86;
-						x = -9739;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Extra Ships";
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 591;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 0;
-						x = 7478;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Combat Buoy B";
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 6;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2260;
-						x = 7826;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 188;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 591;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 173;
-						x = 13391;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Combat Buoy C";
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 8;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 2956;
-						x = 13739;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 188;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 8;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -1739;
-						x = 13217;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 188;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 591;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 173;
-						x = 19130;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Build Moon";
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 11;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -1043;
-						x = 18782;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 188;
-					earning = 0.0;
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 11;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 1565;
-						x = 18608;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 188;
-					earning = 0.0;
-				};
-				[14] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 11;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 173;
-						x = 18782;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 188;
-					earning = 0.0;
-				};
-				[15] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 591;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 9391;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Omisha Jump Gate";
-				};
-				[16] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 15;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 10086;
-						x = 1739;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 203;
-					earning = 0.0;
-				};
-				[17] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 15;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 10086;
-						x = -2608;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 203;
-					earning = 0.0;
-				};
-				[18] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 16695;
-						x = -17391;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 137;
-					earning = 1.0;
-					nameOverride = "Palyos Belt";
-				};
-				[19] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 16521;
-						x = -16956;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 141;
-					earning = 0.0;
-				};
-				[20] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 17119;
-						x = -17358;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 141;
-					earning = 0.0;
-				};
-				[21] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 16532;
-						x = -17836;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 141;
-					earning = 0.0;
-				};
-				[22] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 16716;
-						x = -17401;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 117;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					kind = "object";
-					title = "Omisha Station";
-					content = 4650;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[1] = {
-					kind = "object";
-					title = "Command Buoy A";
-					content = 4655;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[2] = {
-					kind = "object";
-					title = "Build Moon";
-					content = 4652;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 5;
-				};
-				[3] = {
-					kind = "object";
-					title = "Combat Buoy A";
-					content = 4653;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 6;
-				};
-				[4] = {
-					kind = "object";
-					title = "Extra Ships";
-					content = 4654;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 15;
-				};
-				[5] = {
-					kind = "object";
-					title = "Omisha Jump Gate";
-					content = 4656;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 18;
-				};
-			};
-			conditions = {
-				[0] = {
-					direct = 1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 13;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 14;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 2;
-							minimum = 15;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[3] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5500;
-							exclusiveFilter = 0;
-						};
-						[4] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[5] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[6] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 11;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[7] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 12;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = -2;
-				};
-				[1] = {
-					direct = 2;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 13;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 14;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 2;
-							minimum = 15;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[3] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5500;
-							exclusiveFilter = 0;
-						};
-						[4] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[5] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[6] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 11;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[7] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 12;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = -2;
-				};
-				[2] = {
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					type = "is auxiliary";
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5501;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 8;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 4;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					subject = 3;
-				};
-				[3] = {
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					type = "is auxiliary";
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5502;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 9;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 5;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					subject = 3;
-				};
-				[4] = {
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					type = "is target";
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5503;
-							exclusiveFilter = 0;
-						};
-					};
-					subject = 1;
-				};
-				[5] = {
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					type = "is target";
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5503;
-							exclusiveFilter = 0;
-						};
-					};
-					subject = 2;
-				};
-				[6] = {
-					direct = 1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5504;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 3;
-				};
-				[7] = {
-					direct = 2;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5504;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 3;
-				};
-				[8] = {
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					type = "is target";
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5505;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 10;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					subject = 1;
-				};
-				[9] = {
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					type = "is target";
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 10;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5505;
-							exclusiveFilter = 0;
-						};
-					};
-					subject = 2;
-				};
-				[10] = {
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					type = "is auxiliary";
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5503;
-							exclusiveFilter = 0;
-						};
-					};
-					subject = 3;
-				};
-				[11] = {
-					direct = 1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 3;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 9;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 12;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[3] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 7;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 3;
-				};
-				[12] = {
-					direct = 2;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 8;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 6;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[3] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 11;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 3;
-				};
-				[13] = {
-					direct = 5;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 1;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 10;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 2;
-							minimum = 15;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[3] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5506;
-							exclusiveFilter = 0;
-						};
-						[4] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 14;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = -2;
-				};
-				[14] = {
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					type = "is auxiliary";
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5507;
-							exclusiveFilter = 0;
-						};
-					};
-					subject = 5;
-				};
-				[15] = {
-					direct = 6;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 1;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 10;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 13;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[3] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 14;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[4] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 1;
-							minimum = 16;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[5] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5509;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = -2;
-				};
-				[16] = {
-					direct = 15;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 1;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 10;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 13;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[3] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 14;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[4] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 15;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[5] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 17;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[6] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5510;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = -2;
-				};
-				[17] = {
-					direct = 0;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 1;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 10;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 13;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[3] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 14;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[4] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 15;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[5] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 3;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5511;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = -2;
-				};
-				[18] = {
-					direct = 18;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 22;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 10101;
-							nextLevel = 2;
-							delay = 60;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					location = 316.227766017;
-					type = "proximity";
-					subject = -2;
-				};
-			};
-			id = 31;
-			songId = 5001;
-		};
-		[14] = {
-			par = {
-				losses = 35;
-				ratio = 0.0;
-				kills = 50;
-				time = 780;
-			};
-			starmap = {
-				y = 241;
-				x = 53;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "_-Capture Pictoris";
-				[1] = "Beta, 1 & 2";
-				[2] = "-Destroy hostile";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 19 \r\\iYou Should Have Seen the One that Got Away";
-			players = {
-				[1] = {
-					netRaceFlags = 26816;
-					earningPower = 1.0;
-					race = 900;
-					type = "single";
-					name = "The Elejeetian Empire";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 200;
-					type = "cpu";
-					name = "The Gaitori Union";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 300;
-						[3] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1022;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6434;
-						x = 1913;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Pictoris Beta";
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1009;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6173;
-						x = 3130;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Pictoris Beta 1";
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 9043;
-						x = 1217;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 114;
-					earning = 1.0;
-					nameOverride = "Pictoris Alpha 1";
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1010;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -8173;
-						x = -8956;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Pictoris Beta 2";
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 250;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1011;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -10955;
-						x = -5739;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Charon System";
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 300;
-						[3] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1023;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -9391;
-						x = -7565;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Power Station BP1";
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6260;
-						x = 2347;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 166;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -9217;
-						x = -8608;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 223;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -10173;
-						x = -7391;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -8348;
-						x = -9738;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 17825;
-						x = 14347;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 167;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 7391;
-						x = 1913;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 167;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 5100;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Beta Pictoris";
-				};
-				[1] = {
-					kind = "object";
-					title = "Gate Ship";
-					content = 5101;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 7;
-				};
-				[2] = {
-					kind = "object";
-					title = "Pictoris Alpha";
-					content = 5102;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[3] = {
-					kind = "object";
-					title = "Pictoris Alpha 1";
-					content = 5103;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[4] = {
-					kind = "object";
-					title = "Power Station BP1";
-					content = 5104;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 2;
-				};
-				[5] = {
-					kind = "object";
-					title = "Pictoris Beta";
-					content = 5105;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 5;
-				};
-				[6] = {
-					kind = "object";
-					title = "Gate Ship";
-					content = 5106;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 7;
-				};
-			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 7;
-					type = "destruction";
-					subject = -1;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 4;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 3;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 3;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 5;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 4;
-				};
-				[3] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 12001;
-							nextLevel = 23;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 5;
-				};
-				[4] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 1;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 3;
-				};
-				[5] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 1;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 4;
-				};
-				[6] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 12002;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 0;
-				};
-			};
-			id = 22;
-			songId = 5003;
-		};
-		[15] = {
-			par = {
-				losses = 30;
-				ratio = 0.0;
-				kills = 45;
-				time = 960;
-			};
-			starmap = {
-				y = 156;
-				x = 81;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Lalande";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 17 \r\\i...And It Feels So Good";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 700;
-					type = "cpu";
-					name = "The UNS Resistance";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 32767;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 266;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -32767;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 267;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 200;
-						[1] = 300;
-						[2] = 860;
-						[3] = 500;
-						[4] = 450;
-						[5] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1030;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 27129;
-						x = 28260;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Lalande Beta";
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 200;
-						[1] = 300;
-						[2] = 860;
-						[3] = 500;
-						[4] = 450;
-						[5] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1031;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -27129;
-						x = -28260;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Outpost 1";
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 0;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 104;
-					earning = 1.0;
-					nameOverride = "Outpost 3";
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x220;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 28522;
-						x = 28520;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 129;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 27652;
-						x = 28957;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 151;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 27126;
-						x = 28167;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 151;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 26603;
-						x = 28866;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 151;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 2;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 27559;
-						x = 29474;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 164;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 2;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 26343;
-						x = 29213;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 164;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x220;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -25044;
-						x = -29218;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 148;
-					earning = 0.0;
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -9043;
-						x = 9391;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 270;
-					earning = 0.5;
-					nameOverride = "Outpost 2";
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 9043;
-						x = -8000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 270;
-					earning = 0.5;
-					nameOverride = "Bunker Station";
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 5000;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Lalande";
-				};
-				[1] = {
-					kind = "object";
-					title = "Heavy Destroyer";
-					content = 5001;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 5;
-				};
-				[2] = {
-					kind = "object";
-					title = "Cruiser";
-					content = 5002;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 6;
-				};
-				[3] = {
-					kind = "object";
-					title = "Bunker Station";
-					content = 5003;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 4;
-				};
-				[4] = {
-					kind = "object";
-					title = "Outpost 1";
-					content = 5004;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 12;
-				};
-				[5] = {
-					kind = "object";
-					title = "Lalande Beta";
-					content = 5005;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 3;
-				};
-			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 6;
-							minimum = 5;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							value = 0;
-							delay = 0;
-							subjectOverride = 2;
-							useObjectsOwner = false;
-							directOverride = -1;
-							owner = 0;
-							alterType = "owner";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							value = 1;
-							delay = 0;
-							subjectOverride = 3;
-							useObjectsOwner = false;
-							directOverride = -1;
-							owner = 0;
-							alterType = "owner";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[3] = {
-							reflexive = false;
-							player = 1;
-							inclusiveFilter = 0;
-							value = 2560000;
-							delay = 0;
-							subjectOverride = 3;
-							useObjectsOwner = false;
-							directOverride = -1;
-							owner = 0;
-							alterType = "absolute cash";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 4780;
-					type = "time";
-					subject = -1;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 11802;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 2;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 11801;
-							nextLevel = 21;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 3;
-				};
-			};
-			id = 20;
-			songId = 5001;
-		};
-		[16] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 11;
-				time = 300;
-			};
-			starmap = {
-				y = 194;
-				x = 145;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "1\\0\\0\\0\\Retrieve escape\\Escort tractor";
-				[1] = "_1\\0\\0\\0\\pods\\tug";
-				[2] = "2\\1\\0\\0\\f\\t\\Rescued: \\/6";
-			};
-			movie = ":Ares Data Ä:Placeholder Movie";
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 13 \r\\iYo Ho Ho";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 600;
-					type = "cpu";
-					name = "The Audemedon Axis";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 0;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 125;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -956;
-						x = -1304;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 128;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 1043;
-						x = 1304;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 128;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -2173;
-						x = 1739;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 128;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 1739;
-						x = -2260;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 128;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -1478;
-						x = 173;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 128;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 86;
-						x = 3565;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 128;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6174;
-						x = 2238;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 137;
-					earning = 1.0;
-					nameOverride = "Secorem";
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6075;
-						x = 2168;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 141;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6179;
-						x = 2357;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 141;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6174;
-						x = 2238;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 127;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6434;
-						x = 1391;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 129;
-					earning = 0.0;
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 24782;
-						x = 4174;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 87;
-					earning = 0.0;
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 27826;
-						x = 9827;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[14] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 29826;
-						x = 3217;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[15] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 23739;
-						x = 9217;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 64;
-					earning = 0.0;
-				};
-				[16] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -8521;
-						x = -7739;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 113;
-					earning = 0.0;
-				};
-				[17] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -9217;
-						x = -6782;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 110;
-					earning = 0.0;
-				};
-				[18] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -7478;
-						x = -8608;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 110;
-					earning = 0.0;
-				};
-				[19] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6174;
-						x = 2238;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 117;
-					earning = 0.0;
-				};
-				[20] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6260;
-						x = 2173;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 141;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4500;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "EACSR Banadee";
-				};
-				[1] = {
-					content = 4506;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "EACSR Banadee";
-				};
-				[2] = {
-					kind = "object";
-					title = "Heavy Destroyer";
-					content = 4501;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 11;
-				};
-				[3] = {
-					content = 4502;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Secorem";
-				};
-				[4] = {
-					content = 4503;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Escape Pod";
-				};
-				[5] = {
-					kind = "object";
-					title = "Secorem Jump Gate";
-					content = 4504;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 7;
-				};
-				[6] = {
-					content = 4505;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Secorem";
-				};
-			};
-			conditions = {
-				[0] = {
-					counter = {
-						player = 0;
-						amount = 6;
-						id = 1;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 90;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 10;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 30;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5400;
-							exclusiveFilter = 0;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 900;
-							subjectOverride = -1;
-							range = 2;
-							minimum = 16;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[1] = {
-					direct = 10;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							retainAmmoCount = false;
-							delay = 0;
-							subjectOverride = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "base type";
-							type = "alter";
-							id = 126;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							volume = 255;
-							priority = 4;
-							isAbsolute = false;
-							reflexive = true;
-							soundId = 17406;
-							inclusiveFilter = 0;
-							volumeRange = 0;
-							delay = 0;
-							subjectOverride = -1;
-							persistence = 30;
-							directOverride = -1;
-							owner = 0;
-							type = "play sound";
-							exclusiveFilter = 0;
-							soundRange = 0;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[3] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = 0;
-							directOverride = 10;
-							owner = 0;
-							type = "set destination";
-							exclusiveFilter = 0;
-						};
-						[4] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5401;
-							exclusiveFilter = 0;
-						};
-						[5] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = 10;
-							directOverride = 7;
-							owner = 0;
-							type = "set destination";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 0;
-				};
-				[2] = {
-					direct = 7;
-					actions = {
-						[0] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = 0;
-							directOverride = 7;
-							owner = 0;
-							type = "set destination";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							speed = 128;
-							delay = 60;
-							subjectOverride = 0;
-							directOverride = 7;
-							owner = 0;
-							type = "land at";
-							exclusiveFilter = 0;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 10;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 19;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 10;
-				};
-			};
-			id = 16;
-			songId = 5002;
-		};
-		[17] = {
-			par = {
-				losses = 17;
-				ratio = 0.0;
-				kills = 56;
-				time = 435;
-			};
-			starmap = {
-				y = 150;
-				x = 120;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Thasero";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 15 \r\\iThe Left Hand";
-			players = {
-				[1] = {
-					netRaceFlags = 172;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 2.0;
-					race = 600;
-					type = "cpu";
-					name = "The Audemedon Axis";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 300;
-						[3] = 800;
-						[4] = 860;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1026;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6000;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Thasero Beta";
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 300;
-						[3] = 800;
-						[4] = 860;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1028;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -7478;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Thasero Station";
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 572;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 0;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 104;
-					earning = 1.0;
-					nameOverride = "Lalande";
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6521;
-						x = 869;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 129;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -7130;
-						x = 956;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 138;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6521;
-						x = -782;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 47;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 7478;
-						x = 86;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 67;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -9565;
-						x = -9565;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 113;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -9130;
-						x = -8695;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 113;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -8000;
-						x = -9565;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 148;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4550;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Thasero Station";
-				};
-				[1] = {
-					kind = "object";
-					title = "Thasero Alpha";
-					content = 4551;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[2] = {
-					kind = "object";
-					title = "Heavy Destroyer";
-					content = 4552;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 3;
-				};
-				[3] = {
-					kind = "object";
-					title = "Carrier";
-					content = 4553;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 5;
-				};
-				[4] = {
-					kind = "object";
-					title = "Battleship";
-					content = 4554;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 6;
-				};
-				[5] = {
-					kind = "object";
-					title = "Thasero Station";
-					content = 4556;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 2;
-				};
-				[6] = {
-					kind = "object";
-					title = "Thasero Beta";
-					content = 4557;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[7] = {
-					kind = "object";
-					title = "Thasero Beta";
-					content = 4558;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[8] = {
-					content = 4559;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "The Actualizer";
-				};
-			};
-			conditions = {
-				[0] = {
-					direct = 3;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 120;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 4570;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 180;
-							subjectOverride = -1;
-							range = 2;
-							minimum = 7;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 2;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 11601;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 0;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 11602;
-							nextLevel = 19;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 1;
-				};
-			};
-			id = 18;
-			songId = 5004;
-		};
-		[18] = {
-			par = {
-				losses = 23;
-				ratio = 0.0;
-				kills = 42;
-				time = 210;
-			};
-			starmap = {
-				y = 104;
-				x = 98;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "1\\2\\0\\0\\Protect science\\Destroy jumpgate\\\\";
-				[1] = "1\\2\\0\\0\\vessel\\inhibitor\\\\";
-				[2] = "1\\3\\0\\0\\\\DESTROYED\\\\";
-				[3] = "1\\3\\0\\0\\\\Destroy all\\\\";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 16 \r\\iHornet's Nest";
-			players = {
-				[1] = {
-					netRaceFlags = 171;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 202;
-					earningPower = 1.0;
-					race = 700;
-					type = "cpu";
-					name = "The UNS Resistance";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 0;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 160;
-					earning = 1.0;
-					nameOverride = "Transport";
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 7739;
-						x = 174;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 109;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 7826;
-						x = 86;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 151;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 8086;
-						x = 435;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 129;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6695;
-						x = -173;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 129;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2000;
-						x = 174;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 147;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2086;
-						x = -695;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 147;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2608;
-						x = -347;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 147;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -1521;
-						x = -217;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 147;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2434;
-						x = -260;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 147;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -174;
-						x = -957;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 148;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -43;
-						x = 1130;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 149;
-					earning = 0.0;
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -391;
-						x = 43;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 142;
-					earning = 0.0;
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 9217;
-						x = -86;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 117;
-					earning = 0.0;
-				};
-				[14] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 9217;
-						x = -86;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 47;
-					earning = 0.0;
-				};
-				[15] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 9217;
-						x = -86;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 47;
-					earning = 0.0;
-				};
-				[16] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 9217;
-						x = -86;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 47;
-					earning = 0.0;
-				};
-				[17] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 14;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 9217;
-						x = -86;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 129;
-					earning = 0.0;
-				};
-				[18] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 15;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 9217;
-						x = -86;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 129;
-					earning = 0.0;
-				};
-				[19] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 16;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 9217;
-						x = -86;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 129;
-					earning = 0.0;
-				};
-				[20] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -7478;
-						x = 6608;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 148;
-					earning = 0.0;
-				};
-				[21] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -7826;
-						x = 5043;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 148;
-					earning = 0.0;
-				};
-				[22] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 20;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -8173;
-						x = 6000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 142;
-					earning = 0.0;
-				};
-				[23] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 20;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -6695;
-						x = 5478;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 142;
-					earning = 0.0;
-				};
-				[24] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 21;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -6347;
-						x = 6434;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 149;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4600;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Ser System";
-				};
-				[1] = {
-					content = 4601;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Ser System";
-				};
-				[2] = {
-					kind = "object";
-					title = "Research Vessel";
-					content = 4602;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[3] = {
-					kind = "object";
-					title = "Cruiser";
-					content = 4603;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 2;
-				};
-				[4] = {
-					kind = "object";
-					title = "Heavy Destroyer";
-					content = 4604;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 3;
-				};
-			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 11701;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "destruction";
-					subject = -1;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5240;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 60;
-					type = "time";
-					subject = -1;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 2;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5241;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[2] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							delay = 1200;
-							subjectOverride = 3;
-							directOverride = 0;
-							owner = 0;
-							type = "set destination";
-							exclusiveFilter = 0;
-						};
-						[3] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = 4;
-							directOverride = 0;
-							owner = 0;
-							type = "set destination";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 2400;
-					type = "time";
-					subject = -1;
-				};
-				[3] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[3] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 360;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5243;
-							exclusiveFilter = 0;
-						};
-						[4] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 360;
-							subjectOverride = -1;
-							range = 4;
-							minimum = 20;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[5] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 360;
-							subjectOverride = -1;
-							range = 5;
-							minimum = 14;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[6] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 360;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 4;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "destruction";
-					subject = -1;
-				};
-				[4] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 11702;
-							nextLevel = 20;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					player = 1;
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					type = "no ships left";
-					subject = -1;
-				};
-			};
-			id = 19;
-			songId = 5000;
-		};
-		[19] = {
-			par = {
-				losses = 34;
-				ratio = 0.0;
-				kills = 29;
-				time = 375;
-			};
-			starmap = {
-				y = 182;
-				x = 62;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Proxima";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 18 \r\\iBlood, Toil, Tears, and Sweat";
-			players = {
-				[1] = {
-					netRaceFlags = 172;
-					earningPower = 1.0;
-					race = 900;
-					type = "single";
-					name = "The Elejeetian Empire";
-				};
-				[2] = {
-					netRaceFlags = 202;
-					earningPower = 1.0;
-					race = 700;
-					type = "cpu";
-					name = "The UNS Resistance";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 300;
-						[3] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -2696;
-						x = 1390;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Proxima Beta";
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 300;
-						[3] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1021;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -17130;
-						x = -9044;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Power Station PC1";
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 3218;
-						x = -2434;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 166;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 3305;
-						x = -1392;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 174;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 4348;
-						x = -2086;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 174;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 5228;
-						x = -2792;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 174;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6184;
-						x = -3737;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 174;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 7543;
-						x = -4868;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 174;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -9043;
-						x = -3391;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 177;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -1652;
-						x = 1826;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 167;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -3391;
-						x = 1478;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 167;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2260;
-						x = 869;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2173;
-						x = 1913;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 8;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -1304;
-						x = 1044;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 17;
-					earning = 0.0;
-				};
-				[14] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 12;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 0;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 7;
-					earning = 0.0;
-				};
-				[15] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 10;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -2695;
-						x = 1652;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 164;
-					earning = 0.0;
-				};
-				[16] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 11;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -2695;
-						x = 782;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 164;
-					earning = 0.0;
-				};
-				[17] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -1739;
-						x = 1217;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 149;
-					earning = 0.0;
-				};
-				[18] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -1913;
-						x = 1043;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 149;
-					earning = 0.0;
-				};
-				[19] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 2;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 3739;
-						x = -2782;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 165;
-					earning = 0.0;
-				};
-				[20] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 19;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 4086;
-						x = -3218;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 165;
-					earning = 0.0;
-				};
-				[21] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 20;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 4565;
-						x = -3217;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 165;
-					earning = 0.0;
-				};
-				[22] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 21;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 4391;
-						x = -2739;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 165;
-					earning = 0.0;
-				};
-				[23] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 22;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 4173;
-						x = -2478;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 165;
-					earning = 0.0;
-				};
-				[24] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 23;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 3913;
-						x = -2347;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 165;
-					earning = 0.0;
-				};
-				[25] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 8;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -3478;
-						x = 2521;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 142;
-					earning = 0.0;
-				};
-				[26] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 8;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -7826;
-						x = -2869;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 142;
-					earning = 0.0;
-				};
-				[27] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 5;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 5913;
-						x = -2086;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 167;
-					earning = 0.0;
-				};
-				[28] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 5;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 5478;
-						x = -3739;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 167;
-					earning = 0.0;
-				};
-				[29] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 27;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 6695;
-						x = -2260;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 166;
-					earning = 0.0;
-				};
-				[30] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 28;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 5652;
-						x = -4434;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 166;
-					earning = 0.0;
-				};
-				[31] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -34782;
-						x = -28869;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 148;
-					earning = 0.0;
-				};
-				[32] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -34086;
-						x = -26086;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 148;
-					earning = 0.0;
-				};
-				[33] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -31304;
-						x = -28173;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 148;
-					earning = 0.0;
-				};
-				[34] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = 0;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 148;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 5050;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Proxima Centauri System";
-				};
-				[1] = {
-					kind = "object";
-					title = "Gunship";
-					content = 5051;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 2;
-				};
-				[2] = {
-					kind = "object";
-					title = "Transport";
-					content = 5052;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 8;
-				};
-				[3] = {
-					kind = "object";
-					title = "Carrier";
-					content = 5053;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 24;
-				};
-				[4] = {
-					kind = "object";
-					title = "Transport";
-					content = 5054;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 3;
-				};
-				[5] = {
-					kind = "object";
-					title = "Carrier";
-					content = 5055;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 9;
-				};
-				[6] = {
-					kind = "object";
-					title = "Proxima Beta";
-					content = 5056;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-			};
-			conditions = {
-				[0] = {
-					counter = {
-						player = 0;
-						amount = 2;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							value = 0;
-							delay = 0;
-							subjectOverride = 0;
-							useObjectsOwner = false;
-							directOverride = -1;
-							owner = 0;
-							alterType = "owner";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							value = 2560000;
-							delay = 0;
-							subjectOverride = -1;
-							useObjectsOwner = false;
-							directOverride = -1;
-							owner = 0;
-							alterType = "absolute cash";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 3;
-							minimum = 31;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 28167;
-					type = "time";
-					subject = -1;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 11901;
-							nextLevel = 22;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 1;
-				};
-			};
-			id = 21;
-			songId = 5002;
-		};
-		[20] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 50;
-				time = 600;
-			};
-			starmap = {
-				y = 284;
-				x = 43;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Destroy hostile";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 20 \r\\iThe Mothership Connection";
-			players = {
-				[1] = {
-					netRaceFlags = 3;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 181;
-					earningPower = 1.0;
-					race = 200;
-					type = "cpu";
-					name = "The Gaitori Union";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 2520;
-						x = -87;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 181;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1036;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -3043;
-						x = 9739;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Ser System";
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x2000200;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -1304;
-						x = 8347;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 180;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 6086;
-						x = -3042;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 196;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -10522;
-						x = 10523;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -11478;
-						x = 9739;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -11651;
-						x = 10695;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -10609;
-						x = 10000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -10348;
-						x = 11391;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -11477;
-						x = 11305;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -10956;
-						x = 11304;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 62;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -11304;
-						x = 10174;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 62;
-					earning = 0.0;
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6609;
-						x = 8088;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 178;
-					earning = 0.0;
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6577;
-						x = 8218;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 178;
-					earning = 0.0;
-				};
-				[14] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6619;
-						x = 7980;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 178;
-					earning = 0.0;
-				};
-				[15] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6739;
-						x = 8034;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 178;
-					earning = 0.0;
-				};
-				[16] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6685;
-						x = 8164;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 178;
-					earning = 0.0;
-				};
-				[17] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6539;
-						x = 8023;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 178;
-					earning = 0.0;
-				};
-				[18] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6533;
-						x = 8147;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 178;
-					earning = 0.0;
-				};
-				[19] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6734;
-						x = 8299;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 178;
-					earning = 0.0;
-				};
-				[20] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6550;
-						x = 7882;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 178;
-					earning = 0.0;
-				};
-				[21] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6484;
-						x = 8251;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 178;
-					earning = 0.0;
-				};
-				[22] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 16;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6484;
-						x = 8056;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 167;
-					earning = 0.0;
-				};
-				[23] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 17;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6647;
-						x = 8348;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 167;
-					earning = 0.0;
-				};
-				[24] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 18;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6717;
-						x = 7925;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 167;
-					earning = 0.0;
-				};
-				[25] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 19;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6788;
-						x = 8196;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 167;
-					earning = 0.0;
-				};
-				[26] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6897;
-						x = 8018;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 164;
-					earning = 0.0;
-				};
-				[27] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6875;
-						x = 8267;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 166;
-					earning = 0.0;
-				};
-				[28] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 23;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6837;
-						x = 7925;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 166;
-					earning = 0.0;
-				};
-				[29] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 25;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6782;
-						x = 8120;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 166;
-					earning = 0.0;
-				};
-				[30] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 13;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6886;
-						x = 8142;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 165;
-					earning = 0.0;
-				};
-				[31] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 28;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6853;
-						x = 8045;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 164;
-					earning = 0.0;
-				};
-				[32] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 14;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 6864;
-						x = 8403;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 166;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 5150;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Sol";
-				};
-				[1] = {
-					content = 5151;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Sol";
-				};
-				[2] = {
-					kind = "object";
-					title = "Modified Cruiser";
-					content = 5152;
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[3] = {
-					content = 5153;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Sol";
-				};
-				[4] = {
-					kind = "object";
-					title = "Gate Ship";
-					content = 5154;
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 2;
-				};
-				[5] = {
-					content = 5155;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "Sol";
-				};
-			};
-			conditions = {
-				[0] = {
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "half health";
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5170;
-							exclusiveFilter = 0;
-						};
-					};
-					subject = 2;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 360;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5171;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 360;
-							subjectOverride = -1;
-							range = 20;
-							minimum = 12;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					player = 1;
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					type = "no ships left";
-					subject = -1;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 12101;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 1;
-				};
-			};
-			id = 23;
-			songId = 5004;
-		};
-		[21] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 0;
-				time = -1;
-			};
-			starmap = {
-				y = 200;
-				x = 200;
-			};
-			playerNum = 2;
-			scoreString = {
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Between a Rock and a Rock \r\\i ";
-			players = {
-				[1] = {
-					netRaceFlags = 483;
-					earningPower = 1.0;
-					race = 100;
-					type = "net";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 483;
-					earningPower = 1.0;
-					race = 100;
-					type = "net";
-					name = "The Cantharan Order";
-				};
-			};
-			netRaceFlags = 483;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 32767;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 228;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -32767;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 229;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 200;
-						[1] = 300;
-						[2] = 860;
-						[3] = 500;
-						[4] = 450;
-						[5] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1025;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 27129;
-						x = 28260;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Proteus Beta";
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 200;
-						[1] = 300;
-						[2] = 860;
-						[3] = 500;
-						[4] = 450;
-						[5] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1026;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -27129;
-						x = -28260;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Proteus Gamma";
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 22261;
-						x = -6261;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 104;
-					earning = 1.0;
-					nameOverride = "Bunker Station 2";
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -22621;
-						x = 6621;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 104;
-					earning = 1.0;
-					nameOverride = "Orbital Shipyard";
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 2;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x220;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 27129;
-						x = 28520;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 129;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 3;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x220;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -18608;
-						x = -21131;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 129;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4103;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "The Gaitori";
-				};
-			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 1;
-							minimum = 6;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 4780;
-					type = "time";
-					subject = -1;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 6101;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 2;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 6100;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 3;
-				};
-			};
-			id = 24;
-			songId = 5002;
-		};
-		[22] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 0;
-				time = -1;
-			};
-			starmap = {
-				y = 100;
-				x = 100;
-			};
-			playerNum = 3;
-			scoreString = {
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i **DEV-23** \r\\i ";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					race = 100;
-					earningPower = 1.0;
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					race = 100;
-					earningPower = 1.0;
-					name = "The Cantharan Order";
-				};
-				[3] = {
-					netRaceFlags = 0;
-					earningPower = 2.0;
-					race = 700;
-					type = "cpu";
-					name = "The UNS Resistance";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 300;
-						[3] = 500;
-						[4] = 450;
-						[5] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1027;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 0;
-						x = 9000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Proteus Beta";
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 300;
-						[3] = 500;
-						[4] = 450;
-						[5] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1028;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 0;
-						x = -9000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Proteus Gamma";
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 100;
-						[1] = 200;
-						[2] = 300;
-						[3] = 400;
-						[4] = 450;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1029;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 2;
-					position = {
-						y = 9000;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Philemon";
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 0;
-						x = 9000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 129;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 0;
-						x = -9000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 129;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 2;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 2;
-					position = {
-						y = 9000;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 129;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4103;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "The Gaitori";
-				};
-			};
-			conditions = {
-			};
-			id = 25;
-			songId = 5002;
-		};
-		[23] = {
-			par = {
-				losses = 0;
-				ratio = 1.0;
-				kills = 0;
-				time = 1;
-			};
-			starmap = {
-				y = -1;
-				x = -1;
-			};
-			playerNum = 2;
-			scoreString = {
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 256;
-			name = "\\i Space Race, the Musical! \\i ";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 300;
-					type = "cpu";
-					name = "The Prophets of Salril";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 1565;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 129;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 1130;
-						x = 782;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 1304;
-						x = -869;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 1739;
-						x = 521;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 1782;
-						x = -434;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 1239;
-						x = -260;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 47;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 1086;
-						x = 217;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 47;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 1543;
-						x = 239;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 19;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 1565;
-						x = -260;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 19;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 1369;
-						x = -43;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 19;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 1934;
-						x = 173;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 61;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 10;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 2239;
-						x = 195;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 61;
-					earning = 0.0;
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 11;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 2478;
-						x = 239;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 61;
-					earning = 0.0;
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 12;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 2913;
-						x = 326;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 61;
-					earning = 0.0;
-				};
-				[14] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 13;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 3368;
-						x = 391;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 61;
-					earning = 0.0;
-				};
-				[15] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 5;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 1652;
-						x = 804;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 13;
-					earning = 0.0;
-				};
-				[16] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 15;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 1782;
-						x = 1065;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 13;
-					earning = 0.0;
-				};
-				[17] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 16;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 2021;
-						x = 1304;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 13;
-					earning = 0.0;
-				};
-				[18] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2759;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 87;
-					earning = 0.0;
-				};
-				[19] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 18;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2716;
-						x = -457;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 87;
-					earning = 0.0;
-				};
-				[20] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2564;
-						x = 738;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 87;
-					earning = 0.0;
-				};
-				[21] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2347;
-						x = -933;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 87;
-					earning = 0.0;
-				};
-				[22] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2130;
-						x = 304;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 87;
-					earning = 0.0;
-				};
-				[23] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2477;
-						x = -1282;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[24] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2434;
-						x = 1478;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[25] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 18;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2477;
-						x = -1890;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[26] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 18;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2804;
-						x = 1129;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[27] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 18;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2977;
-						x = -977;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[28] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 18;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -4194;
-						x = -173;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[29] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 18;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -3977;
-						x = 413;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 64;
-					earning = 0.0;
-				};
-				[30] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 18;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -4478;
-						x = -1086;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 64;
-					earning = 0.0;
-				};
-				[31] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 19;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -4411;
-						x = 1063;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 64;
-					earning = 0.0;
-				};
-				[32] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 31;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -4782;
-						x = 630;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 64;
-					earning = 0.0;
-				};
-				[33] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 32;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -4978;
-						x = 195;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 64;
-					earning = 0.0;
-				};
-				[34] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 33;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -5108;
-						x = -174;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 64;
-					earning = 0.0;
-				};
-				[35] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 34;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -5238;
-						x = -696;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 64;
-					earning = 0.0;
-				};
-				[36] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 35;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -5260;
-						x = -1391;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 64;
-					earning = 0.0;
-				};
-				[37] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 36;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -4826;
-						x = -1956;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 37;
-					earning = 0.0;
-				};
-				[38] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 36;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -5065;
-						x = -2130;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 64;
-					earning = 0.0;
-				};
-				[39] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 36;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -4108;
-						x = -2152;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 64;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4103;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "The Gaitori";
-				};
-			};
-			conditions = {
-			};
-			id = 26;
-			songId = 5003;
-		};
-		[24] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 0;
-				time = -1;
-			};
-			starmap = {
-				y = 100;
-				x = 100;
-			};
-			playerNum = 2;
-			scoreString = {
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Scratching Post \r\\i ";
-			players = {
-				[1] = {
-					netRaceFlags = 483;
-					earningPower = 1.0;
-					race = 100;
-					type = "net";
-					name = "The Elejeetian Empire";
-				};
-				[2] = {
-					netRaceFlags = 483;
-					earningPower = 1.0;
-					race = 100;
-					type = "net";
-					name = "The Gaitori Union";
-				};
-			};
-			netRaceFlags = 483;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 32767;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 266;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -32767;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 267;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 200;
-						[1] = 300;
-						[2] = 860;
-						[3] = 500;
-						[4] = 450;
-						[5] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1032;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 16384;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Lalande Beta";
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 200;
-						[1] = 300;
-						[2] = 860;
-						[3] = 500;
-						[4] = 450;
-						[5] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1033;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -16384;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Outpost 1";
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 9000;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 270;
-					earning = 0.25;
-					nameOverride = "Outpost 2";
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -9000;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 270;
-					earning = 0.25;
-					nameOverride = "Bunker Station";
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 0;
-						x = 9000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 270;
-					earning = 0.25;
-					nameOverride = "Outpost 4";
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 0;
-						x = -9000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 270;
-					earning = 0.25;
-					nameOverride = "Sol";
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 0;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 104;
-					earning = 1.0;
-					nameOverride = "Outpost 3";
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x220;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 16380;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 129;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x220;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -16380;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 129;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					content = 4103;
-					kind = "freestanding";
-					range = {
-						y = 0;
-						x = 0;
-					};
-					title = "The Gaitori";
-				};
-			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 1;
-							minimum = 9;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 4780;
-					type = "time";
-					subject = -1;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 6151;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 2;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 6150;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 3;
-				};
-			};
-			id = 27;
-			songId = 5000;
-		};
-		[25] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 0;
-				time = -1;
-			};
-			starmap = {
-				y = -1;
-				x = -1;
-			};
-			playerNum = 2;
-			scoreString = {
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Capture the Flagpod \r\\i ";
-			players = {
-				[1] = {
-					netRaceFlags = 512;
-					earningPower = 0.0;
-					race = 1100;
-					type = "net";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 512;
-					earningPower = 0.0;
-					race = 1100;
-					type = "net";
-					name = "The Cantharan Order";
-				};
-			};
-			netRaceFlags = 512;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 8000;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Retak Beta";
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -8000;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 8000;
-						x = 8000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 276;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -8000;
-						x = -8000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 278;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 8000;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 274;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -8000;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 275;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 8478;
-						x = 273;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 272;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 8826;
-						x = -957;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 272;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 8696;
-						x = -131;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 272;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 8348;
-						x = 1434;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 272;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 7261;
-						x = -1000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 272;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 8717;
-						x = -610;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 272;
-					earning = 0.0;
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 7566;
-						x = 1608;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 272;
-					earning = 0.0;
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 7044;
-						x = 391;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 272;
-					earning = 0.0;
-				};
-				[14] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -6870;
-						x = 783;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 273;
-					earning = 0.0;
-				};
-				[15] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -7476;
-						x = 1260;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 273;
-					earning = 0.0;
-				};
-				[16] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -7477;
-						x = -174;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 273;
-					earning = 0.0;
-				};
-				[17] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -5477;
-						x = -783;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 273;
-					earning = 0.0;
-				};
-				[18] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -6432;
-						x = 695;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 273;
-					earning = 0.0;
-				};
-				[19] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -6695;
-						x = -2;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 273;
-					earning = 0.0;
-				};
-				[20] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -6520;
-						x = -2174;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 273;
-					earning = 0.0;
-				};
-				[21] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -5999;
-						x = -783;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 273;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-			};
-			conditions = {
-				[0] = {
-					direct = 1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 6251;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 4;
-				};
-				[1] = {
-					direct = 0;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 6250;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 5;
-				};
-			};
-			id = 28;
-			songId = 5001;
-		};
-		[26] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 0;
-				time = -1;
-			};
-			starmap = {
-				y = -1;
-				x = -1;
-			};
-			playerNum = 2;
-			scoreString = {
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Spaze Warz \r\\i ";
-			players = {
-				[1] = {
-					netRaceFlags = 512;
-					earningPower = 0.0;
-					race = 1100;
-					type = "net";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 512;
-					earningPower = 0.0;
-					race = 1100;
-					type = "net";
-					name = "The Gaitori Union";
-				};
-			};
-			netRaceFlags = 512;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 0;
-						x = -2956;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 284;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 87;
-						x = 2955;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 284;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -700;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 0;
-						x = -700;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 0;
-						x = 700;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							amount = 1;
-							score = 0;
-							directOverride = -1;
-							owner = 0;
-							type = "change score";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 360;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[2] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "destruction";
-					subject = -1;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							amount = 1;
-							score = 0;
-							directOverride = -1;
-							owner = 0;
-							type = "change score";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 360;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "destruction";
-					subject = -1;
-				};
-				[2] = {
-					counter = {
-						player = 0;
-						amount = 3;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 6351;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter greater";
-					subject = -1;
-				};
-				[3] = {
-					counter = {
-						player = 1;
-						amount = 3;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 6350;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					type = "counter greater";
-					subject = -1;
-				};
-			};
-			id = 29;
-			songId = 5003;
-		};
-		[27] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 0;
-				time = -1;
-			};
-			starmap = {
-				y = -1;
-				x = -1;
-			};
-			playerNum = 2;
-			scoreString = {
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Location, Location, Location \r\\i ";
-			players = {
-				[1] = {
-					netRaceFlags = 98;
-					earningPower = 1.0;
-					race = 100;
-					type = "net";
-					name = "The Cantharan Order";
-				};
-				[2] = {
-					netRaceFlags = 98;
-					earningPower = 1.0;
-					race = 100;
-					type = "net";
-					name = "";
-				};
-			};
-			netRaceFlags = 98;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 200;
-						[1] = 300;
-						[2] = 860;
-						[3] = 500;
-						[4] = 450;
-						[5] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 10000;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Xamer Beta";
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 200;
-						[1] = 300;
-						[2] = 860;
-						[3] = 500;
-						[4] = 450;
-						[5] = 800;
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -10000;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Outpost Alpha";
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 10000;
-						x = 256;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 10000;
-						x = -256;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 10256;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -10000;
-						x = -256;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -10000;
-						x = 256;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -10256;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 45;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 0;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 270;
-					earning = 0.25;
-					nameOverride = "Outpost C1";
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 0;
-						x = -700;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 270;
-					earning = 0.25;
-					nameOverride = "Outpost C2";
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 0;
-						x = 700;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 270;
-					earning = 0.25;
-					nameOverride = "Outpost C3";
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -700;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 270;
-					earning = 0.25;
-					nameOverride = "Outpost C4";
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 700;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 270;
-					earning = 0.25;
-					nameOverride = "Retak Alpha";
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -700;
-						x = -700;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[14] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -700;
-						x = 700;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[15] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 700;
-						x = -700;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[16] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 700;
-						x = 700;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[17] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 850;
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 5000;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 270;
-					earning = 0.25;
-					nameOverride = "Outpost Beta";
-				};
-				[18] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 850;
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -5000;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 270;
-					earning = 0.25;
-					nameOverride = "Bunker Station";
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 6300;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 8;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 6301;
-							nextLevel = 188;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 8;
-				};
-			};
-			id = 30;
-			songId = 5004;
-		};
-		[28] = {
 			par = {
 				losses = 0;
 				ratio = 0.0;
@@ -20775,7 +1301,619 @@ data = {
 			id = 1;
 			songId = 4002;
 		};
-		[29] = {
+		[2] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 9;
+				time = 120;
+			};
+			starmap = {
+				y = 330;
+				x = 287;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Destroy all 5";
+				[1] = "_-transports.";
+			};
+			movie = ":Ares Data Ä:Part 2";
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 1 \r\\iEasy Street";
+			players = {
+				[1] = {
+					netRaceFlags = 256;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 16516;
+					earningPower = 1.0;
+					race = 300;
+					type = "cpu";
+					name = "The Prophets of Salril";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 643;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -97391;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Proxima Centauri System";
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -35129;
+						x = -694;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 179;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -42782;
+						x = -347;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 179;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -47999;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 179;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -53564;
+						x = -173;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 179;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -57565;
+						x = -522;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 179;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 5;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -23652;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -33912;
+						x = -87;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 38;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -33651;
+						x = -782;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 38;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 2;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -41390;
+						x = 87;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 38;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 2;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -41129;
+						x = -695;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 38;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 3;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -46607;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 38;
+					earning = 0.0;
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 3;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -46869;
+						x = -43;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 38;
+					earning = 0.0;
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 3;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -46345;
+						x = -348;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 38;
+					earning = 0.0;
+				};
+				[14] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 4;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -52173;
+						x = -348;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[15] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 5;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -56172;
+						x = -1217;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[16] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 5;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -56172;
+						x = -347;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[17] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 5;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -55999;
+						x = 696;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4800;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Charon System";
+				};
+				[1] = {
+					kind = "object";
+					title = "Cruiser";
+					content = 4801;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 6;
+				};
+				[2] = {
+					kind = "object";
+					title = "Transport";
+					content = 4802;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[3] = {
+					kind = "object";
+					title = "Fighter";
+					content = 4803;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 7;
+				};
+				[4] = {
+					kind = "object";
+					title = "Charon Station";
+					content = 4804;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+			};
+			conditions = {
+				[0] = {
+					counter = {
+						player = 0;
+						amount = 2;
+						id = 0;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = 17;
+							directOverride = 6;
+							owner = 0;
+							type = "set destination";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[1] = {
+					counter = {
+						player = 0;
+						amount = 5;
+						id = 0;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 10201;
+							nextLevel = 3;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+			};
+			id = 2;
+			songId = 5000;
+		};
+		[3] = {
 			par = {
 				losses = -1;
 				ratio = -1.0;
@@ -22588,7 +3726,744 @@ data = {
 			id = 3;
 			songId = 4002;
 		};
-		[30] = {
+		[4] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 10;
+				time = 120;
+			};
+			starmap = {
+				y = 393;
+				x = 282;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Destroy all 4";
+				[1] = "_-relay dishes.";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 2 \r\\iThe Stars Have Ears";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 0.00390625;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 0.0;
+					race = 300;
+					type = "cpu";
+					name = "The Prophets of Salril";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 4521;
+						x = 7043;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 36;
+					earning = 1.0;
+					nameOverride = "Relay Dish 2";
+				};
+				[1] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 8695;
+						x = 7652;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 61;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 4695;
+						x = 6434;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 16;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 2086;
+						x = 2608;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 16;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 2434;
+						x = 3739;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 17;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -1913;
+						x = -347;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 64;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 17;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2347;
+						x = -1130;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 17;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2782;
+						x = -347;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 18;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -5043;
+						x = -1043;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 64;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 18;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -4173;
+						x = -2695;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 18;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -4434;
+						x = -1826;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 18;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -4956;
+						x = -1913;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[12] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6782;
+						x = -8695;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 42;
+					earning = 0.0;
+				};
+				[13] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 8347;
+						x = -6695;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 42;
+					earning = 0.0;
+				};
+				[14] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1200;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -4173;
+						x = -1652;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 104;
+					earning = 1.0;
+					nameOverride = "Relay Dish 1";
+				};
+				[15] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 0;
+						x = 0;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 27;
+					earning = 0.0;
+					nameOverride = "Myrmidon Station";
+				};
+				[16] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 2000;
+						x = 3217;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 36;
+					earning = 1.0;
+					nameOverride = "Relay Dish 3";
+				};
+				[17] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -1130;
+						x = 2000;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 36;
+					earning = 1.0;
+					nameOverride = "Sprist";
+				};
+				[18] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -4347;
+						x = 1043;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 36;
+					earning = 1.0;
+					nameOverride = "Elysium System";
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					kind = "object";
+					title = "Myrmidon";
+					content = 4100;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 15;
+				};
+				[1] = {
+					kind = "object";
+					title = "Cruiser";
+					content = 4104;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[2] = {
+					kind = "object";
+					title = "Relay Dish 1";
+					content = 4101;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[3] = {
+					kind = "object";
+					title = "Cruiser";
+					content = 4102;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 2;
+				};
+				[4] = {
+					kind = "object";
+					title = "Relay Dish 2";
+					content = 4105;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 16;
+				};
+				[5] = {
+					kind = "object";
+					title = "Relay Dish 3";
+					content = 4106;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 17;
+				};
+				[6] = {
+					kind = "object";
+					title = "Relay Dish 4";
+					content = 4108;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 18;
+				};
+				[7] = {
+					kind = "object";
+					title = "Myrmidon Station";
+					content = 4107;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 14;
+				};
+				[8] = {
+					content = 4109;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Obish Escorts";
+				};
+			};
+			conditions = {
+				[0] = {
+					counter = {
+						player = 0;
+						amount = 4;
+						id = 0;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 10301;
+							nextLevel = 5;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 10302;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "destruction";
+					subject = -1;
+				};
+				[2] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 12;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 13;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 120;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 4210;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 17;
+					type = "destruction";
+					subject = -1;
+				};
+			};
+			id = 4;
+			songId = 5001;
+		};
+		[5] = {
 			par = {
 				losses = -1;
 				ratio = -1.0;
@@ -24786,6 +6661,18131 @@ data = {
 			};
 			id = 5;
 			songId = 4002;
+		};
+		[6] = {
+			par = {
+				losses = 4;
+				ratio = 0.0;
+				kills = 16;
+				time = 180;
+			};
+			starmap = {
+				y = 354;
+				x = 271;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Demeter";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 3 \r\\iWhile The Iron Is Hot";
+			players = {
+				[1] = {
+					netRaceFlags = 172;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 0.84765625;
+					race = 300;
+					type = "cpu";
+					name = "The Prophets of Salril";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1009;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 4695;
+						x = 260;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Demeter Beta";
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 4782;
+						x = 782;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 86;
+						x = -3478;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 27;
+					earning = 0.0;
+					nameOverride = "Demeter Alpha";
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -8336;
+						x = -1251;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -8695;
+						x = 260;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 87;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 300;
+						[3] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1010;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -7477;
+						x = -347;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Relay Dish 4";
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4070;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Demeter";
+				};
+				[1] = {
+					kind = "object";
+					title = "Cruiser";
+					content = 4071;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[2] = {
+					kind = "object";
+					title = "Demeter Alpha";
+					content = 4072;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[3] = {
+					kind = "object";
+					title = "Demeter Alpha";
+					content = 4073;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[4] = {
+					kind = "object";
+					title = "Demeter Beta";
+					content = 4074;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 5;
+				};
+				[5] = {
+					kind = "object";
+					title = "Demeter Beta";
+					content = 4075;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 5;
+				};
+				[6] = {
+					kind = "object";
+					title = "Demeter Beta";
+					content = 4076;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 5;
+				};
+			};
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 10401;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 0;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 10402;
+							nextLevel = 7;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 5;
+				};
+				[2] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5310;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 400;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 4;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 3600;
+					type = "time";
+					subject = -1;
+				};
+			};
+			id = 6;
+			songId = 5002;
+		};
+		[7] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 25;
+				time = 720;
+			};
+			starmap = {
+				y = 460;
+				x = 259;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Rescue 11";
+				[1] = "_-Obiards";
+				[2] = "2\\0\\0\\0\\f\\t\\In transport: \\/5";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 4 \r\\iShoplifter 1";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 202;
+					earningPower = 1.5;
+					race = 300;
+					type = "cpu";
+					name = "The Prophets of Salril";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 0;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 225;
+					earning = 0.0;
+					nameOverride = "ISN 8738810";
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 956;
+						x = 695;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 217;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -6086;
+						x = -5130;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 216;
+					earning = 1.0;
+					nameOverride = "Cell 2";
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -7130;
+						x = 4086;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 216;
+					earning = 1.0;
+					nameOverride = "Cell 3";
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -11652;
+						x = -1042;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 216;
+					earning = 1.0;
+					nameOverride = "Lalande Alpha";
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 956;
+						x = -608;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 61;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 1826;
+						x = 260;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 42;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -18956;
+						x = 520;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 218;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 2;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -6610;
+						x = -4175;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 3;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -7566;
+						x = 3129;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 3;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -7566;
+						x = 3998;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 4;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -10696;
+						x = -436;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 4;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -11653;
+						x = -262;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 4;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -9653;
+						x = -697;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 64;
+					earning = 0.0;
+				};
+				[14] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 2;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -6610;
+						x = -4175;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[15] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 2;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -7043;
+						x = -3826;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 38;
+					earning = 0.0;
+				};
+				[16] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 9;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -5652;
+						x = 4347;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 38;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4750;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Elysium System";
+				};
+				[1] = {
+					content = 4751;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Elysium System";
+				};
+				[2] = {
+					kind = "object";
+					title = "Heavy Cruiser";
+					content = 4752;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 5;
+				};
+				[3] = {
+					kind = "object";
+					title = "Transport";
+					content = 4753;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[4] = {
+					kind = "object";
+					title = "Cell 1";
+					content = 4754;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 3;
+				};
+				[5] = {
+					kind = "object";
+					title = "Passenger Liner";
+					content = 4755;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[6] = {
+					content = 4756;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Elysium System";
+				};
+				[7] = {
+					kind = "object";
+					title = "Escort";
+					content = 4757;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 6;
+				};
+				[8] = {
+					content = 4758;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Elysium System";
+				};
+			};
+			conditions = {
+				[0] = {
+					counter = {
+						player = 0;
+						amount = 5;
+						id = 0;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							retainAmmoCount = true;
+							delay = 0;
+							subjectOverride = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "base type";
+							type = "alter";
+							id = 88;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[1] = {
+					direct = 0;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = 1;
+				};
+				[2] = {
+					counter = {
+						player = 0;
+						amount = 1;
+						id = 0;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							velocityRelative = true;
+							distanceRange = 0;
+							reflexive = true;
+							min = 1;
+							inclusiveFilter = 0;
+							directionRelative = true;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							baseType = 214;
+							directOverride = -1;
+							owner = 0;
+							type = "create object";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							amount = -1;
+							score = 0;
+							directOverride = -1;
+							owner = 0;
+							type = "change score";
+							exclusiveFilter = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[3] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = 6;
+							directOverride = -1;
+							owner = 0;
+							type = "activate special";
+							exclusiveFilter = 0;
+						};
+						[4] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							retainAmmoCount = true;
+							delay = 0;
+							subjectOverride = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "base type";
+							type = "alter";
+							id = 217;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					type = "counter greater";
+					subject = 1;
+				};
+				[3] = {
+					direct = 0;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					value = 50000;
+					type = "distance greater";
+					subject = 1;
+				};
+				[4] = {
+					counter = {
+						player = 0;
+						amount = 11;
+						id = 1;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 10502;
+							nextLevel = 8;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[5] = {
+					counter = {
+						player = 0;
+						amount = 5;
+						id = 2;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 10501;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+			};
+			id = 7;
+			songId = 5003;
+		};
+		[8] = {
+			par = {
+				losses = 15;
+				ratio = 0.0;
+				kills = 15;
+				time = 420;
+			};
+			starmap = {
+				y = 366;
+				x = 250;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Aeneas";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 5 \r\\iOut of the Frying Pan...";
+			players = {
+				[1] = {
+					netRaceFlags = 172;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 202;
+					earningPower = 1.5;
+					race = 300;
+					type = "cpu";
+					name = "The Prophets of Salril";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 0;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 800;
+						[3] = 850;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1011;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 1304;
+						x = 1130;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Aeneas Beta";
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 521;
+						x = 1913;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 95;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -9304;
+						x = -11391;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 94;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 2173;
+						x = 1652;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 95;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -8245;
+						x = -9664;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 243;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -3990;
+						x = -4004;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -9367;
+						x = -9184;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 800;
+						[3] = 850;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1012;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -9304;
+						x = -9130;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Hades System";
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4250;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Aeneas System";
+				};
+				[1] = {
+					kind = "object";
+					title = "Cruiser";
+					content = 4255;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[2] = {
+					kind = "object";
+					title = "Aeneas Beta";
+					content = 4251;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 8;
+				};
+				[3] = {
+					kind = "object";
+					title = "Aeneas Alpha";
+					content = 4256;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[4] = {
+					kind = "object";
+					title = "Aeneas Alpha";
+					content = 4252;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[5] = {
+					kind = "object";
+					title = "Aeneas Beta";
+					content = 4253;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 8;
+				};
+				[6] = {
+					kind = "object";
+					title = "Flak Drone";
+					content = 4254;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 6;
+				};
+				[7] = {
+					kind = "object";
+					title = "Heavy Destroyer";
+					content = 4257;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 5;
+				};
+			};
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 10601;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 1;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 10602;
+							nextLevel = 9;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 8;
+				};
+			};
+			id = 8;
+			songId = 5004;
+		};
+		[9] = {
+			par = {
+				losses = 12;
+				ratio = 0.0;
+				kills = 45;
+				time = 450;
+			};
+			starmap = {
+				y = 431;
+				x = 237;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Hades";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 6 \r\\i...Into the Fire";
+			players = {
+				[1] = {
+					netRaceFlags = 172;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 176;
+					earningPower = 1.25;
+					race = 300;
+					type = "cpu";
+					name = "The Prophets of Salril";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 3739;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 114;
+					earning = 1.0;
+					nameOverride = "Power Station O-3";
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 2434;
+						x = 3826;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 114;
+					earning = 1.0;
+					nameOverride = "Power Station G-1";
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 2173;
+						x = -5043;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 114;
+					earning = 1.0;
+					nameOverride = "Power Station O-2";
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -4434;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 114;
+					earning = 1.0;
+					nameOverride = "Power Station G-3";
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -4869;
+						x = 5739;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 114;
+					earning = 1.0;
+					nameOverride = "Secorem Jump Gate";
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -7739;
+						x = -6521;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 114;
+					earning = 1.0;
+					nameOverride = "Power Station G-2";
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 2477;
+						x = 4032;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 3956;
+						x = -196;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 2130;
+						x = -5272;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -7368;
+						x = -6369;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -4282;
+						x = 141;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -4716;
+						x = 5532;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 800;
+						[3] = 850;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1013;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 9478;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Hades Beta";
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 300;
+						[3] = 800;
+						[4] = 850;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1014;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -9130;
+						x = 1652;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Power Station O-1";
+				};
+				[14] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 8782;
+						x = 956;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[15] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -9130;
+						x = -86;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 64;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4450;
+					kind = "no point";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Hades System";
+				};
+				[1] = {
+					kind = "object";
+					title = "Hades Alpha";
+					content = 4451;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 12;
+				};
+				[2] = {
+					kind = "object";
+					title = "Power Station O-1";
+					content = 4452;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 2;
+				};
+				[3] = {
+					kind = "object";
+					title = "Power Station O-2";
+					content = 4453;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[4] = {
+					kind = "object";
+					title = "Power Station O-3";
+					content = 4454;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[5] = {
+					kind = "object";
+					title = "Hades Beta";
+					content = 4455;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 13;
+				};
+				[6] = {
+					kind = "object";
+					title = "Power Station G-1";
+					content = 4456;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 5;
+				};
+				[7] = {
+					kind = "object";
+					title = "Power Station G-2";
+					content = 4457;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 3;
+				};
+				[8] = {
+					kind = "object";
+					title = "Power Station G-3";
+					content = 4458;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 4;
+				};
+			};
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 10701;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 12;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 10702;
+							nextLevel = 10;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 13;
+				};
+			};
+			id = 9;
+			songId = 5000;
+		};
+		[10] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 2;
+				time = 180;
+			};
+			starmap = {
+				y = 401;
+				x = 224;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Collect 4";
+				[1] = "_-asteroid samples";
+			};
+			movie = ":Ares Data Ä:Part 3";
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 7 \r\\iOn the Rocks";
+			players = {
+				[1] = {
+					netRaceFlags = -18392;
+					earningPower = 0.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 0.0;
+					race = 200;
+					type = "cpu";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -17913;
+						x = -22129;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 62;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 5;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 4347;
+						x = -2696;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 80;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -8800;
+						x = -8000;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 83;
+					earning = 1.0;
+					nameOverride = "Fansi";
+				};
+				[3] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1001;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 3000;
+						x = -4000;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Myrmidon";
+				};
+				[4] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -200;
+						x = 200;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 27;
+					earning = 0.0;
+					nameOverride = "Philemon Alpha";
+				};
+				[5] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 3497;
+						x = -3678;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 61;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 2;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -8804;
+						x = -6978;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 59;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -17673;
+						x = -11760;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 17;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 7;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -17325;
+						x = -10543;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 59;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = 7;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -16021;
+						x = -11673;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 59;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					kind = "object";
+					title = "Asteroid IR7-7e";
+					content = 4030;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 2;
+				};
+				[1] = {
+					kind = "object";
+					title = "Asteroid IR7-7e";
+					content = 4037;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 2;
+				};
+				[2] = {
+					kind = "object";
+					title = "Asteroid IR7-7e";
+					content = 4031;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 2;
+				};
+				[3] = {
+					kind = "object";
+					title = "Astrominer";
+					content = 4032;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[4] = {
+					kind = "object";
+					title = "Philemon Beta";
+					content = 4033;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 5;
+				};
+				[5] = {
+					kind = "object";
+					title = "Schooner";
+					content = 4034;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 6;
+				};
+				[6] = {
+					kind = "object";
+					title = "Heavy Cruiser";
+					content = 4035;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[7] = {
+					content = 4036;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Philemon";
+				};
+			};
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 4220;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 180;
+					type = "time";
+					subject = -1;
+				};
+				[1] = {
+					counter = {
+						player = 0;
+						amount = 1;
+						id = 1;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 120;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 4221;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 2;
+							minimum = 7;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[2] = {
+					counter = {
+						player = 0;
+						amount = 4;
+						id = 1;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 10801;
+							nextLevel = 11;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[3] = {
+					counter = {
+						player = 1;
+						amount = 7;
+						id = 1;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 10802;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					type = "counter";
+					subject = -1;
+				};
+			};
+			id = 10;
+			songId = 5001;
+		};
+		[11] = {
+			par = {
+				losses = 1;
+				ratio = 0.0;
+				kills = 6;
+				time = 270;
+			};
+			starmap = {
+				y = 286;
+				x = 211;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Collect 10";
+				[1] = "_-asteroid samples";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 8 \r\\iAstrotrash Plus!";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 172;
+					earningPower = 1.0;
+					race = 200;
+					type = "cpu";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -1391;
+						x = -22956;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 61;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -3565;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 14;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 32768;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 182;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -32768;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 185;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = -2259;
+						x = -24000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 80;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = -2259;
+						x = -24000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 80;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = -2259;
+						x = -23305;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 80;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = 0;
+						x = 32768;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 186;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4700;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Palyos Belt";
+				};
+				[1] = {
+					kind = "object";
+					title = "Heavy Cruiser";
+					content = 4701;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[2] = {
+					kind = "object";
+					title = "Astrominer";
+					content = 4702;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 4;
+				};
+				[3] = {
+					content = 4703;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Asteroid";
+				};
+			};
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 2;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 2;
+							minimum = 4;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 4760;
+					type = "time";
+					subject = -1;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 7;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 5500;
+					type = "time";
+					subject = -1;
+				};
+				[2] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							relative = false;
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = 0;
+							range = 0;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "velocity";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 3;
+					type = "time";
+					subject = -1;
+				};
+				[3] = {
+					counter = {
+						player = 0;
+						amount = 10;
+						id = 1;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 10901;
+							nextLevel = 12;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					type = "counter greater";
+					subject = -1;
+				};
+			};
+			id = 11;
+			songId = 5002;
+		};
+		[12] = {
+			par = {
+				losses = 8;
+				ratio = 0.0;
+				kills = 14;
+				time = 960;
+			};
+			starmap = {
+				y = 368;
+				x = 201;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Proteus";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 9 \r\\iHand Over Fist";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 1;
+					earningPower = 1.25;
+					race = 200;
+					type = "cpu";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 500;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 300;
+						[3] = 800;
+						[4] = 600;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1002;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 38956;
+						x = 12043;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Proteus Beta";
+				};
+				[1] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -32695;
+						x = -33825;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 39456;
+						x = 13586;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -7478;
+						x = 6260;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 7;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 500;
+					builds = {
+						[0] = 100;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1003;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 13652;
+						x = -7999;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Proteus Gamma";
+				};
+				[5] = {
+					distanceRange = 500;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 300;
+						[3] = 800;
+						[4] = 600;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1004;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -7565;
+						x = 7304;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Philemon";
+				};
+				[6] = {
+					distanceRange = 500;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 9000;
+						x = -600;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 27;
+					earning = 0.0;
+					nameOverride = "Proteus Alpha";
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4020;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Proteus";
+				};
+				[1] = {
+					kind = "object";
+					title = "Proteus Alpha";
+					content = 4021;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[2] = {
+					kind = "object";
+					title = "Proteus Alpha";
+					content = 4022;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[3] = {
+					kind = "object";
+					title = "Proteus Alpha";
+					content = 4023;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[4] = {
+					kind = "object";
+					title = "Philemon Beta";
+					content = 4024;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 4;
+				};
+				[5] = {
+					kind = "object";
+					title = "Proteus Gamma";
+					content = 4025;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 5;
+				};
+				[6] = {
+					kind = "object";
+					title = "Proteus Gamma";
+					content = 4026;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 5;
+				};
+				[7] = {
+					kind = "object";
+					title = "Proteus Gamma";
+					content = 4027;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 5;
+				};
+				[8] = {
+					kind = "object";
+					title = "Proteus Gamma";
+					content = 4028;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 5;
+				};
+				[9] = {
+					content = 4029;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Proteus Gamma";
+				};
+			};
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 2;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 4200;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1200;
+					type = "time";
+					subject = -1;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 11001;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					value = 1;
+					type = "owner";
+					subject = 0;
+				};
+				[2] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 11002;
+							nextLevel = 13;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					value = 0;
+					type = "owner";
+					subject = 5;
+				};
+			};
+			id = 12;
+			songId = 5003;
+		};
+		[13] = {
+			par = {
+				losses = 25;
+				ratio = 0.0;
+				kills = 10;
+				time = 120;
+			};
+			starmap = {
+				y = 311;
+				x = 192;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Destroy all";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 10 \r\\iAssassin";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 0.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 0.0078125;
+					race = 200;
+					type = "cpu";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 6;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6521;
+						x = 1565;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 61;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -2086;
+						x = 1913;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 27;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 6;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 7565;
+						x = 956;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 6;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 8086;
+						x = 1913;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 13;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 6;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 7391;
+						x = 2173;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 13;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 6;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6782;
+						x = 521;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 42;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6782;
+						x = 2434;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 47;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 6;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 8521;
+						x = 2782;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 61;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 6;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 7739;
+						x = 2956;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 42;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 6;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 8782;
+						x = 1043;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 13;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 17;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 1826;
+						x = 1478;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 62;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 17;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 1913;
+						x = 2869;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 62;
+					earning = 0.0;
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 17;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 1130;
+						x = 1130;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 7;
+					earning = 0.0;
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 17;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 956;
+						x = 2260;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[14] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 17;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 1391;
+						x = 3217;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[15] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1005;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 2260;
+						x = -434;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Bokleo Alpha";
+				};
+				[16] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 6;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 3217;
+						x = -1652;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[17] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 2695;
+						x = 2000;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[18] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 16;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 2695;
+						x = -1565;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 14;
+					earning = 0.0;
+				};
+				[19] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 16;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 3565;
+						x = -782;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 14;
+					earning = 0.0;
+				};
+				[20] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 16;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 869;
+						x = -1565;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 7;
+					earning = 0.0;
+				};
+				[21] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 16;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 1043;
+						x = -2956;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 7;
+					earning = 0.0;
+				};
+				[22] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 16;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -260;
+						x = -1565;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 7;
+					earning = 0.0;
+				};
+				[23] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 16;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -86;
+						x = -3043;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 7;
+					earning = 0.0;
+				};
+				[24] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 16;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 2086;
+						x = -1913;
+					};
+					rotation = {
+						range = 360;
+						minumum = 0;
+					};
+					type = 7;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4040;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Sprist System";
+				};
+				[1] = {
+					kind = "object";
+					title = "";
+					content = 4041;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 17;
+				};
+				[2] = {
+					kind = "object";
+					title = "The Open Eye of Zom";
+					content = 4042;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 16;
+				};
+				[3] = {
+					kind = "object";
+					title = "ISN 2020187";
+					content = 4043;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 6;
+				};
+			};
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 11101;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 6;
+					type = "destruction";
+					subject = 0;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 4065;
+							nextLevel = 14;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 17;
+					type = "destruction";
+					subject = -1;
+				};
+			};
+			id = 13;
+			songId = 5004;
+		};
+		[14] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 8;
+				time = 435;
+			};
+			starmap = {
+				y = 160;
+				x = 179;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Rescue 21";
+				[1] = "_-humans";
+				[2] = "2\\0\\0\\0\\f\\t\\On board: \\/5";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 11 \r\\iShoplifter 2";
+			players = {
+				[1] = {
+					netRaceFlags = 229;
+					earningPower = 0.00390625;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 0.0;
+					race = 200;
+					type = "cpu";
+					name = "The Audemedon Axis";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 599;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 0;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 286;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 3304;
+						x = 521;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 206;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -22347;
+						x = -3564;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 210;
+					earning = 1.0;
+					nameOverride = "Simlab 2";
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -36869;
+						x = 2434;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 210;
+					earning = 1.0;
+					nameOverride = "Simlab 3";
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -10608;
+						x = 521;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 210;
+					earning = 1.0;
+					nameOverride = "Cell 1";
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 4;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -8782;
+						x = 1739;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 112;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 4;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -8782;
+						x = -521;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 14;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 4;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -9043;
+						x = 260;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 14;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 3478;
+						x = 1304;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 13;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 4000;
+						x = -347;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 13;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 2;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -22173;
+						x = -1741;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 7;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 2;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -23304;
+						x = -5217;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 62;
+					earning = 0.0;
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 3;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -33391;
+						x = 4869;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 110;
+					earning = 0.0;
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 3;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -35478;
+						x = -1043;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 110;
+					earning = 0.0;
+				};
+				[14] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 3;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -34782;
+						x = 5217;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 110;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4900;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Heshac System";
+				};
+				[1] = {
+					content = 4901;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Heshac System";
+				};
+				[2] = {
+					kind = "object";
+					title = "Heavy Destroyer";
+					content = 4902;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[3] = {
+					kind = "object";
+					title = "";
+					content = 4903;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[4] = {
+					kind = "object";
+					title = "Lab";
+					content = 4904;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 2;
+				};
+				[5] = {
+					kind = "object";
+					title = "Heavy Destroyer";
+					content = 4905;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[6] = {
+					kind = "object";
+					title = "Cruiser";
+					content = 4906;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 12;
+				};
+				[7] = {
+					content = 4907;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Heshac System";
+				};
+			};
+			conditions = {
+				[0] = {
+					counter = {
+						player = 0;
+						amount = 5;
+						id = 0;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							retainAmmoCount = true;
+							delay = 0;
+							subjectOverride = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "base type";
+							type = "alter";
+							id = 129;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[1] = {
+					direct = 0;
+					actions = {
+						[0] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 7;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = 1;
+				};
+				[2] = {
+					counter = {
+						player = 0;
+						amount = 1;
+						id = 0;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							velocityRelative = true;
+							distanceRange = 0;
+							reflexive = true;
+							min = 1;
+							inclusiveFilter = 0;
+							directionRelative = true;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							baseType = 207;
+							directOverride = -1;
+							owner = 0;
+							type = "create object";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							amount = -1;
+							score = 0;
+							directOverride = -1;
+							owner = 0;
+							type = "change score";
+							exclusiveFilter = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[3] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							retainAmmoCount = true;
+							delay = 0;
+							subjectOverride = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "base type";
+							type = "alter";
+							id = 206;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					type = "counter greater";
+					subject = 1;
+				};
+				[3] = {
+					direct = 0;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 7;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					value = 50000;
+					type = "distance greater";
+					subject = 1;
+				};
+				[4] = {
+					counter = {
+						player = 0;
+						amount = 21;
+						id = 1;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 11201;
+							nextLevel = 15;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[5] = {
+					counter = {
+						player = 0;
+						amount = 10;
+						id = 2;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 11202;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[6] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 11203;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "destruction";
+					subject = -1;
+				};
+				[7] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1280;
+					type = "velocity less than or equal";
+					subject = 1;
+				};
+			};
+			id = 14;
+			songId = 5000;
+		};
+		[15] = {
+			par = {
+				losses = 20;
+				ratio = 1.19921875;
+				kills = 10;
+				time = 900;
+			};
+			starmap = {
+				y = 259;
+				x = 158;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Fansi";
+				[1] = "_-Beta";
+				[2] = "-Ensure safety";
+				[3] = "_-of 5 cargo ships";
+				[4] = "-";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 307;
+			name = "\\i Chapter 12 \r\\iMake Way";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 172;
+					earningPower = 3.0;
+					race = 200;
+					type = "cpu";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -14259;
+						x = -14609;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 115;
+					earning = 0.0;
+					nameOverride = "Demeter";
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = -14259;
+						x = -14609;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 116;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 9;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -15478;
+						x = -21999;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 4347;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 118;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 9473;
+						x = 3821;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 104;
+					earning = 0.75;
+					nameOverride = "Orbital Shipyard";
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 4347;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 118;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 4347;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 118;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 4347;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 118;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 4347;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 118;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 300;
+						[3] = 800;
+						[4] = 850;
+						[5] = 860;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1019;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -18088;
+						x = -11133;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Fansi Beta";
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 300;
+						[3] = 800;
+						[4] = 850;
+						[5] = 860;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1020;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 43826;
+						x = 22957;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Bunker Station 1";
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 3826;
+						x = 695;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 104;
+					earning = 0.75;
+					nameOverride = "Bunker Station 2";
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 4173;
+						x = 20173;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -2;
+					position = {
+						y = 956;
+						x = -2346;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[14] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 14868;
+						x = 6935;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[15] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 11;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 8000;
+						x = 21913;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 119;
+					earning = 0.0;
+				};
+				[16] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 4;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 2434;
+						x = 18086;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 119;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4300;
+					kind = "absolute";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Fansi";
+				};
+				[1] = {
+					kind = "object";
+					title = "Orbital Shipyard";
+					content = 4310;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[2] = {
+					kind = "object";
+					title = "Cargo Ship";
+					content = 4320;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 11;
+				};
+				[3] = {
+					kind = "object";
+					title = "Flak Drone";
+					content = 4330;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 13;
+				};
+				[4] = {
+					kind = "object";
+					title = "Bunker Station 1";
+					content = 4340;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 11;
+				};
+				[5] = {
+					kind = "object";
+					title = "Bunker Station 2";
+					content = 4350;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 4;
+				};
+				[6] = {
+					kind = "object";
+					title = "Fansi Alpha";
+					content = 4360;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 9;
+				};
+				[7] = {
+					kind = "object";
+					title = "Engineer Pod";
+					content = 4370;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 9;
+				};
+				[8] = {
+					kind = "object";
+					title = "Assault Transport";
+					content = 4380;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 9;
+				};
+				[9] = {
+					kind = "object";
+					title = "Fansi Beta";
+					content = 4390;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 10;
+				};
+				[10] = {
+					kind = "object";
+					title = "Engineer Pod";
+					content = 4400;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 10;
+				};
+				[11] = {
+					kind = "object";
+					title = "Carrier";
+					content = 4410;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 12;
+				};
+			};
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5300;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 1200;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 3;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 1200;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 5;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[3] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 1200;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 6;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[4] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 1200;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 7;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[5] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 1200;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 8;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 18000;
+					type = "time";
+					subject = -1;
+				};
+				[1] = {
+					counter = {
+						player = 0;
+						amount = 5;
+						id = 0;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5301;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[2] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 11301;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 9;
+				};
+				[3] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 11302;
+							nextLevel = 16;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 10;
+				};
+			};
+			id = 15;
+			songId = 5001;
+		};
+		[16] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 11;
+				time = 300;
+			};
+			starmap = {
+				y = 194;
+				x = 145;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "1\\0\\0\\0\\Retrieve escape\\Escort tractor";
+				[1] = "_1\\0\\0\\0\\pods\\tug";
+				[2] = "2\\1\\0\\0\\f\\t\\Rescued: \\/6";
+			};
+			movie = ":Ares Data Ä:Placeholder Movie";
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 13 \r\\iYo Ho Ho";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 600;
+					type = "cpu";
+					name = "The Audemedon Axis";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 0;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 125;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -956;
+						x = -1304;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 128;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 1043;
+						x = 1304;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 128;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -2173;
+						x = 1739;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 128;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 1739;
+						x = -2260;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 128;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -1478;
+						x = 173;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 128;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 86;
+						x = 3565;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 128;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6174;
+						x = 2238;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 137;
+					earning = 1.0;
+					nameOverride = "Secorem";
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6075;
+						x = 2168;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 141;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6179;
+						x = 2357;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 141;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6174;
+						x = 2238;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 127;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6434;
+						x = 1391;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 129;
+					earning = 0.0;
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 24782;
+						x = 4174;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 87;
+					earning = 0.0;
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 27826;
+						x = 9827;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[14] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 29826;
+						x = 3217;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[15] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 23739;
+						x = 9217;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 64;
+					earning = 0.0;
+				};
+				[16] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -8521;
+						x = -7739;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 113;
+					earning = 0.0;
+				};
+				[17] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -9217;
+						x = -6782;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 110;
+					earning = 0.0;
+				};
+				[18] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -7478;
+						x = -8608;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 110;
+					earning = 0.0;
+				};
+				[19] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6174;
+						x = 2238;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 117;
+					earning = 0.0;
+				};
+				[20] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6260;
+						x = 2173;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 141;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4500;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "EACSR Banadee";
+				};
+				[1] = {
+					content = 4506;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "EACSR Banadee";
+				};
+				[2] = {
+					kind = "object";
+					title = "Heavy Destroyer";
+					content = 4501;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 11;
+				};
+				[3] = {
+					content = 4502;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Secorem";
+				};
+				[4] = {
+					content = 4503;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Escape Pod";
+				};
+				[5] = {
+					kind = "object";
+					title = "Secorem Jump Gate";
+					content = 4504;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 7;
+				};
+				[6] = {
+					content = 4505;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Secorem";
+				};
+			};
+			conditions = {
+				[0] = {
+					counter = {
+						player = 0;
+						amount = 6;
+						id = 1;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 90;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 10;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 30;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5400;
+							exclusiveFilter = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 900;
+							subjectOverride = -1;
+							range = 2;
+							minimum = 16;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[1] = {
+					direct = 10;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							retainAmmoCount = false;
+							delay = 0;
+							subjectOverride = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "base type";
+							type = "alter";
+							id = 126;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							volume = 255;
+							priority = 4;
+							isAbsolute = false;
+							reflexive = true;
+							soundId = 17406;
+							inclusiveFilter = 0;
+							volumeRange = 0;
+							delay = 0;
+							subjectOverride = -1;
+							persistence = 30;
+							directOverride = -1;
+							owner = 0;
+							type = "play sound";
+							exclusiveFilter = 0;
+							soundRange = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[3] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = 0;
+							directOverride = 10;
+							owner = 0;
+							type = "set destination";
+							exclusiveFilter = 0;
+						};
+						[4] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5401;
+							exclusiveFilter = 0;
+						};
+						[5] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = 10;
+							directOverride = 7;
+							owner = 0;
+							type = "set destination";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = 0;
+				};
+				[2] = {
+					direct = 7;
+					actions = {
+						[0] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = 0;
+							directOverride = 7;
+							owner = 0;
+							type = "set destination";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							speed = 128;
+							delay = 60;
+							subjectOverride = 0;
+							directOverride = 7;
+							owner = 0;
+							type = "land at";
+							exclusiveFilter = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 10;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 19;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = 10;
+				};
+			};
+			id = 16;
+			songId = 5002;
+		};
+		[17] = {
+			par = {
+				losses = 30;
+				ratio = 0.0;
+				kills = 95;
+				time = 1320;
+			};
+			starmap = {
+				y = 222;
+				x = 130;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Bokleo";
+				[1] = "_-Gamma";
+				[2] = "-Free Bazidanese";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 14 \r\\iCaptivating";
+			players = {
+				[1] = {
+					netRaceFlags = 34;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 34;
+					earningPower = 1.25;
+					race = 200;
+					type = "cpu";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 34;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 73651;
+						x = 18261;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 61;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 0;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 77;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -85;
+						x = -341;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 75;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -235;
+						x = 287;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 75;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 260;
+						x = 173;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 75;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -12955;
+						x = -10782;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 62;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1006;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -869;
+						x = 434;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Bokleo Gamma";
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -608;
+						x = -260;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 78;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 800;
+						[3] = 300;
+						[4] = 250;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1007;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -21477;
+						x = -4782;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Asteroid IR7-7e";
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1008;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 72259;
+						x = 22783;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Bokleo Beta";
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 9;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 80607;
+						x = 15826;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 47;
+					earning = 0.0;
+					nameOverride = "EACSR Banadee";
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 9;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 74433;
+						x = 32260;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 47;
+					earning = 0.0;
+					nameOverride = "ISN 8738810";
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -19826;
+						x = -12434;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+					nameOverride = "The Open Eye of Zom";
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -18868;
+						x = -5738;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+					nameOverride = "The Silent Question of Doz";
+				};
+				[14] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -14347;
+						x = -15043;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+					nameOverride = "EXPLSN";
+				};
+				[15] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -15391;
+						x = -10173;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[16] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -16259;
+						x = -16434;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[17] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 16;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -20086;
+						x = -8869;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 17;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4050;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Bokleo Alpha";
+				};
+				[1] = {
+					kind = "object";
+					title = "Bazidanese";
+					content = 4051;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[2] = {
+					kind = "object";
+					title = "Tractor Moor";
+					content = 4052;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 2;
+				};
+				[3] = {
+					kind = "object";
+					title = "Border Drone";
+					content = 4053;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 7;
+				};
+				[4] = {
+					kind = "object";
+					title = "Bokleo Beta";
+					content = 4054;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 6;
+				};
+				[5] = {
+					kind = "object";
+					title = "Bokleo Gamma";
+					content = 4055;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 8;
+				};
+				[6] = {
+					kind = "object";
+					title = "Bokleo Alpha";
+					content = 4056;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 9;
+				};
+				[7] = {
+					kind = "object";
+					title = "ISN 8738810";
+					content = 4057;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 10;
+				};
+				[8] = {
+					kind = "object";
+					title = "ISN 2020187";
+					content = 4058;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 11;
+				};
+				[9] = {
+					kind = "object";
+					title = "The Gentle Fingers of Zom";
+					content = 4059;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 12;
+				};
+				[10] = {
+					kind = "object";
+					title = "The Chaste Dream of Doz";
+					content = 4060;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 13;
+				};
+				[11] = {
+					kind = "object";
+					title = "The Silent Question of Doz";
+					content = 4061;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 14;
+				};
+				[12] = {
+					kind = "object";
+					title = "Heavy Cruiser";
+					content = 4062;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+			};
+			conditions = {
+				[0] = {
+					counter = {
+						player = 0;
+						amount = 3;
+						id = 0;
+					};
+					direct = 1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							retainAmmoCount = false;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "base type";
+							type = "alter";
+							id = 67;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = 1;
+				};
+				[1] = {
+					direct = 7;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[1] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							value = 0;
+							delay = 0;
+							subjectOverride = -1;
+							useObjectsOwner = false;
+							directOverride = -1;
+							owner = 0;
+							alterType = "owner";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 6;
+				};
+				[2] = {
+					direct = 7;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[1] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							value = 1;
+							delay = 0;
+							subjectOverride = -1;
+							useObjectsOwner = false;
+							directOverride = -1;
+							owner = 0;
+							alterType = "owner";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 6;
+				};
+				[3] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 15;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 16;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 17;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 7200;
+					type = "time";
+					subject = -1;
+				};
+				[4] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 11501;
+							nextLevel = 18;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					value = 0;
+					type = "owner";
+					subject = 8;
+				};
+				[5] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 10401;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					value = 1;
+					type = "owner";
+					subject = 9;
+				};
+			};
+			id = 17;
+			songId = 5003;
+		};
+		[18] = {
+			par = {
+				losses = 17;
+				ratio = 0.0;
+				kills = 56;
+				time = 435;
+			};
+			starmap = {
+				y = 150;
+				x = 120;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Thasero";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 15 \r\\iThe Left Hand";
+			players = {
+				[1] = {
+					netRaceFlags = 172;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 2.0;
+					race = 600;
+					type = "cpu";
+					name = "The Audemedon Axis";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 300;
+						[3] = 800;
+						[4] = 860;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1026;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6000;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Thasero Beta";
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 300;
+						[3] = 800;
+						[4] = 860;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1028;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -7478;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Thasero Station";
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 572;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 0;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 104;
+					earning = 1.0;
+					nameOverride = "Lalande";
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6521;
+						x = 869;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 129;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -7130;
+						x = 956;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 138;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6521;
+						x = -782;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 47;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 7478;
+						x = 86;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 67;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -9565;
+						x = -9565;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 113;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -9130;
+						x = -8695;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 113;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -8000;
+						x = -9565;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 148;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4550;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Thasero Station";
+				};
+				[1] = {
+					kind = "object";
+					title = "Thasero Alpha";
+					content = 4551;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[2] = {
+					kind = "object";
+					title = "Heavy Destroyer";
+					content = 4552;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 3;
+				};
+				[3] = {
+					kind = "object";
+					title = "Carrier";
+					content = 4553;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 5;
+				};
+				[4] = {
+					kind = "object";
+					title = "Battleship";
+					content = 4554;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 6;
+				};
+				[5] = {
+					kind = "object";
+					title = "Thasero Station";
+					content = 4556;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 2;
+				};
+				[6] = {
+					kind = "object";
+					title = "Thasero Beta";
+					content = 4557;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[7] = {
+					kind = "object";
+					title = "Thasero Beta";
+					content = 4558;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[8] = {
+					content = 4559;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "The Actualizer";
+				};
+			};
+			conditions = {
+				[0] = {
+					direct = 3;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 120;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 4570;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 180;
+							subjectOverride = -1;
+							range = 2;
+							minimum = 7;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = 2;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 11601;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 0;
+				};
+				[2] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 11602;
+							nextLevel = 19;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 1;
+				};
+			};
+			id = 18;
+			songId = 5004;
+		};
+		[19] = {
+			par = {
+				losses = 23;
+				ratio = 0.0;
+				kills = 42;
+				time = 210;
+			};
+			starmap = {
+				y = 104;
+				x = 98;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "1\\2\\0\\0\\Protect science\\Destroy jumpgate\\\\";
+				[1] = "1\\2\\0\\0\\vessel\\inhibitor\\\\";
+				[2] = "1\\3\\0\\0\\\\DESTROYED\\\\";
+				[3] = "1\\3\\0\\0\\\\Destroy all\\\\";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 16 \r\\iHornet's Nest";
+			players = {
+				[1] = {
+					netRaceFlags = 171;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 202;
+					earningPower = 1.0;
+					race = 700;
+					type = "cpu";
+					name = "The UNS Resistance";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 0;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 160;
+					earning = 1.0;
+					nameOverride = "Transport";
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 7739;
+						x = 174;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 109;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 7826;
+						x = 86;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 151;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 8086;
+						x = 435;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 129;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6695;
+						x = -173;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 129;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2000;
+						x = 174;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 147;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2086;
+						x = -695;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 147;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2608;
+						x = -347;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 147;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -1521;
+						x = -217;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 147;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2434;
+						x = -260;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 147;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -174;
+						x = -957;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 148;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -43;
+						x = 1130;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 149;
+					earning = 0.0;
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -391;
+						x = 43;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 142;
+					earning = 0.0;
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 9217;
+						x = -86;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 117;
+					earning = 0.0;
+				};
+				[14] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 9217;
+						x = -86;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 47;
+					earning = 0.0;
+				};
+				[15] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 9217;
+						x = -86;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 47;
+					earning = 0.0;
+				};
+				[16] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 9217;
+						x = -86;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 47;
+					earning = 0.0;
+				};
+				[17] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 14;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 9217;
+						x = -86;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 129;
+					earning = 0.0;
+				};
+				[18] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 15;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 9217;
+						x = -86;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 129;
+					earning = 0.0;
+				};
+				[19] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 16;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 9217;
+						x = -86;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 129;
+					earning = 0.0;
+				};
+				[20] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -7478;
+						x = 6608;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 148;
+					earning = 0.0;
+				};
+				[21] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -7826;
+						x = 5043;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 148;
+					earning = 0.0;
+				};
+				[22] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 20;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -8173;
+						x = 6000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 142;
+					earning = 0.0;
+				};
+				[23] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 20;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -6695;
+						x = 5478;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 142;
+					earning = 0.0;
+				};
+				[24] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 21;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -6347;
+						x = 6434;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 149;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4600;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Ser System";
+				};
+				[1] = {
+					content = 4601;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Ser System";
+				};
+				[2] = {
+					kind = "object";
+					title = "Research Vessel";
+					content = 4602;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[3] = {
+					kind = "object";
+					title = "Cruiser";
+					content = 4603;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 2;
+				};
+				[4] = {
+					kind = "object";
+					title = "Heavy Destroyer";
+					content = 4604;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 3;
+				};
+			};
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 11701;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "destruction";
+					subject = -1;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5240;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 60;
+					type = "time";
+					subject = -1;
+				};
+				[2] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 2;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5241;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[2] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 1200;
+							subjectOverride = 3;
+							directOverride = 0;
+							owner = 0;
+							type = "set destination";
+							exclusiveFilter = 0;
+						};
+						[3] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = 4;
+							directOverride = 0;
+							owner = 0;
+							type = "set destination";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 2400;
+					type = "time";
+					subject = -1;
+				};
+				[3] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[3] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 360;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5243;
+							exclusiveFilter = 0;
+						};
+						[4] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 360;
+							subjectOverride = -1;
+							range = 4;
+							minimum = 20;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[5] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 360;
+							subjectOverride = -1;
+							range = 5;
+							minimum = 14;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[6] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 360;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 4;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "destruction";
+					subject = -1;
+				};
+				[4] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 11702;
+							nextLevel = 20;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					player = 1;
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					type = "no ships left";
+					subject = -1;
+				};
+			};
+			id = 19;
+			songId = 5000;
+		};
+		[20] = {
+			par = {
+				losses = 30;
+				ratio = 0.0;
+				kills = 45;
+				time = 960;
+			};
+			starmap = {
+				y = 156;
+				x = 81;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Lalande";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 17 \r\\i...And It Feels So Good";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 700;
+					type = "cpu";
+					name = "The UNS Resistance";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 32767;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 266;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -32767;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 267;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 200;
+						[1] = 300;
+						[2] = 860;
+						[3] = 500;
+						[4] = 450;
+						[5] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1030;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 27129;
+						x = 28260;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Lalande Beta";
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 200;
+						[1] = 300;
+						[2] = 860;
+						[3] = 500;
+						[4] = 450;
+						[5] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1031;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -27129;
+						x = -28260;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Outpost 1";
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 0;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 104;
+					earning = 1.0;
+					nameOverride = "Outpost 3";
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x220;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 28522;
+						x = 28520;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 129;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 27652;
+						x = 28957;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 151;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 27126;
+						x = 28167;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 151;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 26603;
+						x = 28866;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 151;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 2;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 27559;
+						x = 29474;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 164;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 2;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 26343;
+						x = 29213;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 164;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x220;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -25044;
+						x = -29218;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 148;
+					earning = 0.0;
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -9043;
+						x = 9391;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 270;
+					earning = 0.5;
+					nameOverride = "Outpost 2";
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 9043;
+						x = -8000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 270;
+					earning = 0.5;
+					nameOverride = "Bunker Station";
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 5000;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Lalande";
+				};
+				[1] = {
+					kind = "object";
+					title = "Heavy Destroyer";
+					content = 5001;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 5;
+				};
+				[2] = {
+					kind = "object";
+					title = "Cruiser";
+					content = 5002;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 6;
+				};
+				[3] = {
+					kind = "object";
+					title = "Bunker Station";
+					content = 5003;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 4;
+				};
+				[4] = {
+					kind = "object";
+					title = "Outpost 1";
+					content = 5004;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 12;
+				};
+				[5] = {
+					kind = "object";
+					title = "Lalande Beta";
+					content = 5005;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 3;
+				};
+			};
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 6;
+							minimum = 5;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							value = 0;
+							delay = 0;
+							subjectOverride = 2;
+							useObjectsOwner = false;
+							directOverride = -1;
+							owner = 0;
+							alterType = "owner";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							value = 1;
+							delay = 0;
+							subjectOverride = 3;
+							useObjectsOwner = false;
+							directOverride = -1;
+							owner = 0;
+							alterType = "owner";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[3] = {
+							reflexive = false;
+							player = 1;
+							inclusiveFilter = 0;
+							value = 2560000;
+							delay = 0;
+							subjectOverride = 3;
+							useObjectsOwner = false;
+							directOverride = -1;
+							owner = 0;
+							alterType = "absolute cash";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 4780;
+					type = "time";
+					subject = -1;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 11802;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 2;
+				};
+				[2] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 11801;
+							nextLevel = 21;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 3;
+				};
+			};
+			id = 20;
+			songId = 5001;
+		};
+		[21] = {
+			par = {
+				losses = 34;
+				ratio = 0.0;
+				kills = 29;
+				time = 375;
+			};
+			starmap = {
+				y = 182;
+				x = 62;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Proxima";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 18 \r\\iBlood, Toil, Tears, and Sweat";
+			players = {
+				[1] = {
+					netRaceFlags = 172;
+					earningPower = 1.0;
+					race = 900;
+					type = "single";
+					name = "The Elejeetian Empire";
+				};
+				[2] = {
+					netRaceFlags = 202;
+					earningPower = 1.0;
+					race = 700;
+					type = "cpu";
+					name = "The UNS Resistance";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 300;
+						[3] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -2696;
+						x = 1390;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Proxima Beta";
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 300;
+						[3] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1021;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -17130;
+						x = -9044;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Power Station PC1";
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 3218;
+						x = -2434;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 166;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 3305;
+						x = -1392;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 174;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 4348;
+						x = -2086;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 174;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 5228;
+						x = -2792;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 174;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6184;
+						x = -3737;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 174;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 7543;
+						x = -4868;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 174;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -9043;
+						x = -3391;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 177;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -1652;
+						x = 1826;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 167;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -3391;
+						x = 1478;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 167;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2260;
+						x = 869;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2173;
+						x = 1913;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 8;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -1304;
+						x = 1044;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 17;
+					earning = 0.0;
+				};
+				[14] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 12;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 0;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 7;
+					earning = 0.0;
+				};
+				[15] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 10;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -2695;
+						x = 1652;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 164;
+					earning = 0.0;
+				};
+				[16] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 11;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -2695;
+						x = 782;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 164;
+					earning = 0.0;
+				};
+				[17] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -1739;
+						x = 1217;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 149;
+					earning = 0.0;
+				};
+				[18] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -1913;
+						x = 1043;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 149;
+					earning = 0.0;
+				};
+				[19] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 2;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 3739;
+						x = -2782;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 165;
+					earning = 0.0;
+				};
+				[20] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 19;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 4086;
+						x = -3218;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 165;
+					earning = 0.0;
+				};
+				[21] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 20;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 4565;
+						x = -3217;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 165;
+					earning = 0.0;
+				};
+				[22] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 21;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 4391;
+						x = -2739;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 165;
+					earning = 0.0;
+				};
+				[23] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 22;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 4173;
+						x = -2478;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 165;
+					earning = 0.0;
+				};
+				[24] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 23;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 3913;
+						x = -2347;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 165;
+					earning = 0.0;
+				};
+				[25] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 8;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -3478;
+						x = 2521;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 142;
+					earning = 0.0;
+				};
+				[26] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 8;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -7826;
+						x = -2869;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 142;
+					earning = 0.0;
+				};
+				[27] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 5;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 5913;
+						x = -2086;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 167;
+					earning = 0.0;
+				};
+				[28] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 5;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 5478;
+						x = -3739;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 167;
+					earning = 0.0;
+				};
+				[29] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 27;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6695;
+						x = -2260;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 166;
+					earning = 0.0;
+				};
+				[30] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 28;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 5652;
+						x = -4434;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 166;
+					earning = 0.0;
+				};
+				[31] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -34782;
+						x = -28869;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 148;
+					earning = 0.0;
+				};
+				[32] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -34086;
+						x = -26086;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 148;
+					earning = 0.0;
+				};
+				[33] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -31304;
+						x = -28173;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 148;
+					earning = 0.0;
+				};
+				[34] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = 0;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 148;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 5050;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Proxima Centauri System";
+				};
+				[1] = {
+					kind = "object";
+					title = "Gunship";
+					content = 5051;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 2;
+				};
+				[2] = {
+					kind = "object";
+					title = "Transport";
+					content = 5052;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 8;
+				};
+				[3] = {
+					kind = "object";
+					title = "Carrier";
+					content = 5053;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 24;
+				};
+				[4] = {
+					kind = "object";
+					title = "Transport";
+					content = 5054;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 3;
+				};
+				[5] = {
+					kind = "object";
+					title = "Carrier";
+					content = 5055;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 9;
+				};
+				[6] = {
+					kind = "object";
+					title = "Proxima Beta";
+					content = 5056;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+			};
+			conditions = {
+				[0] = {
+					counter = {
+						player = 0;
+						amount = 2;
+						id = 0;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							value = 0;
+							delay = 0;
+							subjectOverride = 0;
+							useObjectsOwner = false;
+							directOverride = -1;
+							owner = 0;
+							alterType = "owner";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							value = 2560000;
+							delay = 0;
+							subjectOverride = -1;
+							useObjectsOwner = false;
+							directOverride = -1;
+							owner = 0;
+							alterType = "absolute cash";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 3;
+							minimum = 31;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 28167;
+					type = "time";
+					subject = -1;
+				};
+				[2] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 11901;
+							nextLevel = 22;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 1;
+				};
+			};
+			id = 21;
+			songId = 5002;
+		};
+		[22] = {
+			par = {
+				losses = 35;
+				ratio = 0.0;
+				kills = 50;
+				time = 780;
+			};
+			starmap = {
+				y = 241;
+				x = 53;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "_-Capture Pictoris";
+				[1] = "Beta, 1 & 2";
+				[2] = "-Destroy hostile";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 19 \r\\iYou Should Have Seen the One that Got Away";
+			players = {
+				[1] = {
+					netRaceFlags = 26816;
+					earningPower = 1.0;
+					race = 900;
+					type = "single";
+					name = "The Elejeetian Empire";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 200;
+					type = "cpu";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 300;
+						[3] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1022;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6434;
+						x = 1913;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Pictoris Beta";
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1009;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6173;
+						x = 3130;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Pictoris Beta 1";
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 9043;
+						x = 1217;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 114;
+					earning = 1.0;
+					nameOverride = "Pictoris Alpha 1";
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1010;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -8173;
+						x = -8956;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Pictoris Beta 2";
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 250;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1011;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -10955;
+						x = -5739;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Charon System";
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 300;
+						[3] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1023;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -9391;
+						x = -7565;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Power Station BP1";
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 6260;
+						x = 2347;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 166;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -9217;
+						x = -8608;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 223;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -10173;
+						x = -7391;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -8348;
+						x = -9738;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 17825;
+						x = 14347;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 167;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 7391;
+						x = 1913;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 167;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 5100;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Beta Pictoris";
+				};
+				[1] = {
+					kind = "object";
+					title = "Gate Ship";
+					content = 5101;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 7;
+				};
+				[2] = {
+					kind = "object";
+					title = "Pictoris Alpha";
+					content = 5102;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[3] = {
+					kind = "object";
+					title = "Pictoris Alpha 1";
+					content = 5103;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[4] = {
+					kind = "object";
+					title = "Power Station BP1";
+					content = 5104;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 2;
+				};
+				[5] = {
+					kind = "object";
+					title = "Pictoris Beta";
+					content = 5105;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 5;
+				};
+				[6] = {
+					kind = "object";
+					title = "Gate Ship";
+					content = 5106;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 7;
+				};
+			};
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 7;
+					type = "destruction";
+					subject = -1;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 4;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 3;
+				};
+				[2] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 3;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 5;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 4;
+				};
+				[3] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 12001;
+							nextLevel = 23;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 5;
+				};
+				[4] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 1;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 3;
+				};
+				[5] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 1;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 4;
+				};
+				[6] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 12002;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 0;
+				};
+			};
+			id = 22;
+			songId = 5003;
+		};
+		[23] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 50;
+				time = 600;
+			};
+			starmap = {
+				y = 284;
+				x = 43;
+			};
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Destroy hostile";
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 20 \r\\iThe Mothership Connection";
+			players = {
+				[1] = {
+					netRaceFlags = 3;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 181;
+					earningPower = 1.0;
+					race = 200;
+					type = "cpu";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 2520;
+						x = -87;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 181;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1036;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -3043;
+						x = 9739;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Ser System";
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x2000200;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -1304;
+						x = 8347;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 180;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 6086;
+						x = -3042;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 196;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -10522;
+						x = 10523;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -11478;
+						x = 9739;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -11651;
+						x = 10695;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -10609;
+						x = 10000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -10348;
+						x = 11391;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -11477;
+						x = 11305;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -10956;
+						x = 11304;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 62;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -11304;
+						x = 10174;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 62;
+					earning = 0.0;
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6609;
+						x = 8088;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 178;
+					earning = 0.0;
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6577;
+						x = 8218;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 178;
+					earning = 0.0;
+				};
+				[14] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6619;
+						x = 7980;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 178;
+					earning = 0.0;
+				};
+				[15] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6739;
+						x = 8034;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 178;
+					earning = 0.0;
+				};
+				[16] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6685;
+						x = 8164;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 178;
+					earning = 0.0;
+				};
+				[17] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6539;
+						x = 8023;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 178;
+					earning = 0.0;
+				};
+				[18] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6533;
+						x = 8147;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 178;
+					earning = 0.0;
+				};
+				[19] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6734;
+						x = 8299;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 178;
+					earning = 0.0;
+				};
+				[20] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6550;
+						x = 7882;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 178;
+					earning = 0.0;
+				};
+				[21] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6484;
+						x = 8251;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 178;
+					earning = 0.0;
+				};
+				[22] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 16;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6484;
+						x = 8056;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 167;
+					earning = 0.0;
+				};
+				[23] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 17;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6647;
+						x = 8348;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 167;
+					earning = 0.0;
+				};
+				[24] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 18;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6717;
+						x = 7925;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 167;
+					earning = 0.0;
+				};
+				[25] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 19;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6788;
+						x = 8196;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 167;
+					earning = 0.0;
+				};
+				[26] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6897;
+						x = 8018;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 164;
+					earning = 0.0;
+				};
+				[27] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6875;
+						x = 8267;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 166;
+					earning = 0.0;
+				};
+				[28] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 23;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6837;
+						x = 7925;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 166;
+					earning = 0.0;
+				};
+				[29] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 25;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6782;
+						x = 8120;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 166;
+					earning = 0.0;
+				};
+				[30] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 13;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6886;
+						x = 8142;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 165;
+					earning = 0.0;
+				};
+				[31] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 28;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6853;
+						x = 8045;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 164;
+					earning = 0.0;
+				};
+				[32] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 14;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 6864;
+						x = 8403;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 166;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 5150;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Sol";
+				};
+				[1] = {
+					content = 5151;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Sol";
+				};
+				[2] = {
+					kind = "object";
+					title = "Modified Cruiser";
+					content = 5152;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[3] = {
+					content = 5153;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Sol";
+				};
+				[4] = {
+					kind = "object";
+					title = "Gate Ship";
+					content = 5154;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 2;
+				};
+				[5] = {
+					content = 5155;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "Sol";
+				};
+			};
+			conditions = {
+				[0] = {
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "half health";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5170;
+							exclusiveFilter = 0;
+						};
+					};
+					subject = 2;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 360;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5171;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 360;
+							subjectOverride = -1;
+							range = 20;
+							minimum = 12;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					player = 1;
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					type = "no ships left";
+					subject = -1;
+				};
+				[2] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 12101;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 1;
+				};
+			};
+			id = 23;
+			songId = 5004;
+		};
+		[24] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 0;
+				time = -1;
+			};
+			starmap = {
+				y = 200;
+				x = 200;
+			};
+			playerNum = 2;
+			scoreString = {
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Between a Rock and a Rock \r\\i ";
+			players = {
+				[1] = {
+					netRaceFlags = 483;
+					earningPower = 1.0;
+					race = 100;
+					type = "net";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 483;
+					earningPower = 1.0;
+					race = 100;
+					type = "net";
+					name = "The Cantharan Order";
+				};
+			};
+			netRaceFlags = 483;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 32767;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 228;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -32767;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 229;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 200;
+						[1] = 300;
+						[2] = 860;
+						[3] = 500;
+						[4] = 450;
+						[5] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1025;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 27129;
+						x = 28260;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Proteus Beta";
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 200;
+						[1] = 300;
+						[2] = 860;
+						[3] = 500;
+						[4] = 450;
+						[5] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1026;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -27129;
+						x = -28260;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Proteus Gamma";
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 22261;
+						x = -6261;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 104;
+					earning = 1.0;
+					nameOverride = "Bunker Station 2";
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -22621;
+						x = 6621;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 104;
+					earning = 1.0;
+					nameOverride = "Orbital Shipyard";
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 2;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x220;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 27129;
+						x = 28520;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 129;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 3;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x220;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -18608;
+						x = -21131;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 129;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4103;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "The Gaitori";
+				};
+			};
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 1;
+							minimum = 6;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 4780;
+					type = "time";
+					subject = -1;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 6101;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 2;
+				};
+				[2] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 6100;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 3;
+				};
+			};
+			id = 24;
+			songId = 5002;
+		};
+		[25] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 0;
+				time = -1;
+			};
+			starmap = {
+				y = 100;
+				x = 100;
+			};
+			playerNum = 3;
+			scoreString = {
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i **DEV-23** \r\\i ";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					race = 100;
+					earningPower = 1.0;
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					race = 100;
+					earningPower = 1.0;
+					name = "The Cantharan Order";
+				};
+				[3] = {
+					netRaceFlags = 0;
+					earningPower = 2.0;
+					race = 700;
+					type = "cpu";
+					name = "The UNS Resistance";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 300;
+						[3] = 500;
+						[4] = 450;
+						[5] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1027;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 0;
+						x = 9000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Proteus Beta";
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 300;
+						[3] = 500;
+						[4] = 450;
+						[5] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1028;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 0;
+						x = -9000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Proteus Gamma";
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 100;
+						[1] = 200;
+						[2] = 300;
+						[3] = 400;
+						[4] = 450;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1029;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 2;
+					position = {
+						y = 9000;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Philemon";
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 0;
+						x = 9000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 129;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 0;
+						x = -9000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 129;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 2;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 2;
+					position = {
+						y = 9000;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 129;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4103;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "The Gaitori";
+				};
+			};
+			conditions = {
+			};
+			id = 25;
+			songId = 5002;
+		};
+		[26] = {
+			par = {
+				losses = 0;
+				ratio = 1.0;
+				kills = 0;
+				time = 1;
+			};
+			starmap = {
+				y = -1;
+				x = -1;
+			};
+			playerNum = 2;
+			scoreString = {
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 256;
+			name = "\\i Space Race, the Musical! \\i ";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 300;
+					type = "cpu";
+					name = "The Prophets of Salril";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 1565;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 129;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 1130;
+						x = 782;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 1304;
+						x = -869;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 1739;
+						x = 521;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 1782;
+						x = -434;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 1239;
+						x = -260;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 47;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 1086;
+						x = 217;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 47;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 1543;
+						x = 239;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 19;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 1565;
+						x = -260;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 19;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 1369;
+						x = -43;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 19;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 1934;
+						x = 173;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 61;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 10;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 2239;
+						x = 195;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 61;
+					earning = 0.0;
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 11;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 2478;
+						x = 239;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 61;
+					earning = 0.0;
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 12;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 2913;
+						x = 326;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 61;
+					earning = 0.0;
+				};
+				[14] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 13;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 3368;
+						x = 391;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 61;
+					earning = 0.0;
+				};
+				[15] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 5;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 1652;
+						x = 804;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 13;
+					earning = 0.0;
+				};
+				[16] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 15;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 1782;
+						x = 1065;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 13;
+					earning = 0.0;
+				};
+				[17] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 16;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 2021;
+						x = 1304;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 13;
+					earning = 0.0;
+				};
+				[18] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2759;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 87;
+					earning = 0.0;
+				};
+				[19] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 18;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2716;
+						x = -457;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 87;
+					earning = 0.0;
+				};
+				[20] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2564;
+						x = 738;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 87;
+					earning = 0.0;
+				};
+				[21] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2347;
+						x = -933;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 87;
+					earning = 0.0;
+				};
+				[22] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2130;
+						x = 304;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 87;
+					earning = 0.0;
+				};
+				[23] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2477;
+						x = -1282;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[24] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2434;
+						x = 1478;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[25] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 18;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2477;
+						x = -1890;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[26] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 18;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2804;
+						x = 1129;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[27] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 18;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2977;
+						x = -977;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[28] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 18;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -4194;
+						x = -173;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[29] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 18;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -3977;
+						x = 413;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 64;
+					earning = 0.0;
+				};
+				[30] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 18;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -4478;
+						x = -1086;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 64;
+					earning = 0.0;
+				};
+				[31] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 19;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -4411;
+						x = 1063;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 64;
+					earning = 0.0;
+				};
+				[32] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 31;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -4782;
+						x = 630;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 64;
+					earning = 0.0;
+				};
+				[33] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 32;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -4978;
+						x = 195;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 64;
+					earning = 0.0;
+				};
+				[34] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 33;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -5108;
+						x = -174;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 64;
+					earning = 0.0;
+				};
+				[35] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 34;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -5238;
+						x = -696;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 64;
+					earning = 0.0;
+				};
+				[36] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 35;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -5260;
+						x = -1391;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 64;
+					earning = 0.0;
+				};
+				[37] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 36;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -4826;
+						x = -1956;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 37;
+					earning = 0.0;
+				};
+				[38] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 36;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -5065;
+						x = -2130;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 64;
+					earning = 0.0;
+				};
+				[39] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 36;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -4108;
+						x = -2152;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 64;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4103;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "The Gaitori";
+				};
+			};
+			conditions = {
+			};
+			id = 26;
+			songId = 5003;
+		};
+		[27] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 0;
+				time = -1;
+			};
+			starmap = {
+				y = 100;
+				x = 100;
+			};
+			playerNum = 2;
+			scoreString = {
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Scratching Post \r\\i ";
+			players = {
+				[1] = {
+					netRaceFlags = 483;
+					earningPower = 1.0;
+					race = 100;
+					type = "net";
+					name = "The Elejeetian Empire";
+				};
+				[2] = {
+					netRaceFlags = 483;
+					earningPower = 1.0;
+					race = 100;
+					type = "net";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 483;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 32767;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 266;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -32767;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 267;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 200;
+						[1] = 300;
+						[2] = 860;
+						[3] = 500;
+						[4] = 450;
+						[5] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1032;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 16384;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Lalande Beta";
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 200;
+						[1] = 300;
+						[2] = 860;
+						[3] = 500;
+						[4] = 450;
+						[5] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1033;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -16384;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Outpost 1";
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 9000;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 270;
+					earning = 0.25;
+					nameOverride = "Outpost 2";
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -9000;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 270;
+					earning = 0.25;
+					nameOverride = "Bunker Station";
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 0;
+						x = 9000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 270;
+					earning = 0.25;
+					nameOverride = "Outpost 4";
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 0;
+						x = -9000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 270;
+					earning = 0.25;
+					nameOverride = "Sol";
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 0;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 104;
+					earning = 1.0;
+					nameOverride = "Outpost 3";
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x220;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 16380;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 129;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x220;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -16380;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 129;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					content = 4103;
+					kind = "freestanding";
+					range = {
+						y = 0;
+						x = 0;
+					};
+					title = "The Gaitori";
+				};
+			};
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 1;
+							minimum = 9;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 4780;
+					type = "time";
+					subject = -1;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 6151;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 2;
+				};
+				[2] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 6150;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 3;
+				};
+			};
+			id = 27;
+			songId = 5000;
+		};
+		[28] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 0;
+				time = -1;
+			};
+			starmap = {
+				y = -1;
+				x = -1;
+			};
+			playerNum = 2;
+			scoreString = {
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Capture the Flagpod \r\\i ";
+			players = {
+				[1] = {
+					netRaceFlags = 512;
+					earningPower = 0.0;
+					race = 1100;
+					type = "net";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 512;
+					earningPower = 0.0;
+					race = 1100;
+					type = "net";
+					name = "The Cantharan Order";
+				};
+			};
+			netRaceFlags = 512;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 8000;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Retak Beta";
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -8000;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 8000;
+						x = 8000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 276;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -8000;
+						x = -8000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 278;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 8000;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 274;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -8000;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 275;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 8478;
+						x = 273;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 272;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 8826;
+						x = -957;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 272;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 8696;
+						x = -131;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 272;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 8348;
+						x = 1434;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 272;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 7261;
+						x = -1000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 272;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 8717;
+						x = -610;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 272;
+					earning = 0.0;
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 7566;
+						x = 1608;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 272;
+					earning = 0.0;
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 7044;
+						x = 391;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 272;
+					earning = 0.0;
+				};
+				[14] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -6870;
+						x = 783;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 273;
+					earning = 0.0;
+				};
+				[15] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -7476;
+						x = 1260;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 273;
+					earning = 0.0;
+				};
+				[16] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -7477;
+						x = -174;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 273;
+					earning = 0.0;
+				};
+				[17] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -5477;
+						x = -783;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 273;
+					earning = 0.0;
+				};
+				[18] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -6432;
+						x = 695;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 273;
+					earning = 0.0;
+				};
+				[19] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -6695;
+						x = -2;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 273;
+					earning = 0.0;
+				};
+				[20] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -6520;
+						x = -2174;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 273;
+					earning = 0.0;
+				};
+				[21] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -5999;
+						x = -783;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 273;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+			};
+			conditions = {
+				[0] = {
+					direct = 1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 6251;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = 4;
+				};
+				[1] = {
+					direct = 0;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 6250;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = 5;
+				};
+			};
+			id = 28;
+			songId = 5001;
+		};
+		[29] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 0;
+				time = -1;
+			};
+			starmap = {
+				y = -1;
+				x = -1;
+			};
+			playerNum = 2;
+			scoreString = {
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Spaze Warz \r\\i ";
+			players = {
+				[1] = {
+					netRaceFlags = 512;
+					earningPower = 0.0;
+					race = 1100;
+					type = "net";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 512;
+					earningPower = 0.0;
+					race = 1100;
+					type = "net";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 512;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 0;
+						x = -2956;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 284;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 87;
+						x = 2955;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 284;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -700;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 0;
+						x = -700;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 0;
+						x = 700;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+			};
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							amount = 1;
+							score = 0;
+							directOverride = -1;
+							owner = 0;
+							type = "change score";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 360;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[2] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "destruction";
+					subject = -1;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 1;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							amount = 1;
+							score = 0;
+							directOverride = -1;
+							owner = 0;
+							type = "change score";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 360;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "destruction";
+					subject = -1;
+				};
+				[2] = {
+					counter = {
+						player = 0;
+						amount = 3;
+						id = 0;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 6351;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter greater";
+					subject = -1;
+				};
+				[3] = {
+					counter = {
+						player = 1;
+						amount = 3;
+						id = 0;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 6350;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					type = "counter greater";
+					subject = -1;
+				};
+			};
+			id = 29;
+			songId = 5003;
+		};
+		[30] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 0;
+				time = -1;
+			};
+			starmap = {
+				y = -1;
+				x = -1;
+			};
+			playerNum = 2;
+			scoreString = {
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Location, Location, Location \r\\i ";
+			players = {
+				[1] = {
+					netRaceFlags = 98;
+					earningPower = 1.0;
+					race = 100;
+					type = "net";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 98;
+					earningPower = 1.0;
+					race = 100;
+					type = "net";
+					name = "";
+				};
+			};
+			netRaceFlags = 98;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 200;
+						[1] = 300;
+						[2] = 860;
+						[3] = 500;
+						[4] = 450;
+						[5] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 10000;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Xamer Beta";
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 200;
+						[1] = 300;
+						[2] = 860;
+						[3] = 500;
+						[4] = 450;
+						[5] = 800;
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -10000;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Outpost Alpha";
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 10000;
+						x = 256;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 10000;
+						x = -256;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 10256;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -10000;
+						x = -256;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -10000;
+						x = 256;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -10256;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 45;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 0;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 270;
+					earning = 0.25;
+					nameOverride = "Outpost C1";
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 0;
+						x = -700;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 270;
+					earning = 0.25;
+					nameOverride = "Outpost C2";
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 0;
+						x = 700;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 270;
+					earning = 0.25;
+					nameOverride = "Outpost C3";
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -700;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 270;
+					earning = 0.25;
+					nameOverride = "Outpost C4";
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 700;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 270;
+					earning = 0.25;
+					nameOverride = "Retak Alpha";
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -700;
+						x = -700;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[14] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -700;
+						x = 700;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[15] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 700;
+						x = -700;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[16] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 700;
+						x = 700;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[17] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 850;
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 5000;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 270;
+					earning = 0.25;
+					nameOverride = "Outpost Beta";
+				};
+				[18] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 850;
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -5000;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 270;
+					earning = 0.25;
+					nameOverride = "Bunker Station";
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+			};
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 6300;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 8;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 6301;
+							nextLevel = 188;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 8;
+				};
+			};
+			id = 30;
+			songId = 5004;
+		};
+		[31] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = -1;
+				time = -1;
+			};
+			starmap = {
+				y = 288;
+				x = 302;
+			};
+			playerNum = 2;
+			scoreString = {
+			};
+			movie = nil;
+			isTraining = false;
+			startTime = 0;
+			name = "";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 0.5;
+					race = 100;
+					type = "single";
+					name = "The Cantharan Order";
+				};
+				[2] = {
+					netRaceFlags = 1536;
+					earningPower = 0.0;
+					race = 100;
+					type = "cpu";
+					name = "The Cantharan Order";
+				};
+			};
+			netRaceFlags = 0;
+			prologueId = nil;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -85;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Command Buoy A";
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 591;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -6260;
+						x = -86;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Command Buoy B";
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 591;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -9478;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Combat Buoy A";
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -4869;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 188;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 109;
+						x = 87;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 203;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 1802;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1024;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -86;
+						x = -9739;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Extra Ships";
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 591;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 0;
+						x = 7478;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Combat Buoy B";
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 6;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2260;
+						x = 7826;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 188;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 591;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 173;
+						x = 13391;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Combat Buoy C";
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 8;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 2956;
+						x = 13739;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 188;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 8;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -1739;
+						x = 13217;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 188;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 591;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 173;
+						x = 19130;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Build Moon";
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 11;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -1043;
+						x = 18782;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 188;
+					earning = 0.0;
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 11;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 1565;
+						x = 18608;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 188;
+					earning = 0.0;
+				};
+				[14] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 11;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 173;
+						x = 18782;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 188;
+					earning = 0.0;
+				};
+				[15] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 591;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 9391;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Omisha Jump Gate";
+				};
+				[16] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 15;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 10086;
+						x = 1739;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 203;
+					earning = 0.0;
+				};
+				[17] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 15;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 10086;
+						x = -2608;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 203;
+					earning = 0.0;
+				};
+				[18] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 16695;
+						x = -17391;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 137;
+					earning = 1.0;
+					nameOverride = "Palyos Belt";
+				};
+				[19] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 16521;
+						x = -16956;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 141;
+					earning = 0.0;
+				};
+				[20] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 17119;
+						x = -17358;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 141;
+					earning = 0.0;
+				};
+				[21] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 16532;
+						x = -17836;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 141;
+					earning = 0.0;
+				};
+				[22] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 16716;
+						x = -17401;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 117;
+					earning = 0.0;
+				};
+			};
+			epilogueId = nil;
+			angle = 0;
+			briefing = {
+				[0] = {
+					kind = "object";
+					title = "Omisha Station";
+					content = 4650;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[1] = {
+					kind = "object";
+					title = "Command Buoy A";
+					content = 4655;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[2] = {
+					kind = "object";
+					title = "Build Moon";
+					content = 4652;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 5;
+				};
+				[3] = {
+					kind = "object";
+					title = "Combat Buoy A";
+					content = 4653;
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 6;
+				};
+				[4] = {
+					kind = "object";
+					title = "Extra Ships";
+					content = 4654;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 15;
+				};
+				[5] = {
+					kind = "object";
+					title = "Omisha Jump Gate";
+					content = 4656;
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 18;
+				};
+			};
+			conditions = {
+				[0] = {
+					direct = 1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 13;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 14;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 2;
+							minimum = 15;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[3] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5500;
+							exclusiveFilter = 0;
+						};
+						[4] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[5] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[6] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 11;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[7] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 12;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = -2;
+				};
+				[1] = {
+					direct = 2;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 13;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 14;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 2;
+							minimum = 15;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[3] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5500;
+							exclusiveFilter = 0;
+						};
+						[4] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[5] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[6] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 11;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[7] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 12;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = -2;
+				};
+				[2] = {
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					type = "is auxiliary";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5501;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 8;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 4;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					subject = 3;
+				};
+				[3] = {
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					type = "is auxiliary";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5502;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 9;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 5;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					subject = 3;
+				};
+				[4] = {
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					type = "is target";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5503;
+							exclusiveFilter = 0;
+						};
+					};
+					subject = 1;
+				};
+				[5] = {
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					type = "is target";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5503;
+							exclusiveFilter = 0;
+						};
+					};
+					subject = 2;
+				};
+				[6] = {
+					direct = 1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5504;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = 3;
+				};
+				[7] = {
+					direct = 2;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5504;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = 3;
+				};
+				[8] = {
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					type = "is target";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5505;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 10;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					subject = 1;
+				};
+				[9] = {
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					type = "is target";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 10;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5505;
+							exclusiveFilter = 0;
+						};
+					};
+					subject = 2;
+				};
+				[10] = {
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					type = "is auxiliary";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5503;
+							exclusiveFilter = 0;
+						};
+					};
+					subject = 3;
+				};
+				[11] = {
+					direct = 1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 3;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 9;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 12;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[3] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 7;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = 3;
+				};
+				[12] = {
+					direct = 2;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 8;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 6;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[3] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 11;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = 3;
+				};
+				[13] = {
+					direct = 5;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 1;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 10;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 2;
+							minimum = 15;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[3] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5506;
+							exclusiveFilter = 0;
+						};
+						[4] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 14;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = -2;
+				};
+				[14] = {
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					type = "is auxiliary";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5507;
+							exclusiveFilter = 0;
+						};
+					};
+					subject = 5;
+				};
+				[15] = {
+					direct = 6;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 1;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 10;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 13;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[3] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 14;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[4] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 1;
+							minimum = 16;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[5] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5509;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = -2;
+				};
+				[16] = {
+					direct = 15;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 1;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 10;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 13;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[3] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 14;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[4] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 15;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[5] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 17;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[6] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5510;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = -2;
+				};
+				[17] = {
+					direct = 0;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 1;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 10;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 13;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[3] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 14;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[4] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 15;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[5] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 3;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5511;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = -2;
+				};
+				[18] = {
+					direct = 18;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 22;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 10101;
+							nextLevel = 2;
+							delay = 60;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					location = 316.227766017;
+					type = "proximity";
+					subject = -2;
+				};
+			};
+			id = 31;
+			songId = 5001;
 		};
 	};
 	objects = {
