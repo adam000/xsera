@@ -41,7 +41,7 @@ function key(k)
     elseif k == "7" then
         printTable(window_size)
     elseif k == "escape" then
-        mode_manager.switch('Xsera/MainMenu')
+        mode_manager.switch("Xsera/MainMenu")
     end
 end
 

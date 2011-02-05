@@ -64,7 +64,7 @@ function key(k)
     elseif k == "0" then
         test0()
     elseif k == "escape" then
-        mode_manager.switch('Xsera/MainMenu')
+        mode_manager.switch("Xsera/MainMenu")
     end
 end
 

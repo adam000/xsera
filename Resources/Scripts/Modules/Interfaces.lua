@@ -120,7 +120,7 @@ function DrawEscapeMenu()
     if down.rtrn == true then
         SwitchBox( { xCoord = -125, yCoord = 0, length = 250, text = "Start Chapter Over", boxColour = ClutLighten(ClutColour(9, 6)), textColour = ClutColour(9, 6), execute = nil, letter = "RTRN" } )
     elseif down.rtrn == "act" then
-        mode_manager.switch('Demo4')
+        mode_manager.switch("Demo4")
         down.rtrn = false
     else
         SwitchBox( { xCoord = -125, yCoord = 0, length = 250, text = "Start Chapter Over", boxColour = ClutColour(9, 6), textColour = ClutColour(9, 6), execute = nil, letter = "RTRN" } )
@@ -129,7 +129,7 @@ function DrawEscapeMenu()
         SwitchBox( { xCoord = -125, yCoord = -30, length = 250, text = "Quit to Main Menu", boxColour = ClutColour(8, 4), textColour = ClutColour(8, 17), execute = nil, letter = "Q" } )
     elseif down.q == "act" then
         menu_display = nil
-        mode_manager.switch('Xsera/MainMenu')
+        mode_manager.switch("Xsera/MainMenu")
     else
         SwitchBox( { xCoord = -125, yCoord = -30, length = 250, text = "Quit to Main Menu", boxColour = ClutColour(8, 5), textColour = ClutColour(8, 5), execute = nil, letter = "Q" } )
     end
@@ -143,7 +143,7 @@ function DrawDefeatMenu()
         SwitchBox( { xCoord = -125, yCoord = -20, length = 250, text = "Start Chapter Over", boxColour = ClutLighten(ClutColour(9, 6), 1), textColour = ClutColour(9, 6), execute = nil, letter = "RTRN" } )
     elseif down.rtrn == "act" then
         menu_display = nil
-        mode_manager.switch('Demo4')
+        mode_manager.switch("Demo4")
     else
         SwitchBox( { xCoord = -125, yCoord = -20, length = 250, text = "Start Chapter Over", boxColour = ClutColour(9, 6), textColour = ClutColour(9, 6), execute = nil, letter = "RTRN" } )
     end
@@ -151,7 +151,7 @@ function DrawDefeatMenu()
         SwitchBox( { xCoord = -125, yCoord = -50, length = 250, text = "Quit to Main Menu", boxColour = ClutColour(8, 5), textColour = ClutColour(8, 17), execute = nil, letter = "Q" } )
     elseif down.q == "act" then
         menu_display = nil
-        mode_manager.switch('Xsera/MainMenu')
+        mode_manager.switch("Xsera/MainMenu")
     else
         SwitchBox( { xCoord = -125, yCoord = -50, length = 250, text = "Quit to Main Menu", boxColour = ClutColour(8, 4), textColour = ClutColour(8, 1), execute = nil, letter = "Q" } )
     end

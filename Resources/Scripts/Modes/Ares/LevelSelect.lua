@@ -140,7 +140,7 @@ end
 
 function keyup(k)
     if k == "escape" then
-        mode_manager.switch('Ares/Splash')
+        mode_manager.switch("Ares/Splash")
     elseif k == "return" then
         if doLevelSwitch then
             sound.play_music("FRED")
