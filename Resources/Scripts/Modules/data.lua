@@ -1931,7 +1931,7 @@ data = {
 			};
 			movie = nil;
 			isTraining = false;
-			startTime = 32512;
+			startTime = 0;
 			name = "\\i Tutorial Lesson 2\n\\iSection on Selection";
 			players = {
 				[1] = {
@@ -4481,7 +4481,7 @@ data = {
 			};
 			movie = nil;
 			isTraining = false;
-			startTime = 32512;
+			startTime = 0;
 			name = "\\i Tutorial Lesson 3\n\\iThe Complete Idiot's Guide to Commanding a Space Armada";
 			players = {
 				[1] = {
@@ -9417,7 +9417,7 @@ data = {
 			};
 			movie = nil;
 			isTraining = false;
-			startTime = 0;
+			startTime = 240;
 			name = "\\i Chapter 8 \n\\iAstrotrash Plus!";
 			players = {
 				[1] = {
@@ -11844,7 +11844,7 @@ data = {
 			};
 			movie = nil;
 			isTraining = false;
-			startTime = 307;
+			startTime = 0;
 			name = "\\i Chapter 12 \n\\iMake Way";
 			players = {
 				[1] = {
@@ -15869,7 +15869,7 @@ data = {
 			};
 			movie = nil;
 			isTraining = false;
-			startTime = 0;
+			startTime = 240;
 			name = "\\i Chapter 17 \n\\i...And It Feels So Good";
 			players = {
 				[1] = {
@@ -19293,7 +19293,7 @@ data = {
 			};
 			movie = nil;
 			isTraining = false;
-			startTime = 0;
+			startTime = 240;
 			name = "\\i Between a Rock and a Rock \n\\i ";
 			players = {
 				[1] = {
@@ -19877,7 +19877,7 @@ data = {
 			};
 			movie = nil;
 			isTraining = false;
-			startTime = 256;
+			startTime = 0;
 			name = "\\i Space Race, the Musical! \\i ";
 			players = {
 				[1] = {
@@ -20933,7 +20933,7 @@ data = {
 			};
 			movie = nil;
 			isTraining = false;
-			startTime = 0;
+			startTime = 240;
 			name = "\\i Scratching Post \n\\i ";
 			players = {
 				[1] = {
