@@ -137,267 +137,11 @@ data = {
 				kills = 9;
 				time = 120;
 			};
-			starmap = {
-				y = 330;
-				x = 287;
-			};
+			angle = 5;
 			playerNum = 2;
 			scoreString = {
 				[0] = "-Destroy all 5";
 				[1] = "_-transports.";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Tutorial Lesson 1\n\\iMoons for Goons";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 0.0078125;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 200;
-					type = "cpu";
-					name = "The Cantharan Order";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 0;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 3000;
-						x = -3000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 3000;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 24;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 3000;
-						x = 3000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 47;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 0;
-						x = 5000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = true;
-						hex = 0x2000010;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -1000;
-						x = 3000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 287;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 3000;
-						x = 3000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 7;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -6000;
-						x = 3000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 25;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 8;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -6250;
-						x = 3250;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 25;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 5;
-			briefing = {
 			};
 			conditions = {
 				[0] = {
@@ -1298,8 +1042,264 @@ data = {
 					subject = -1;
 				};
 			};
-			id = 1;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 0;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 3000;
+						x = -3000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 3000;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 24;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 3000;
+						x = 3000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 47;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 0;
+						x = 5000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = true;
+						hex = 0x2000010;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -1000;
+						x = 3000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 287;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 3000;
+						x = 3000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 7;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -6000;
+						x = 3000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 25;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 8;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -6250;
+						x = 3250;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 25;
+					earning = 0.0;
+				};
+			};
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Tutorial Lesson 1\n\\iMoons for Goons";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 0.0078125;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 200;
+					type = "cpu";
+					name = "The Cantharan Order";
+				};
+			};
+			netRaceFlags = 0;
 			songId = 4002;
+			prologue = "#+B2005\n\i PROLOGUE \n\i \n#+\nThe Ishimans broadcast their plans to your crew -- your crew, once explorers, now reluctant warriors.\n\nUsing their massive gateship, your new alien allies will transport the UNS Ares and its crew to strategic points along the winding route to Earth. With its jumpstream technology, the gateship can bridge great distances in an instant.  Were it not for the war, you would be home in weeks.\n\nYou will be supplied with ships and, when possible, bases of operation. The Ishimans will provide you with tactical plans, but it will be up to you to execute them successfully.\n\nYou have a vast expanse of space to cross, and it is filled with unknowable dangers.\n\nBut first, you must prepare...";
+			briefing = {
+			};
+			movie = nil;
+			epilogue = "";
+			id = 1;
+			starmap = {
+				y = 330;
+				x = 287;
+			};
 		};
 		[2] = {
 			par = {
@@ -1308,37 +1308,73 @@ data = {
 				kills = 9;
 				time = 120;
 			};
-			starmap = {
-				y = 330;
-				x = 287;
-			};
+			angle = 0;
 			playerNum = 2;
 			scoreString = {
 				[0] = "-Destroy all 5";
 				[1] = "_-transports.";
 			};
-			movie = ":Ares Data Ä:Part 2";
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 1 \n\\iEasy Street";
-			players = {
-				[1] = {
-					netRaceFlags = 256;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
+			conditions = {
+				[0] = {
+					counter = {
+						player = 0;
+						amount = 2;
+						id = 0;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = 17;
+							directOverride = 6;
+							owner = 0;
+							type = "set destination";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
 				};
-				[2] = {
-					netRaceFlags = 16516;
-					earningPower = 1.0;
-					race = 300;
-					type = "cpu";
-					name = "The Gaitori Union";
+				[1] = {
+					counter = {
+						player = 0;
+						amount = 5;
+						id = 0;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 10201;
+							nextLevel = 3;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
 				};
 			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -1792,8 +1828,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 1 \n\\iEasy Street";
+			players = {
+				[1] = {
+					netRaceFlags = 256;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 16516;
+					earningPower = 1.0;
+					race = 300;
+					type = "cpu";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5000;
+			prologue = "#+B2005\n\i PART 1 \n\i \n#+10016\nThe Gaitori, ruthless mercenaries and minions of the Cantharan Order, are the first enemy you must face in your quest for Earth. The Gaitori Union, once an interstellar trading empire that linked the many disparate space-faring civilizations together, was brought to its knees by the Order, and now serves as sentry on the Cantharan frontier. \n\n#+\nAlthough disorganized and thinly dispersed along the Los-Selactos line, the Gaitori navy insulates the Order from the systems in the galactic south. To reach Earth, you must first punch a hole through this border zone.\n\n#+\nUnder the guidance of the Ishimans, you will launch your initial strike against the Gaitori, and test your prowess in battle for the first time. You brace your crew for confrontation.";
 			briefing = {
 				[0] = {
 					content = "Welcome to your first combat mission, humans. In the Charon System, the Gaitori have just established a new base near our space. A small convoy of sublight transports is shuttling in a battalion of Gaitori reinforcements, a blatantly aggressive act. Your mission in the Charon System is to intercept and destroy the five transports.";
@@ -1849,69 +1905,13 @@ data = {
 					objectId = 0;
 				};
 			};
-			conditions = {
-				[0] = {
-					counter = {
-						player = 0;
-						amount = 2;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = 17;
-							directOverride = 6;
-							owner = 0;
-							type = "set destination";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[1] = {
-					counter = {
-						player = 0;
-						amount = 5;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 10201;
-							nextLevel = 3;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-			};
+			movie = ":Ares Data Ä:Part 2";
+			epilogue = "";
 			id = 2;
-			songId = 5000;
+			starmap = {
+				y = 330;
+				x = 287;
+			};
 		};
 		[3] = {
 			par = {
@@ -1920,242 +1920,11 @@ data = {
 				kills = -1;
 				time = -1;
 			};
-			starmap = {
-				y = 330;
-				x = 287;
-			};
+			angle = 5;
 			playerNum = 2;
 			scoreString = {
 				[0] = "-Destroy all 5";
 				[1] = "_-transports.";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Tutorial Lesson 2\n\\iSection on Selection";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 0.0078125;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 200;
-					type = "cpu";
-					name = "The Cantharan Order";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 0;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -400;
-						x = 60;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 61;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 2;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = -100;
-						x = 6000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 19;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 3;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 0;
-						x = 6000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 13;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 4;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 100;
-						x = 6000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 5;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 200;
-						x = 6000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 24;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -100;
-						x = -200;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 7;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = true;
-						hex = 0x2000030;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = 200;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 287;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 5;
-			briefing = {
 			};
 			conditions = {
 				[0] = {
@@ -3723,8 +3492,239 @@ data = {
 					subject = -1;
 				};
 			};
-			id = 3;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 0;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -400;
+						x = 60;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 61;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 2;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = -100;
+						x = 6000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 19;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 3;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 0;
+						x = 6000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 13;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 4;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 100;
+						x = 6000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 5;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 200;
+						x = 6000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 24;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -100;
+						x = -200;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 7;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = true;
+						hex = 0x2000030;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = 200;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 287;
+					earning = 0.0;
+				};
+			};
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Tutorial Lesson 2\n\\iSection on Selection";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 0.0078125;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 200;
+					type = "cpu";
+					name = "The Cantharan Order";
+				};
+			};
+			netRaceFlags = 0;
 			songId = 4002;
+			prologue = "";
+			briefing = {
+			};
+			movie = nil;
+			epilogue = "";
+			id = 3;
+			starmap = {
+				y = 330;
+				x = 287;
+			};
 		};
 		[4] = {
 			par = {
@@ -3733,37 +3733,124 @@ data = {
 				kills = 10;
 				time = 120;
 			};
-			starmap = {
-				y = 393;
-				x = 282;
-			};
+			angle = 0;
 			playerNum = 2;
 			scoreString = {
 				[0] = "-Destroy all 4";
 				[1] = "_-relay dishes.";
 			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 2 \n\\iThe Stars Have Ears";
-			players = {
+			conditions = {
+				[0] = {
+					counter = {
+						player = 0;
+						amount = 4;
+						id = 0;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 10301;
+							nextLevel = 5;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					type = "counter";
+					subject = -1;
+				};
 				[1] = {
-					netRaceFlags = 0;
-					earningPower = 0.00390625;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 10302;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "destruction";
+					subject = -1;
 				};
 				[2] = {
-					netRaceFlags = 0;
-					earningPower = 0.0;
-					race = 300;
-					type = "cpu";
-					name = "The Gaitori Union";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 12;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 13;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 120;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 4210;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 17;
+					type = "destruction";
+					subject = -1;
 				};
 			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 500;
@@ -4247,8 +4334,28 @@ data = {
 					nameOverride = "Relay Dish 4";
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 2 \n\\iThe Stars Have Ears";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 0.00390625;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 0.0;
+					race = 300;
+					type = "cpu";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5001;
+			prologue = "";
 			briefing = {
 				[0] = {
 					kind = "object";
@@ -4348,120 +4455,13 @@ data = {
 					title = "Obish Escorts";
 				};
 			};
-			conditions = {
-				[0] = {
-					counter = {
-						player = 0;
-						amount = 4;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 10301;
-							nextLevel = 5;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 10302;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "destruction";
-					subject = -1;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 12;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 13;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 120;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 4210;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 17;
-					type = "destruction";
-					subject = -1;
-				};
-			};
+			movie = nil;
+			epilogue = "";
 			id = 4;
-			songId = 5001;
+			starmap = {
+				y = 393;
+				x = 282;
+			};
 		};
 		[5] = {
 			par = {
@@ -4470,470 +4470,11 @@ data = {
 				kills = -1;
 				time = -1;
 			};
-			starmap = {
-				y = 330;
-				x = 287;
-			};
+			angle = 5;
 			playerNum = 2;
 			scoreString = {
 				[0] = "-Destroy all 5";
 				[1] = "_-transports.";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Tutorial Lesson 3\n\\iThe Complete Idiot's Guide to Commanding a Space Armada";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 0.0078125;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 0.0078125;
-					race = 200;
-					type = "cpu";
-					name = "The Cantharan Order";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 0;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 0;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 267;
-						[1] = 450;
-						[2] = 500;
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -200;
-						x = -200;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 0;
-						x = 6000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 61;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 200;
-						x = 200;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 24;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 400;
-						x = 400;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 24;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 250;
-						x = 200;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 13;
-					earning = 0.0;
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 200;
-						x = 250;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 13;
-					earning = 0.0;
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -3000;
-						x = 6000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 25;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 1000;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -3000;
-						x = 6100;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 25;
-					earning = 0.0;
-				};
-				[9] = {
-					distanceRange = 1000;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -3100;
-						x = 6000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 25;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 1000;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -3000;
-						x = 6200;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 25;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 1000;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -3000;
-						x = 5900;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 25;
-					earning = 0.0;
-				};
-				[12] = {
-					distanceRange = 1000;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -3200;
-						x = 5950;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 25;
-					earning = 0.0;
-				};
-				[13] = {
-					distanceRange = 1000;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -3000;
-						x = 6300;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 25;
-					earning = 0.0;
-				};
-				[14] = {
-					distanceRange = 1000;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -3400;
-						x = 6410;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 25;
-					earning = 0.0;
-				};
-				[15] = {
-					distanceRange = 1000;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -3000;
-						x = 6000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 25;
-					earning = 0.0;
-				};
-				[16] = {
-					distanceRange = 1000;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000020;
-						initiallyHidden = true;
-					};
-					owner = 1;
-					position = {
-						y = -3000;
-						x = 6000;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 25;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 5;
-			briefing = {
 			};
 			conditions = {
 				[0] = {
@@ -6659,8 +6200,467 @@ data = {
 					subject = 0;
 				};
 			};
-			id = 5;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 0;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 0;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 267;
+						[1] = 450;
+						[2] = 500;
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -200;
+						x = -200;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 0;
+						x = 6000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 61;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 200;
+						x = 200;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 24;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 400;
+						x = 400;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 24;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 250;
+						x = 200;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 13;
+					earning = 0.0;
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 200;
+						x = 250;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 13;
+					earning = 0.0;
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -3000;
+						x = 6000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 25;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 1000;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -3000;
+						x = 6100;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 25;
+					earning = 0.0;
+				};
+				[9] = {
+					distanceRange = 1000;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -3100;
+						x = 6000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 25;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 1000;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -3000;
+						x = 6200;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 25;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 1000;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -3000;
+						x = 5900;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 25;
+					earning = 0.0;
+				};
+				[12] = {
+					distanceRange = 1000;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -3200;
+						x = 5950;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 25;
+					earning = 0.0;
+				};
+				[13] = {
+					distanceRange = 1000;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -3000;
+						x = 6300;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 25;
+					earning = 0.0;
+				};
+				[14] = {
+					distanceRange = 1000;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -3400;
+						x = 6410;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 25;
+					earning = 0.0;
+				};
+				[15] = {
+					distanceRange = 1000;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -3000;
+						x = 6000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 25;
+					earning = 0.0;
+				};
+				[16] = {
+					distanceRange = 1000;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000020;
+						initiallyHidden = true;
+					};
+					owner = 1;
+					position = {
+						y = -3000;
+						x = 6000;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 25;
+					earning = 0.0;
+				};
+			};
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Tutorial Lesson 3\n\\iThe Complete Idiot's Guide to Commanding a Space Armada";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 0.0078125;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 0.0078125;
+					race = 200;
+					type = "cpu";
+					name = "The Cantharan Order";
+				};
+			};
+			netRaceFlags = 0;
 			songId = 4002;
+			prologue = "";
+			briefing = {
+			};
+			movie = nil;
+			epilogue = "";
+			id = 5;
+			starmap = {
+				y = 330;
+				x = 287;
+			};
 		};
 		[6] = {
 			par = {
@@ -6669,36 +6669,106 @@ data = {
 				kills = 16;
 				time = 180;
 			};
-			starmap = {
-				y = 354;
-				x = 271;
-			};
+			angle = 0;
 			playerNum = 2;
 			scoreString = {
 				[0] = "-Capture Demeter";
 			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 3 \n\\iWhile The Iron Is Hot";
-			players = {
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 10401;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 0;
+				};
 				[1] = {
-					netRaceFlags = 172;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 10402;
+							nextLevel = 7;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 5;
 				};
 				[2] = {
-					netRaceFlags = 0;
-					earningPower = 0.84765625;
-					race = 300;
-					type = "cpu";
-					name = "The Gaitori Union";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5310;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 400;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 4;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 3600;
+					type = "time";
+					subject = -1;
 				};
 			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -6861,8 +6931,28 @@ data = {
 					nameOverride = "Demeter Beta";
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 3 \n\\iWhile The Iron Is Hot";
+			players = {
+				[1] = {
+					netRaceFlags = 172;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 0.84765625;
+					race = 300;
+					type = "cpu";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5002;
+			prologue = "";
 			briefing = {
 				[0] = {
 					content = "Our success in the Myrmidon System has caught the Gaitori by surprise. The last thing they expected was an offensive initiated by the Ishiman Stellar Navy. Your instinctual aggressiveness served you well.\n\nYour goal in the Demeter System is to capitalize on the Gaitori's disarray by seizing one of their planet-based outposts threatening our space. This is an opportunity for you to demonstrate the ability to coordinate a space-to-surface assault.";
@@ -6940,15 +7030,244 @@ data = {
 					objectId = 5;
 				};
 			};
+			movie = nil;
+			epilogue = "";
+			id = 6;
+			starmap = {
+				y = 354;
+				x = 271;
+			};
+		};
+		[7] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 25;
+				time = 720;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Rescue 11";
+				[1] = "_-Obiards";
+				[2] = "2\\0\\0\\0\\f\\t\\In transport: \\/5";
+			};
 			conditions = {
 				[0] = {
+					counter = {
+						player = 0;
+						amount = 5;
+						id = 0;
+					};
 					direct = -1;
 					actions = {
 						[0] = {
-							reflexive = false;
+							reflexive = true;
+							inclusiveFilter = 0;
+							retainAmmoCount = true;
+							delay = 0;
+							subjectOverride = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "base type";
+							type = "alter";
+							id = 88;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[1] = {
+					direct = 0;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = 1;
+				};
+				[2] = {
+					counter = {
+						player = 0;
+						amount = 1;
+						id = 0;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							velocityRelative = true;
+							distanceRange = 0;
+							reflexive = true;
+							min = 1;
+							inclusiveFilter = 0;
+							directionRelative = true;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							baseType = 214;
+							directOverride = -1;
+							owner = 0;
+							type = "create object";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							amount = -1;
+							score = 0;
+							directOverride = -1;
+							owner = 0;
+							type = "change score";
+							exclusiveFilter = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[3] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = 6;
+							directOverride = -1;
+							owner = 0;
+							type = "activate special";
+							exclusiveFilter = 0;
+						};
+						[4] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							retainAmmoCount = true;
+							delay = 0;
+							subjectOverride = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "base type";
+							type = "alter";
+							id = 217;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					type = "counter greater";
+					subject = 1;
+				};
+				[3] = {
+					direct = 0;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					value = 50000;
+					type = "distance greater";
+					subject = 1;
+				};
+				[4] = {
+					counter = {
+						player = 0;
+						amount = 11;
+						id = 1;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 10502;
+							nextLevel = 8;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[5] = {
+					counter = {
+						player = 0;
+						amount = 5;
+						id = 2;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
 							player = 1;
 							inclusiveFilter = 0;
-							text = 10401;
+							text = 10501;
 							nextLevel = -1;
 							delay = 0;
 							subjectOverride = -1;
@@ -6964,119 +7283,10 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					value = 1;
-					type = "owner";
-					subject = 0;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 10402;
-							nextLevel = 7;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 5;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5310;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 400;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 4;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 3600;
-					type = "time";
+					type = "counter";
 					subject = -1;
 				};
 			};
-			id = 6;
-			songId = 5002;
-		};
-		[7] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 25;
-				time = 720;
-			};
-			starmap = {
-				y = 460;
-				x = 259;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Rescue 11";
-				[1] = "_-Obiards";
-				[2] = "2\\0\\0\\0\\f\\t\\In transport: \\/5";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 4 \n\\iShoplifter 1";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 202;
-					earningPower = 1.5;
-					race = 300;
-					type = "cpu";
-					name = "The Gaitori Union";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -7508,8 +7718,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 4 \n\\iShoplifter 1";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 202;
+					earningPower = 1.5;
+					race = 300;
+					type = "cpu";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5003;
+			prologue = "";
 			briefing = {
 				[0] = {
 					content = "A civilian Obish vessel was seized by a rogue band of Gaitori mercenaries, loyalists to the Order. The mercenaries are holding the surviving Obiards captive in a group of deep space cells. Your mission in the Elysium System is to help the Obish rescue the hostages.";
@@ -7603,222 +7833,35 @@ data = {
 					title = "Elysium System";
 				};
 			};
+			movie = nil;
+			epilogue = "";
+			id = 7;
+			starmap = {
+				y = 460;
+				x = 259;
+			};
+		};
+		[8] = {
+			par = {
+				losses = 15;
+				ratio = 0.0;
+				kills = 15;
+				time = 420;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Aeneas";
+			};
 			conditions = {
 				[0] = {
-					counter = {
-						player = 0;
-						amount = 5;
-						id = 0;
-					};
 					direct = -1;
 					actions = {
 						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							retainAmmoCount = true;
-							delay = 0;
-							subjectOverride = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "base type";
-							type = "alter";
-							id = 88;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[1] = {
-					direct = 0;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 1;
-				};
-				[2] = {
-					counter = {
-						player = 0;
-						amount = 1;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							velocityRelative = true;
-							distanceRange = 0;
-							reflexive = true;
-							min = 1;
-							inclusiveFilter = 0;
-							directionRelative = true;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							baseType = 214;
-							directOverride = -1;
-							owner = 0;
-							type = "create object";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							amount = -1;
-							score = 0;
-							directOverride = -1;
-							owner = 0;
-							type = "change score";
-							exclusiveFilter = 0;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[3] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = 6;
-							directOverride = -1;
-							owner = 0;
-							type = "activate special";
-							exclusiveFilter = 0;
-						};
-						[4] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							retainAmmoCount = true;
-							delay = 0;
-							subjectOverride = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "base type";
-							type = "alter";
-							id = 217;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					type = "counter greater";
-					subject = 1;
-				};
-				[3] = {
-					direct = 0;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					value = 50000;
-					type = "distance greater";
-					subject = 1;
-				};
-				[4] = {
-					counter = {
-						player = 0;
-						amount = 11;
-						id = 1;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 10502;
-							nextLevel = 8;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[5] = {
-					counter = {
-						player = 0;
-						amount = 5;
-						id = 2;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
+							reflexive = false;
 							player = 1;
 							inclusiveFilter = 0;
-							text = 10501;
+							text = 10601;
 							nextLevel = -1;
 							delay = 0;
 							subjectOverride = -1;
@@ -7834,50 +7877,38 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					type = "counter";
-					subject = -1;
+					value = 1;
+					type = "owner";
+					subject = 1;
 				};
-			};
-			id = 7;
-			songId = 5003;
-		};
-		[8] = {
-			par = {
-				losses = 15;
-				ratio = 0.0;
-				kills = 15;
-				time = 420;
-			};
-			starmap = {
-				y = 366;
-				x = 250;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Aeneas";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 5 \n\\iOut of the Frying Pan...";
-			players = {
 				[1] = {
-					netRaceFlags = 172;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 202;
-					earningPower = 1.5;
-					race = 300;
-					type = "cpu";
-					name = "The Gaitori Union";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 10602;
+							nextLevel = 9;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 8;
 				};
 			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -8115,8 +8146,28 @@ data = {
 					nameOverride = "Aeneas Beta";
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 5 \n\\iOut of the Frying Pan...";
+			players = {
+				[1] = {
+					netRaceFlags = 172;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 202;
+					earningPower = 1.5;
+					race = 300;
+					type = "cpu";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5004;
+			prologue = "";
 			briefing = {
 				[0] = {
 					content = "The Gaitori defeat in the Demeter system effectively ended their potency near Ishiman space; now we must take the battle to them.\n\nWe traced the jumpstream from Elysium to here, the Aeneas system. We believe it's the primary base of operations for the Cantharan-loyal military.\n\nYour mission is to occupy their base, and to rout them from the system.";
@@ -8205,6 +8256,26 @@ data = {
 					objectId = 5;
 				};
 			};
+			movie = nil;
+			epilogue = "";
+			id = 8;
+			starmap = {
+				y = 366;
+				x = 250;
+			};
+		};
+		[9] = {
+			par = {
+				losses = 12;
+				ratio = 0.0;
+				kills = 45;
+				time = 450;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Hades";
+			};
 			conditions = {
 				[0] = {
 					direct = -1;
@@ -8213,7 +8284,7 @@ data = {
 							reflexive = false;
 							player = 1;
 							inclusiveFilter = 0;
-							text = 10601;
+							text = 10701;
 							nextLevel = -1;
 							delay = 0;
 							subjectOverride = -1;
@@ -8231,7 +8302,7 @@ data = {
 					};
 					value = 1;
 					type = "owner";
-					subject = 1;
+					subject = 12;
 				};
 				[1] = {
 					direct = -1;
@@ -8240,8 +8311,8 @@ data = {
 							reflexive = false;
 							player = 0;
 							inclusiveFilter = 0;
-							text = 10602;
-							nextLevel = 9;
+							text = 10702;
+							nextLevel = 10;
 							delay = 0;
 							subjectOverride = -1;
 							directOverride = -1;
@@ -8258,49 +8329,9 @@ data = {
 					};
 					value = 0;
 					type = "owner";
-					subject = 8;
+					subject = 13;
 				};
 			};
-			id = 8;
-			songId = 5004;
-		};
-		[9] = {
-			par = {
-				losses = 12;
-				ratio = 0.0;
-				kills = 45;
-				time = 450;
-			};
-			starmap = {
-				y = 431;
-				x = 237;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Hades";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 6 \n\\i...Into the Fire";
-			players = {
-				[1] = {
-					netRaceFlags = 172;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 176;
-					earningPower = 1.25;
-					race = 300;
-					type = "cpu";
-					name = "The Gaitori Union";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -8720,8 +8751,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 6 \n\\i...Into the Fire";
+			players = {
+				[1] = {
+					netRaceFlags = 172;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 176;
+					earningPower = 1.25;
+					race = 300;
+					type = "cpu";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5000;
+			prologue = "";
 			briefing = {
 				[0] = {
 					content = "The Gaitori military has one remaining foothold near our space:  a joint power station cluster, established as a gesture of cooperation between the Obish and Gaitori governments after the war.\n\nThe Cantharan-loyalist Gaitori intend to destroy Obain's half of the Hades System's power stations. Your mission is to occupy their base, destroying as many Gaitori power stations as possible, and saving as many of the Obish stations as you can.";
@@ -8821,15 +8872,141 @@ data = {
 					objectId = 4;
 				};
 			};
+			movie = nil;
+			epilogue = "";
+			id = 9;
+			starmap = {
+				y = 431;
+				x = 237;
+			};
+		};
+		[10] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 2;
+				time = 180;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Collect 4";
+				[1] = "_-asteroid samples";
+			};
 			conditions = {
 				[0] = {
 					direct = -1;
 					actions = {
 						[0] = {
 							reflexive = false;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 4220;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 180;
+					type = "time";
+					subject = -1;
+				};
+				[1] = {
+					counter = {
+						player = 0;
+						amount = 1;
+						id = 1;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 120;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 4221;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 2;
+							minimum = 7;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[2] = {
+					counter = {
+						player = 0;
+						amount = 4;
+						id = 1;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 10801;
+							nextLevel = 11;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[3] = {
+					counter = {
+						player = 1;
+						amount = 7;
+						id = 1;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
 							player = 1;
 							inclusiveFilter = 0;
-							text = 10701;
+							text = 10802;
 							nextLevel = -1;
 							delay = 0;
 							subjectOverride = -1;
@@ -8841,83 +9018,14 @@ data = {
 					};
 					flags = {
 						hasBeenTrue = false;
-						hex = 0x1;
+						hex = 0x0;
 						initiallyTrue = false;
-						trueOnlyOnce = true;
+						trueOnlyOnce = false;
 					};
-					value = 1;
-					type = "owner";
-					subject = 12;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 10702;
-							nextLevel = 10;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 13;
+					type = "counter";
+					subject = -1;
 				};
 			};
-			id = 9;
-			songId = 5000;
-		};
-		[10] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 2;
-				time = 180;
-			};
-			starmap = {
-				y = 401;
-				x = 224;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Collect 4";
-				[1] = "_-asteroid samples";
-			};
-			movie = ":Ares Data Ä:Part 3";
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 7 \n\\iOn the Rocks";
-			players = {
-				[1] = {
-					netRaceFlags = -18392;
-					earningPower = 0.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 0.0;
-					race = 200;
-					type = "cpu";
-					name = "The Cantharan Order";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 500;
@@ -9173,8 +9281,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 7 \n\\iOn the Rocks";
+			players = {
+				[1] = {
+					netRaceFlags = -18392;
+					earningPower = 0.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 0.0;
+					race = 200;
+					type = "cpu";
+					name = "The Cantharan Order";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5001;
+			prologue = "#+B2006\n\i PART 2 \n\i \n#+\nWith the Gaitori threat behind you, you turn your eyes to the principle enemy of your race: the Cantharan Order, servants to the Prophets and Crusaders against the Unenlightened.\n\n#+10020\nCenturies ago, the Cantharan Order, then a stable if inflexible defender of interstellar peace, was plunged into chaos by the Boodan Civil War. Although the Order prevailed, it was greatly changed by the conflict. Soon after the Order began its crusades, with its zealous devotion to the twin gods Zom and Doz fueling its thirst for conquest. One among the dozens of ÒprimitiveÓ worlds to fall under Cantharan rule was Earth.\n\n#+\nThe Cantharan frontier is a thick swatch the Cantharans cut from the formerly free trading corridor that connected the Bazidanese Star League, the Ishiman Stellar Protectorate, the Elejeetian Empire, the Gaitori Union, and Obain. Once the OrderÕs crusades began to make trade in this corridor a risky and unprofitable practice, the races withdrew into their separate systems, none of them prepared to challenge the might of the Cantharan military force.\n\n#+\nYou now must face that force. With the help of the Ishimans, you prepare to make a quick, decisive strike directly into the frontier. With speed and surprise still on your side, you hope to bisect the frontier and reach into Cantharan space before the Order has time to react.\n";
 			briefing = {
 				[0] = {
 					kind = "object";
@@ -9263,20 +9391,55 @@ data = {
 					title = "Philemon";
 				};
 			};
+			movie = ":Ares Data Ä:Part 3";
+			epilogue = "#+B2006\nThe IshimansÕ initial analysis of the rogue asteroid was correct: it was artificially created, and originated in the Cantharan system of Los Ran during the Boodan War. Further examination of the samples you retrieved reveals a sinister secret.\n\n#+\nThe asteroid was saturated with a biomechanical virus, apparently designed to lie dormant within the asteroid until it collided with a living planet. The artificial virus, millions of tiny mechanisms, would then activate and seek out compatible life which it could infest.\n\n#+\nA relic of the Boodan war, the biomechanisms could have been some kind of weapon, but the method of distribution--on artificial asteroids--would have been too slow for any tactical use. Its purpose is obscure.\n#+\nThis Boodan Mechanism is beyond any known racesÕ ability. The ramifications of its discovery this far from Cantharis are staggering. It now seems the Cantharan Crusades have more to do with hunting down and harnessing this virus than they do with obliteration of the ÒUnenlightened.Ó";
+			id = 10;
+			starmap = {
+				y = 401;
+				x = 224;
+			};
+		};
+		[11] = {
+			par = {
+				losses = 1;
+				ratio = 0.0;
+				kills = 6;
+				time = 270;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Collect 10";
+				[1] = "_-asteroid samples";
+			};
 			conditions = {
 				[0] = {
 					direct = -1;
 					actions = {
 						[0] = {
-							reflexive = false;
+							reflexive = true;
 							inclusiveFilter = 0;
-							page = 1;
 							delay = 0;
 							subjectOverride = -1;
+							range = 2;
+							minimum = 1;
 							directOverride = -1;
 							owner = 0;
-							type = "display message";
-							id = 4220;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 2;
+							minimum = 4;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
 							exclusiveFilter = 0;
 						};
 					};
@@ -9286,36 +9449,19 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					value = 180;
+					value = 4760;
 					type = "time";
 					subject = -1;
 				};
 				[1] = {
-					counter = {
-						player = 0;
-						amount = 1;
-						id = 1;
-					};
 					direct = -1;
 					actions = {
 						[0] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 120;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 4221;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = false;
+							reflexive = true;
 							inclusiveFilter = 0;
 							delay = 0;
 							subjectOverride = -1;
-							range = 2;
+							range = 0;
 							minimum = 7;
 							directOverride = -1;
 							owner = 0;
@@ -9330,28 +9476,25 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					type = "counter";
+					value = 5500;
+					type = "time";
 					subject = -1;
 				};
 				[2] = {
-					counter = {
-						player = 0;
-						amount = 4;
-						id = 1;
-					};
 					direct = -1;
 					actions = {
 						[0] = {
-							reflexive = false;
-							player = 0;
+							relative = false;
+							reflexive = true;
 							inclusiveFilter = 0;
-							text = 10801;
-							nextLevel = 11;
 							delay = 0;
-							subjectOverride = -1;
+							subjectOverride = 0;
+							range = 0;
+							minimum = 0;
 							directOverride = -1;
 							owner = 0;
-							type = "declare winner";
+							alterType = "velocity";
+							type = "alter";
 							exclusiveFilter = 0;
 						};
 					};
@@ -9361,23 +9504,24 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					type = "counter";
+					value = 3;
+					type = "time";
 					subject = -1;
 				};
 				[3] = {
 					counter = {
-						player = 1;
-						amount = 7;
+						player = 0;
+						amount = 10;
 						id = 1;
 					};
 					direct = -1;
 					actions = {
 						[0] = {
 							reflexive = false;
-							player = 1;
+							player = 0;
 							inclusiveFilter = 0;
-							text = 10802;
-							nextLevel = -1;
+							text = 10901;
+							nextLevel = 12;
 							delay = 0;
 							subjectOverride = -1;
 							directOverride = -1;
@@ -9392,51 +9536,10 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = false;
 					};
-					type = "counter";
+					type = "counter greater";
 					subject = -1;
 				};
 			};
-			id = 10;
-			songId = 5001;
-		};
-		[11] = {
-			par = {
-				losses = 1;
-				ratio = 0.0;
-				kills = 6;
-				time = 270;
-			};
-			starmap = {
-				y = 286;
-				x = 211;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Collect 10";
-				[1] = "_-asteroid samples";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 240;
-			name = "\\i Chapter 8 \n\\iAstrotrash Plus!";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 172;
-					earningPower = 1.0;
-					race = 200;
-					type = "cpu";
-					name = "The Cantharan Order";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -9639,8 +9742,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 240;
+			name = "\\i Chapter 8 \n\\iAstrotrash Plus!";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 172;
+					earningPower = 1.0;
+					race = 200;
+					type = "cpu";
+					name = "The Cantharan Order";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5002;
+			prologue = "";
 			briefing = {
 				[0] = {
 					content = "We need to determine how prolific the bio-mechanical Boodan Virus has been. Therefore, we're dropping you in the Palyos Belt so you can collect some samples from the asteroids there.";
@@ -9683,6 +9806,26 @@ data = {
 					title = "Asteroid";
 				};
 			};
+			movie = nil;
+			epilogue = "";
+			id = 11;
+			starmap = {
+				y = 286;
+				x = 211;
+			};
+		};
+		[12] = {
+			par = {
+				losses = 8;
+				ratio = 0.0;
+				kills = 14;
+				time = 960;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Proteus";
+			};
 			conditions = {
 				[0] = {
 					direct = -1;
@@ -9690,9 +9833,21 @@ data = {
 						[0] = {
 							reflexive = true;
 							inclusiveFilter = 0;
+							page = 2;
 							delay = 0;
 							subjectOverride = -1;
-							range = 2;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 4200;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
 							minimum = 1;
 							directOverride = -1;
 							owner = 0;
@@ -9700,19 +9855,6 @@ data = {
 							type = "alter";
 							exclusiveFilter = 0;
 						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 2;
-							minimum = 4;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
 					};
 					flags = {
 						hasBeenTrue = false;
@@ -9720,7 +9862,7 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					value = 4760;
+					value = 1200;
 					type = "time";
 					subject = -1;
 				};
@@ -9728,71 +9870,11 @@ data = {
 					direct = -1;
 					actions = {
 						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 7;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 5500;
-					type = "time";
-					subject = -1;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							relative = false;
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = 0;
-							range = 0;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "velocity";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 3;
-					type = "time";
-					subject = -1;
-				};
-				[3] = {
-					counter = {
-						player = 0;
-						amount = 10;
-						id = 1;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
 							reflexive = false;
-							player = 0;
+							player = 1;
 							inclusiveFilter = 0;
-							text = 10901;
-							nextLevel = 12;
+							text = 11001;
+							nextLevel = -1;
 							delay = 0;
 							subjectOverride = -1;
 							directOverride = -1;
@@ -9807,50 +9889,38 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = false;
 					};
-					type = "counter greater";
-					subject = -1;
-				};
-			};
-			id = 11;
-			songId = 5002;
-		};
-		[12] = {
-			par = {
-				losses = 8;
-				ratio = 0.0;
-				kills = 14;
-				time = 960;
-			};
-			starmap = {
-				y = 368;
-				x = 201;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Proteus";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 9 \n\\iHand Over Fist";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
+					value = 1;
+					type = "owner";
+					subject = 0;
 				};
 				[2] = {
-					netRaceFlags = 1;
-					earningPower = 1.25;
-					race = 200;
-					type = "cpu";
-					name = "The Cantharan Order";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 11002;
+							nextLevel = 13;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					value = 0;
+					type = "owner";
+					subject = 5;
 				};
 			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 500;
@@ -10043,8 +10113,28 @@ data = {
 					nameOverride = "Proteus";
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 9 \n\\iHand Over Fist";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 1;
+					earningPower = 1.25;
+					race = 200;
+					type = "cpu";
+					name = "The Cantharan Order";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5003;
+			prologue = "";
 			briefing = {
 				[0] = {
 					content = "^P10020^The Cantharan Order controls the Proteus System. In your first major offensive move against the Order, you will seize their base on Proteus Gamma.";
@@ -10153,54 +10243,35 @@ data = {
 					title = "Proteus Gamma";
 				};
 			};
+			movie = nil;
+			epilogue = "";
+			id = 12;
+			starmap = {
+				y = 368;
+				x = 201;
+			};
+		};
+		[13] = {
+			par = {
+				losses = 25;
+				ratio = 0.0;
+				kills = 10;
+				time = 120;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Destroy all";
+			};
 			conditions = {
 				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 2;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 4200;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1200;
-					type = "time";
-					subject = -1;
-				};
-				[1] = {
 					direct = -1;
 					actions = {
 						[0] = {
 							reflexive = false;
 							player = 1;
 							inclusiveFilter = 0;
-							text = 11001;
+							text = 11101;
 							nextLevel = -1;
 							delay = 0;
 							subjectOverride = -1;
@@ -10212,23 +10283,23 @@ data = {
 					};
 					flags = {
 						hasBeenTrue = false;
-						hex = 0x0;
+						hex = 0x1;
 						initiallyTrue = false;
-						trueOnlyOnce = false;
+						trueOnlyOnce = true;
 					};
-					value = 1;
-					type = "owner";
+					value = 6;
+					type = "destruction";
 					subject = 0;
 				};
-				[2] = {
+				[1] = {
 					direct = -1;
 					actions = {
 						[0] = {
 							reflexive = false;
 							player = 0;
 							inclusiveFilter = 0;
-							text = 11002;
-							nextLevel = 13;
+							text = 4065;
+							nextLevel = 14;
 							delay = 0;
 							subjectOverride = -1;
 							directOverride = -1;
@@ -10239,55 +10310,15 @@ data = {
 					};
 					flags = {
 						hasBeenTrue = false;
-						hex = 0x0;
+						hex = 0x1;
 						initiallyTrue = false;
-						trueOnlyOnce = false;
+						trueOnlyOnce = true;
 					};
-					value = 0;
-					type = "owner";
-					subject = 5;
+					value = 17;
+					type = "destruction";
+					subject = -1;
 				};
 			};
-			id = 12;
-			songId = 5003;
-		};
-		[13] = {
-			par = {
-				losses = 25;
-				ratio = 0.0;
-				kills = 10;
-				time = 120;
-			};
-			starmap = {
-				y = 311;
-				x = 192;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Destroy all";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 10 \n\\iAssassin";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 0.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 0.0078125;
-					race = 200;
-					type = "cpu";
-					name = "The Cantharan Order";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -10916,8 +10947,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 10 \n\\iAssassin";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 0.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 0.0078125;
+					race = 200;
+					type = "cpu";
+					name = "The Cantharan Order";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5004;
+			prologue = "";
 			briefing = {
 				[0] = {
 					content = "^P10020^Our mission here is simple: destroy Mek Het, the Som of Tay Ros. He is one of Cantharis's most influential advocates for expansion, and one of their best military minds.";
@@ -10962,15 +11013,248 @@ data = {
 					objectId = 6;
 				};
 			};
+			movie = nil;
+			epilogue = "";
+			id = 13;
+			starmap = {
+				y = 311;
+				x = 192;
+			};
+		};
+		[14] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 8;
+				time = 435;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Rescue 21";
+				[1] = "_-humans";
+				[2] = "2\\0\\0\\0\\f\\t\\On board: \\/5";
+			};
 			conditions = {
 				[0] = {
+					counter = {
+						player = 0;
+						amount = 5;
+						id = 0;
+					};
 					direct = -1;
 					actions = {
 						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							retainAmmoCount = true;
+							delay = 0;
+							subjectOverride = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "base type";
+							type = "alter";
+							id = 129;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[1] = {
+					direct = 0;
+					actions = {
+						[0] = {
 							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 7;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = 1;
+				};
+				[2] = {
+					counter = {
+						player = 0;
+						amount = 1;
+						id = 0;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							velocityRelative = true;
+							distanceRange = 0;
+							reflexive = true;
+							min = 1;
+							inclusiveFilter = 0;
+							directionRelative = true;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							baseType = 207;
+							directOverride = -1;
+							owner = 0;
+							type = "create object";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							amount = -1;
+							score = 0;
+							directOverride = -1;
+							owner = 0;
+							type = "change score";
+							exclusiveFilter = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[3] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							retainAmmoCount = true;
+							delay = 0;
+							subjectOverride = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "base type";
+							type = "alter";
+							id = 206;
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					type = "counter greater";
+					subject = 1;
+				};
+				[3] = {
+					direct = 0;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 7;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					value = 50000;
+					type = "distance greater";
+					subject = 1;
+				};
+				[4] = {
+					counter = {
+						player = 0;
+						amount = 21;
+						id = 1;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 11201;
+							nextLevel = 15;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					type = "counter";
+					subject = -1;
+				};
+				[5] = {
+					counter = {
+						player = 0;
+						amount = 10;
+						id = 2;
+					};
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
 							player = 1;
 							inclusiveFilter = 0;
-							text = 11101;
+							text = 11202;
 							nextLevel = -1;
 							delay = 0;
 							subjectOverride = -1;
@@ -10986,19 +11270,18 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					value = 6;
-					type = "destruction";
-					subject = 0;
+					type = "counter";
+					subject = -1;
 				};
-				[1] = {
+				[6] = {
 					direct = -1;
 					actions = {
 						[0] = {
-							reflexive = false;
-							player = 0;
+							reflexive = true;
+							player = 1;
 							inclusiveFilter = 0;
-							text = 4065;
-							nextLevel = 14;
+							text = 11203;
+							nextLevel = -1;
 							delay = 0;
 							subjectOverride = -1;
 							directOverride = -1;
@@ -11013,53 +11296,39 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					value = 17;
+					value = 1;
 					type = "destruction";
 					subject = -1;
 				};
-			};
-			id = 13;
-			songId = 5004;
-		};
-		[14] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 8;
-				time = 435;
-			};
-			starmap = {
-				y = 160;
-				x = 179;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Rescue 21";
-				[1] = "_-humans";
-				[2] = "2\\0\\0\\0\\f\\t\\On board: \\/5";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 11 \n\\iShoplifter 2";
-			players = {
-				[1] = {
-					netRaceFlags = 229;
-					earningPower = 0.00390625;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 0.0;
-					race = 200;
-					type = "cpu";
-					name = "The Prophets of Salril";
+				[7] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1280;
+					type = "velocity less than or equal";
+					subject = 1;
 				};
 			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -11440,8 +11709,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 11 \n\\iShoplifter 2";
+			players = {
+				[1] = {
+					netRaceFlags = 229;
+					earningPower = 0.00390625;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 0.0;
+					race = 200;
+					type = "cpu";
+					name = "The Prophets of Salril";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5000;
+			prologue = "#+B2007\n#+10025\nThe master race of the Cantharans, the Salrilians are believed to have the ability to predict the near future. Far from supernatural, this knowledge is the result of incredible investments in technology. Through a process of quantum simulation, the SalriliansÕ massive Oracular Net of computers forecasts events well before they happen, anywhere in the known galaxy. The more information the Salrilians have, the more accurate the Oracles are. Thus, the Salrilians seek to learn all they can about the Universe and its denizens. What they cannot understand, they seek to contain. What they cannot contain they destroy.\n\n#+\nThe Salrilians have a vested interest in the success of the Cantharans, a race they can influence and understand. You were warned that as you drew closer to Earth, you ran the risk of piquing the interest of the Prophets. But now, the Ishimans have unexpected information for the weary crew of the Ares.\n\n#+\nA string of deep space simlabs, Salrilian installations designed to probe and analyze alien intelligences, has been detected in a nearby system.\n\n#+\nThe aliens in the simlabs are human.\n";
 			briefing = {
 				[0] = {
 					content = "The Heshac System is owned by Salril. The presence of the deep space simlabs indicates that the Salrilians are using it as part of their Oracular Network. To our surprise, however, the beings inside the simlabs are human.";
@@ -11526,8 +11815,123 @@ data = {
 					title = "Heshac System";
 				};
 			};
+			movie = nil;
+			epilogue = "";
+			id = 14;
+			starmap = {
+				y = 160;
+				x = 179;
+			};
+		};
+		[15] = {
+			par = {
+				losses = 20;
+				ratio = 1.19921875;
+				kills = 10;
+				time = 900;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Fansi";
+				[1] = "_-Beta";
+				[2] = "-Ensure safety";
+				[3] = "_-of 5 cargo ships";
+				[4] = "-";
+			};
 			conditions = {
 				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5300;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 1200;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 3;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 1200;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 5;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[3] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 1200;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 6;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[4] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 1200;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 7;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[5] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 1200;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 8;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 18000;
+					type = "time";
+					subject = -1;
+				};
+				[1] = {
 					counter = {
 						player = 0;
 						amount = 5;
@@ -11538,14 +11942,26 @@ data = {
 						[0] = {
 							reflexive = true;
 							inclusiveFilter = 0;
-							retainAmmoCount = true;
 							delay = 0;
-							subjectOverride = 1;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
 							directOverride = -1;
 							owner = 0;
-							alterType = "base type";
+							alterType = "hidden";
 							type = "alter";
-							id = 129;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5301;
 							exclusiveFilter = 0;
 						};
 					};
@@ -11558,220 +11974,14 @@ data = {
 					type = "counter";
 					subject = -1;
 				};
-				[1] = {
-					direct = 0;
+				[2] = {
+					direct = -1;
 					actions = {
 						[0] = {
 							reflexive = false;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 7;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 1;
-				};
-				[2] = {
-					counter = {
-						player = 0;
-						amount = 1;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							velocityRelative = true;
-							distanceRange = 0;
-							reflexive = true;
-							min = 1;
-							inclusiveFilter = 0;
-							directionRelative = true;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							baseType = 207;
-							directOverride = -1;
-							owner = 0;
-							type = "create object";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							amount = -1;
-							score = 0;
-							directOverride = -1;
-							owner = 0;
-							type = "change score";
-							exclusiveFilter = 0;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[3] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							retainAmmoCount = true;
-							delay = 0;
-							subjectOverride = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "base type";
-							type = "alter";
-							id = 206;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					type = "counter greater";
-					subject = 1;
-				};
-				[3] = {
-					direct = 0;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 7;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					value = 50000;
-					type = "distance greater";
-					subject = 1;
-				};
-				[4] = {
-					counter = {
-						player = 0;
-						amount = 21;
-						id = 1;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 11201;
-							nextLevel = 15;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[5] = {
-					counter = {
-						player = 0;
-						amount = 10;
-						id = 2;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
 							player = 1;
 							inclusiveFilter = 0;
-							text = 11202;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "counter";
-					subject = -1;
-				};
-				[6] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 11203;
+							text = 11301;
 							nextLevel = -1;
 							delay = 0;
 							subjectOverride = -1;
@@ -11788,25 +11998,24 @@ data = {
 						trueOnlyOnce = true;
 					};
 					value = 1;
-					type = "destruction";
-					subject = -1;
+					type = "owner";
+					subject = 9;
 				};
-				[7] = {
+				[3] = {
 					direct = -1;
 					actions = {
 						[0] = {
-							reflexive = true;
+							reflexive = false;
+							player = 0;
 							inclusiveFilter = 0;
+							text = 11302;
+							nextLevel = 16;
 							delay = 0;
 							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
 							directOverride = -1;
 							owner = 0;
-							alterType = "active condition";
-							type = "alter";
+							type = "declare winner";
 							exclusiveFilter = 0;
-							conditionTrue = false;
 						};
 					};
 					flags = {
@@ -11815,55 +12024,11 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					value = 1280;
-					type = "velocity less than or equal";
-					subject = 1;
+					value = 0;
+					type = "owner";
+					subject = 10;
 				};
 			};
-			id = 14;
-			songId = 5000;
-		};
-		[15] = {
-			par = {
-				losses = 20;
-				ratio = 1.19921875;
-				kills = 10;
-				time = 900;
-			};
-			starmap = {
-				y = 259;
-				x = 158;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Fansi";
-				[1] = "_-Beta";
-				[2] = "-Ensure safety";
-				[3] = "_-of 5 cargo ships";
-				[4] = "-";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 12 \n\\iMake Way";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 172;
-					earningPower = 3.0;
-					race = 200;
-					type = "cpu";
-					name = "The Cantharan Order";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -12308,8 +12473,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 12 \n\\iMake Way";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 172;
+					earningPower = 3.0;
+					race = 200;
+					type = "cpu";
+					name = "The Cantharan Order";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5001;
+			prologue = "";
 			briefing = {
 				[0] = {
 					content = "The Fansi System was once the front line Gaitori base of operations in Obish space during the Gaitori/Obish War. Today it's the last outpost of the Gaitori Isolationists--one of the few enemies of both Cantharis and Obain. It's also the last military obstacle between you and Cantharan Space.\n\nThe Cantharans intend to capture the Fansi System. Your objective is to beat them to it.";
@@ -12442,129 +12627,73 @@ data = {
 					objectId = 12;
 				};
 			};
+			movie = nil;
+			epilogue = "";
+			id = 15;
+			starmap = {
+				y = 259;
+				x = 158;
+			};
+		};
+		[16] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 11;
+				time = 300;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "1\\0\\0\\0\\Retrieve escape\\Escort tractor";
+				[1] = "_1\\0\\0\\0\\pods\\tug";
+				[2] = "2\\1\\0\\0\\f\\t\\Rescued: \\/6";
+			};
 			conditions = {
 				[0] = {
+					counter = {
+						player = 0;
+						amount = 6;
+						id = 1;
+					};
 					direct = -1;
 					actions = {
 						[0] = {
 							reflexive = true;
 							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
+							delay = 90;
 							subjectOverride = -1;
+							range = 0;
+							minimum = 10;
 							directOverride = -1;
 							owner = 0;
-							type = "display message";
-							id = 5300;
+							alterType = "hidden";
+							type = "alter";
 							exclusiveFilter = 0;
 						};
 						[1] = {
 							reflexive = true;
 							inclusiveFilter = 0;
-							delay = 1200;
+							page = 1;
+							delay = 30;
 							subjectOverride = -1;
-							range = 0;
-							minimum = 3;
 							directOverride = -1;
 							owner = 0;
-							alterType = "hidden";
-							type = "alter";
+							type = "display message";
+							id = 5400;
 							exclusiveFilter = 0;
 						};
 						[2] = {
 							reflexive = true;
 							inclusiveFilter = 0;
-							delay = 1200;
+							delay = 900;
 							subjectOverride = -1;
-							range = 0;
-							minimum = 5;
+							range = 2;
+							minimum = 16;
 							directOverride = -1;
 							owner = 0;
 							alterType = "hidden";
 							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[3] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 1200;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 6;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[4] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 1200;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 7;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[5] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 1200;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 8;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 18000;
-					type = "time";
-					subject = -1;
-				};
-				[1] = {
-					counter = {
-						player = 0;
-						amount = 5;
-						id = 0;
-					};
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5301;
 							exclusiveFilter = 0;
 						};
 					};
@@ -12577,20 +12706,83 @@ data = {
 					type = "counter";
 					subject = -1;
 				};
-				[2] = {
-					direct = -1;
+				[1] = {
+					direct = 10;
 					actions = {
 						[0] = {
-							reflexive = false;
-							player = 1;
+							reflexive = true;
 							inclusiveFilter = 0;
-							text = 11301;
-							nextLevel = -1;
+							retainAmmoCount = false;
+							delay = 0;
+							subjectOverride = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "base type";
+							type = "alter";
+							id = 126;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							volume = 255;
+							priority = 4;
+							isAbsolute = false;
+							reflexive = true;
+							soundId = 17406;
+							inclusiveFilter = 0;
+							volumeRange = 0;
+							delay = 0;
+							subjectOverride = -1;
+							persistence = 30;
+							directOverride = -1;
+							owner = 0;
+							type = "play sound";
+							exclusiveFilter = 0;
+							soundRange = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[3] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = 0;
+							directOverride = 10;
+							owner = 0;
+							type = "set destination";
+							exclusiveFilter = 0;
+						};
+						[4] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
 							delay = 0;
 							subjectOverride = -1;
 							directOverride = -1;
 							owner = 0;
-							type = "declare winner";
+							type = "display message";
+							id = 5401;
+							exclusiveFilter = 0;
+						};
+						[5] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = 10;
+							directOverride = 7;
+							owner = 0;
+							type = "set destination";
 							exclusiveFilter = 0;
 						};
 					};
@@ -12600,80 +12792,59 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					value = 1;
-					type = "owner";
-					subject = 9;
+					location = 223.60679775;
+					type = "proximity";
+					subject = 0;
 				};
-				[3] = {
-					direct = -1;
+				[2] = {
+					direct = 7;
 					actions = {
 						[0] = {
 							reflexive = false;
-							player = 0;
 							inclusiveFilter = 0;
-							text = 11302;
-							nextLevel = 16;
 							delay = 0;
+							subjectOverride = 0;
+							directOverride = 7;
+							owner = 0;
+							type = "set destination";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							speed = 128;
+							delay = 60;
+							subjectOverride = 0;
+							directOverride = 7;
+							owner = 0;
+							type = "land at";
+							exclusiveFilter = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 10;
 							subjectOverride = -1;
+							range = 0;
+							minimum = 19;
 							directOverride = -1;
 							owner = 0;
-							type = "declare winner";
+							alterType = "hidden";
+							type = "alter";
 							exclusiveFilter = 0;
 						};
 					};
 					flags = {
 						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
 						trueOnlyOnce = true;
 					};
-					value = 0;
-					type = "owner";
+					location = 223.60679775;
+					type = "proximity";
 					subject = 10;
 				};
 			};
-			id = 15;
-			songId = 5001;
-		};
-		[16] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 11;
-				time = 300;
-			};
-			starmap = {
-				y = 194;
-				x = 145;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "1\\0\\0\\0\\Retrieve escape\\Escort tractor";
-				[1] = "_1\\0\\0\\0\\pods\\tug";
-				[2] = "2\\1\\0\\0\\f\\t\\Rescued: \\/6";
-			};
-			movie = ":Ares Data Ä:Placeholder Movie";
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 13 \n\\iYo Ho Ho";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 600;
-					type = "cpu";
-					name = "The Prophets of Salril";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -13202,8 +13373,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 13 \n\\iYo Ho Ho";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 600;
+					type = "cpu";
+					name = "The Prophets of Salril";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5002;
+			prologue = "#+B2007\n\i PART 3 \n\i \n#+\nWord of your perseverance spreads across the stars. Even the mysterious Elejeetian Empire, an enemy of Cantharis, begins to recognize the power of human tenacity. The Emperor himself begins to wonder if, unlikely though it seems, these humans could deliver a crippling blow to the Order?\n\n#+10023\nDue to arrogance or innocence, the Elejeetians rarely arm their ships with weapons of any kind, preferring instead to rely on heavy defenses to protect them from attacks. However, on the rare occasions that they do choose to fight, their superior technology becomes readily apparent.\n\n#+\nYour crew is aware that, impressive though their victories have been, their most trying conflicts still lie ahead. From Fansi you must pass into Cantharan space, coming perilously close to the Audemedon Axis and the Salrilians.\n\n#+\nAs you approach the Secorem System, these hazards that now face you are quickly illustrated by a faint distress signal, the last gasp of a supposedly invulnerable Elejeetian liner: \"...HUMANS...HELP...NOW...\"";
 			briefing = {
 				[0] = {
 					content = "^P1127^The Banadee, an Elejeetian luxury passenger liner, has been disabled by Gaitori pirates. The Elejeetian Minister of Automation, Jommo, along with most of the other passengers, has abandoned ship.";
@@ -13273,51 +13464,48 @@ data = {
 					title = "Secorem";
 				};
 			};
+			movie = ":Ares Data Ä:Placeholder Movie";
+			epilogue = "";
+			id = 16;
+			starmap = {
+				y = 194;
+				x = 145;
+			};
+		};
+		[17] = {
+			par = {
+				losses = 30;
+				ratio = 0.0;
+				kills = 95;
+				time = 1320;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Bokleo";
+				[1] = "_-Gamma";
+				[2] = "-Free Bazidanese";
+			};
 			conditions = {
 				[0] = {
 					counter = {
 						player = 0;
-						amount = 6;
-						id = 1;
+						amount = 3;
+						id = 0;
 					};
-					direct = -1;
+					direct = 1;
 					actions = {
 						[0] = {
 							reflexive = true;
 							inclusiveFilter = 0;
-							delay = 90;
+							retainAmmoCount = false;
+							delay = 0;
 							subjectOverride = -1;
-							range = 0;
-							minimum = 10;
 							directOverride = -1;
 							owner = 0;
-							alterType = "hidden";
+							alterType = "base type";
 							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 30;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5400;
-							exclusiveFilter = 0;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 900;
-							subjectOverride = -1;
-							range = 2;
-							minimum = 16;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
+							id = 67;
 							exclusiveFilter = 0;
 						};
 					};
@@ -13328,42 +13516,12 @@ data = {
 						trueOnlyOnce = true;
 					};
 					type = "counter";
-					subject = -1;
+					subject = 1;
 				};
 				[1] = {
-					direct = 10;
+					direct = 7;
 					actions = {
 						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							retainAmmoCount = false;
-							delay = 0;
-							subjectOverride = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "base type";
-							type = "alter";
-							id = 126;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							volume = 255;
-							priority = 4;
-							isAbsolute = false;
-							reflexive = true;
-							soundId = 17406;
-							inclusiveFilter = 0;
-							volumeRange = 0;
-							delay = 0;
-							subjectOverride = -1;
-							persistence = 30;
-							directOverride = -1;
-							owner = 0;
-							type = "play sound";
-							exclusiveFilter = 0;
-							soundRange = 0;
-						};
-						[2] = {
 							reflexive = true;
 							inclusiveFilter = 0;
 							delay = 0;
@@ -13377,36 +13535,17 @@ data = {
 							exclusiveFilter = 0;
 							conditionTrue = false;
 						};
-						[3] = {
+						[1] = {
 							reflexive = false;
 							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = 0;
-							directOverride = 10;
-							owner = 0;
-							type = "set destination";
-							exclusiveFilter = 0;
-						};
-						[4] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
+							value = 0;
 							delay = 0;
 							subjectOverride = -1;
+							useObjectsOwner = false;
 							directOverride = -1;
 							owner = 0;
-							type = "display message";
-							id = 5401;
-							exclusiveFilter = 0;
-						};
-						[5] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = 10;
-							directOverride = 7;
-							owner = 0;
-							type = "set destination";
+							alterType = "owner";
+							type = "alter";
 							exclusiveFilter = 0;
 						};
 					};
@@ -13416,41 +13555,87 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 0;
+					value = 0;
+					type = "owner";
+					subject = 6;
 				};
 				[2] = {
 					direct = 7;
 					actions = {
 						[0] = {
-							reflexive = false;
+							reflexive = true;
 							inclusiveFilter = 0;
 							delay = 0;
-							subjectOverride = 0;
-							directOverride = 7;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
 							owner = 0;
-							type = "set destination";
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[1] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							value = 1;
+							delay = 0;
+							subjectOverride = -1;
+							useObjectsOwner = false;
+							directOverride = -1;
+							owner = 0;
+							alterType = "owner";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 6;
+				};
+				[3] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 15;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
 							exclusiveFilter = 0;
 						};
 						[1] = {
 							reflexive = true;
 							inclusiveFilter = 0;
-							speed = 128;
-							delay = 60;
-							subjectOverride = 0;
-							directOverride = 7;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 16;
+							directOverride = -1;
 							owner = 0;
-							type = "land at";
+							alterType = "hidden";
+							type = "alter";
 							exclusiveFilter = 0;
 						};
 						[2] = {
 							reflexive = true;
 							inclusiveFilter = 0;
-							delay = 10;
+							delay = 0;
 							subjectOverride = -1;
 							range = 0;
-							minimum = 19;
+							minimum = 17;
 							directOverride = -1;
 							owner = 0;
 							alterType = "hidden";
@@ -13460,57 +13645,69 @@ data = {
 					};
 					flags = {
 						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
+						hex = 0x1;
+						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 10;
+					value = 7200;
+					type = "time";
+					subject = -1;
+				};
+				[4] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 11501;
+							nextLevel = 18;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					value = 0;
+					type = "owner";
+					subject = 8;
+				};
+				[5] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 10401;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x0;
+						initiallyTrue = false;
+						trueOnlyOnce = false;
+					};
+					value = 1;
+					type = "owner";
+					subject = 9;
 				};
 			};
-			id = 16;
-			songId = 5002;
-		};
-		[17] = {
-			par = {
-				losses = 30;
-				ratio = 0.0;
-				kills = 95;
-				time = 1320;
-			};
-			starmap = {
-				y = 222;
-				x = 130;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Bokleo";
-				[1] = "_-Gamma";
-				[2] = "-Free Bazidanese";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 14 \n\\iCaptivating";
-			players = {
-				[1] = {
-					netRaceFlags = 34;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 34;
-					earningPower = 1.25;
-					race = 200;
-					type = "cpu";
-					name = "The Cantharan Order";
-				};
-			};
-			netRaceFlags = 34;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -13979,8 +14176,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 14 \n\\iCaptivating";
+			players = {
+				[1] = {
+					netRaceFlags = 34;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 34;
+					earningPower = 1.25;
+					race = 200;
+					type = "cpu";
+					name = "The Cantharan Order";
+				};
+			};
+			netRaceFlags = 34;
+			songId = 5003;
+			prologue = "#+B2006\nBefore the Cantharan Crusades began, the Star League of Bazidan had trading outposts scattered throughout what is now Cantharan space. With enormous patience and a mastery of communication, the Bazidanese served as intermediaries between civilizations, facilitating free trade between alien species, opening their outposts to all.\n\n#+\nWhen the Order's belligerence began to disrupt the trading routes, and Elejee and Ishima broke off their diplomatic ties to Cantharis, the Bazidanese remained neutral in an effort to negotiate a peaceful end to the Order's expansion. However, the Cantharans have begun to exhaust even the legendary patience of Bazidan. \n\n#+\nIn the Bokleo System, an opportunity presents itself to you when you learn of a brazen Cantharan attack on a Bazidanese outpost. Cantharis's new enemy could be Earth's new ally.";
 			briefing = {
 				[0] = {
 					content = "^P10044^The Bokleo System was a neutral Bazidanese trading outpost until the Cantharan Order occupied it. However, the Cantharans are not interested in disrupting the trading routes--they have a much greater prize.";
@@ -14124,26 +14341,53 @@ data = {
 					objectId = 0;
 				};
 			};
+			movie = nil;
+			epilogue = "";
+			id = 17;
+			starmap = {
+				y = 222;
+				x = 130;
+			};
+		};
+		[18] = {
+			par = {
+				losses = 17;
+				ratio = 0.0;
+				kills = 56;
+				time = 435;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Thasero";
+			};
 			conditions = {
 				[0] = {
-					counter = {
-						player = 0;
-						amount = 3;
-						id = 0;
-					};
-					direct = 1;
+					direct = 3;
 					actions = {
 						[0] = {
 							reflexive = true;
 							inclusiveFilter = 0;
-							retainAmmoCount = false;
-							delay = 0;
+							page = 1;
+							delay = 120;
 							subjectOverride = -1;
 							directOverride = -1;
 							owner = 0;
-							alterType = "base type";
+							type = "display message";
+							id = 4570;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 180;
+							subjectOverride = -1;
+							range = 2;
+							minimum = 7;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
 							type = "alter";
-							id = 67;
 							exclusiveFilter = 0;
 						};
 					};
@@ -14153,179 +14397,18 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					type = "counter";
-					subject = 1;
+					location = 223.60679775;
+					type = "proximity";
+					subject = 2;
 				};
 				[1] = {
-					direct = 7;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[1] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							value = 0;
-							delay = 0;
-							subjectOverride = -1;
-							useObjectsOwner = false;
-							directOverride = -1;
-							owner = 0;
-							alterType = "owner";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 6;
-				};
-				[2] = {
-					direct = 7;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[1] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							value = 1;
-							delay = 0;
-							subjectOverride = -1;
-							useObjectsOwner = false;
-							directOverride = -1;
-							owner = 0;
-							alterType = "owner";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 6;
-				};
-				[3] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 15;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 16;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 17;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 7200;
-					type = "time";
-					subject = -1;
-				};
-				[4] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 11501;
-							nextLevel = 18;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x0;
-						initiallyTrue = false;
-						trueOnlyOnce = false;
-					};
-					value = 0;
-					type = "owner";
-					subject = 8;
-				};
-				[5] = {
 					direct = -1;
 					actions = {
 						[0] = {
 							reflexive = false;
 							player = 1;
 							inclusiveFilter = 0;
-							text = 10401;
+							text = 11601;
 							nextLevel = -1;
 							delay = 0;
 							subjectOverride = -1;
@@ -14337,55 +14420,42 @@ data = {
 					};
 					flags = {
 						hasBeenTrue = false;
-						hex = 0x0;
+						hex = 0x1;
 						initiallyTrue = false;
-						trueOnlyOnce = false;
+						trueOnlyOnce = true;
 					};
 					value = 1;
 					type = "owner";
-					subject = 9;
-				};
-			};
-			id = 17;
-			songId = 5003;
-		};
-		[18] = {
-			par = {
-				losses = 17;
-				ratio = 0.0;
-				kills = 56;
-				time = 435;
-			};
-			starmap = {
-				y = 150;
-				x = 120;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Thasero";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 15 \n\\iThe Left Hand";
-			players = {
-				[1] = {
-					netRaceFlags = 172;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
+					subject = 0;
 				};
 				[2] = {
-					netRaceFlags = 0;
-					earningPower = 2.0;
-					race = 600;
-					type = "cpu";
-					name = "The Prophets of Salril";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 11602;
+							nextLevel = 19;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 1;
 				};
 			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -14651,8 +14721,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 15 \n\\iThe Left Hand";
+			players = {
+				[1] = {
+					netRaceFlags = 172;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 2.0;
+					race = 600;
+					type = "cpu";
+					name = "The Prophets of Salril";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5004;
+			prologue = "";
 			briefing = {
 				[0] = {
 					content = "The Salrilians, the so-called Prophets, appear to have invested considerably in the Cantharan Order's success. While their motives remain obscure, their willingness to fight has become clear.\n\nThe Salrilians orchestrated the attack on the Elejeetian liner Banadee from here, the Thasero System--and it is here that you will make your willingness to fight clear to the Salrilians.";
@@ -14750,54 +14840,38 @@ data = {
 					title = "The Actualizer";
 				};
 			};
+			movie = nil;
+			epilogue = "";
+			id = 18;
+			starmap = {
+				y = 150;
+				x = 120;
+			};
+		};
+		[19] = {
+			par = {
+				losses = 23;
+				ratio = 0.0;
+				kills = 42;
+				time = 210;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "1\\2\\0\\0\\Protect science\\Destroy jumpgate\\\\";
+				[1] = "1\\2\\0\\0\\vessel\\inhibitor\\\\";
+				[2] = "1\\3\\0\\0\\\\DESTROYED\\\\";
+				[3] = "1\\3\\0\\0\\\\Destroy all\\\\";
+			};
 			conditions = {
 				[0] = {
-					direct = 3;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 120;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 4570;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 180;
-							subjectOverride = -1;
-							range = 2;
-							minimum = 7;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 2;
-				};
-				[1] = {
 					direct = -1;
 					actions = {
 						[0] = {
-							reflexive = false;
+							reflexive = true;
 							player = 1;
 							inclusiveFilter = 0;
-							text = 11601;
+							text = 11701;
 							nextLevel = -1;
 							delay = 0;
 							subjectOverride = -1;
@@ -14805,6 +14879,34 @@ data = {
 							owner = 0;
 							type = "declare winner";
 							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
 						};
 					};
 					flags = {
@@ -14814,23 +14916,22 @@ data = {
 						trueOnlyOnce = true;
 					};
 					value = 1;
-					type = "owner";
-					subject = 0;
+					type = "destruction";
+					subject = -1;
 				};
-				[2] = {
+				[1] = {
 					direct = -1;
 					actions = {
 						[0] = {
-							reflexive = false;
-							player = 0;
+							reflexive = true;
 							inclusiveFilter = 0;
-							text = 11602;
-							nextLevel = 19;
+							page = 1;
 							delay = 0;
 							subjectOverride = -1;
 							directOverride = -1;
 							owner = 0;
-							type = "declare winner";
+							type = "display message";
+							id = 5240;
 							exclusiveFilter = 0;
 						};
 					};
@@ -14840,54 +14941,206 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					value = 0;
-					type = "owner";
-					subject = 1;
-				};
-			};
-			id = 18;
-			songId = 5004;
-		};
-		[19] = {
-			par = {
-				losses = 23;
-				ratio = 0.0;
-				kills = 42;
-				time = 210;
-			};
-			starmap = {
-				y = 104;
-				x = 98;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "1\\2\\0\\0\\Protect science\\Destroy jumpgate\\\\";
-				[1] = "1\\2\\0\\0\\vessel\\inhibitor\\\\";
-				[2] = "1\\3\\0\\0\\\\DESTROYED\\\\";
-				[3] = "1\\3\\0\\0\\\\Destroy all\\\\";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 16 \n\\iHornet's Nest";
-			players = {
-				[1] = {
-					netRaceFlags = 171;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
+					value = 60;
+					type = "time";
+					subject = -1;
 				};
 				[2] = {
-					netRaceFlags = 202;
-					earningPower = 1.0;
-					race = 700;
-					type = "cpu";
-					name = "The Audemedon Axis";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 2;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5241;
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[2] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 1200;
+							subjectOverride = 3;
+							directOverride = 0;
+							owner = 0;
+							type = "set destination";
+							exclusiveFilter = 0;
+						};
+						[3] = {
+							reflexive = false;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = 4;
+							directOverride = 0;
+							owner = 0;
+							type = "set destination";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 2400;
+					type = "time";
+					subject = -1;
+				};
+				[3] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 0;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[3] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 360;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5243;
+							exclusiveFilter = 0;
+						};
+						[4] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 360;
+							subjectOverride = -1;
+							range = 4;
+							minimum = 20;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[5] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 360;
+							subjectOverride = -1;
+							range = 5;
+							minimum = 14;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[6] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 360;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 4;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "destruction";
+					subject = -1;
+				};
+				[4] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 11702;
+							nextLevel = 20;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					player = 1;
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					type = "no ships left";
+					subject = -1;
 				};
 			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -15516,8 +15769,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 16 \n\\iHornet's Nest";
+			players = {
+				[1] = {
+					netRaceFlags = 171;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 202;
+					earningPower = 1.0;
+					race = 700;
+					type = "cpu";
+					name = "The Audemedon Axis";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5000;
+			prologue = "#+B2007\nThe Salrilians, seething from their defeat in the Thasero System, call upon their most dreaded ally: the Audemedon Axis, a race of intelligent machines.\n\n#+10017\nAlmost nothing is known about the Audemedons. Their technology is incomprehensible, and their motives obscure.\n\n#+\nApparently at the beck and call of the Prophets, the Audemedons serve as Salril's elite guard. Incensed that you have defied the Oracular Net's predictions, the Salrilians have the Axis ready a deadly response.";
 			briefing = {
 				[0] = {
 					content = "We're dropping you into the Ser System to investigate an unusual phenomenon brought to our attention by the Elejeetians. They've been experiencing problems maintaining jump streams that pass near Ser.";
@@ -15571,15 +15844,102 @@ data = {
 					objectId = 3;
 				};
 			};
+			movie = nil;
+			epilogue = "";
+			id = 19;
+			starmap = {
+				y = 104;
+				x = 98;
+			};
+		};
+		[20] = {
+			par = {
+				losses = 30;
+				ratio = 0.0;
+				kills = 45;
+				time = 960;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Lalande";
+			};
 			conditions = {
 				[0] = {
 					direct = -1;
 					actions = {
 						[0] = {
 							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 6;
+							minimum = 5;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							value = 0;
+							delay = 0;
+							subjectOverride = 2;
+							useObjectsOwner = false;
+							directOverride = -1;
+							owner = 0;
+							alterType = "owner";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[2] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							value = 1;
+							delay = 0;
+							subjectOverride = 3;
+							useObjectsOwner = false;
+							directOverride = -1;
+							owner = 0;
+							alterType = "owner";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+						[3] = {
+							reflexive = false;
 							player = 1;
 							inclusiveFilter = 0;
-							text = 11701;
+							value = 2560000;
+							delay = 0;
+							subjectOverride = 3;
+							useObjectsOwner = false;
+							directOverride = -1;
+							owner = 0;
+							alterType = "absolute cash";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 4780;
+					type = "time";
+					subject = -1;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = false;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 11802;
 							nextLevel = -1;
 							delay = 0;
 							subjectOverride = -1;
@@ -15587,34 +15947,6 @@ data = {
 							owner = 0;
 							type = "declare winner";
 							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
 						};
 					};
 					flags = {
@@ -15624,191 +15956,24 @@ data = {
 						trueOnlyOnce = true;
 					};
 					value = 1;
-					type = "destruction";
-					subject = -1;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5240;
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 60;
-					type = "time";
-					subject = -1;
+					type = "owner";
+					subject = 2;
 				};
 				[2] = {
 					direct = -1;
 					actions = {
 						[0] = {
 							reflexive = true;
+							player = 0;
 							inclusiveFilter = 0;
-							page = 2;
+							text = 11801;
+							nextLevel = 21;
 							delay = 0;
 							subjectOverride = -1;
 							directOverride = -1;
 							owner = 0;
-							type = "display message";
-							id = 5241;
+							type = "declare winner";
 							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[2] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							delay = 1200;
-							subjectOverride = 3;
-							directOverride = 0;
-							owner = 0;
-							type = "set destination";
-							exclusiveFilter = 0;
-						};
-						[3] = {
-							reflexive = false;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = 4;
-							directOverride = 0;
-							owner = 0;
-							type = "set destination";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 2400;
-					type = "time";
-					subject = -1;
-				};
-				[3] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 0;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[3] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 360;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5243;
-							exclusiveFilter = 0;
-						};
-						[4] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 360;
-							subjectOverride = -1;
-							range = 4;
-							minimum = 20;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[5] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 360;
-							subjectOverride = -1;
-							range = 5;
-							minimum = 14;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[6] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 360;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 4;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
 						};
 					};
 					flags = {
@@ -15818,77 +15983,10 @@ data = {
 						trueOnlyOnce = true;
 					};
 					value = 0;
-					type = "destruction";
-					subject = -1;
-				};
-				[4] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 11702;
-							nextLevel = 20;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					player = 1;
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					type = "no ships left";
-					subject = -1;
+					type = "owner";
+					subject = 3;
 				};
 			};
-			id = 19;
-			songId = 5000;
-		};
-		[20] = {
-			par = {
-				losses = 30;
-				ratio = 0.0;
-				kills = 45;
-				time = 960;
-			};
-			starmap = {
-				y = 156;
-				x = 81;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Lalande";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 240;
-			name = "\\i Chapter 17 \n\\i...And It Feels So Good";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 700;
-					type = "cpu";
-					name = "The Audemedon Axis";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -16258,8 +16356,28 @@ data = {
 					nameOverride = "Outpost 2";
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 240;
+			name = "\\i Chapter 17 \n\\i...And It Feels So Good";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 700;
+					type = "cpu";
+					name = "The Audemedon Axis";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5001;
+			prologue = "";
 			briefing = {
 				[0] = {
 					content = "The Lelande System was the human's latest and biggest colony. Hidden in a widely dispersed asteroid field, the humans hoped to escape the Cantharans' notice. Unfortunately, the colonists here have been overwhelmed by Audemedons.";
@@ -16326,56 +16444,55 @@ data = {
 					objectId = 3;
 				};
 			};
+			movie = nil;
+			epilogue = "";
+			id = 20;
+			starmap = {
+				y = 156;
+				x = 81;
+			};
+		};
+		[21] = {
+			par = {
+				losses = 34;
+				ratio = 0.0;
+				kills = 29;
+				time = 375;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Capture Proxima";
+			};
 			conditions = {
 				[0] = {
+					counter = {
+						player = 0;
+						amount = 2;
+						id = 0;
+					};
 					direct = -1;
 					actions = {
 						[0] = {
 							reflexive = true;
 							inclusiveFilter = 0;
+							value = 0;
 							delay = 0;
-							subjectOverride = -1;
-							range = 6;
-							minimum = 5;
+							subjectOverride = 0;
+							useObjectsOwner = false;
 							directOverride = -1;
 							owner = 0;
-							alterType = "hidden";
+							alterType = "owner";
 							type = "alter";
 							exclusiveFilter = 0;
 						};
 						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							value = 0;
-							delay = 0;
-							subjectOverride = 2;
-							useObjectsOwner = false;
-							directOverride = -1;
-							owner = 0;
-							alterType = "owner";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[2] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							value = 1;
-							delay = 0;
-							subjectOverride = 3;
-							useObjectsOwner = false;
-							directOverride = -1;
-							owner = 0;
-							alterType = "owner";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[3] = {
 							reflexive = false;
-							player = 1;
+							player = 0;
 							inclusiveFilter = 0;
 							value = 2560000;
 							delay = 0;
-							subjectOverride = 3;
+							subjectOverride = -1;
 							useObjectsOwner = false;
 							directOverride = -1;
 							owner = 0;
@@ -16390,24 +16507,23 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					value = 4780;
-					type = "time";
+					type = "counter";
 					subject = -1;
 				};
 				[1] = {
 					direct = -1;
 					actions = {
 						[0] = {
-							reflexive = false;
-							player = 1;
+							reflexive = true;
 							inclusiveFilter = 0;
-							text = 11802;
-							nextLevel = -1;
 							delay = 0;
 							subjectOverride = -1;
+							range = 3;
+							minimum = 31;
 							directOverride = -1;
 							owner = 0;
-							type = "declare winner";
+							alterType = "hidden";
+							type = "alter";
 							exclusiveFilter = 0;
 						};
 					};
@@ -16417,19 +16533,19 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					value = 1;
-					type = "owner";
-					subject = 2;
+					value = 28167;
+					type = "time";
+					subject = -1;
 				};
 				[2] = {
 					direct = -1;
 					actions = {
 						[0] = {
-							reflexive = true;
+							reflexive = false;
 							player = 0;
 							inclusiveFilter = 0;
-							text = 11801;
-							nextLevel = 21;
+							text = 11901;
+							nextLevel = 22;
 							delay = 0;
 							subjectOverride = -1;
 							directOverride = -1;
@@ -16446,49 +16562,9 @@ data = {
 					};
 					value = 0;
 					type = "owner";
-					subject = 3;
+					subject = 1;
 				};
 			};
-			id = 20;
-			songId = 5001;
-		};
-		[21] = {
-			par = {
-				losses = 34;
-				ratio = 0.0;
-				kills = 29;
-				time = 375;
-			};
-			starmap = {
-				y = 182;
-				x = 62;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Capture Proxima";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 18 \n\\iBlood, Toil, Tears, and Sweat";
-			players = {
-				[1] = {
-					netRaceFlags = 172;
-					earningPower = 1.0;
-					race = 900;
-					type = "single";
-					name = "The UNS Resistance";
-				};
-				[2] = {
-					netRaceFlags = 202;
-					earningPower = 1.0;
-					race = 700;
-					type = "cpu";
-					name = "The Audemedon Axis";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -17376,8 +17452,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 18 \n\\iBlood, Toil, Tears, and Sweat";
+			players = {
+				[1] = {
+					netRaceFlags = 172;
+					earningPower = 1.0;
+					race = 900;
+					type = "single";
+					name = "The UNS Resistance";
+				};
+				[2] = {
+					netRaceFlags = 202;
+					earningPower = 1.0;
+					race = 700;
+					type = "cpu";
+					name = "The Audemedon Axis";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5002;
+			prologue = "";
 			briefing = {
 				[0] = {
 					content = "The humans have been amassing a force in Proxima Centauri, using the technological information weÕve been sending them. TheyÕve made some progress, but the Cantharans have invaded their colony on Centauri Alpha, where a surface battle has broken out. One of your objectives here will be to deliver reinforcements to the colonists fighting on the surface.";
@@ -17455,41 +17551,45 @@ data = {
 					objectId = 1;
 				};
 			};
+			movie = nil;
+			epilogue = "";
+			id = 21;
+			starmap = {
+				y = 182;
+				x = 62;
+			};
+		};
+		[22] = {
+			par = {
+				losses = 35;
+				ratio = 0.0;
+				kills = 50;
+				time = 780;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "_-Capture Pictoris";
+				[1] = "Beta, 1 & 2";
+				[2] = "-Destroy hostile";
+			};
 			conditions = {
 				[0] = {
-					counter = {
-						player = 0;
-						amount = 2;
-						id = 0;
-					};
 					direct = -1;
 					actions = {
 						[0] = {
 							reflexive = true;
 							inclusiveFilter = 0;
-							value = 0;
-							delay = 0;
-							subjectOverride = 0;
-							useObjectsOwner = false;
-							directOverride = -1;
-							owner = 0;
-							alterType = "owner";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = false;
-							player = 0;
-							inclusiveFilter = 0;
-							value = 2560000;
 							delay = 0;
 							subjectOverride = -1;
-							useObjectsOwner = false;
+							range = 0;
+							minimum = 1;
 							directOverride = -1;
 							owner = 0;
-							alterType = "absolute cash";
+							alterType = "active condition";
 							type = "alter";
 							exclusiveFilter = 0;
+							conditionTrue = false;
 						};
 					};
 					flags = {
@@ -17498,7 +17598,8 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					type = "counter";
+					value = 7;
+					type = "destruction";
 					subject = -1;
 				};
 				[1] = {
@@ -17509,34 +17610,202 @@ data = {
 							inclusiveFilter = 0;
 							delay = 0;
 							subjectOverride = -1;
-							range = 3;
-							minimum = 31;
+							range = 0;
+							minimum = 2;
 							directOverride = -1;
 							owner = 0;
-							alterType = "hidden";
+							alterType = "active condition";
 							type = "alter";
 							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 4;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
 						};
 					};
 					flags = {
 						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
 						trueOnlyOnce = true;
 					};
-					value = 28167;
-					type = "time";
-					subject = -1;
+					value = 0;
+					type = "owner";
+					subject = 3;
 				};
 				[2] = {
 					direct = -1;
 					actions = {
 						[0] = {
-							reflexive = false;
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 3;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 5;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 4;
+				};
+				[3] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
 							player = 0;
 							inclusiveFilter = 0;
-							text = 11901;
-							nextLevel = 22;
+							text = 12001;
+							nextLevel = 23;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 5;
+				};
+				[4] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 1;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 3;
+				};
+				[5] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 1;
+							minimum = 2;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = true;
+						};
+						[1] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 0;
+							minimum = 1;
+							directOverride = -1;
+							owner = 0;
+							alterType = "active condition";
+							type = "alter";
+							exclusiveFilter = 0;
+							conditionTrue = false;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x3;
+						initiallyTrue = true;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 4;
+				};
+				[6] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 12002;
+							nextLevel = -1;
 							delay = 0;
 							subjectOverride = -1;
 							directOverride = -1;
@@ -17551,53 +17820,11 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					value = 0;
+					value = 1;
 					type = "owner";
-					subject = 1;
+					subject = 0;
 				};
 			};
-			id = 21;
-			songId = 5002;
-		};
-		[22] = {
-			par = {
-				losses = 35;
-				ratio = 0.0;
-				kills = 50;
-				time = 780;
-			};
-			starmap = {
-				y = 241;
-				x = 53;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "_-Capture Pictoris";
-				[1] = "Beta, 1 & 2";
-				[2] = "-Destroy hostile";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 19 \n\\iYou Should Have Seen the One that Got Away";
-			players = {
-				[1] = {
-					netRaceFlags = 26816;
-					earningPower = 1.0;
-					race = 900;
-					type = "single";
-					name = "The UNS Resistance";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 200;
-					type = "cpu";
-					name = "The Cantharan Order";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -17920,8 +18147,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 19 \n\\iYou Should Have Seen the One that Got Away";
+			players = {
+				[1] = {
+					netRaceFlags = 26816;
+					earningPower = 1.0;
+					race = 900;
+					type = "single";
+					name = "The UNS Resistance";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 200;
+					type = "cpu";
+					name = "The Cantharan Order";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5003;
+			prologue = "";
 			briefing = {
 				[0] = {
 					content = "The humanÕs first extrasolar colony, the only surviving colony other than Proxima Centauri, is in danger of being decimated. The humans in the system destroyed their own jumpgate to avoid detection and the fate that befell Earth, but the Cantharan Order has found them and has a foothold in the system.";
@@ -17999,34 +18246,51 @@ data = {
 					objectId = 7;
 				};
 			};
+			movie = nil;
+			epilogue = "";
+			id = 22;
+			starmap = {
+				y = 241;
+				x = 53;
+			};
+		};
+		[23] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 50;
+				time = 600;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+				[0] = "-Destroy hostile";
+			};
 			conditions = {
 				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
 					flags = {
 						hasBeenTrue = false;
 						hex = 0x1;
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					value = 7;
-					type = "destruction";
-					subject = -1;
+					type = "half health";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							page = 1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "display message";
+							id = 5170;
+							exclusiveFilter = 0;
+						};
+					};
+					subject = 2;
 				};
 				[1] = {
 					direct = -1;
@@ -18034,203 +18298,47 @@ data = {
 						[0] = {
 							reflexive = true;
 							inclusiveFilter = 0;
-							delay = 0;
+							page = 1;
+							delay = 360;
 							subjectOverride = -1;
-							range = 0;
-							minimum = 2;
 							directOverride = -1;
 							owner = 0;
-							alterType = "active condition";
-							type = "alter";
+							type = "display message";
+							id = 5171;
 							exclusiveFilter = 0;
-							conditionTrue = false;
 						};
 						[1] = {
 							reflexive = true;
 							inclusiveFilter = 0;
-							delay = 0;
+							delay = 360;
 							subjectOverride = -1;
-							range = 0;
-							minimum = 4;
+							range = 20;
+							minimum = 12;
 							directOverride = -1;
 							owner = 0;
-							alterType = "active condition";
+							alterType = "hidden";
 							type = "alter";
 							exclusiveFilter = 0;
-							conditionTrue = false;
 						};
 					};
+					player = 1;
 					flags = {
 						hasBeenTrue = false;
 						hex = 0x3;
 						initiallyTrue = true;
 						trueOnlyOnce = true;
 					};
-					value = 0;
-					type = "owner";
-					subject = 3;
+					type = "no ships left";
+					subject = -1;
 				};
 				[2] = {
 					direct = -1;
 					actions = {
 						[0] = {
 							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 3;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 5;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 4;
-				};
-				[3] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
 							player = 0;
 							inclusiveFilter = 0;
-							text = 12001;
-							nextLevel = 23;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 5;
-				};
-				[4] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 1;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 3;
-				};
-				[5] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 1;
-							minimum = 2;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = true;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 0;
-							minimum = 1;
-							directOverride = -1;
-							owner = 0;
-							alterType = "active condition";
-							type = "alter";
-							exclusiveFilter = 0;
-							conditionTrue = false;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 4;
-				};
-				[6] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 12002;
+							text = 12101;
 							nextLevel = -1;
 							delay = 0;
 							subjectOverride = -1;
@@ -18246,51 +18354,11 @@ data = {
 						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					value = 1;
+					value = 0;
 					type = "owner";
-					subject = 0;
+					subject = 1;
 				};
 			};
-			id = 22;
-			songId = 5003;
-		};
-		[23] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 50;
-				time = 600;
-			};
-			starmap = {
-				y = 284;
-				x = 43;
-			};
-			playerNum = 2;
-			scoreString = {
-				[0] = "-Destroy hostile";
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Chapter 20 \n\\iThe Mothership Connection";
-			players = {
-				[1] = {
-					netRaceFlags = 3;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 181;
-					earningPower = 1.0;
-					race = 200;
-					type = "cpu";
-					name = "The Cantharan Order";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -19119,8 +19187,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Chapter 20 \n\\iThe Mothership Connection";
+			players = {
+				[1] = {
+					netRaceFlags = 3;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 181;
+					earningPower = 1.0;
+					race = 200;
+					type = "cpu";
+					name = "The Cantharan Order";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5004;
+			prologue = "";
 			briefing = {
 				[0] = {
 					content = "The Cantharan gateship has withdrawn to Earth. It has activated a jumpgate disruption device, apparently a derivative of the Audemedon device you destroyed in the Ser system. Still, we believe we can get a single ship through a small jumpstream to intercept the gateship. This will be your last chance to destroy the gateship and to bring freedom to your home world.";
@@ -19181,54 +19269,36 @@ data = {
 					title = "Sol";
 				};
 			};
+			movie = nil;
+			epilogue = "#+B2005\n#+10031\nThe Earth you left over one hundred and fifty years ago is greatly changed. The people you knew are long since dead, and the place you called home no longer exists.\n\n#+\nBut neither time nor the Cantharans could destroy what you fought to salvage: humanity. A mercy you eventually found outside of mankind.\n\n#+\nYou will be welcomed as a hero, to be sure. The individuals will be honored, and the crew of the Ares may even become legends.\n\n#+\nBut the greatest victories this day do not belong to men. They belong to humanity. They belong to our unending faith in our place in the universe. And now humanity, with due arrogance, will claim that place.";
+			id = 23;
+			starmap = {
+				y = 284;
+				x = 43;
+			};
+		};
+		[24] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 0;
+				time = -1;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
+			};
 			conditions = {
 				[0] = {
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					type = "half health";
 					direct = -1;
 					actions = {
 						[0] = {
 							reflexive = true;
 							inclusiveFilter = 0;
-							page = 1;
 							delay = 0;
 							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5170;
-							exclusiveFilter = 0;
-						};
-					};
-					subject = 2;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							page = 1;
-							delay = 360;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "display message";
-							id = 5171;
-							exclusiveFilter = 0;
-						};
-						[1] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 360;
-							subjectOverride = -1;
-							range = 20;
-							minimum = 12;
+							range = 1;
+							minimum = 6;
 							directOverride = -1;
 							owner = 0;
 							alterType = "hidden";
@@ -19236,15 +19306,42 @@ data = {
 							exclusiveFilter = 0;
 						};
 					};
-					player = 1;
 					flags = {
 						hasBeenTrue = false;
-						hex = 0x3;
-						initiallyTrue = true;
+						hex = 0x1;
+						initiallyTrue = false;
 						trueOnlyOnce = true;
 					};
-					type = "no ships left";
+					value = 4780;
+					type = "time";
 					subject = -1;
+				};
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 6101;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 2;
 				};
 				[2] = {
 					direct = -1;
@@ -19253,7 +19350,7 @@ data = {
 							reflexive = true;
 							player = 0;
 							inclusiveFilter = 0;
-							text = 12101;
+							text = 6100;
 							nextLevel = -1;
 							delay = 0;
 							subjectOverride = -1;
@@ -19271,48 +19368,9 @@ data = {
 					};
 					value = 0;
 					type = "owner";
-					subject = 1;
+					subject = 3;
 				};
 			};
-			id = 23;
-			songId = 5004;
-		};
-		[24] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 0;
-				time = -1;
-			};
-			starmap = {
-				y = 200;
-				x = 200;
-			};
-			playerNum = 2;
-			scoreString = {
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 240;
-			name = "\\i Between a Rock and a Rock \n\\i ";
-			players = {
-				[1] = {
-					netRaceFlags = 483;
-					earningPower = 1.0;
-					race = 100;
-					type = "net";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 483;
-					earningPower = 1.0;
-					race = 100;
-					type = "net";
-					name = "The Human/Ishiman Cooperative";
-				};
-			};
-			netRaceFlags = 483;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -19531,8 +19589,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 240;
+			name = "\\i Between a Rock and a Rock \n\\i ";
+			players = {
+				[1] = {
+					netRaceFlags = 483;
+					earningPower = 1.0;
+					race = 100;
+					type = "net";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 483;
+					earningPower = 1.0;
+					race = 100;
+					type = "net";
+					name = "The Human/Ishiman Cooperative";
+				};
+			};
+			netRaceFlags = 483;
+			songId = 5002;
+			prologue = "Basic head to head: capture the enemy planet. An asteroid belt, two planets, and two bunker stations. Asteroids mask ships at long range.";
 			briefing = {
 				[0] = {
 					content = "^P10016^Welcome to your first combat mission, humans.\nThis system is under the control of the Gaitori, a race of ruthless mercenaries and minions of our common enemy, the Cantharan Order.";
@@ -19544,91 +19622,13 @@ data = {
 					title = "The Gaitori";
 				};
 			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 1;
-							minimum = 6;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 4780;
-					type = "time";
-					subject = -1;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 6101;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 2;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 6100;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 3;
-				};
-			};
+			movie = nil;
+			epilogue = "";
 			id = 24;
-			songId = 5002;
+			starmap = {
+				y = 200;
+				x = 200;
+			};
 		};
 		[25] = {
 			par = {
@@ -19637,40 +19637,12 @@ data = {
 				kills = 0;
 				time = -1;
 			};
-			starmap = {
-				y = 100;
-				x = 100;
-			};
+			angle = 0;
 			playerNum = 3;
 			scoreString = {
 			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i **DEV-23** \n\\i ";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					race = 100;
-					earningPower = 1.0;
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					race = 100;
-					earningPower = 1.0;
-					name = "The Human/Ishiman Cooperative";
-				};
-				[3] = {
-					netRaceFlags = 0;
-					earningPower = 2.0;
-					race = 700;
-					type = "cpu";
-					name = "The Audemedon Axis";
-				};
+			conditions = {
 			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -19843,8 +19815,33 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i **DEV-23** \n\\i ";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					race = 100;
+					earningPower = 1.0;
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					race = 100;
+					earningPower = 1.0;
+					name = "The Human/Ishiman Cooperative";
+				};
+				[3] = {
+					netRaceFlags = 0;
+					earningPower = 2.0;
+					race = 700;
+					type = "cpu";
+					name = "The Audemedon Axis";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5002;
+			prologue = "Basic head to head: capture the enemy planet. An asteroid belt, two planets, and two bunker stations. Asteroids mask ships at long range.";
 			briefing = {
 				[0] = {
 					content = "^P10016^Welcome to your first combat mission, humans.\nThis system is under the control of the Gaitori, a race of ruthless mercenaries and minions of our common enemy, the Cantharan Order.";
@@ -19856,10 +19853,13 @@ data = {
 					title = "The Gaitori";
 				};
 			};
-			conditions = {
-			};
+			movie = nil;
+			epilogue = "";
 			id = 25;
-			songId = 5002;
+			starmap = {
+				y = 100;
+				x = 100;
+			};
 		};
 		[26] = {
 			par = {
@@ -19868,35 +19868,12 @@ data = {
 				kills = 0;
 				time = 1;
 			};
-			starmap = {
-				y = -1;
-				x = -1;
-			};
+			angle = 0;
 			playerNum = 2;
 			scoreString = {
 			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Space Race, the Musical! \\i ";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 0;
-					earningPower = 1.0;
-					race = 300;
-					type = "cpu";
-					name = "The Gaitori Union";
-				};
+			conditions = {
 			};
-			netRaceFlags = 0;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -20899,8 +20876,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Space Race, the Musical! \\i ";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 0;
+					earningPower = 1.0;
+					race = 300;
+					type = "cpu";
+					name = "The Gaitori Union";
+				};
+			};
+			netRaceFlags = 0;
+			songId = 5003;
+			prologue = "";
 			briefing = {
 				[0] = {
 					content = "^P10016^Welcome to your first combat mission, humans.\nThis system is under the control of the Gaitori, a race of ruthless mercenaries and minions of our common enemy, the Cantharan Order.";
@@ -20912,10 +20909,13 @@ data = {
 					title = "The Gaitori";
 				};
 			};
-			conditions = {
-			};
+			movie = nil;
+			epilogue = "";
 			id = 26;
-			songId = 5003;
+			starmap = {
+				y = -1;
+				x = -1;
+			};
 		};
 		[27] = {
 			par = {
@@ -20924,35 +20924,93 @@ data = {
 				kills = 0;
 				time = -1;
 			};
-			starmap = {
-				y = 100;
-				x = 100;
-			};
+			angle = 0;
 			playerNum = 2;
 			scoreString = {
 			};
-			movie = nil;
-			isTraining = false;
-			startTime = 240;
-			name = "\\i Scratching Post \n\\i ";
-			players = {
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							inclusiveFilter = 0;
+							delay = 0;
+							subjectOverride = -1;
+							range = 1;
+							minimum = 9;
+							directOverride = -1;
+							owner = 0;
+							alterType = "hidden";
+							type = "alter";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 4780;
+					type = "time";
+					subject = -1;
+				};
 				[1] = {
-					netRaceFlags = 483;
-					earningPower = 1.0;
-					race = 100;
-					type = "net";
-					name = "The UNS Resistance";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 6151;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 2;
 				};
 				[2] = {
-					netRaceFlags = 483;
-					earningPower = 1.0;
-					race = 100;
-					type = "net";
-					name = "The Cantharan Order";
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 6150;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 3;
 				};
 			};
-			netRaceFlags = 483;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -21249,8 +21307,28 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 240;
+			name = "\\i Scratching Post \n\\i ";
+			players = {
+				[1] = {
+					netRaceFlags = 483;
+					earningPower = 1.0;
+					race = 100;
+					type = "net";
+					name = "The UNS Resistance";
+				};
+				[2] = {
+					netRaceFlags = 483;
+					earningPower = 1.0;
+					race = 100;
+					type = "net";
+					name = "The Cantharan Order";
+				};
+			};
+			netRaceFlags = 483;
+			songId = 5000;
+			prologue = "Dispersed asteroid field, two planets, one bunker station, four outposts. Outposts earn 1/2 as much as planets & stations. (PPC recommended)";
 			briefing = {
 				[0] = {
 					content = "^P10016^Welcome to your first combat mission, humans.\nThis system is under the control of the Gaitori, a race of ruthless mercenaries and minions of our common enemy, the Cantharan Order.";
@@ -21262,91 +21340,13 @@ data = {
 					title = "The Gaitori";
 				};
 			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							inclusiveFilter = 0;
-							delay = 0;
-							subjectOverride = -1;
-							range = 1;
-							minimum = 9;
-							directOverride = -1;
-							owner = 0;
-							alterType = "hidden";
-							type = "alter";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 4780;
-					type = "time";
-					subject = -1;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 6151;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 2;
-				};
-				[2] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 6150;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 3;
-				};
-			};
+			movie = nil;
+			epilogue = "";
 			id = 27;
-			songId = 5000;
+			starmap = {
+				y = 100;
+				x = 100;
+			};
 		};
 		[28] = {
 			par = {
@@ -21355,35 +21355,66 @@ data = {
 				kills = 0;
 				time = -1;
 			};
-			starmap = {
-				y = -1;
-				x = -1;
-			};
+			angle = 0;
 			playerNum = 2;
 			scoreString = {
 			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Capture the Flagpod \n\\i ";
-			players = {
-				[1] = {
-					netRaceFlags = 512;
-					earningPower = 0.0;
-					race = 1100;
-					type = "net";
-					name = "The Human/Ishiman Cooperative";
+			conditions = {
+				[0] = {
+					direct = 1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 6251;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = 4;
 				};
-				[2] = {
-					netRaceFlags = 512;
-					earningPower = 0.0;
-					race = 1100;
-					type = "net";
-					name = "The Human/Ishiman Cooperative";
+				[1] = {
+					direct = 0;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 6250;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					location = 223.60679775;
+					type = "proximity";
+					subject = 5;
 				};
 			};
-			netRaceFlags = 512;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -21938,87 +21969,9 @@ data = {
 					earning = 0.0;
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-			};
-			conditions = {
-				[0] = {
-					direct = 1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 6251;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 4;
-				};
-				[1] = {
-					direct = 0;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 6250;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					location = 223.60679775;
-					type = "proximity";
-					subject = 5;
-				};
-			};
-			id = 28;
-			songId = 5001;
-		};
-		[29] = {
-			par = {
-				losses = 0;
-				ratio = 0.0;
-				kills = 0;
-				time = -1;
-			};
-			starmap = {
-				y = -1;
-				x = -1;
-			};
-			playerNum = 2;
-			scoreString = {
-			};
-			movie = nil;
 			isTraining = false;
 			startTime = 0;
-			name = "\\i Spaze Warz \n\\i ";
+			name = "\\i Capture the Flagpod \n\\i ";
 			players = {
 				[1] = {
 					netRaceFlags = 512;
@@ -22032,141 +21985,32 @@ data = {
 					earningPower = 0.0;
 					race = 1100;
 					type = "net";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 			};
 			netRaceFlags = 512;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 0;
-						x = -2956;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 284;
-					earning = 0.0;
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 87;
-						x = 2955;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 284;
-					earning = 0.0;
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = -700;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 0;
-						x = -700;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = -1;
-					position = {
-						y = 0;
-						x = 700;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 93;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
+			songId = 5001;
+			prologue = "Capture opponent's flag by flying over it & ordering it back to your planet. Ships transported to opponent's \"jail\" moor instead of dying. Shoot moor to free your ships. No warping.";
 			briefing = {
+			};
+			movie = nil;
+			epilogue = "";
+			id = 28;
+			starmap = {
+				y = -1;
+				x = -1;
+			};
+		};
+		[29] = {
+			par = {
+				losses = 0;
+				ratio = 0.0;
+				kills = 0;
+				time = -1;
+			};
+			angle = 0;
+			playerNum = 2;
+			scoreString = {
 			};
 			conditions = {
 				[0] = {
@@ -22340,8 +22184,164 @@ data = {
 					subject = -1;
 				};
 			};
-			id = 29;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 0;
+						x = -2956;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 284;
+					earning = 0.0;
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 87;
+						x = 2955;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 284;
+					earning = 0.0;
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = -700;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 0;
+						x = -700;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = -1;
+					position = {
+						y = 0;
+						x = 700;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 93;
+					earning = 0.0;
+				};
+			};
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Spaze Warz \n\\i ";
+			players = {
+				[1] = {
+					netRaceFlags = 512;
+					earningPower = 0.0;
+					race = 1100;
+					type = "net";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 512;
+					earningPower = 0.0;
+					race = 1100;
+					type = "net";
+					name = "The Cantharan Order";
+				};
+			};
+			netRaceFlags = 512;
 			songId = 5003;
+			prologue = "Two dinky ships, one purpose: kill the other guy three times.";
+			briefing = {
+			};
+			movie = nil;
+			epilogue = "";
+			id = 29;
+			starmap = {
+				y = -1;
+				x = -1;
+			};
 		};
 		[30] = {
 			par = {
@@ -22350,35 +22350,66 @@ data = {
 				kills = 0;
 				time = -1;
 			};
-			starmap = {
-				y = -1;
-				x = -1;
-			};
+			angle = 0;
 			playerNum = 2;
 			scoreString = {
 			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "\\i Location, Location, Location \n\\i ";
-			players = {
-				[1] = {
-					netRaceFlags = 98;
-					earningPower = 1.0;
-					race = 100;
-					type = "net";
-					name = "The Human/Ishiman Cooperative";
+			conditions = {
+				[0] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 0;
+							inclusiveFilter = 0;
+							text = 6300;
+							nextLevel = -1;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 0;
+					type = "owner";
+					subject = 8;
 				};
-				[2] = {
-					netRaceFlags = 98;
-					earningPower = 1.0;
-					race = 100;
-					type = "net";
-					name = "";
+				[1] = {
+					direct = -1;
+					actions = {
+						[0] = {
+							reflexive = true;
+							player = 1;
+							inclusiveFilter = 0;
+							text = 6301;
+							nextLevel = 188;
+							delay = 0;
+							subjectOverride = -1;
+							directOverride = -1;
+							owner = 0;
+							type = "declare winner";
+							exclusiveFilter = 0;
+						};
+					};
+					flags = {
+						hasBeenTrue = false;
+						hex = 0x1;
+						initiallyTrue = false;
+						trueOnlyOnce = true;
+					};
+					value = 1;
+					type = "owner";
+					subject = 8;
 				};
 			};
-			netRaceFlags = 98;
-			prologueId = nil;
 			initialObjects = {
 				[0] = {
 					distanceRange = 0;
@@ -22879,68 +22910,37 @@ data = {
 					nameOverride = "Outpost Beta";
 				};
 			};
-			epilogueId = nil;
-			angle = 0;
+			isTraining = false;
+			startTime = 0;
+			name = "\\i Location, Location, Location \n\\i ";
+			players = {
+				[1] = {
+					netRaceFlags = 98;
+					earningPower = 1.0;
+					race = 100;
+					type = "net";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 98;
+					earningPower = 1.0;
+					race = 100;
+					type = "net";
+					name = "";
+				};
+			};
+			netRaceFlags = 98;
+			songId = 5004;
+			prologue = "Capture the center base first. It's surrounded by flak drones and outposts. Engineering pods can only be built at peripheral outposts.";
 			briefing = {
 			};
-			conditions = {
-				[0] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 0;
-							inclusiveFilter = 0;
-							text = 6300;
-							nextLevel = -1;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 0;
-					type = "owner";
-					subject = 8;
-				};
-				[1] = {
-					direct = -1;
-					actions = {
-						[0] = {
-							reflexive = true;
-							player = 1;
-							inclusiveFilter = 0;
-							text = 6301;
-							nextLevel = 188;
-							delay = 0;
-							subjectOverride = -1;
-							directOverride = -1;
-							owner = 0;
-							type = "declare winner";
-							exclusiveFilter = 0;
-						};
-					};
-					flags = {
-						hasBeenTrue = false;
-						hex = 0x1;
-						initiallyTrue = false;
-						trueOnlyOnce = true;
-					};
-					value = 1;
-					type = "owner";
-					subject = 8;
-				};
-			};
+			movie = nil;
+			epilogue = "";
 			id = 30;
-			songId = 5004;
+			starmap = {
+				y = -1;
+				x = -1;
+			};
 		};
 		[31] = {
 			par = {
@@ -22949,691 +22949,9 @@ data = {
 				kills = -1;
 				time = -1;
 			};
-			starmap = {
-				y = 288;
-				x = 302;
-			};
+			angle = 0;
 			playerNum = 2;
 			scoreString = {
-			};
-			movie = nil;
-			isTraining = false;
-			startTime = 0;
-			name = "";
-			players = {
-				[1] = {
-					netRaceFlags = 0;
-					earningPower = 0.5;
-					race = 100;
-					type = "single";
-					name = "The Human/Ishiman Cooperative";
-				};
-				[2] = {
-					netRaceFlags = 1536;
-					earningPower = 0.0;
-					race = 100;
-					type = "cpu";
-					name = "The Human/Ishiman Cooperative";
-				};
-			};
-			netRaceFlags = 0;
-			prologueId = nil;
-			initialObjects = {
-				[0] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -85;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 23;
-					earning = 1.0;
-					nameOverride = "Omisha Station";
-				};
-				[1] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 591;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -6260;
-						x = -86;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Command Buoy A";
-				};
-				[2] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 591;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -9478;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Command Buoy B";
-				};
-				[3] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -4869;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 188;
-					earning = 0.0;
-				};
-				[4] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 0;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = true;
-						fixedRace = false;
-						hex = 0x200;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 109;
-						x = 87;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 203;
-					earning = 0.0;
-				};
-				[5] = {
-					distanceRange = 0;
-					builds = {
-						[0] = 1802;
-					};
-					initialDestination = -1;
-					spriteIdOverride = 1024;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = -86;
-						x = -9739;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Build Moon";
-				};
-				[6] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 591;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 0;
-						x = 7478;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Combat Buoy A";
-				};
-				[7] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 6;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -2260;
-						x = 7826;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 188;
-					earning = 0.0;
-				};
-				[8] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 591;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 173;
-						x = 13391;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Combat Buoy B";
-				};
-				[9] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 8;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 2956;
-						x = 13739;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 188;
-					earning = 0.0;
-				};
-				[10] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 8;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -1739;
-						x = 13217;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 188;
-					earning = 0.0;
-				};
-				[11] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 591;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 173;
-						x = 19130;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Combat Buoy C";
-				};
-				[12] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 11;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = -1043;
-						x = 18782;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 188;
-					earning = 0.0;
-				};
-				[13] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 11;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 1565;
-						x = 18608;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 188;
-					earning = 0.0;
-				};
-				[14] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 11;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = true;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x2000000;
-						initiallyHidden = false;
-					};
-					owner = 1;
-					position = {
-						y = 173;
-						x = 18782;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 188;
-					earning = 0.0;
-				};
-				[15] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = 591;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 9391;
-						x = 0;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 111;
-					earning = 1.0;
-					nameOverride = "Extra Ships";
-				};
-				[16] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 15;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 10086;
-						x = 1739;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 203;
-					earning = 0.0;
-				};
-				[17] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = 15;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 10086;
-						x = -2608;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 203;
-					earning = 0.0;
-				};
-				[18] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 16695;
-						x = -17391;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 137;
-					earning = 1.0;
-					nameOverride = "Omisha Jump Gate";
-				};
-				[19] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 16521;
-						x = -16956;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 141;
-					earning = 0.0;
-				};
-				[20] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 17119;
-						x = -17358;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 141;
-					earning = 0.0;
-				};
-				[21] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x0;
-						initiallyHidden = false;
-					};
-					owner = 0;
-					position = {
-						y = 16532;
-						x = -17836;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 141;
-					earning = 0.0;
-				};
-				[22] = {
-					distanceRange = 0;
-					builds = {
-					};
-					initialDestination = -1;
-					spriteIdOverride = -1;
-					attributes = {
-						staticDestination = false;
-						isPlayerShip = false;
-						fixedRace = false;
-						hex = 0x20;
-						initiallyHidden = true;
-					};
-					owner = 0;
-					position = {
-						y = 16716;
-						x = -17401;
-					};
-					rotation = {
-						range = 0;
-						minumum = 0;
-					};
-					type = 117;
-					earning = 0.0;
-				};
-			};
-			epilogueId = nil;
-			angle = 0;
-			briefing = {
-				[0] = {
-					kind = "object";
-					title = "Omisha Station";
-					content = "Your first mission is to acquaint yourself with the basic control of our ships. At Omisha station we have a set of buoys and practice drones which you can use to gain experience with our technologies.\n\nPosition your ship over a buoy to receive instructions on the exercise it offers.";
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 0;
-				};
-				[1] = {
-					kind = "object";
-					title = "Command Buoy A";
-					content = "^P10091^These two buoys offer a command exercise. A drone is stationed here, and you may practice sending it from one buoy to another.";
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 1;
-				};
-				[2] = {
-					kind = "object";
-					title = "Build Moon";
-					content = "At this small moon you can practice building ships. Unlike real ships, the drones you build here will not be available for you to command.";
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 5;
-				};
-				[3] = {
-					kind = "object";
-					title = "Combat Buoy A";
-					content = "^P10090^These three buoys have a series of practice drones, programmed to simulate combat. Don't worry about losing your ship here--the damage isn't real. When your shields appear depleted, you will simply lose power for a moment, and then be fully recharged.";
-					visible = false;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 6;
-				};
-				[4] = {
-					kind = "object";
-					title = "Extra Ships";
-					content = "^P10091^At this buoy are two \"extra\" ships. When you feel comfortable selecting and controlling other ships, try experimenting with these two cruisers.\n^P1004^";
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 15;
-				};
-				[5] = {
-					kind = "object";
-					title = "Omisha Jump Gate";
-					content = "^P10073^When you feel you've had enough practice, navigate to the center of this jump gate to begin your first combat mission.";
-					visible = true;
-					range = {
-						y = 0;
-						x = 0;
-					};
-					objectId = 18;
-				};
 			};
 			conditions = {
 				[0] = {
@@ -24785,8 +24103,690 @@ data = {
 					subject = -2;
 				};
 			};
-			id = 31;
+			initialObjects = {
+				[0] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -85;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 23;
+					earning = 1.0;
+					nameOverride = "Omisha Station";
+				};
+				[1] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 591;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -6260;
+						x = -86;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Command Buoy A";
+				};
+				[2] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 591;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -9478;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Command Buoy B";
+				};
+				[3] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -4869;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 188;
+					earning = 0.0;
+				};
+				[4] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 0;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = true;
+						fixedRace = false;
+						hex = 0x200;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 109;
+						x = 87;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 203;
+					earning = 0.0;
+				};
+				[5] = {
+					distanceRange = 0;
+					builds = {
+						[0] = 1802;
+					};
+					initialDestination = -1;
+					spriteIdOverride = 1024;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = -86;
+						x = -9739;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Build Moon";
+				};
+				[6] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 591;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 0;
+						x = 7478;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Combat Buoy A";
+				};
+				[7] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 6;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -2260;
+						x = 7826;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 188;
+					earning = 0.0;
+				};
+				[8] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 591;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 173;
+						x = 13391;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Combat Buoy B";
+				};
+				[9] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 8;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 2956;
+						x = 13739;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 188;
+					earning = 0.0;
+				};
+				[10] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 8;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -1739;
+						x = 13217;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 188;
+					earning = 0.0;
+				};
+				[11] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 591;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 173;
+						x = 19130;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Combat Buoy C";
+				};
+				[12] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 11;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = -1043;
+						x = 18782;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 188;
+					earning = 0.0;
+				};
+				[13] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 11;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 1565;
+						x = 18608;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 188;
+					earning = 0.0;
+				};
+				[14] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 11;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = true;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x2000000;
+						initiallyHidden = false;
+					};
+					owner = 1;
+					position = {
+						y = 173;
+						x = 18782;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 188;
+					earning = 0.0;
+				};
+				[15] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = 591;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 9391;
+						x = 0;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 111;
+					earning = 1.0;
+					nameOverride = "Extra Ships";
+				};
+				[16] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 15;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 10086;
+						x = 1739;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 203;
+					earning = 0.0;
+				};
+				[17] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = 15;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 10086;
+						x = -2608;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 203;
+					earning = 0.0;
+				};
+				[18] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 16695;
+						x = -17391;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 137;
+					earning = 1.0;
+					nameOverride = "Omisha Jump Gate";
+				};
+				[19] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 16521;
+						x = -16956;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 141;
+					earning = 0.0;
+				};
+				[20] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 17119;
+						x = -17358;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 141;
+					earning = 0.0;
+				};
+				[21] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x0;
+						initiallyHidden = false;
+					};
+					owner = 0;
+					position = {
+						y = 16532;
+						x = -17836;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 141;
+					earning = 0.0;
+				};
+				[22] = {
+					distanceRange = 0;
+					builds = {
+					};
+					initialDestination = -1;
+					spriteIdOverride = -1;
+					attributes = {
+						staticDestination = false;
+						isPlayerShip = false;
+						fixedRace = false;
+						hex = 0x20;
+						initiallyHidden = true;
+					};
+					owner = 0;
+					position = {
+						y = 16716;
+						x = -17401;
+					};
+					rotation = {
+						range = 0;
+						minumum = 0;
+					};
+					type = 117;
+					earning = 0.0;
+				};
+			};
+			isTraining = false;
+			startTime = 0;
+			name = "";
+			players = {
+				[1] = {
+					netRaceFlags = 0;
+					earningPower = 0.5;
+					race = 100;
+					type = "single";
+					name = "The Human/Ishiman Cooperative";
+				};
+				[2] = {
+					netRaceFlags = 1536;
+					earningPower = 0.0;
+					race = 100;
+					type = "cpu";
+					name = "The Human/Ishiman Cooperative";
+				};
+			};
+			netRaceFlags = 0;
 			songId = 5001;
+			prologue = "";
+			briefing = {
+				[0] = {
+					kind = "object";
+					title = "Omisha Station";
+					content = "Your first mission is to acquaint yourself with the basic control of our ships. At Omisha station we have a set of buoys and practice drones which you can use to gain experience with our technologies.\n\nPosition your ship over a buoy to receive instructions on the exercise it offers.";
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 0;
+				};
+				[1] = {
+					kind = "object";
+					title = "Command Buoy A";
+					content = "^P10091^These two buoys offer a command exercise. A drone is stationed here, and you may practice sending it from one buoy to another.";
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 1;
+				};
+				[2] = {
+					kind = "object";
+					title = "Build Moon";
+					content = "At this small moon you can practice building ships. Unlike real ships, the drones you build here will not be available for you to command.";
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 5;
+				};
+				[3] = {
+					kind = "object";
+					title = "Combat Buoy A";
+					content = "^P10090^These three buoys have a series of practice drones, programmed to simulate combat. Don't worry about losing your ship here--the damage isn't real. When your shields appear depleted, you will simply lose power for a moment, and then be fully recharged.";
+					visible = false;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 6;
+				};
+				[4] = {
+					kind = "object";
+					title = "Extra Ships";
+					content = "^P10091^At this buoy are two \"extra\" ships. When you feel comfortable selecting and controlling other ships, try experimenting with these two cruisers.\n^P1004^";
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 15;
+				};
+				[5] = {
+					kind = "object";
+					title = "Omisha Jump Gate";
+					content = "^P10073^When you feel you've had enough practice, navigate to the center of this jump gate to begin your first combat mission.";
+					visible = true;
+					range = {
+						y = 0;
+						x = 0;
+					};
+					objectId = 18;
+				};
+			};
+			movie = nil;
+			epilogue = "";
+			id = 31;
+			starmap = {
+				y = 288;
+				x = 302;
+			};
 		};
 	};
 	objects = {
