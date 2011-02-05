@@ -115,14 +115,16 @@ function DrawSmallBox(box)
     graphics.draw_box(box.bottom + 4, box.right - 3, box.bottom, box.right, 0, box.boxColour)
     graphics.draw_box(box.top - 5, box.right - 3, (box.top + box.bottom) / 2, box.right, 0, ClutLighten(box.boxColour))
     graphics.draw_box((box.top + box.bottom) / 2 - 1, box.right - 3, box.bottom + 5, box.right, 0, ClutDarken(box.boxColour))
-    if box.title ~= nil then
-        graphics.draw_box(box.top - 5, box.left + 4, box.top - 25, box.right - 4, 0, ClutLighten(box.boxColour, 3))
+    if box.title then
+        graphics.draw_box(box.top - 5, box.left + 4, box.top - 25, box.right - 4, 0, ClutLighten(box.boxColour, -5))
         graphics.draw_text(box.title, MAIN_FONT, "left", { x = box.left + 10, y = box.top - 15 }, 18, ClutColour(1, 17))
     end
-    if box.subtitle ~= nil then
-        graphics.draw_text(box.subtitle, MAIN_FONT, "left", { x = box.left + 10, y = box.top - 35 }, 18, ClutColour(1, 17))
+    if box.subtitle then
+        graphics.draw_text(box.subtitle, MAIN_FONT, "left", { x = box.left + 10, y = box.top - 35 }, 18, box.boxColour)
     end
---    graphics.draw_text(box.desc, MAIN_FONT, "left", { x = box.left + 10, y = box.top - 55 }, 18, ClutColour(1, 17)) [TEXTFIX] re-enable when text colours are added
+    if box.desc then
+        graphics.draw_text(box.desc, MAIN_FONT, "left", { x = box.left + 10, y = box.top - 55 }, 18, box.boxColour)
+    end
 end
 
 function DrawPointerBox(box, dt)
@@ -188,7 +190,7 @@ function SwitchBox(box)
             if box.special == "click" then
                 DrawInterfaceBox(box, 0, 1)
             elseif box.special == "disabled" then
-                DrawInterfaceBox(box, -3, -3)
+                DrawInterfaceBox(box, 3, 3)
             elseif box.special == "sidecar" then
                 DrawBoxWithSidecar(box)
             end
@@ -203,8 +205,7 @@ end
 function ChangeSpecial(k, set, tbl)
     for num = 1, #tbl do
         if tbl[num].letter == k then
-            tbl[num].special = set
-            if set == nil then
+            if set == nil and tbl[num].special == "click" then
                 if tbl[num].execute == nil then
                     sound.play("NaughtyBeep")
                     LogError("This command currently has no code.", 10)
@@ -212,6 +213,7 @@ function ChangeSpecial(k, set, tbl)
                     tbl[num].execute()
                 end
             end
+            tbl[num].special = set
         end
     end
 end

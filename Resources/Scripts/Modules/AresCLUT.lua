@@ -5,22 +5,23 @@
 -------------------------]]--
 
 -- CLUT VALUES
-CLUT = { { r = 1.0, g = 1.0, b = 1.0, a = 1.0 }, -- white
-        { r = 1.0, g = 0.5, b = 0.0 }, -- orange
-        { r = 1.0, g = 1.0, b = 0.0 }, -- yellow
-        { r = 0.0, g = 0.0, b = 1.0 }, -- blue
-        { r = 0.0, g = 1.0, b = 0.0 }, -- green
-        { r = 0.5, g = 0.0, b = 1.0 }, -- purple
-        { r = 0.5, g = 0.5, b = 1.0 }, -- grey-blue
-        { r = 1.0, g = 0.5, b = 0.5 }, -- rose
-        { r = 1.0, g = 1.0, b = 0.5 }, -- light-yellow
-        { r = 0.0, g = 1.0, b = 1.0 }, -- teal
-        { r = 1.0, g = 0.0, b = 0.5 }, -- hot-pink
-        { r = 0.5, g = 1.0, b = 0.5 }, -- light-green
-        { r = 1.0, g = 0.5, b = 1.0 }, -- light-pink
-        { r = 0.0, g = 0.5, b = 1.0 }, -- aqua-marine
-        { r = 1.0, g = 1.0, b = 0.8 }, -- peach
-        { r = 1.0, g = 0.0, b = 0.0 } } -- red
+CLUT = {    { r = 1.0, g = 1.0, b = 1.0, a = 1.0 }, -- white
+            { r = 1.0, g = 0.5, b = 0.0, a = 1.0 }, -- orange
+            { r = 1.0, g = 1.0, b = 0.0, a = 1.0 }, -- yellow
+            { r = 0.0, g = 0.0, b = 1.0, a = 1.0 }, -- blue
+            { r = 0.0, g = 1.0, b = 0.0, a = 1.0 }, -- green
+            { r = 0.5, g = 0.0, b = 1.0, a = 1.0 }, -- purple
+            { r = 0.5, g = 0.5, b = 1.0, a = 1.0 }, -- grey-blue
+            { r = 1.0, g = 0.5, b = 0.5, a = 1.0 }, -- rose
+            { r = 1.0, g = 1.0, b = 0.5, a = 1.0 }, -- light-yellow
+            { r = 0.0, g = 1.0, b = 1.0, a = 1.0 }, -- teal
+            { r = 1.0, g = 0.0, b = 0.5, a = 1.0 }, -- hot-pink
+            { r = 0.5, g = 1.0, b = 0.5, a = 1.0 }, -- light-green
+            { r = 1.0, g = 0.5, b = 1.0, a = 1.0 }, -- light-pink
+            { r = 0.0, g = 0.5, b = 1.0, a = 1.0 }, -- aqua-marine
+            { r = 1.0, g = 1.0, b = 0.8, a = 1.0 }, -- peach
+            { r = 1.0, g = 0.0, b = 0.0, a = 1.0 }  -- red
+       }
 
 modifier = { 1.0, 0.941, 0.878, 0.816, 0.753, 0.690, 0.627, 0.565, 0.502, 0.439, 0.376, 0.251, 0.188, 0.125, 0.063, 0.031, 0.0 }
 
@@ -32,32 +33,25 @@ function ClutColour(clutNum, modNum)
 end
 
 function ClutLighten(colour, lightness)
+    local newColour = colour.m
+    
     if lightness == nil then
         lightness = 1
     end
+    
     if colour.m + lightness > 17 then
-        lightness = 17 - colour.m
+        newColour = 17
+    elseif colour.m + lightness < 1 then
+        newColour = 1
+    else
+        newColour = colour.m + lightness
     end
-    if colour.m + lightness < 1 then
-        lightness = 1 - colour.m
-    end
-    return { r = CLUT[colour.c].r * modifier[colour.m + lightness], g = CLUT[colour.c].g * modifier[colour.m + lightness], b = CLUT[colour.c].b * modifier[colour.m + lightness], a = 1.0, c = colour.c, m = colour.m + lightness }
+    
+    return { r = CLUT[colour.c].r * modifier[newColour], g = CLUT[colour.c].g * modifier[newColour], b = CLUT[colour.c].b * modifier[newColour], a = 1.0, c = colour.c, m = colour.m }
 end
 
 function ClutDarken(colour, darkness)
-    if darkness == nil then
-        darkness = 1
-    end
-    if colour.m + darkness > 17 then
-        darkness = 17 - colour.m
-    end
-    if colour.m + darkness < 1 then
-        darkness = 1 - colour.m
-    end
-    if modifier[colour.m - darkness] ~= nil then
-        colour.m = colour.m - darkness
-    end
-    return { r = CLUT[colour.c].r * modifier[colour.m], g = CLUT[colour.c].g * modifier[colour.m], b = CLUT[colour.c].b * modifier[colour.m], a = 1.0, c = colour.c, m = colour.m }
+    return ClutLighten(colour, -(darkness or 1))
 end
 
 function ClutDisplay()

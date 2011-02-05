@@ -3,7 +3,7 @@ import('Console')
 import('BoxDrawing')
 import('KeyboardControl')
 
-background = {    { top = 170, left = -280, bottom = -60, right = 280, boxColour = ClutColour(10, 8) },
+background = {  { top = 170, left = -280, bottom = -60, right = 280, boxColour = ClutColour(10, 8) },
                 { top = -70, left = -280, bottom = -110, right = 280, boxColour = ClutColour(16, 6) },
                 { xCoord = -280, yCoord = -205, length = 100, text = "nodraw", boxColour = ClutColour(3, 6), textColour = ClutColour(13, 9), execute = function() mode_manager.switch("Ares/Options") end, letter = "CANCEL" },
                 { xCoord = -265, yCoord = 170, length = 63, text = "nodraw", boxColour = ClutColour(10, 4), textColour = ClutColour(10, 8), execute = function() keyboardNum = 1; resetTabColours(keyboardNum + 3); switchTabs() end, letter = "Ship" },
