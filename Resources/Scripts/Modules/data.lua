@@ -1364,7 +1364,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Proxima Centauri System";
+					nameOverride = "Charon Station";
 				};
 				[1] = {
 					distanceRange = 0;
@@ -3789,7 +3789,7 @@ data = {
 					};
 					type = 36;
 					earning = 1.0;
-					nameOverride = "Relay Dish 2";
+					nameOverride = "Relay Dish 1";
 				};
 				[1] = {
 					distanceRange = 500;
@@ -4140,7 +4140,7 @@ data = {
 					};
 					type = 104;
 					earning = 1.0;
-					nameOverride = "Relay Dish 1";
+					nameOverride = "Myrmidon Station";
 				};
 				[15] = {
 					distanceRange = 500;
@@ -4166,7 +4166,7 @@ data = {
 					};
 					type = 27;
 					earning = 0.0;
-					nameOverride = "Myrmidon Station";
+					nameOverride = "Myrmidon";
 				};
 				[16] = {
 					distanceRange = 500;
@@ -4192,7 +4192,7 @@ data = {
 					};
 					type = 36;
 					earning = 1.0;
-					nameOverride = "Relay Dish 3";
+					nameOverride = "Relay Dish 2";
 				};
 				[17] = {
 					distanceRange = 500;
@@ -4218,7 +4218,7 @@ data = {
 					};
 					type = 36;
 					earning = 1.0;
-					nameOverride = "Sprist";
+					nameOverride = "Relay Dish 3";
 				};
 				[18] = {
 					distanceRange = 500;
@@ -4244,7 +4244,7 @@ data = {
 					};
 					type = 36;
 					earning = 1.0;
-					nameOverride = "Elysium System";
+					nameOverride = "Relay Dish 4";
 				};
 			};
 			epilogueId = nil;
@@ -4482,7 +4482,7 @@ data = {
 			movie = nil;
 			isTraining = false;
 			startTime = 32512;
-			name = "\\i Tutorial Lesson 3\r\\iThe Complete Idiot’s Guide to Commanding a Space Armada";
+			name = "\\i Tutorial Lesson 3\r\\iThe Complete Idiot's Guide to Commanding a Space Armada";
 			players = {
 				[1] = {
 					netRaceFlags = 0;
@@ -6727,7 +6727,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Demeter Beta";
+					nameOverride = "Demeter Alpha";
 				};
 				[1] = {
 					distanceRange = 0;
@@ -6778,7 +6778,7 @@ data = {
 					};
 					type = 27;
 					earning = 0.0;
-					nameOverride = "Demeter Alpha";
+					nameOverride = "Demeter";
 				};
 				[3] = {
 					distanceRange = 0;
@@ -6858,7 +6858,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Relay Dish 4";
+					nameOverride = "Demeter Beta";
 				};
 			};
 			epilogueId = nil;
@@ -7102,7 +7102,7 @@ data = {
 					};
 					type = 225;
 					earning = 0.0;
-					nameOverride = "ISN 8738810";
+					nameOverride = "ISN 2020187";
 				};
 				[1] = {
 					distanceRange = 0;
@@ -7153,7 +7153,7 @@ data = {
 					};
 					type = 216;
 					earning = 1.0;
-					nameOverride = "Cell 2";
+					nameOverride = "Cell 1";
 				};
 				[3] = {
 					distanceRange = 0;
@@ -7179,7 +7179,7 @@ data = {
 					};
 					type = 216;
 					earning = 1.0;
-					nameOverride = "Cell 3";
+					nameOverride = "Cell 2";
 				};
 				[4] = {
 					distanceRange = 0;
@@ -7205,7 +7205,7 @@ data = {
 					};
 					type = 216;
 					earning = 1.0;
-					nameOverride = "Lalande Alpha";
+					nameOverride = "Cell 3";
 				};
 				[5] = {
 					distanceRange = 0;
@@ -7932,7 +7932,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Aeneas Beta";
+					nameOverride = "Aeneas Alpha";
 				};
 				[2] = {
 					distanceRange = 0;
@@ -8112,7 +8112,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Hades System";
+					nameOverride = "Aeneas Beta";
 				};
 			};
 			epilogueId = nil;
@@ -8326,7 +8326,7 @@ data = {
 					};
 					type = 114;
 					earning = 1.0;
-					nameOverride = "Power Station O-3";
+					nameOverride = "Power Station O-2";
 				};
 				[1] = {
 					distanceRange = 0;
@@ -8352,7 +8352,7 @@ data = {
 					};
 					type = 114;
 					earning = 1.0;
-					nameOverride = "Power Station G-1";
+					nameOverride = "Power Station O-3";
 				};
 				[2] = {
 					distanceRange = 0;
@@ -8378,7 +8378,7 @@ data = {
 					};
 					type = 114;
 					earning = 1.0;
-					nameOverride = "Power Station O-2";
+					nameOverride = "Power Station O-1";
 				};
 				[3] = {
 					distanceRange = 0;
@@ -8404,7 +8404,7 @@ data = {
 					};
 					type = 114;
 					earning = 1.0;
-					nameOverride = "Power Station G-3";
+					nameOverride = "Power Station G-2";
 				};
 				[4] = {
 					distanceRange = 0;
@@ -8430,7 +8430,7 @@ data = {
 					};
 					type = 114;
 					earning = 1.0;
-					nameOverride = "Secorem Jump Gate";
+					nameOverride = "Power Station G-3";
 				};
 				[5] = {
 					distanceRange = 0;
@@ -8456,7 +8456,7 @@ data = {
 					};
 					type = 114;
 					earning = 1.0;
-					nameOverride = "Power Station G-2";
+					nameOverride = "Power Station G-1";
 				};
 				[6] = {
 					distanceRange = 0;
@@ -8636,7 +8636,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Hades Beta";
+					nameOverride = "Hades Alpha";
 				};
 				[13] = {
 					distanceRange = 0;
@@ -8667,7 +8667,7 @@ data = {
 					};
 					type = 111;
 					earning = 1.0;
-					nameOverride = "Power Station O-1";
+					nameOverride = "Hades Beta";
 				};
 				[14] = {
 					distanceRange = 0;
@@ -8993,7 +8993,7 @@ data = {
 					};
 					type = 83;
 					earning = 1.0;
-					nameOverride = "Fansi";
+					nameOverride = "Asteroid IR7-7e";
 				};
 				[3] = {
 					distanceRange = 500;
@@ -9019,7 +9019,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Myrmidon";
+					nameOverride = "Philemon Beta";
 				};
 				[4] = {
 					distanceRange = 500;
@@ -9045,7 +9045,7 @@ data = {
 					};
 					type = 27;
 					earning = 0.0;
-					nameOverride = "Philemon Alpha";
+					nameOverride = "Philemon";
 				};
 				[5] = {
 					distanceRange = 500;
@@ -9881,7 +9881,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Proteus Beta";
+					nameOverride = "Proteus Alpha";
 				};
 				[1] = {
 					distanceRange = 500;
@@ -9983,7 +9983,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Proteus Gamma";
+					nameOverride = "Proteus Beta";
 				};
 				[5] = {
 					distanceRange = 500;
@@ -10014,7 +10014,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Philemon";
+					nameOverride = "Proteus Gamma";
 				};
 				[6] = {
 					distanceRange = 500;
@@ -10040,7 +10040,7 @@ data = {
 					};
 					type = 27;
 					earning = 0.0;
-					nameOverride = "Proteus Alpha";
+					nameOverride = "Proteus";
 				};
 			};
 			epilogueId = nil;
@@ -10688,7 +10688,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Bokleo Alpha";
+					nameOverride = "Sprist";
 				};
 				[16] = {
 					distanceRange = 0;
@@ -11135,7 +11135,7 @@ data = {
 					};
 					type = 210;
 					earning = 1.0;
-					nameOverride = "Simlab 2";
+					nameOverride = "Simlab 1";
 				};
 				[3] = {
 					distanceRange = 0;
@@ -11161,7 +11161,7 @@ data = {
 					};
 					type = 210;
 					earning = 1.0;
-					nameOverride = "Simlab 3";
+					nameOverride = "Simlab 2";
 				};
 				[4] = {
 					distanceRange = 0;
@@ -11187,7 +11187,7 @@ data = {
 					};
 					type = 210;
 					earning = 1.0;
-					nameOverride = "Cell 1";
+					nameOverride = "Simlab 3";
 				};
 				[5] = {
 					distanceRange = 0;
@@ -11889,7 +11889,7 @@ data = {
 					};
 					type = 115;
 					earning = 0.0;
-					nameOverride = "Demeter";
+					nameOverride = "Orbital Shipyard";
 				};
 				[1] = {
 					distanceRange = 0;
@@ -11990,7 +11990,7 @@ data = {
 					};
 					type = 104;
 					earning = 0.75;
-					nameOverride = "Orbital Shipyard";
+					nameOverride = "Bunker Station 2";
 				};
 				[5] = {
 					distanceRange = 0;
@@ -12122,7 +12122,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Fansi Beta";
+					nameOverride = "Fansi Alpha";
 				};
 				[10] = {
 					distanceRange = 0;
@@ -12154,7 +12154,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Bunker Station 1";
+					nameOverride = "Fansi Beta";
 				};
 				[11] = {
 					distanceRange = 0;
@@ -12180,7 +12180,7 @@ data = {
 					};
 					type = 104;
 					earning = 0.75;
-					nameOverride = "Bunker Station 2";
+					nameOverride = "Bunker Station 1";
 				};
 				[12] = {
 					distanceRange = 0;
@@ -12874,7 +12874,7 @@ data = {
 					};
 					type = 137;
 					earning = 1.0;
-					nameOverride = "Secorem";
+					nameOverride = "Secorem Jump Gate";
 				};
 				[8] = {
 					distanceRange = 0;
@@ -13686,7 +13686,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Bokleo Gamma";
+					nameOverride = "Bokleo Beta";
 				};
 				[7] = {
 					distanceRange = 0;
@@ -13742,7 +13742,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Asteroid IR7-7e";
+					nameOverride = "Bokleo Gamma";
 				};
 				[9] = {
 					distanceRange = 0;
@@ -13771,7 +13771,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Bokleo Beta";
+					nameOverride = "Bokleo Alpha";
 				};
 				[10] = {
 					distanceRange = 0;
@@ -13797,7 +13797,7 @@ data = {
 					};
 					type = 47;
 					earning = 0.0;
-					nameOverride = "EACSR Banadee";
+					nameOverride = "ISN 8738810";
 				};
 				[11] = {
 					distanceRange = 0;
@@ -13823,7 +13823,7 @@ data = {
 					};
 					type = 47;
 					earning = 0.0;
-					nameOverride = "ISN 8738810";
+					nameOverride = "ISN 2020187";
 				};
 				[12] = {
 					distanceRange = 0;
@@ -13849,7 +13849,7 @@ data = {
 					};
 					type = 45;
 					earning = 0.0;
-					nameOverride = "The Open Eye of Zom";
+					nameOverride = "The Gentle Fingers of Zom";
 				};
 				[13] = {
 					distanceRange = 0;
@@ -13875,7 +13875,7 @@ data = {
 					};
 					type = 45;
 					earning = 0.0;
-					nameOverride = "The Silent Question of Doz";
+					nameOverride = "The Chaste Dream of Doz";
 				};
 				[14] = {
 					distanceRange = 0;
@@ -13901,7 +13901,7 @@ data = {
 					};
 					type = 45;
 					earning = 0.0;
-					nameOverride = "EXPLSN";
+					nameOverride = "CRUISER";
 				};
 				[15] = {
 					distanceRange = 0;
@@ -14416,7 +14416,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Thasero Beta";
+					nameOverride = "Thasero Alpha";
 				};
 				[1] = {
 					distanceRange = 0;
@@ -14447,7 +14447,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Thasero Station";
+					nameOverride = "Thasero Beta";
 				};
 				[2] = {
 					distanceRange = 0;
@@ -14473,7 +14473,7 @@ data = {
 					};
 					type = 104;
 					earning = 1.0;
-					nameOverride = "Lalande";
+					nameOverride = "Thasero Station";
 				};
 				[3] = {
 					distanceRange = 0;
@@ -14913,7 +14913,7 @@ data = {
 					};
 					type = 160;
 					earning = 1.0;
-					nameOverride = "Transport";
+					nameOverride = "Massive Device";
 				};
 				[1] = {
 					distanceRange = 0;
@@ -15970,7 +15970,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Lalande Beta";
+					nameOverride = "Lalande Alpha";
 				};
 				[3] = {
 					distanceRange = 0;
@@ -16002,7 +16002,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Outpost 1";
+					nameOverride = "Lalande Beta";
 				};
 				[4] = {
 					distanceRange = 0;
@@ -16028,7 +16028,7 @@ data = {
 					};
 					type = 104;
 					earning = 1.0;
-					nameOverride = "Outpost 3";
+					nameOverride = "Bunker Station";
 				};
 				[5] = {
 					distanceRange = 0;
@@ -16229,7 +16229,7 @@ data = {
 					};
 					type = 270;
 					earning = 0.5;
-					nameOverride = "Outpost 2";
+					nameOverride = "Outpost 1";
 				};
 				[13] = {
 					distanceRange = 0;
@@ -16255,7 +16255,7 @@ data = {
 					};
 					type = 270;
 					earning = 0.5;
-					nameOverride = "Bunker Station";
+					nameOverride = "Outpost 2";
 				};
 			};
 			epilogueId = nil;
@@ -16518,7 +16518,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Proxima Beta";
+					nameOverride = "Proxima Alpha";
 				};
 				[1] = {
 					distanceRange = 0;
@@ -16548,7 +16548,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Power Station PC1";
+					nameOverride = "Proxima Beta";
 				};
 				[2] = {
 					distanceRange = 0;
@@ -17627,7 +17627,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Pictoris Beta";
+					nameOverride = "Pictoris Alpha";
 				};
 				[1] = {
 					distanceRange = 0;
@@ -17655,7 +17655,7 @@ data = {
 					};
 					type = 111;
 					earning = 1.0;
-					nameOverride = "Pictoris Beta 1";
+					nameOverride = "Pictoris Alpha 1";
 				};
 				[2] = {
 					distanceRange = 0;
@@ -17681,7 +17681,7 @@ data = {
 					};
 					type = 114;
 					earning = 1.0;
-					nameOverride = "Pictoris Alpha 1";
+					nameOverride = "Power Station BP1";
 				};
 				[3] = {
 					distanceRange = 0;
@@ -17709,7 +17709,7 @@ data = {
 					};
 					type = 111;
 					earning = 1.0;
-					nameOverride = "Pictoris Beta 2";
+					nameOverride = "Pictoris Beta 1";
 				};
 				[4] = {
 					distanceRange = 0;
@@ -17737,7 +17737,7 @@ data = {
 					};
 					type = 111;
 					earning = 1.0;
-					nameOverride = "Charon System";
+					nameOverride = "Pictoris Beta 2";
 				};
 				[5] = {
 					distanceRange = 0;
@@ -17767,7 +17767,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Power Station BP1";
+					nameOverride = "Pictoris Beta";
 				};
 				[6] = {
 					distanceRange = 0;
@@ -18341,7 +18341,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Ser System";
+					nameOverride = "Earth";
 				};
 				[2] = {
 					distanceRange = 0;
@@ -19394,7 +19394,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Proteus Beta";
+					nameOverride = "Proteus Alpha";
 				};
 				[3] = {
 					distanceRange = 0;
@@ -19426,7 +19426,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Proteus Gamma";
+					nameOverride = "Proteus Beta";
 				};
 				[4] = {
 					distanceRange = 0;
@@ -19452,7 +19452,7 @@ data = {
 					};
 					type = 104;
 					earning = 1.0;
-					nameOverride = "Bunker Station 2";
+					nameOverride = "Bunker Station 1";
 				};
 				[5] = {
 					distanceRange = 0;
@@ -19478,7 +19478,7 @@ data = {
 					};
 					type = 104;
 					earning = 1.0;
-					nameOverride = "Orbital Shipyard";
+					nameOverride = "Bunker Station 2";
 				};
 				[6] = {
 					distanceRange = 0;
@@ -19702,7 +19702,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Proteus Beta";
+					nameOverride = "Proteus Alpha";
 				};
 				[1] = {
 					distanceRange = 0;
@@ -19734,7 +19734,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Proteus Gamma";
+					nameOverride = "Proteus Beta";
 				};
 				[2] = {
 					distanceRange = 0;
@@ -19765,7 +19765,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Philemon";
+					nameOverride = "Proteus Gamma";
 				};
 				[3] = {
 					distanceRange = 0;
@@ -21034,7 +21034,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Lalande Beta";
+					nameOverride = "Lalande Alpha";
 				};
 				[3] = {
 					distanceRange = 0;
@@ -21066,7 +21066,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Outpost 1";
+					nameOverride = "Lalande Beta";
 				};
 				[4] = {
 					distanceRange = 0;
@@ -21092,7 +21092,7 @@ data = {
 					};
 					type = 270;
 					earning = 0.25;
-					nameOverride = "Outpost 2";
+					nameOverride = "Outpost 1";
 				};
 				[5] = {
 					distanceRange = 0;
@@ -21118,7 +21118,7 @@ data = {
 					};
 					type = 270;
 					earning = 0.25;
-					nameOverride = "Bunker Station";
+					nameOverride = "Outpost 2";
 				};
 				[6] = {
 					distanceRange = 0;
@@ -21144,7 +21144,7 @@ data = {
 					};
 					type = 270;
 					earning = 0.25;
-					nameOverride = "Outpost 4";
+					nameOverride = "Outpost 3";
 				};
 				[7] = {
 					distanceRange = 0;
@@ -21170,7 +21170,7 @@ data = {
 					};
 					type = 270;
 					earning = 0.25;
-					nameOverride = "Sol";
+					nameOverride = "Outpost 4";
 				};
 				[8] = {
 					distanceRange = 0;
@@ -21196,7 +21196,7 @@ data = {
 					};
 					type = 104;
 					earning = 1.0;
-					nameOverride = "Outpost 3";
+					nameOverride = "Bunker Station";
 				};
 				[9] = {
 					distanceRange = 0;
@@ -21409,7 +21409,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Retak Beta";
+					nameOverride = "Retak Alpha";
 				};
 				[1] = {
 					distanceRange = 0;
@@ -21435,6 +21435,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
+					nameOverride = "Retak Beta";
 				};
 				[2] = {
 					distanceRange = 0;
@@ -22409,7 +22410,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Xamer Beta";
+					nameOverride = "Xamer Alpha";
 				};
 				[1] = {
 					distanceRange = 0;
@@ -22441,7 +22442,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Outpost Alpha";
+					nameOverride = "Xamer Beta";
 				};
 				[2] = {
 					distanceRange = 0;
@@ -22617,7 +22618,7 @@ data = {
 					};
 					type = 270;
 					earning = 0.25;
-					nameOverride = "Outpost C1";
+					nameOverride = "Bunker Station";
 				};
 				[9] = {
 					distanceRange = 0;
@@ -22643,7 +22644,7 @@ data = {
 					};
 					type = 270;
 					earning = 0.25;
-					nameOverride = "Outpost C2";
+					nameOverride = "Outpost C1";
 				};
 				[10] = {
 					distanceRange = 0;
@@ -22669,7 +22670,7 @@ data = {
 					};
 					type = 270;
 					earning = 0.25;
-					nameOverride = "Outpost C3";
+					nameOverride = "Outpost C2";
 				};
 				[11] = {
 					distanceRange = 0;
@@ -22695,7 +22696,7 @@ data = {
 					};
 					type = 270;
 					earning = 0.25;
-					nameOverride = "Outpost C4";
+					nameOverride = "Outpost C3";
 				};
 				[12] = {
 					distanceRange = 0;
@@ -22721,7 +22722,7 @@ data = {
 					};
 					type = 270;
 					earning = 0.25;
-					nameOverride = "Retak Alpha";
+					nameOverride = "Outpost C4";
 				};
 				[13] = {
 					distanceRange = 0;
@@ -22848,7 +22849,7 @@ data = {
 					};
 					type = 270;
 					earning = 0.25;
-					nameOverride = "Outpost Beta";
+					nameOverride = "Outpost Alpha";
 				};
 				[18] = {
 					distanceRange = 0;
@@ -22875,7 +22876,7 @@ data = {
 					};
 					type = 270;
 					earning = 0.25;
-					nameOverride = "Bunker Station";
+					nameOverride = "Outpost Beta";
 				};
 			};
 			epilogueId = nil;
@@ -23002,7 +23003,7 @@ data = {
 					};
 					type = 23;
 					earning = 1.0;
-					nameOverride = "Command Buoy A";
+					nameOverride = "Omisha Station";
 				};
 				[1] = {
 					distanceRange = 0;
@@ -23028,7 +23029,7 @@ data = {
 					};
 					type = 111;
 					earning = 1.0;
-					nameOverride = "Command Buoy B";
+					nameOverride = "Command Buoy A";
 				};
 				[2] = {
 					distanceRange = 0;
@@ -23054,7 +23055,7 @@ data = {
 					};
 					type = 111;
 					earning = 1.0;
-					nameOverride = "Combat Buoy A";
+					nameOverride = "Command Buoy B";
 				};
 				[3] = {
 					distanceRange = 0;
@@ -23131,7 +23132,7 @@ data = {
 					};
 					type = 111;
 					earning = 1.0;
-					nameOverride = "Extra Ships";
+					nameOverride = "Build Moon";
 				};
 				[6] = {
 					distanceRange = 0;
@@ -23157,7 +23158,7 @@ data = {
 					};
 					type = 111;
 					earning = 1.0;
-					nameOverride = "Combat Buoy B";
+					nameOverride = "Combat Buoy A";
 				};
 				[7] = {
 					distanceRange = 0;
@@ -23208,7 +23209,7 @@ data = {
 					};
 					type = 111;
 					earning = 1.0;
-					nameOverride = "Combat Buoy C";
+					nameOverride = "Combat Buoy B";
 				};
 				[9] = {
 					distanceRange = 0;
@@ -23284,7 +23285,7 @@ data = {
 					};
 					type = 111;
 					earning = 1.0;
-					nameOverride = "Build Moon";
+					nameOverride = "Combat Buoy C";
 				};
 				[12] = {
 					distanceRange = 0;
@@ -23385,7 +23386,7 @@ data = {
 					};
 					type = 111;
 					earning = 1.0;
-					nameOverride = "Omisha Jump Gate";
+					nameOverride = "Extra Ships";
 				};
 				[16] = {
 					distanceRange = 0;
@@ -23461,7 +23462,7 @@ data = {
 					};
 					type = 137;
 					earning = 1.0;
-					nameOverride = "Palyos Belt";
+					nameOverride = "Omisha Jump Gate";
 				};
 				[19] = {
 					distanceRange = 0;
