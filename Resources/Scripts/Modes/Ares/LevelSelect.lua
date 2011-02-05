@@ -4,11 +4,48 @@ import('BoxDrawing')
 
 levelNum = 1
 
-background = { { xCoord = -280, yCoord = 140,  length = 560, text = " ",         boxColour = ClutColour(10, 8), textColour = ClutColour(13, 9), execute = nil, letter = "Select Level", underbox = -145 },
-                { xCoord = -260, yCoord = -205, length = 150, text = "Cancel",   boxColour = ClutColour(3, 6),  textColour = ClutColour(13, 9), execute = function() mode_manager.switch("Ares/Splash") end, letter = "ESC" },
-                { xCoord = 110,  yCoord = -205, length = 150, text = "Begin",    boxColour = ClutColour(12, 6), textColour = ClutColour(13, 9), execute = nil, letter = "RTRN" },
-                { xCoord = -260, yCoord = -105, length = 150, text = "Previous", boxColour = ClutColour(10, 8), textColour = ClutColour(13, 9), execute = nil, letter = "LEFT" },
-                { xCoord = 110,  yCoord = -105, length = 150, text = "Next",     boxColour = ClutColour(10, 8), textColour = ClutColour(13, 9), execute = nil, letter = "RGHT" } }
+function Begin()
+    if #data.scenarios[demoLevel].briefing == 0 then
+        -- [TODO] figure out some way to transmit levelNum
+        mode_manager.switch("Demo4")
+    end
+    -- [TODO] figure out some way to transmit levelNum
+    mode_manager.switch("Ares/Briefing")
+end
+
+function Previous()
+    if levelNum ~= 1 then
+        levelNum = levelNum - 1
+        if IsSpecialSet("RGHT", "disabled", background) then
+            ChangeSpecial("RGHT", nil, background)
+        end
+        if levelNum == 1 then
+            ChangeSpecial("LEFT", "disabled", background)
+            print("QWER")
+        end
+    end
+    print(levelNum)
+end
+
+function Next()
+    if levelNum + 1 ~= #data.scenarios then
+        levelNum = levelNum + 1
+        if IsSpecialSet("LEFT", "disabled", background) then
+            ChangeSpecial("LEFT", nil, background)
+        end
+        if levelNum + 1 == #data.scenarios then
+            ChangeSpecial("RGHT", "disabled", background)
+            print("ASDF")
+        end
+    end
+    print(levelNum)
+end
+
+background = {  { xCoord = -280, yCoord = 140,  length = 560, text = " ",        boxColour = ClutColour(10, 8), textColour = ClutColour(13, 9), letter = "Select Level", underbox = -145, execute = function() end },
+                { xCoord = -260, yCoord = -205, length = 150, text = "Cancel",   boxColour = ClutColour(3, 6),  textColour = ClutColour(13, 9), letter = "ESC",                           execute = function() mode_manager.switch("Ares/Splash") end },
+                { xCoord = 110,  yCoord = -205, length = 150, text = "Begin",    boxColour = ClutColour(12, 6), textColour = ClutColour(13, 9), letter = "RTRN",                          execute = Begin },
+                { xCoord = -260, yCoord = -105, length = 150, text = "Previous", boxColour = ClutColour(10, 8), textColour = ClutColour(13, 9), letter = "LEFT",                          execute = Previous },
+                { xCoord = 110,  yCoord = -105, length = 150, text = "Next",     boxColour = ClutColour(10, 8), textColour = ClutColour(13, 9), letter = "RGHT",                          execute = Next, special = "disabled" } }
 
 function init()
     sound.stop_music()
@@ -17,11 +54,13 @@ function init()
 end
 
 function update()
+--[[
     for _, val in ipairs(background) do
         if val.special == "click" then
             val.special = nil
         end
     end
+--]]
 end
 
 function render()
@@ -61,14 +100,17 @@ end
 
 function keyup(k)
     if k == "escape" then
-        mode_manager.switch("Ares/Splash")
+        ChangeSpecial("ESC", nil, background)
     elseif k == "return" then
-        if #data.scenarios[demoLevel].briefing == 0 then
-            -- [TODO] figure out some way to transmit levelNum
-            mode_manager.switch("Demo4")
+        ChangeSpecial("RTRN", nil, background)
+    elseif k == "right" then
+        if not IsSpecialSet("RGHT", "disabled", background) then
+            ChangeSpecial("RGHT", nil, background)
         end
-        -- [TODO] figure out some way to transmit levelNum
-        mode_manager.switch("Ares/Briefing")
+    elseif k == "left" then
+        if not IsSpecialSet("LEFT", "disabled", background) then
+            ChangeSpecial("LEFT", nil, background)
+        end
     end
 end
 
@@ -78,14 +120,12 @@ function key(k)
     elseif k == "return" then
         ChangeSpecial("RTRN", "click", background)
     elseif k == "right" then
-        if levelNum + 1 < #data.scenarios then
-            levelNum = levelNum + 1
-            checkDisabledBox()
+        if not IsSpecialSet("RGHT", "disabled", background) then
+            ChangeSpecial("RGHT", "click", background)
         end
     elseif k == "left" then
-        if levelNum ~= 1 then
-            levelNum = levelNum - 1
-            checkDisabledBox()
+        if not IsSpecialSet("LEFT", "disabled", background) then
+            ChangeSpecial("LEFT", "click", background)
         end
     end
 end
@@ -98,7 +138,6 @@ function mouse_up(button, x, y)
     HandleMouseUp(button, x, y, background)
 end
 
--- [TODO] [ADAM] this function is in two separate files, consolidate!
 function CheckDisabledBox()
     if levelNum == 1 then
         ChangeSpecial("LEFT", "disabled", background)
@@ -106,7 +145,7 @@ function CheckDisabledBox()
         ChangeSpecial("LEFT", nil, background)
     end
     
-    if levelNum + 1 < #data.scenarios then -- [TODO] make sure that the user has unlocked the level for play
+    if levelNum + 1 ~= #data.scenarios then -- [TODO] make sure that the user has unlocked the level for play
         ChangeSpecial("RGHT", nil, background)
     else
         ChangeSpecial("RGHT", "disabled", background)

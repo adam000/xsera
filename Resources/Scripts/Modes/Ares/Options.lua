@@ -4,7 +4,7 @@ import('BoxDrawing')
 
 soundLevel = 8
 soundMax = 8
-background = {    { xCoord = -280, yCoord = 155, length = 560, text = " ", boxColour = ClutColour(13, 9), textColour = ClutColour(13, 9), execute = nil, letter = "Sound Options", underbox = -85 },
+background = {  { xCoord = -280, yCoord = 155, length = 560, text = " ", boxColour = ClutColour(13, 9), textColour = ClutColour(13, 9), execute = nil, letter = "Sound Options", underbox = -85 },
                 { xCoord = -260, yCoord = -15, length = 520, text = " ", boxColour = ClutColour(13, 9), textColour = ClutColour(13, 9), execute = nil, letter = "VOLUME", underbox = -75 },
                 { xCoord = 110, yCoord = 35, length = 150, text = "nodraw", boxColour = ClutColour(13, 9), textColour = ClutColour(13, 9), execute = function() soundLevel = soundLevel - 1 end, letter = "Volume Down" },
                 { xCoord = 110, yCoord = 115, length = 150, text = "nodraw", boxColour = ClutColour(13, 9), textColour = ClutColour(13, 9), execute = function() soundLevel = soundLevel + 1; if soundLevel > soundMax then soundLevel = soundMax end end, letter = "Volume Up" },

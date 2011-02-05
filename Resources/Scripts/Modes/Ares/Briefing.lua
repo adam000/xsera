@@ -15,7 +15,7 @@ function init()
 end
 
 function update()
-    checkDisabledBox(screenNum, 1, 2)
+    CheckDisabledBox(screenNum, 1, 2)
     
     -- [TODO] [ADAM] I see this code in a lot of places... make it a function!
     for _, val in ipairs(background) do
@@ -95,7 +95,7 @@ function key(k)
     end
 end
 
-function checkDisabledBox(numToCheck, lowerBound, upperBound)
+function CheckDisabledBox(numToCheck, lowerBound, upperBound)
     if numToCheck == lowerBound then
         ChangeSpecial("LEFT", "disabled", background)
     else

@@ -203,24 +203,27 @@ function SwitchBox(box)
 end
 
 function ChangeSpecial(k, set, tbl)
-    for num = 1, #tbl do
-        if tbl[num].letter == k then
-            if set == nil and tbl[num].special == "click" then
-                if tbl[num].execute == nil then
-                    sound.play("NaughtyBeep")
-                    LogError("This command currently has no code.", 10)
-                else
-                    tbl[num].execute()
+    for _, val in pairs(tbl) do
+        if val.letter == k then
+            local tmp = val.special
+            val.special = set
+            if set == nil then
+                if tmp == "click" then
+                    if val.execute == nil then
+                        sound.play("NaughtyBeep")
+                        LogError("This command currently has no code.", 10)
+                    else
+                        val.execute()
+                    end
                 end
             end
-            tbl[num].special = set
         end
     end
 end
 
 function ChangeSpecialByLoc(loc, set, tbl)
     for num = 1, #tbl do
-        if tbl[num].yCoord then
+        if tbl[num].yCoord and tbl[num].special ~= "disabled" then
             if tbl[num].yCoord <= loc.y and tbl[num].yCoord + 18 >= loc.y then -- check y coordinates
                 if tbl[num].xCoord <= loc.x and tbl[num].xCoord + tbl[num].length >= loc.x then -- check x coordinates
                     tbl[num].special = set
@@ -234,6 +237,14 @@ function ChangeSpecialByLoc(loc, set, tbl)
                     end
                 end
             end
+        end
+    end
+end
+
+function IsSpecialSet(k, mode, background)
+    for _, val in pairs(background) do
+        if val.letter == k then
+           return val.special == mode
         end
     end
 end
