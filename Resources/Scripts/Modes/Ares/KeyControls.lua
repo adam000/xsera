@@ -30,9 +30,7 @@ end
 function switchTabs()
     rows = math.ceil((#keyboard[keyboardNum] + 1) / 2)
     num = 1
-    local xCoord = 0
-    local yShift = 0
-    local adjust = 0
+    local xCoord, yShift, adjust = 0, 0, 0
     
     currPanel = {}
     for i = 1, #keyboard[keyboardNum] - 1 do -- I should be doing this every time I switch, not every frame
@@ -76,7 +74,8 @@ function update()
         num = num + 1
     end
     
-    -- mouse button handling
+    -- [TODO] [FIX] [ADAM] mouse button handling
+    -- What we need is a table in KeyboardControl.lua that shows 
     if mup then
         mup = false
         mousePos = input.mouse_position()

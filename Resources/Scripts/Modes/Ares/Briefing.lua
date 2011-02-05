@@ -87,6 +87,9 @@ function render()
         for _, val in pairs(data.scenarios[levelNum].scoreString) do
             desc = desc .. val .. "\n"
         end
+        if not data.scenarios[levelNum].scoreString or #data.scenarios[levelNum].scoreString == 0 then
+            desc = nil
+        end
         SwitchBox( { top = 120, left = -260, bottom = -55, right = 260, boxColour = ClutColour(10, 8), title = title, subtitle = subtitle, desc = desc } )
     else
     -- When we load the scenario data, change all instances of "scenBriefing" to "scen.briefing"
