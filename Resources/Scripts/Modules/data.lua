@@ -156,14 +156,14 @@ data = {
 					earningPower = 0.0078125;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 0;
 					earningPower = 1.0;
 					race = 200;
 					type = "cpu";
-					name = "The Gaitori Union";
+					name = "The Cantharan Order";
 				};
 			};
 			netRaceFlags = 0;
@@ -1327,14 +1327,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 16516;
 					earningPower = 1.0;
 					race = 300;
 					type = "cpu";
-					name = "The Prophets of Salril";
+					name = "The Gaitori Union";
 				};
 			};
 			netRaceFlags = 0;
@@ -1939,14 +1939,14 @@ data = {
 					earningPower = 0.0078125;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 0;
 					earningPower = 1.0;
 					race = 200;
 					type = "cpu";
-					name = "The Gaitori Union";
+					name = "The Cantharan Order";
 				};
 			};
 			netRaceFlags = 0;
@@ -3752,14 +3752,14 @@ data = {
 					earningPower = 0.00390625;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 0;
 					earningPower = 0.0;
 					race = 300;
 					type = "cpu";
-					name = "The Prophets of Salril";
+					name = "The Gaitori Union";
 				};
 			};
 			netRaceFlags = 0;
@@ -4489,14 +4489,14 @@ data = {
 					earningPower = 0.0078125;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 0;
 					earningPower = 0.0078125;
 					race = 200;
 					type = "cpu";
-					name = "The Gaitori Union";
+					name = "The Cantharan Order";
 				};
 			};
 			netRaceFlags = 0;
@@ -6687,14 +6687,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 0;
 					earningPower = 0.84765625;
 					race = 300;
 					type = "cpu";
-					name = "The Prophets of Salril";
+					name = "The Gaitori Union";
 				};
 			};
 			netRaceFlags = 0;
@@ -7065,14 +7065,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 202;
 					earningPower = 1.5;
 					race = 300;
 					type = "cpu";
-					name = "The Prophets of Salril";
+					name = "The Gaitori Union";
 				};
 			};
 			netRaceFlags = 0;
@@ -7866,14 +7866,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 202;
 					earningPower = 1.5;
 					race = 300;
 					type = "cpu";
-					name = "The Prophets of Salril";
+					name = "The Gaitori Union";
 				};
 			};
 			netRaceFlags = 0;
@@ -8289,14 +8289,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 176;
 					earningPower = 1.25;
 					race = 300;
 					type = "cpu";
-					name = "The Prophets of Salril";
+					name = "The Gaitori Union";
 				};
 			};
 			netRaceFlags = 0;
@@ -8906,14 +8906,14 @@ data = {
 					earningPower = 0.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 0;
 					earningPower = 0.0;
 					race = 200;
 					type = "cpu";
-					name = "The Gaitori Union";
+					name = "The Cantharan Order";
 				};
 			};
 			netRaceFlags = 0;
@@ -9425,14 +9425,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 172;
 					earningPower = 1.0;
 					race = 200;
 					type = "cpu";
-					name = "The Gaitori Union";
+					name = "The Cantharan Order";
 				};
 			};
 			netRaceFlags = 0;
@@ -9839,14 +9839,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 1;
 					earningPower = 1.25;
 					race = 200;
 					type = "cpu";
-					name = "The Gaitori Union";
+					name = "The Cantharan Order";
 				};
 			};
 			netRaceFlags = 0;
@@ -10276,14 +10276,14 @@ data = {
 					earningPower = 0.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 0;
 					earningPower = 0.0078125;
 					race = 200;
 					type = "cpu";
-					name = "The Gaitori Union";
+					name = "The Cantharan Order";
 				};
 			};
 			netRaceFlags = 0;
@@ -11048,14 +11048,14 @@ data = {
 					earningPower = 0.00390625;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 0;
 					earningPower = 0.0;
 					race = 200;
 					type = "cpu";
-					name = "The Audemedon Axis";
+					name = "The Prophets of Salril";
 				};
 			};
 			netRaceFlags = 0;
@@ -11852,14 +11852,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 172;
 					earningPower = 3.0;
 					race = 200;
 					type = "cpu";
-					name = "The Gaitori Union";
+					name = "The Cantharan Order";
 				};
 			};
 			netRaceFlags = 0;
@@ -12662,14 +12662,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 0;
 					earningPower = 1.0;
 					race = 600;
 					type = "cpu";
-					name = "The Audemedon Axis";
+					name = "The Prophets of Salril";
 				};
 			};
 			netRaceFlags = 0;
@@ -13499,14 +13499,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 34;
 					earningPower = 1.25;
 					race = 200;
 					type = "cpu";
-					name = "The Gaitori Union";
+					name = "The Cantharan Order";
 				};
 			};
 			netRaceFlags = 34;
@@ -14374,14 +14374,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 0;
 					earningPower = 2.0;
 					race = 600;
 					type = "cpu";
-					name = "The Audemedon Axis";
+					name = "The Prophets of Salril";
 				};
 			};
 			netRaceFlags = 0;
@@ -14876,14 +14876,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 202;
 					earningPower = 1.0;
 					race = 700;
 					type = "cpu";
-					name = "The UNS Resistance";
+					name = "The Audemedon Axis";
 				};
 			};
 			netRaceFlags = 0;
@@ -15877,14 +15877,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 0;
 					earningPower = 1.0;
 					race = 700;
 					type = "cpu";
-					name = "The UNS Resistance";
+					name = "The Audemedon Axis";
 				};
 			};
 			netRaceFlags = 0;
@@ -16477,14 +16477,14 @@ data = {
 					earningPower = 1.0;
 					race = 900;
 					type = "single";
-					name = "The Elejeetian Empire";
+					name = "The UNS Resistance";
 				};
 				[2] = {
 					netRaceFlags = 202;
 					earningPower = 1.0;
 					race = 700;
 					type = "cpu";
-					name = "The UNS Resistance";
+					name = "The Audemedon Axis";
 				};
 			};
 			netRaceFlags = 0;
@@ -17586,14 +17586,14 @@ data = {
 					earningPower = 1.0;
 					race = 900;
 					type = "single";
-					name = "The Elejeetian Empire";
+					name = "The UNS Resistance";
 				};
 				[2] = {
 					netRaceFlags = 0;
 					earningPower = 1.0;
 					race = 200;
 					type = "cpu";
-					name = "The Gaitori Union";
+					name = "The Cantharan Order";
 				};
 			};
 			netRaceFlags = 0;
@@ -18279,14 +18279,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 181;
 					earningPower = 1.0;
 					race = 200;
 					type = "cpu";
-					name = "The Gaitori Union";
+					name = "The Cantharan Order";
 				};
 			};
 			netRaceFlags = 0;
@@ -19301,14 +19301,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "net";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 483;
 					earningPower = 1.0;
 					race = 100;
 					type = "net";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 			};
 			netRaceFlags = 483;
@@ -19653,20 +19653,20 @@ data = {
 					netRaceFlags = 0;
 					race = 100;
 					earningPower = 1.0;
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 0;
 					race = 100;
 					earningPower = 1.0;
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[3] = {
 					netRaceFlags = 0;
 					earningPower = 2.0;
 					race = 700;
 					type = "cpu";
-					name = "The UNS Resistance";
+					name = "The Audemedon Axis";
 				};
 			};
 			netRaceFlags = 0;
@@ -19885,14 +19885,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 0;
 					earningPower = 1.0;
 					race = 300;
 					type = "cpu";
-					name = "The Prophets of Salril";
+					name = "The Gaitori Union";
 				};
 			};
 			netRaceFlags = 0;
@@ -20941,14 +20941,14 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "net";
-					name = "The Elejeetian Empire";
+					name = "The UNS Resistance";
 				};
 				[2] = {
 					netRaceFlags = 483;
 					earningPower = 1.0;
 					race = 100;
 					type = "net";
-					name = "The Gaitori Union";
+					name = "The Cantharan Order";
 				};
 			};
 			netRaceFlags = 483;
@@ -21372,14 +21372,14 @@ data = {
 					earningPower = 0.0;
 					race = 1100;
 					type = "net";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 512;
 					earningPower = 0.0;
 					race = 1100;
 					type = "net";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 			};
 			netRaceFlags = 512;
@@ -22025,14 +22025,14 @@ data = {
 					earningPower = 0.0;
 					race = 1100;
 					type = "net";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 512;
 					earningPower = 0.0;
 					race = 1100;
 					type = "net";
-					name = "The Gaitori Union";
+					name = "The Cantharan Order";
 				};
 			};
 			netRaceFlags = 512;
@@ -22367,7 +22367,7 @@ data = {
 					earningPower = 1.0;
 					race = 100;
 					type = "net";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 98;
@@ -22966,14 +22966,14 @@ data = {
 					earningPower = 0.5;
 					race = 100;
 					type = "single";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 				[2] = {
 					netRaceFlags = 1536;
 					earningPower = 0.0;
 					race = 100;
 					type = "cpu";
-					name = "The Cantharan Order";
+					name = "The Human/Ishiman Cooperative";
 				};
 			};
 			netRaceFlags = 0;
