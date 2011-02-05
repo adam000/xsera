@@ -371,7 +371,7 @@ function mouse_up()
 end
 
 function shutdown()
-
+	window.mouse_toggle()
 end
 
 function RemoveDead()
