@@ -12,7 +12,7 @@ SPLASH_STRIDE = 26
 local mup = false
 local mdown = false
 
-local execs = {
+local background = {
     { xCoord = SPLASH_SHIFT_LEFT, yCoord = TOP_OF_SPLASH, length = SPLASH_SHIFT_RIGHT - SPLASH_SHIFT_LEFT, text = "Start New Game", justify = "left", boxColour = ClutColour(8, 6), textColour = ClutColour(13, 9), execute = function() mode_manager.switch("Ares/LevelSelect") end, letter = "S" },
     { xCoord = SPLASH_SHIFT_LEFT, yCoord = TOP_OF_SPLASH - 1 * SPLASH_STRIDE, length = SPLASH_SHIFT_RIGHT - SPLASH_SHIFT_LEFT, text = "Start Network Game", justify = "left", boxColour = ClutColour(5, 5), textColour = ClutColour(13, 9), execute = nil, letter = "N" },
     { xCoord = SPLASH_SHIFT_LEFT, yCoord = TOP_OF_SPLASH - 2 * SPLASH_STRIDE, length = SPLASH_SHIFT_RIGHT - SPLASH_SHIFT_LEFT, text = "Replay Intro", justify = "left", boxColour = ClutColour(1, 8), textColour = ClutColour(13, 9), execute = nil, letter = "R" },
@@ -28,19 +28,7 @@ function init()
 end
 
 function update()
-    -- mouse button handling
-    if mup then
-        mup = false
-        mousePos = input.mouse_position()
-        mousePos.x = mousePos.x * 480 * aspectRatio - 240 * aspectRatio
-        mousePos.y = mousePos.y * 480 - 240
-        ChangeSpecialByLoc(mousePos, nil, execs)
-    elseif mdown then
-        mousePos = input.mouse_position()
-        mousePos.x = mousePos.x * 480 * aspectRatio - 240 * aspectRatio
-        mousePos.y = mousePos.y * 480 - 240
-        ChangeSpecialByLoc(mousePos, "click", execs)
-    end
+
 end
 
 function render()
@@ -50,8 +38,8 @@ function render()
     graphics.draw_image("Panels/MainLeft", { x = -231, y = -110 }, { x = 178, y = 211 })
     graphics.draw_image("Panels/MainRight", { x = 230, y = -110 }, { x = 180, y = 211 })
     
-    for num = 1, #execs do
-        SwitchBox(execs[num])
+    for _, val in pairs(background) do
+        SwitchBox(val)
     end
     
     -- Error Printing
@@ -65,22 +53,17 @@ function render()
 end
 
 function keyup(k)
-    ChangeSpecial(k:upper(), nil, execs)
+    ChangeSpecial(k:upper(), nil, background)
 end
 
 function key(k)
-    ChangeSpecial(k:upper(), "click", execs)
+    ChangeSpecial(k:upper(), "click", background)
 end
 
 function mouse(button, x, y)
-    if button ~= "wheel_up" and button ~= "wheel_down" then
-        mdown = true
-    end
+    HandleMouseDown(button, x, y, background)
 end
 
-function mouse_up(button, mbX, mbY)
-    if button ~= "wheel_up" and button ~= "wheel_down" then
-        mup = true
-        mdown = false
-    end
+function mouse_up(button, x, y)
+    HandleMouseUp(button, x, y, background)
 end

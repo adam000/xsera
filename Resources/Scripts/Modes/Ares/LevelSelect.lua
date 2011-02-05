@@ -5,15 +5,15 @@ import('BoxDrawing')
 levelNum = 1
 
 background = { { xCoord = -280, yCoord = 140,  length = 560, text = " ",         boxColour = ClutColour(10, 8), textColour = ClutColour(13, 9), execute = nil, letter = "Select Level", underbox = -145 },
-                { xCoord = -260, yCoord = -205, length = 150, text = "Cancel",   boxColour = ClutColour(3, 6),  textColour = ClutColour(13, 9), execute = nil, letter = "ESC" },
+                { xCoord = -260, yCoord = -205, length = 150, text = "Cancel",   boxColour = ClutColour(3, 6),  textColour = ClutColour(13, 9), execute = function() mode_manager.switch("Ares/Splash") end, letter = "ESC" },
                 { xCoord = 110,  yCoord = -205, length = 150, text = "Begin",    boxColour = ClutColour(12, 6), textColour = ClutColour(13, 9), execute = nil, letter = "RTRN" },
                 { xCoord = -260, yCoord = -105, length = 150, text = "Previous", boxColour = ClutColour(10, 8), textColour = ClutColour(13, 9), execute = nil, letter = "LEFT" },
                 { xCoord = 110,  yCoord = -105, length = 150, text = "Next",     boxColour = ClutColour(10, 8), textColour = ClutColour(13, 9), execute = nil, letter = "RGHT" } }
 
 function init()
     sound.stop_music()
-    graphics.set_camera(-480, -360, 480, 360)
-    checkDisabledBox()
+    graphics.set_camera(-240 * aspectRatio, -240, 240 * aspectRatio, 240)
+    CheckDisabledBox()
 end
 
 function update()
@@ -28,10 +28,10 @@ function render()
     graphics.begin_frame()
     
     -- Background
-    graphics.draw_image("Panels/PanelTop", { x = 0, y = 210 }, { x = 572, y = 28 })
-    graphics.draw_image("Panels/PanelBottom", { x = 0, y = -242 }, { x = 572, y = 20 })
-    graphics.draw_image("Panels/PanelLeft", { x = -302, y = -14 }, { x = 33, y = 476 })
-    graphics.draw_image("Panels/PanelRight", { x = 303, y = -14 }, { x = 35, y = 476 })
+    graphics.draw_image("Panels/PanelTop",    { x = 0, y = 225 },  { x = 572, y = 28 })
+    graphics.draw_image("Panels/PanelBottom", { x = 0, y = -227 }, { x = 572, y = 20 })
+    graphics.draw_image("Panels/PanelLeft",   { x = -302, y = 1 }, { x = 33, y = 476 })
+    graphics.draw_image("Panels/PanelRight",  { x = 303, y = 1 },  { x = 35, y = 476 })
     
     for _, val in ipairs(background) do
         SwitchBox(val)
@@ -90,8 +90,16 @@ function key(k)
     end
 end
 
+function mouse(button, x, y)
+    HandleMouseDown(button, x, y, background)
+end
+
+function mouse_up(button, x, y)
+    HandleMouseUp(button, x, y, background)
+end
+
 -- [TODO] [ADAM] this function is in two separate files, consolidate!
-function checkDisabledBox()
+function CheckDisabledBox()
     if levelNum == 1 then
         ChangeSpecial("LEFT", "disabled", background)
     else

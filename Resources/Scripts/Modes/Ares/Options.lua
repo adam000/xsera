@@ -22,29 +22,15 @@ end
 
 function update()
     if soundLevel > soundMax then
-    --    soundLevel = soundMax
+        soundLevel = soundMax
     elseif soundLevel < 0 then
         soundLevel = 0
     end
     
-    for num = 1, #background do
-        if background[num].special == "click" then
-            background[num].special = nil
+    for _, val in pairs(background) do
+        if val.special == "click" then
+            val.special = nil
         end
-    end
-    
-    -- mouse button handling
-    if mup then
-        mup = false
-        mousePos = input.mouse_position()
-        mousePos.x = mousePos.x * 480 * aspectRatio - 240 * aspectRatio
-        mousePos.y = mousePos.y * 480 - 240
-        ChangeSpecialByLoc(mousePos, nil, background)
-    elseif mdown then
-        mousePos = input.mouse_position()
-        mousePos.x = mousePos.x * 480 * aspectRatio - 240 * aspectRatio
-        mousePos.y = mousePos.y * 480 - 240
-        ChangeSpecialByLoc(mousePos, "click", background)
     end
 end
 
@@ -91,14 +77,9 @@ function key(k)
 end
 
 function mouse(button, x, y)
-    if button ~= "wheel_up" and button ~= "wheel_down" then
-        mdown = true
-    end
+    HandleMouseDown(button, x, y, background)
 end
 
-function mouse_up(button, mbX, mbY)
-    if button ~= "wheel_up" and button ~= "wheel_down" then
-        mup = true
-        mdown = false
-    end
+function mouse_up(button, x, y)
+    HandleMouseUp(button, x, y, background)
 end

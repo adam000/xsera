@@ -237,3 +237,21 @@ function ChangeSpecialByLoc(loc, set, tbl)
         end
     end
 end
+
+function HandleMouseDown(button, x, y, background)
+    if button ~= "wheel_up" and button ~= "wheel_down" then
+        mousePos = input.mouse_position()
+        mousePos.x = mousePos.x * 480 * aspectRatio - 240 * aspectRatio
+        mousePos.y = mousePos.y * 480 - 240
+        ChangeSpecialByLoc(mousePos, "click", background)
+    end
+end
+
+function HandleMouseUp(button, x, y, background)
+    if button ~= "wheel_up" and button ~= "wheel_down" then
+        mousePos = input.mouse_position()
+        mousePos.x = mousePos.x * 480 * aspectRatio - 240 * aspectRatio
+        mousePos.y = mousePos.y * 480 - 240
+        ChangeSpecialByLoc(mousePos, nil, background)
+    end
+end
