@@ -1297,8 +1297,8 @@ data = {
 			epilogue = "";
 			id = 1;
 			starmap = {
-				y = 330;
-				x = 287;
+				y = 287;
+				x = 330;
 			};
 		};
 		[2] = {
@@ -1909,8 +1909,8 @@ data = {
 			epilogue = "";
 			id = 2;
 			starmap = {
-				y = 330;
-				x = 287;
+				y = 287;
+				x = 330;
 			};
 		};
 		[3] = {
@@ -3722,8 +3722,8 @@ data = {
 			epilogue = "";
 			id = 3;
 			starmap = {
-				y = 330;
-				x = 287;
+				y = 287;
+				x = 330;
 			};
 		};
 		[4] = {
@@ -4459,8 +4459,8 @@ data = {
 			epilogue = "";
 			id = 4;
 			starmap = {
-				y = 393;
-				x = 282;
+				y = 282;
+				x = 393;
 			};
 		};
 		[5] = {
@@ -6658,8 +6658,8 @@ data = {
 			epilogue = "";
 			id = 5;
 			starmap = {
-				y = 330;
-				x = 287;
+				y = 287;
+				x = 330;
 			};
 		};
 		[6] = {
@@ -7034,8 +7034,8 @@ data = {
 			epilogue = "";
 			id = 6;
 			starmap = {
-				y = 354;
-				x = 271;
+				y = 271;
+				x = 354;
 			};
 		};
 		[7] = {
@@ -7837,8 +7837,8 @@ data = {
 			epilogue = "";
 			id = 7;
 			starmap = {
-				y = 460;
-				x = 259;
+				y = 259;
+				x = 460;
 			};
 		};
 		[8] = {
@@ -8260,8 +8260,8 @@ data = {
 			epilogue = "";
 			id = 8;
 			starmap = {
-				y = 366;
-				x = 250;
+				y = 250;
+				x = 366;
 			};
 		};
 		[9] = {
@@ -8876,8 +8876,8 @@ data = {
 			epilogue = "";
 			id = 9;
 			starmap = {
-				y = 431;
-				x = 237;
+				y = 237;
+				x = 431;
 			};
 		};
 		[10] = {
@@ -9395,8 +9395,8 @@ data = {
 			epilogue = "#+B2006\nThe Ishimans’ initial analysis of the rogue asteroid was correct: it was artificially created, and originated in the Cantharan system of Los Ran during the Boodan War. Further examination of the samples you retrieved reveals a sinister secret.\n\n#+\nThe asteroid was saturated with a biomechanical virus, apparently designed to lie dormant within the asteroid until it collided with a living planet. The artificial virus, millions of tiny mechanisms, would then activate and seek out compatible life which it could infest.\n\n#+\nA relic of the Boodan war, the biomechanisms could have been some kind of weapon, but the method of distribution--on artificial asteroids--would have been too slow for any tactical use. Its purpose is obscure.\n#+\nThis Boodan Mechanism is beyond any known races’ ability. The ramifications of its discovery this far from Cantharis are staggering. It now seems the Cantharan Crusades have more to do with hunting down and harnessing this virus than they do with obliteration of the “Unenlightened.”";
 			id = 10;
 			starmap = {
-				y = 401;
-				x = 224;
+				y = 224;
+				x = 401;
 			};
 		};
 		[11] = {
@@ -9810,8 +9810,8 @@ data = {
 			epilogue = "";
 			id = 11;
 			starmap = {
-				y = 286;
-				x = 211;
+				y = 211;
+				x = 286;
 			};
 		};
 		[12] = {
@@ -10247,8 +10247,8 @@ data = {
 			epilogue = "";
 			id = 12;
 			starmap = {
-				y = 368;
-				x = 201;
+				y = 201;
+				x = 368;
 			};
 		};
 		[13] = {
@@ -11017,8 +11017,8 @@ data = {
 			epilogue = "";
 			id = 13;
 			starmap = {
-				y = 311;
-				x = 192;
+				y = 192;
+				x = 311;
 			};
 		};
 		[14] = {
@@ -11819,8 +11819,8 @@ data = {
 			epilogue = "";
 			id = 14;
 			starmap = {
-				y = 160;
-				x = 179;
+				y = 179;
+				x = 160;
 			};
 		};
 		[15] = {
@@ -12631,8 +12631,8 @@ data = {
 			epilogue = "";
 			id = 15;
 			starmap = {
-				y = 259;
-				x = 158;
+				y = 158;
+				x = 259;
 			};
 		};
 		[16] = {
@@ -13468,8 +13468,8 @@ data = {
 			epilogue = "";
 			id = 16;
 			starmap = {
-				y = 194;
-				x = 145;
+				y = 145;
+				x = 194;
 			};
 		};
 		[17] = {
@@ -14345,8 +14345,8 @@ data = {
 			epilogue = "";
 			id = 17;
 			starmap = {
-				y = 222;
-				x = 130;
+				y = 130;
+				x = 222;
 			};
 		};
 		[18] = {
@@ -14844,8 +14844,8 @@ data = {
 			epilogue = "";
 			id = 18;
 			starmap = {
-				y = 150;
-				x = 120;
+				y = 120;
+				x = 150;
 			};
 		};
 		[19] = {
@@ -15848,8 +15848,8 @@ data = {
 			epilogue = "";
 			id = 19;
 			starmap = {
-				y = 104;
-				x = 98;
+				y = 98;
+				x = 104;
 			};
 		};
 		[20] = {
@@ -16448,8 +16448,8 @@ data = {
 			epilogue = "";
 			id = 20;
 			starmap = {
-				y = 156;
-				x = 81;
+				y = 81;
+				x = 156;
 			};
 		};
 		[21] = {
@@ -17555,8 +17555,8 @@ data = {
 			epilogue = "";
 			id = 21;
 			starmap = {
-				y = 182;
-				x = 62;
+				y = 62;
+				x = 182;
 			};
 		};
 		[22] = {
@@ -18250,8 +18250,8 @@ data = {
 			epilogue = "";
 			id = 22;
 			starmap = {
-				y = 241;
-				x = 53;
+				y = 53;
+				x = 241;
 			};
 		};
 		[23] = {
@@ -19273,8 +19273,8 @@ data = {
 			epilogue = "#+B2005\n#+10031\nThe Earth you left over one hundred and fifty years ago is greatly changed. The people you knew are long since dead, and the place you called home no longer exists.\n\n#+\nBut neither time nor the Cantharans could destroy what you fought to salvage: humanity. A mercy you eventually found outside of mankind.\n\n#+\nYou will be welcomed as a hero, to be sure. The individuals will be honored, and the crew of the Ares may even become legends.\n\n#+\nBut the greatest victories this day do not belong to men. They belong to humanity. They belong to our unending faith in our place in the universe. And now humanity, with due arrogance, will claim that place.";
 			id = 23;
 			starmap = {
-				y = 284;
-				x = 43;
+				y = 43;
+				x = 284;
 			};
 		};
 		[24] = {
@@ -24784,8 +24784,8 @@ data = {
 			epilogue = "";
 			id = 31;
 			starmap = {
-				y = 288;
-				x = 302;
+				y = 302;
+				x = 288;
 			};
 		};
 	};
