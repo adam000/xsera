@@ -26,7 +26,8 @@ function NewObject(id)
 			};
 		ai = {
 			owner = nil;
-			mode = "wait";
+			mode = MODE_WAIT;
+            submode = SUB_SIT;
 			objectives = {
 				target = nil;--Short term
 				dest = nil;--Long term
