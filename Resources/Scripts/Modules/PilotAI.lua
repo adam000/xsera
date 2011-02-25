@@ -87,8 +87,8 @@ function EvaluateHostiles(object)
     if hst == nil then
         return false
     end
+    local dist = ObjectDistance(object, hst)
     if object.ai.objectives.target ~= hst then
-        local dist = ObjectDistance(object, hst)
         if dist < HOSTILE_AQUISITION_RANGE then
             object.ai.objectives.target = hst
             SetMode(object, nil, SUB_ATTACK)
@@ -96,6 +96,10 @@ function EvaluateHostiles(object)
             object.ai.objectives.target = nil
             SetMode(object, nil, SUB_GO)
         end
+    elseif dist > HOSTILE_AQUISITION_RANGE then
+        --Lose Intrest
+        object.ai.objectives.target = nil
+        SetMode(object, nil, SUB_GO)
     else
         return true
     end
