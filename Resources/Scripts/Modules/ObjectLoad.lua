@@ -32,6 +32,16 @@ function NewObject(id)
 				dest = nil;--Long term
 			};
 		};
+        proximity = {
+            closest = nil;
+            closestDistance = 0;
+            closestHostile = nil;
+            controlHostileDistance = 0;
+            closestBase = nil;
+            closestBaseDistance = 0;
+            closestHostileBase = nil;
+            closestHostileBaseDistance = nil;
+        };
 		physics = Physics.NewObject(base.mass or 1.0);
 		gfx = {};
 		status = {
@@ -47,6 +57,7 @@ function NewObject(id)
 	}
 	
 	setmetatable(object.ai.objectives, weak)
+    setmetatable(object.proximity, weak)
 	
 	if base.rotation ~= nil then
 		object.type = "rotation"
