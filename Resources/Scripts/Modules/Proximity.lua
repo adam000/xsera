@@ -1,5 +1,9 @@
+function ObjectDistance(a, b)
+    return hypot2(a.physics.position, b.physics.position)
+end
+
 function Proximity(a, b)
-    local dist = hypot2(a.physics.position, b.physics.position)
+    local dist = ObjectDistance(a, b)
     ProxUpdate(a, b, dist)
     ProxUpdate(b, a, dist)
     return dist
