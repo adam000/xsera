@@ -16,7 +16,8 @@ function ProxUpdate(a, b, dist)
             a.proximity.closest = b
             a.proximity.closestDistance = dist
         end
-        if a.ai.owner ~= b.ai.owner then
+        if a.ai.owner ~= b.ai.owner
+        and b.base.attributes.hated then
             if a.proximity.closestHostile == nil
             or a.proximity.closestHostileDistance > dist then
                 a.proximity.closestHostile = b

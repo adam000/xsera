@@ -19,6 +19,7 @@ mdown = false
 mrad = MOUSE_RADIUS / cameraRatio.current
 aimMethod = "smart"
 proxDebug = false
+targDebug = false
 
 function init()
     Physics.NewSystem()
@@ -60,6 +61,8 @@ function key( k )
         end
     elseif k == "F4" then
         proxDebug = not proxDebug
+    elseif k == "F3" then
+        targDebug = not targDebug
     else
         KeyActivate(k)
     end
@@ -343,6 +346,17 @@ function render()
             end
             if p.closestHostileBase ~= nil then
                 graphics.draw_line(op, p.closestHostileBase.physics.position, 2, {r=1,g=1,b=0,a=1})
+            end
+        end
+    end
+
+    if targDebug then
+        for i, o in pairs(scen.objects) do
+            if o.ai.objectives.target ~= nil then
+                graphics.draw_line(o.physics.position, o.ai.objectives.target.physics.position, 1, {r=1,g=0,b=0,a=1})
+            end
+            if o.ai.objectives.dest ~= nil then
+                graphics.draw_line(o.physics.position, o.ai.objectives.dest.physics.position, 1, {r=0,g=0,b=1,a=1})
             end
         end
     end

@@ -13,6 +13,7 @@ MODE_WAIT = 0
 MODE_GOTO = 1
 
 --  Like GOTO but with combat
+--  This is focused (it can't be overidden by other nearby hostiles)
 MODE_ENGAGE = 2
 
 --Protect
@@ -46,15 +47,15 @@ GOTO_ARRIVAL_THRESHOLD = 150
 --MARK: Thinking functions
 function Think(object)
 	if CanThink(object.base.attributes) then
+        local mode = object.ai.mode
+        EvaluateHostiles(object)
 		local target = object.ai.objectives.target or object.ai.objectives.dest
 		local dist
 		if target ~= nil then
-            local mode = object.ai.mode
             if mode == MODE_WAIT then
                 SetMode(object, MODE_GOTO, nil)
             end
 			dist = ObjectDistance(object, target)
-            EvaluateHostile(object, nil)
 			if object.base.attributes.isGuided then
                 SetMode(object, MODE_GOTO, SUB_GO)
 			elseif mode == MODE_GOTO then
@@ -80,8 +81,24 @@ function CanThink(attr)
 end
 
 --Decide whether or not to change to this hostile
-function EvaluateHostile(object, hst)
---    local dist = ObjectDistance(object, hst)
+function EvaluateHostiles(object)
+    local hst = object.proximity.closestHostile
+    --Guard Clause
+    if hst == nil then
+        return false
+    end
+    if object.ai.objectives.target ~= hst then
+        local dist = ObjectDistance(object, hst)
+        if dist < HOSTILE_AQUISITION_RANGE then
+            object.ai.objectives.target = hst
+            SetMode(object, nil, SUB_ATTACK)
+        else
+            object.ai.objectives.target = nil
+            SetMode(object, nil, SUB_GO)
+        end
+    else
+        return true
+    end
 end
 
 --MARK: Controls
