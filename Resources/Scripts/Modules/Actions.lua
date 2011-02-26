@@ -115,6 +115,9 @@ Actions["create object"] = function(action, source, direct)
         local new = NewObject(action.baseType)
         
         new.physics.position = srcMotion.position + offset
+        if action.distanceRange ~= 0 then
+            new.physics.position = PolarVec(RandomReal(0, math.pi * 2), RandomReal(0, action.distanceRange)) + new.physics.position
+        end
 
         if new.type == "beam"
         and new.base.beam.type ~= "kinetic" then
