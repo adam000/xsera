@@ -206,6 +206,9 @@ end
 
 --Used to calculate absolute angle at which to fire the turret.
 function AimTurret(gun, target, bulletVel)
+    if target == nil then
+        return gun.angle
+    end
     local gPos = gun.position
     local tPos = target.position
 

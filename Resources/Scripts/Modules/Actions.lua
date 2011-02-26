@@ -92,11 +92,13 @@ Actions["create object"] = function(action, source, direct)
     local srcMotion
     local offset = vec(0,0)
     local owner = -1
+    local targ
     if action.reflexive then --There may be more conditions to consider
         if source.type == nil then --Weapon firing
             srcMotion = direct.physics
             offset = RotatePoint(source.positions[source.lastPos],srcMotion.angle-math.pi/2.0)
             owner = direct.ai.owner
+            targ = direct.proximity.closestHostile.physics
         else
             srcMotion = source.physics
             owner = source.ai.owner
@@ -113,12 +115,7 @@ Actions["create object"] = function(action, source, direct)
         local new = NewObject(action.baseType)
         
         new.physics.position = srcMotion.position + offset
-        
-        --[[BEG AQUIRE TARGET]]--
-        local targ = selection.target and selection.target.physics or {position=GetMouseCoords(),velocity=vec(0,0)}
-        --[[END AQUIRE TARGET]]--
-        
-        
+
         if new.type == "beam"
         and new.base.beam.type ~= "kinetic" then
             new.gfx.source = srcMotion
