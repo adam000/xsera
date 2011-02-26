@@ -138,8 +138,8 @@ function ManipulateControls(object)
         if submode == SUB_GO then
             c.warp = (
             object.base.warpSpeed > 0.0
-            and dist >= math.sqrt(object.base.warpOutDistance) * 1.1
-            or target.control.warp)
+            and dist >= math.sqrt(object.base.warpOutDistance) * 2.0
+            or target.control.warp and object.ai.owner == target.ai.owner)
         end
     end
 end
