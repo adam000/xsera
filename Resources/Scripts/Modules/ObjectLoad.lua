@@ -37,7 +37,7 @@ function NewObject(id)
             closest = nil;
             closestDistance = 0;
             closestHostile = nil;
-            controlHostileDistance = 0;
+            closestHostileDistance = 0;
             closestBase = nil;
             closestBaseDistance = 0;
             closestHostileBase = nil;
