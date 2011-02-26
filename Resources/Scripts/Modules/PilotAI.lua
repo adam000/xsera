@@ -44,11 +44,17 @@ GOTO_TRAVEL_THRESHOLD = 200
 --Distance to begin deceleration
 GOTO_ARRIVAL_THRESHOLD = 150
 
+--the maximum angular distance that on object can
+--face away from it's target before it will warp
+WARP_MAX_ANGLE = (math.pi * 0.5)
+
 --MARK: Thinking functions
 function Think(object)
 	if CanThink(object.base.attributes) then
         local mode = object.ai.mode
-        EvaluateHostiles(object)
+        if not object.control.warp then
+            EvaluateHostiles(object)
+        end
 		local target = object.ai.objectives.target or object.ai.objectives.dest
 		local dist
 		if target ~= nil then
@@ -136,10 +142,12 @@ function ManipulateControls(object)
         end
         
         if submode == SUB_GO then
+            local relAngle = AimFixed(object.physics,target.physics, hypot1(object.physics.velocity))
+            relAngle = normalizeAngle(relAngle - object.physics.angle)
             c.warp = (
-            object.base.warpSpeed > 0.0
-            and dist >= math.sqrt(object.base.warpOutDistance) * 2.0
-            or target.control.warp and object.ai.owner == target.ai.owner)
+            object.base.warpSpeed > 0.0 and dist >= math.sqrt(object.base.warpOutDistance) * 2.0
+            or target.control.warp and object.ai.owner == target.ai.owner
+            ) and (c.warp or math.abs(relAngle) < WARP_MAX_ANGLE)
         end
     end
 end
@@ -233,6 +241,8 @@ function AimTurret(gun, target, bulletVel)
 end
 
 --MARK:  Other
+--function RelativeAngle(a, b)
+
 function SetMode(object, mode, submode)
     if mode ~= nil then
         object.ai.mode = mode
