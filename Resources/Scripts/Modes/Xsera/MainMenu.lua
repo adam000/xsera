@@ -90,9 +90,9 @@ function key ( k )
         mode_manager.switch("Demo4")
     elseif k == "c" then
         mode_manager.switch("Xsera/Credits")
-    elseif k == "tab" then
+    elseif k == "tab" and not RELEASE_BUILD then
         mode_manager.switch("Ares/Splash")
-    elseif k == "escape" then
+    elseif k == "escape" or k == "q" then
         mode_manager.quit()
     else
         print("Uninterpreted keystroke " .. k)
