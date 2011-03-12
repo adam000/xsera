@@ -318,7 +318,7 @@ function render()
 	CameraToObject(scen.playerShip)
 
 	graphics.begin_warp(scen.playerShip.warp.factor,scen.playerShip.physics.angle, cameraRatio.current)
-	
+
 	graphics.draw_starfield(3.4)
 	graphics.draw_starfield(1.8)
 	graphics.draw_starfield(0.6)
@@ -328,7 +328,7 @@ function render()
 	--DEBUG version, keep:  
 	--graphics.end_warp(scen.playerShip.warp.factor, scen.playerShip.physics.angle, cameraRatio.curr, scen.playerShip.physics.position) 
 	graphics.end_warp()
-	
+
 	DrawGrid()
     
     if proxDebug then
@@ -370,10 +370,10 @@ function render()
         end
     end
 	graphics.draw_particles()
-		
+
 	DrawObject(scen.playerShip)
 	DrawEffects()
-	
+
 	DrawArrow()
 	DrawMouse1()
 	DrawPanels()
@@ -381,14 +381,10 @@ function render()
 	local cam = CameraToWindow()
 	graphics.set_camera(cam[1], cam[2], cam[3], cam[4])
 	DrawMouse2()
-	
+
 	InterfaceDisplay(dt)
 	PopDownConsole()
-	
-	--debug
-	local zoomLevels = {
-	"[2:1]","[1:1]","[1:2]","[1:4]","[1:16]","[closest hostile]", "[closest object]", "[all objects]"}
-	graphics.draw_text(zoomLevels[cameraRatio.target], MAIN_FONT, "left", {x=100, y=100},30)
+	ZoomLevelIndicator()
 	graphics.end_frame()
 
 	sound.listener(scen.playerShip.physics.position, scen.playerShip.physics.velocity)

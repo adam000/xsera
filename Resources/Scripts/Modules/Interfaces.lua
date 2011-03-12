@@ -218,6 +218,18 @@ function DrawVictoryMenu()
     end
 end
 
+function ZoomLevelIndicator()
+	local zoomLevels = {
+		"[2:1]","[1:1]","[1:2]","[1:4]","[1:16]","[closest hostile]", "[closest object]", "[all objects]"}
+		if cameraRatio.target <= 5 then
+			graphics.draw_text(zoomLevels[cameraRatio.target], MAIN_FONT, "left", {x=500, y=340},20)
+		elseif (cameraRatio.target > 5 and cameraRatio.target < 8) then
+			graphics.draw_text(zoomLevels[cameraRatio.target], MAIN_FONT, "left", {x=420, y=340},20)
+		else
+			graphics.draw_text(zoomLevels[cameraRatio.target], MAIN_FONT, "left", {x=430, y=340},20)
+		end
+end
+
 function DrawInfoMenu()
     SwitchBox( { top = 250, left = -260, bottom = -250, right = 280, boxColour = ClutColour(1, 8) } )
     if down.esc == true then
