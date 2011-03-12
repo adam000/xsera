@@ -1,49 +1,67 @@
---[TEMP, SCOTT] these functions use a temporaty technique until we have a more efficient one
+function ObjectDistance(a, b)
+    return hypot2(a.physics.position, b.physics.position)
+end
 
-function GetClosestHostile(subject)
-    local subjectId = subject.physics.object_id
-    local nearest = nil
-    local dist = 0
-    local pos = subject.physics.position
+function Proximity(a, b)
+    local dist = ObjectDistance(a, b)
+    ProxUpdate(a, b, dist)
+    ProxUpdate(b, a, dist)
+    return dist
+end
 
-    for id, other in pairs(scen.objects) do
-        if subject.ai.owner ~= other.ai.owner
-        and other.base.attributes.hated == true
-        and subjectId ~= id then
-            local tempDist = hypot2(pos, other.physics.position)
-
-            if tempDist < dist
-            or nearest == nil then
-                dist = tempDist
-                nearest = other
+function ProxUpdate(a, b, dist)
+    if not b.base.attributes.isDestination then
+        if a.proximity.closest == nil
+        or a.proximity.closestDistance > dist then
+            a.proximity.closest = b
+            a.proximity.closestDistance = dist
+        end
+        if a.ai.owner ~= b.ai.owner
+        and b.base.attributes.hated then
+            if a.proximity.closestHostile == nil
+            or a.proximity.closestHostileDistance > dist then
+                a.proximity.closestHostile = b
+                a.proximity.closestHostileDistance = dist
+            end
+        end
+    else
+        if a.ai.owner == b.ai.owner then
+            if a.proximity.closestBase == nil
+            or a.proximity.closestBaseDistance > dist then
+                a.proximity.closestBase = b
+                a.proximity.closestBaseDistance = dist
+            end
+        else
+            if a.proximity.closestHostileBase == nil
+            or a.proximity.closestHostileBaseDistance > dist then
+                a.proximity.closestHostileBase = b
+                a.proximity.closestHostileBaseDistance = dist
             end
         end
     end
+end
 
-    return nearest, dist
+--[TEMP, SCOTT] these functions use a temporaty technique until we have a more efficient one
+
+function GetClosestHostile(subject)
+    local closest = subject.proximity.closestHostile
+    local dist = subject.proximity.closestHostileDistance
+    if closest ~= nil then
+        return closest, dist
+    else
+        return GetFurthestObject(subject)
+    end
 end
 
 
 function GetClosestObject(subject)
-    local subjectId = subject.physics.object_id
-    local nearest = nil
-    local dist = 0
-    local pos = subject.physics.position
-
-    for id, other in pairs(scen.objects) do
-        if other.base.attributes.hated == true
-        and subjectId ~= id then
-            local tempDist = hypot2(pos, other.physics.position)
-
-            if tempDist < dist
-            or nearest == nil then
-                dist = tempDist
-                nearest = other
-            end
-        end
+    local closest = subject.proximity.closest
+    local dist = subject.proximity.closestDistance
+    if closest ~= nil then
+        return closest, dist
+    else
+        return GetFurthestObject(subject)
     end
-
-    return nearest, dist
 end
 
 
@@ -61,7 +79,7 @@ function GetFurthestObject(subject)
 			local tempDist = hypot2(pos, other.physics.position)
 
 			if dist < tempDist
-    		or furthest == nil then
+			or furthest == nil then
 				furthest = other
 				dist = tempDist
 			end

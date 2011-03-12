@@ -65,7 +65,7 @@ arrowAlpha = ARROW_ALPHA
 
 MOUSE_RADIUS = 15
 
-demoLevel = 22
+demoLevel = 26
 shipSeek = false
 blinkMode = "triangle"
 
