@@ -1,0 +1,32 @@
+AI:
+
+Target prioritization
+Nearest hostiles, nearest base
+
+Alistair 3 tiers of AI:
+Admiral AI - essentially the player, overall strategy
+Group AI - units are grouped into this, each group assigned goals
+Captain AI - shared between AI and human sometimes, individual ships, how to fly around etc.
+
+Group simple, Admiral could work like most RTSes, use heatmap, individual ship AI is basic game AI
+
+Heatmap needed? Space is open, more like islands
+
+AI is maximization problem, want to maximize all three resources (fleet size and contents, level control, and "credits") for optimal solution
+
+Squad AI - would ships be part of only one squad, or could they be part of multiple squads?
+
+Ship level AI - basic greedy algorithm - what can I do to maximize the goal of my squad?
+
+Squad and captain AI are shared between human and computer, necessarily, if the player is human
+
+How to manage weapons?
+
+- Special weapons:
+  Cloaking
+  Weapons with limited ammunition
+  Fighters in carrier (want to release before big fight, but not released for smaller fights)
+
+Turning rate "skill number" in ships (modifying from the clumsy, Ares AI version):
+Bigger ships, admiralty ships, should be less clumsy than fighters and such, for reasons of experience
+
