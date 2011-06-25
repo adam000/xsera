@@ -348,6 +348,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = Xsera;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -387,6 +388,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = Xsera;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -442,6 +444,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = Xsera;
+				SDKROOT = macosx;
 			};
 			name = "Debug (quiet)";
 		};
