@@ -18,6 +18,8 @@ import('Proximity')
 mdown = false
 mrad = MOUSE_RADIUS / cameraRatio.current
 aimMethod = "smart"
+proxDebug = false
+targDebug = false
 
 function init()
     Physics.NewSystem()
@@ -57,6 +59,10 @@ function key( k )
         if scen.playerShip.status.health < 0 then
             scen.playerShip.status.health = 0
         end
+    elseif k == "F4" then
+        proxDebug = not proxDebug
+    elseif k == "F3" then
+        targDebug = not targDebug
     else
         KeyActivate(k)
     end
@@ -103,15 +109,30 @@ function update()
             end
         end
         mdown = false--]]
-        
+
+        --Reset the proximity information
+        for i, o in pairs(scen.objects) do
+            o.proximity = {
+                closest = nil;
+                closestDistance = 0;
+                closestHostile = nil;
+                closestHostileDistance = 0;
+                closestBase = nil;
+                closestBaseDistance = 0;
+                closestHostileBase = nil;
+                closestHostileBaseDistance = nil;
+            };
+        end
+
         --It might be better to do this in Physics.UpdateSystem
         for ai, a in pairs(scen.objects) do
             for bi, b in pairs(scen.objects) do
                 if ai > bi then
+                    local dist = Proximity(a,b) --Always preform proximity checks
                     if a.base.attributes.canCollide == true
                     and b.base.attributes.canCollide == true
                     and a.ai.owner ~= b.ai.owner
-                    and hypot2(a.physics.position, b.physics.position) <= (a.physics.collision_radius + b.physics.collision_radius) then
+                    and dist <= (a.physics.collision_radius + b.physics.collision_radius) then
                         Collide(a,b)
                     end
                 end
@@ -297,7 +318,7 @@ function render()
 	CameraToObject(scen.playerShip)
 
 	graphics.begin_warp(scen.playerShip.warp.factor,scen.playerShip.physics.angle, cameraRatio.current)
-	
+
 	graphics.draw_starfield(3.4)
 	graphics.draw_starfield(1.8)
 	graphics.draw_starfield(0.6)
@@ -307,9 +328,39 @@ function render()
 	--DEBUG version, keep:  
 	--graphics.end_warp(scen.playerShip.warp.factor, scen.playerShip.physics.angle, cameraRatio.curr, scen.playerShip.physics.position) 
 	graphics.end_warp()
-	
+
 	DrawGrid()
     
+    if proxDebug then
+        for i, o in pairs(scen.objects) do
+            local p = o.proximity
+            local op = o.physics.position
+            if p.closest ~= nil then
+                graphics.draw_line(op, p.closest.physics.position, 1, {r=0,g=1,b=0,a=1})
+            end
+            if p.closestHostile ~= nil then
+                graphics.draw_line(op, p.closestHostile.physics.position, 1, {r=1,g=0,b=0,a=1})
+            end
+            if p.closestBase ~= nil then
+                graphics.draw_line(op, p.closestBase.physics.position, 2, {r=0,g=0,b=1,a=1})
+            end
+            if p.closestHostileBase ~= nil then
+                graphics.draw_line(op, p.closestHostileBase.physics.position, 2, {r=1,g=1,b=0,a=1})
+            end
+        end
+    end
+
+    if targDebug then
+        for i, o in pairs(scen.objects) do
+            if o.ai.objectives.target ~= nil then
+                graphics.draw_line(o.physics.position, o.ai.objectives.target.physics.position, 1, {r=1,g=0,b=0,a=1})
+            end
+            if o.ai.objectives.dest ~= nil then
+                graphics.draw_line(o.physics.position, o.ai.objectives.dest.physics.position, 1, {r=0,g=0,b=1,a=1})
+            end
+        end
+    end
+
     for layerId, layer in ipairs({1, 2, 3, 0}) do
         for objectId, object in pairs(scen.objects) do
             if objectId ~= scen.playerShipId
@@ -319,10 +370,10 @@ function render()
         end
     end
 	graphics.draw_particles()
-		
+
 	DrawObject(scen.playerShip)
 	DrawEffects()
-	
+
 	DrawArrow()
 	DrawMouse1()
 	DrawPanels()
@@ -330,14 +381,10 @@ function render()
 	local cam = CameraToWindow()
 	graphics.set_camera(cam[1], cam[2], cam[3], cam[4])
 	DrawMouse2()
-	
+
 	InterfaceDisplay(dt)
 	PopDownConsole()
-	
-	--debug
-	local zoomLevels = {
-	"[2:1]","[1:1]","[1:2]","[1:4]","[1:16]","[closest hostile]", "[closest object]", "[all objects]"}
-	graphics.draw_text(zoomLevels[cameraRatio.target], MAIN_FONT, "left", {x=100, y=100},30)
+	ZoomLevelIndicator()
 	graphics.end_frame()
 
 	sound.listener(scen.playerShip.physics.position, scen.playerShip.physics.velocity)

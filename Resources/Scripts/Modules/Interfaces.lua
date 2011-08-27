@@ -218,6 +218,18 @@ function DrawVictoryMenu()
     end
 end
 
+function ZoomLevelIndicator()
+	local zoomLevels = {
+		"[2:1]","[1:1]","[1:2]","[1:4]","[1:16]","[closest hostile]", "[closest object]", "[all objects]"}
+		if cameraRatio.target <= 5 then
+			graphics.draw_text(zoomLevels[cameraRatio.target], MAIN_FONT, "left", {x=500, y=340},20)
+		elseif (cameraRatio.target > 5 and cameraRatio.target < 8) then
+			graphics.draw_text(zoomLevels[cameraRatio.target], MAIN_FONT, "left", {x=420, y=340},20)
+		else
+			graphics.draw_text(zoomLevels[cameraRatio.target], MAIN_FONT, "left", {x=430, y=340},20)
+		end
+end
+
 function DrawInfoMenu()
     SwitchBox( { top = 250, left = -260, bottom = -250, right = 280, boxColour = ClutColour(1, 8) } )
     if down.esc == true then
@@ -546,10 +558,10 @@ function DrawMouse1()
             mousePos.y = (-WINDOW.height / 2 + 10) / cameraRatio.current + ship.y
         end
         
-        graphics.draw_line({ x = - camera.w / 2 + ship.x, y = mousePos.y }, { x = mousePos.x - 20 / cameraRatio.current, y = mousePos.y }, 1.0, ClutColour(4, 8))
-        graphics.draw_line({ x = camera.w / 2 + ship.x, y = mousePos.y }, { x = mousePos.x + 20 / cameraRatio.current, y = mousePos.y }, 1.0, ClutColour(4, 8))
-        graphics.draw_line({ x = mousePos.x, y = -camera.h / 2 + ship.y }, { x = mousePos.x, y = mousePos.y - 20 / cameraRatio.current }, 1.0, ClutColour(4, 8))
-        graphics.draw_line({ x = mousePos.x, y = camera.h / 2 + ship.y }, { x = mousePos.x, y = mousePos.y + 20 / cameraRatio.current }, 1.0, ClutColour(4, 8))
+        graphics.draw_line({ x = - camera.w / 2 + ship.x, y = mousePos.y }, { x = mousePos.x - 10 / cameraRatio.current, y = mousePos.y }, 1.0, ClutColour(16, 1))
+        graphics.draw_line({ x = camera.w / 2 + ship.x, y = mousePos.y }, { x = mousePos.x + 10 / cameraRatio.current, y = mousePos.y }, 1.0, ClutColour(16, 1))
+        graphics.draw_line({ x = mousePos.x, y = -camera.h / 2 + ship.y }, { x = mousePos.x, y = mousePos.y - 10 / cameraRatio.current }, 1.0, ClutColour(16, 1))
+        graphics.draw_line({ x = mousePos.x, y = camera.h / 2 + ship.y }, { x = mousePos.x, y = mousePos.y + 10 / cameraRatio.current }, 1.0, ClutColour(16, 1))
     end
 end
 

@@ -1,77 +1,84 @@
 --import('Math')
 --import('GlobalVars')
 
+--MARK: Object modes
+--== High level modes ==--
+--High level modes are used for object thinking and planning
+
+--  Just sit in place and do nothing
+--  used when there is no active destination
+MODE_WAIT = 0
+
+--  Travel towards the long term objective
+MODE_GOTO = 1
+
+--  Like GOTO but with combat
+--  This is focused (it can't be overidden by other nearby hostiles)
+MODE_ENGAGE = 2
+
+--Protect
+--  After arriving sit on the destination and engage any hostiles that approach
+MODE_DEFEND = 3
+
+--==  Submodes ==--
+--Submodes are used for ship piloting
+
+--  Travel to
+SUB_GO = 0
+--  Hold position
+SUB_SIT = 1
+--  Fly towards the active target and shoot if in range
+SUB_ATTACK = 2
+--  Run away from the active target
+SUB_FLEE = 3
+
+
+--MARK: Constants
+--distance to which a hostile must approach to engage
+HOSTILE_AQUISITION_RANGE = 2048
+--distance from nearest base to persue target
+HOSTILE_PERSUIT_RANGE = 4096
+
+--if farther than this begin traveling
+GOTO_TRAVEL_THRESHOLD = 200
+--Distance to begin deceleration
+GOTO_ARRIVAL_THRESHOLD = 150
+
+--the maximum angular distance that on object can
+--face away from it's target before it will warp
+WARP_MAX_ANGLE = (math.pi * 0.5)
+
+--MARK: Thinking functions
 function Think(object)
 	if CanThink(object.base.attributes) then
+        local mode = object.ai.mode
+        if not object.control.warp then
+            EvaluateHostiles(object)
+        end
 		local target = object.ai.objectives.target or object.ai.objectives.dest
 		local dist
 		if target ~= nil then
-			dist = hypot2(object.physics.position, target.physics.position)
+            if mode == MODE_WAIT then
+                SetMode(object, MODE_GOTO, nil)
+            end
+			dist = ObjectDistance(object, target)
 			if object.base.attributes.isGuided then
-				object.ai.mode = "goto"
-			elseif dist < 350
-			and target.ai.owner ~= object.ai.owner
-			and target.base.attributes.hated then
-				object.ai.mode = "engage"
-			elseif dist > 200 and object.ai.mode == "wait" then
-				object.ai.mode = "goto"
-			elseif dist < 150 and object.ai.mode == "goto" then
-				object.ai.mode = "wait"
+                SetMode(object, MODE_GOTO, SUB_GO)
+			elseif mode == MODE_GOTO then
+                if dist > GOTO_TRAVEL_THRESHOLD then
+                    SetMode(object, nil, SUB_GO)
+                elseif dist < GOTO_ARRIVAL_THRESHOLD then
+                    SetMode(object, nil, SUB_SIT)
+                end
+            else
+                print("MODE: " .. mode)
 			end
 		else
-			object.ai.mode = "wait"
+			SetMode(object, MODE_WAIT, SUB_SIT)
 		end
-
-		if object.ai.mode ~= "engage" then
-			object.control.beam = false
-			object.control.pulse = false
-			object.control.special = false
-		end
-
-		if object.ai.mode == "wait" then
-			object.control.accel = false
-			object.control.decel = true
-			object.control.left = false
-			object.control.right = false
-		elseif object.ai.mode == "goto" then
-			object.control.accel = true
-			object.control.decel = false
-			TurnToward(object,target)
-		elseif object.ai.mode == "evade" then
-			TurnAway(object, target)
-		elseif object.ai.mode == "engage" then
-			if target ~= nil then
-				TurnToward(object, target)
-				if dist > 200 then
-					object.control.accel = true
-					object.control.decel = false
-				else
-					object.control.accel = false
-					object.control.decel = true
-				end
-			else
-				object.control.accel = true
-				object.control.decel = false
-			end
-
-			object.control.beam = true
-			object.control.pulse = true
-			object.control.special = true
-		end
-		
-		if object.ai.mode == "goto" then
-			if object.base.warpSpeed > 0.0
-			and dist >= math.sqrt(object.base.warpOutDistance) * 1.1
-			or target.control.warp
-			then
-				object.control.warp = true
-			else
-				object.control.warp = false
-			end
-		end
-
+        ManipulateControls(object)
 	else
-		object.control.accel = true
+		SetAccel(object, true)
 	end
 end
 
@@ -79,6 +86,76 @@ function CanThink(attr)
     return attr.canEngange or attr.canEvade or attr.canAcceptDestination
 end
 
+--Decide whether or not to change to this hostile
+function EvaluateHostiles(object)
+    local hst = object.proximity.closestHostile
+    --Guard Clause
+    if hst == nil then
+        return false
+    end
+    local dist = ObjectDistance(object, hst)
+    if object.ai.objectives.target ~= hst then
+        if dist < HOSTILE_AQUISITION_RANGE then
+            object.ai.objectives.target = hst
+            SetMode(object, nil, SUB_ATTACK)
+        else
+            object.ai.objectives.target = nil
+            SetMode(object, nil, SUB_GO)
+        end
+    elseif dist > HOSTILE_AQUISITION_RANGE then
+        --Lose Intrest
+        object.ai.objectives.target = nil
+        SetMode(object, nil, SUB_GO)
+    else
+        return true
+    end
+end
+
+--MARK: Controls
+function ManipulateControls(object)
+    if object.ai.submode ~= SUB_ATTACK then
+        object.control.beam = false
+        object.control.pulse = false
+        object.control.special = false
+    end
+
+    local target = object.ai.objectives.target or object.ai.objectives.dest
+    if target ~= nil then
+        local dist = hypot2(object.physics.position, target.physics.position)
+        local submode = object.ai.submode
+        local c = object.control
+        if submode == SUB_GO then
+            SetAccel(object, true)
+            TurnToward(object, target)
+        elseif submode == SUB_SIT then
+            SetAccel(object, false)
+            c.left = false
+            c.right = false
+        elseif submode == SUB_ATTACK then
+            SetAccel(object, true)
+            TurnToward(object, target)
+        elseif submode == SUB_FLEE then
+            SetAccel(object, true)
+            TurnAway(object, target)
+        else
+            error("BAD SUBMODE")
+        end
+        
+        if submode == SUB_GO then
+            local relAngle = AimFixed(object.physics,target.physics, hypot1(object.physics.velocity))
+            relAngle = normalizeAngle(relAngle - object.physics.angle)
+            c.warp = (
+            object.base.warpSpeed > 0.0 and dist >= math.sqrt(object.base.warpOutDistance) * 2.0
+            or target.control.warp and object.ai.owner == target.ai.owner
+            ) and (c.warp or math.abs(relAngle) < WARP_MAX_ANGLE)
+        end
+    end
+end
+
+function SetAccel(object, value)
+    object.control.accel = value
+    object.control.decel = not value
+end
 
 function TurnAway(object, target)
     local ang = findAngle(target.physics.position,object.physics.position) - object.physics.angle
@@ -137,6 +214,9 @@ end
 
 --Used to calculate absolute angle at which to fire the turret.
 function AimTurret(gun, target, bulletVel)
+    if target == nil then
+        return gun.angle
+    end
     local gPos = gun.position
     local tPos = target.position
 
@@ -160,7 +240,15 @@ function AimTurret(gun, target, bulletVel)
     return theta
 end
 
+--MARK:  Other
+--function RelativeAngle(a, b)
 
-
-
+function SetMode(object, mode, submode)
+    if mode ~= nil then
+        object.ai.mode = mode
+    end
+    if submode ~= nil then
+        object.ai.submode = submode
+    end
+end
 
