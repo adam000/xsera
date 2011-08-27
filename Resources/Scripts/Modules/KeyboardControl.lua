@@ -162,6 +162,8 @@ function DoTarget()
 end
 
 function DoMoveOrder()
+    local selection = scen.playerShip.ai.objectives
+    
     if selection.control ~= nil
     and selection.control ~= selection.target
     and selection.control ~= scen.playerShip
@@ -237,6 +239,8 @@ end
     -------------]]--
 
 function DoTransferControl()
+    local selection = scen.playerShip.ai.objectives
+    
     if selection.control ~= nil
     and (
     not(RELEASE_BUILD)

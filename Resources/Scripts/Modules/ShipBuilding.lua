@@ -60,8 +60,8 @@ function UpdatePlanet(planet, dt)
             newObj.physics.position = planet.physics.position
             newObj.ai.owner = planet.ai.owner
             if newObj.ai.owner == 0
-            and selection.target ~= nil then
-                newObj.ai.objectives.dest = selection.target
+            and scen.playerShip.ai.objectives.target ~= nil then
+                newObj.ai.objectives.dest = scen.playerShip.ai.objectives.target
             else
                 newObj.ai.objectives.dest = planet
             end

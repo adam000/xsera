@@ -29,11 +29,13 @@ function init()
 
     scen = LoadScenario(demoLevel)
 
+--[[
 	selection.control = scen.playership
 	selection.controlId = scen.playerShipId
 	selection.target = nil
 	selection.targetId = nil
-	
+--]]
+
 	window.mouse_toggle()
 end
 
@@ -405,11 +407,11 @@ function mouse_up()
         print(cameraRatio.current)
         local mousePos = GetMouseCoords()
         if keyboard[2][5].active then -- TARGET
-            selection.targetId, selection.target = NextTargetUnderCursor(selection.targetId, true)
+            scen.playerShip.ai.objectives.targetId, scen.playerShip.ai.objectives.target = NextTargetUnderCursor(scen.playerShip.ai.objectives.targetId, true)
         else -- CONTROL
-            selection.controlId, selection.control = NextTargetUnderCursor(selection.controlId, false)
-            if selection.control.base.attributes.canAcceptBuild then
-                selection.lastPlanet = selection.control
+            scen.playerShip.ai.objectives.controlId, scen.playerShip.ai.objectives.control = NextTargetUnderCursor(scen.playerShip.ai.objectives.controlId, false)
+            if scen.playerShip.ai.objectives.control.base.attributes.canAcceptBuild then
+                selection.lastPlanet = scen.playerShip.ai.objectives.control
                 CalculateBuildables(selection.lastPlanet, scen)
             end
         end
