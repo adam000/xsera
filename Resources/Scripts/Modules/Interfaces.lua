@@ -25,6 +25,7 @@ menuBuild = { name = "BUILD",
     items = {},
     planet = nil -- this is used to check (if planet ~= lastPlanet,
                  -- we need to update the data in the items table)
+                 -- ^ or can we just update whenever lastPlanet is changed?
 }
 
 function UpdateBuildMenu()
