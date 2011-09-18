@@ -1,20 +1,6 @@
 import('ShipBuilding')
 
-function LoadScenario(id, file=nil)
-    if file ~= nil then
-        -- load data from nonstandard file!
-        
-        -- try importing it?
-        local err = import(file)
-        
-        if err ~= nil then
-            print("ERROR: " .. err)
-            return
-        end
-        
-        data = newData -- `newData` must be defined in `file`
-    end
-    
+function LoadScenario(id)
     local scen = {
         base = data.scenarios[id];
         objects = {};
