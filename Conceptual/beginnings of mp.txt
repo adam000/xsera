@@ -1,0 +1,81 @@
+Segment:
+
+ID NAME VALID-SENDERS DATA COMMENT
+
+00 DISCARD SC [] -- ignored by both client and server, reserved only for UDP punchthrough
+01 ECHO-REQUEST SC [data:str] -- request to echo back data literally
+02 ECHO-RESPONSE SC [data:str] -- literal data response
+03 INIT C [username:str] -- request to initiate connection
+04 INIT-ACK S [cookie:str] -- response to INIT
+05 COOKIE-ECHO C [cookie:str] -- echo of INIT-AC cookie
+06 COOKIE-ACK S [] -- acceptance of connection by server
+07 CLEAR-STATE S [tick:i64] -- instruction to clear all map sote
+08 LOAD-STATIC S [tick:i64, source:str] -- instruction to load static state from a file (for loading a map)
+09 CREATE-OBJECT S [tick:i64, oid:i32, data:obj-data] -- instruction to create obj
+0A UPDATE-OBJECT S [tick:i64, oid:i32, data:obj-data-delta] -- instruction update object stats
+0B SET-OBJECT S [tick:i64, oid:i32, data:obj-data] -- instruction update with full state
+0C DESTROY-OBJECT S [tick:i64, oid:i32] -- object destroy
+0D REQUEST-OBJECT-STATE C [oid:i32] -- request to send SET-OBJECT or DESTROY-OBJECT
+0E OBJECT-LIST S [tick:i64, objects:[i32]] -- list of all live objects
+0F REQUEST-OBJECT-LIST C [] -- request to send OBJECT-LIST
+10 CHAT-MESSAGE SC [id:i64, message:str] -- send chat message, one way or the other
+11 CHAT-ACK SC [id:i64] -- acknowledge chat message, one way or the other
+12 UI-CONFIG-LOAD S [tick:i64, source:str] -- load a UI configuration
+13 UI-UPDATE S [tick:i64, element:i32, newstate:str] -- update a UI element in a UI-dependent manner
+14 KEY-INPUT C [tick:i64, flags:i64] -- inform server of change in keys
+15 SOUND-EFFECT S [tick:i64, data:sound-effect-data] -- trigger a sound effect
+16 SET-MUSIC S [name:str] -- sets the current music
+17 CSUM-FILE-REQUEST S [filename:str] -- request to send a file checksum
+18 CSUM-FILE-RESPONSE C [filename:str, checksum:i256] -- response, checksum = 0 if not present
+19 DOWNLOAD-FILE S [filename:str, uri:str] -- instruction to download file from URL
+1A DOWNLOAD-FILE-ACK C [filename:str, uri:str] -- acknowledgement of download instruction
+1B DOWNLOAD-FILE-DONE C [filename:str, uri:str] -- informing that download is complete
+FD DEPART SC [reason:str] -- request disconnection (graceful)
+FE GOODBYE SC [] -- response to DEPART, graceful disconnect
+FF ABORT SC [] -- exit connection ungracefully because something, somewhere has gone horribly wrong
+
+Packets are encoded with the protocol version (8 bits in front - currently 0), then for each segment contained within them, a 16-bit segment length, then the segment ID, then the segment body. Integers are encoded as big-endian. Strings are encoded as a 16-bit length field followed by its content in i8s.
+
+Multiple segments may be contained within a single packet.
+
+--
+
+class NetworkConnection:
+  - NetworkConnection(endpoint : NetworkEndpoint)
+  - addPeer(peer : NetworkPeer)
+  - poll() : void
+  - addHandler(segmentID : i8, plugin : NetworkPlugin)
+  - sendSegment(segment : NetworkSegment, to : NetworkEndpoint)
+  - handleSegment(segment : NetworkSegment, from : NetworkEndpoint)
+
+class NetworkEndpoint
+  - NetworkEndpoint(ip : string, port : i16)
+  - ip() : string
+  - port() : i16
+  - data() : void*
+  - setData(value : void*)
+
+class NetworkSegment
+  - NetworkSegment(segmentID : i8, data : string)
+  - segmentID() : i8
+  - data() : string
+
+class NetworkPlugin(abstract):
+  - handleSegment(segment : NetworkSegment, endpoint : NetworkEndpoint)
+
+class ServerConnectionPlugin < NetworkPlugin:
+  - // handles ABORT, DEPART, GOODBYE, INIT, INIT-ACK, COOKIE-ECHO, COOKIE-ACK
+
+class ClientConnectionPlugin < NetworkPlugin:
+  - // handles ABORT, DEPART, GOODBYE, INIT, INIT-ACK, COOKIE-ECHO, COOKIE-ACK
+
+class BaseActionPlugin < NetworkPlugin:
+  - // handles DISCARD, ECHO-REQUEST, ECHO-RESPONSE
+
+class ClientFileHandlingPlugin < NetworkPlugin:
+  - // handles CSUM-FILE-REQUEST, CSUM-FILE-RESPONSE, DOWNLOAD-FILE, DOWNLOAD-FILE-ACK, DOWNLOAD-FILE-DONE
+
+class ServerFileHandlingPlugin < NetworkPlugin:
+  - // handles CSUM-FILE-REQUEST, CSUM-FILE-RESPONSE, DOWNLOAD-FILE, DOWNLOAD-FILE-ACK, DOWNLOAD-FILE-DONE
+
+// etc etc
