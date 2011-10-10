@@ -587,14 +587,14 @@ function DrawObject(o)
 		if o.base.beam.hex > 0 then
 			local from = o.gfx.source.position + o.gfx.offset
 			if o.base.beam.hex == "bolt" then
-				graphics.draw_lightning(from, o.physics.position, 1.0, 10.0, false,ClutColour(o.base.beam.color))
+				graphics.draw_lightning(from, o.physics.position, 1.0, 10.0, false,ClutColour(o.base.beam.color, 1))
 			elseif o.base.beam.type == "static" then
-				graphics.draw_line(from, o.physics.position, 3.0, ClutColour(o.base.beam.color))
+				graphics.draw_line(from, o.physics.position, 3.0, ClutColour(o.base.beam.color, 1))
 			end
 		else --kinetic
 			local p1 = o.physics.position
 			local p2 = PolarVec(BEAM_LENGTH,o.physics.angle)
-			graphics.draw_line(p1, p1 + p2, 1, ClutColour(o.base.beam.color))
+			graphics.draw_line(p1, p1 + p2, 1, ClutColour(o.base.beam.color, 1))
 		end
 	else
 		if cameraRatio.current >= 1 / 4 then

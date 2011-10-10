@@ -7,6 +7,9 @@ function LookupBuildId(class, race)
 end
 
 function CalculateBuildables(object, scen)--[HACK]
+    if object.ai.owner == -1 then
+        return
+    end
     local race = scen.base.players[object.ai.owner+1].race
     for idx, class in ipairs(object.building.classes) do
         object.building.ids[idx] = LookupBuildId(class, race) 

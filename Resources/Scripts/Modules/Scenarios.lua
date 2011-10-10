@@ -34,7 +34,7 @@ function LoadScenario(id)
         
         if state.spriteIdOverride ~= -1 then
             new.sprite = state.spriteIdOverride
-            new.spriteDim = graphics.sprite_dimensions("Id/" .. new.sprite)
+            new.spriteDim = graphics.sprite_dimensions(data.sprites[new.sprite]) * new.base.scale
         end
         
         if state.initialDestination ~= -1 then
