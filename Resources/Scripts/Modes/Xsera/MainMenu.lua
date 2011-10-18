@@ -1,4 +1,5 @@
 import('GlobalVars')
+import('ShipBuilding')
 
 -- main menu script
 lastTime = 0
@@ -9,15 +10,24 @@ if (math.random() < 0.5) then
     -- allied ships going to war
     allies = true
     shipVelocity = { -340, 70 }
-    shipType = { "Human/Gunship", "Human/Fighter", "Human/Cruiser", "Human/Destroyer", "Human/Fighter", "Human/Gunship", "Human/AssaultTransport", "Ishiman/Fighter", "Ishiman/HeavyCruiser", "Ishiman/Gunship", "Ishiman/ResearchVessel", "Obish/Cruiser", "Ishiman/AssaultTransport", "Ishiman/Engineer", "Human/AssaultTransport", "Elejeetian/Cruiser", "Human/GateShip", "Human/Destroyer", "Ishiman/Transport", "Human/Carrier", "Ishiman/Carrier", "Ishiman/Fighter", "Ishiman/HeavyCruiser", "Ishiman/Fighter", "Ishiman/Fighter", "Ishiman/HeavyCruiser", "Human/Cruiser", "Human/Fighter", "Human/Fighter", "Human/Fighter", "Human/Fighter", "Human/Fighter", "Human/Fighter", "Human/Fighter", "Human/Fighter", "Human/Fighter", "Human/Fighter", "Human/AssaultTransport" }
+    shipTypeNames = { "Human/Gunship", "Human/Fighter", "Human/Cruiser", "Human/Destroyer", "Human/Fighter", "Human/Gunship", "Human/AssaultTransport", "Ishiman/Fighter", "Ishiman/HeavyCruiser", "Ishiman/Gunship", "Ishiman/ResearchVessel", "Obish/Escort", "Ishiman/AssaultTransport", "Ishiman/Engineer", "Human/AssaultTransport", "Elejeetian/Cruiser", "Human/Transport", "Human/Destroyer", "Ishiman/Transport", "Human/Carrier", "Ishiman/Carrier", "Ishiman/Fighter", "Ishiman/HeavyCruiser", "Ishiman/Fighter", "Ishiman/Fighter", "Ishiman/HeavyCruiser", "Human/Cruiser", "Human/Fighter", "Human/Fighter", "Human/Fighter", "Human/Fighter", "Human/Fighter", "Human/Fighter", "Human/Fighter", "Human/Fighter", "Human/Fighter", "Human/Fighter", "Human/AssaultTransport" }
     numShips = 150
 else
     -- oppressive axis ships invading
     shipVelocity = { 340, -70 }
     allies = false
-    shipType = { "Gaitori/Gunship", "Gaitori/Fighter", "Gaitori/Cruiser", "Gaitori/Destroyer", "Gaitori/Fighter", "Gaitori/Gunship", "Gaitori/AssaultTransport", "Cantharan/Fighter", "Cantharan/HeavyCruiser", "Cantharan/Gunship", "Cantharan/Drone", "Cantharan/HeavyCruiser", "Cantharan/AssaultTransport", "Cantharan/Engineer", "Audemedon/Cruiser", "Cantharan/Engineer", "Audemedon/Destroyer", "Cantharan/Transport", "Salrilian/Carrier", "Audemedon/Carrier", "Cantharan/Fighter", "Cantharan/HeavyCruiser", "Salrilian/Fighter", "Gaitori/Fighter", "Cantharan/HeavyDestroyer", "Salrilian/Destroyer", "Cantharan/Fighter", "Cantharan/Fighter", "Salrilian/Fighter", "Audemedon/Fighter", "Audemedon/Fighter", "Cantharan/Fighter", "Cantharan/Schooner", "Salrilian/Fighter", "Salrilian/Fighter", "Salrilian/Fighter", "Salrilian/AssaultTransport" }
+    shipTypeNames = { "Gaitori/Gunship", "Gaitori/Fighter", "Gaitori/Cruiser", "Gaitori/Destroyer", "Gaitori/Fighter", "Gaitori/Gunship", "Gaitori/AssaultTransport", "Cantharan/Fighter", "Cantharan/HeavyCruiser", "Cantharan/Gunship", "Cantharan/Drone", "Cantharan/HeavyCruiser", "Cantharan/AssaultTransport", "Cantharan/Engineer", "Audemedon/Cruiser", "Cantharan/Engineer", "Audemedon/Destroyer", "Cantharan/Transport", "Salrilian/Carrier", "Audemedon/Carrier", "Cantharan/Fighter", "Cantharan/HeavyCruiser", "Salrilian/Fighter", "Gaitori/Fighter", "Cantharan/HeavyDestroyer", "Salrilian/Destroyer", "Cantharan/Fighter", "Cantharan/Fighter", "Salrilian/Fighter", "Audemedon/Fighter", "Audemedon/Fighter", "Cantharan/Fighter", "Cantharan/Schooner", "Salrilian/Fighter", "Salrilian/Fighter", "Salrilian/Fighter", "Salrilian/AssaultTransport" }
     numShips = 50
 end
+shipType = {}
+local raceDecoder = {["Ishiman"] = 100, ["Cantharan"] = 200, ["Gaitori"] = 300, ["Obish"] = 400, ["Bazidanese"] = 500, ["Salrilian"] = 600, ["Audemedon"] = 700, ["Elejeetian"] = 800, ["Human"] = 900}
+local classDecoder = {["Fighter"] = 100, ["Cruiser"] = 200, ["Schooner"] = 221, ["HeavyCruiser"] = 250, ["Gunship"] = 300, ["Escort"] = 400, ["HeavyDestroyer"] = 450, ["Destroyer"] = 450, ["Carrier"] = 500, ["Drone"] = 600, ["Transport"] = 800, ["ResearchVessel"] = 802, ["Engineer"] = 850, ["AssaultTransport"] = 860}
+for idx, name in pairs(shipTypeNames) do
+    local race = raceDecoder[name:sub(0,name:find("/")-1)]
+    local class = classDecoder[name:sub(name:find("/")+1,-1)]
+    table.insert(shipType, data.objects[LookupBuildId(class, race)].spriteId)
+end
+
 versionInformation = ""
 timeFactor = 1.0
 sizeFactor = 1.0
@@ -28,7 +38,7 @@ function SortShips ()
 end
 
 function ShipSpeed ( type )
-    local sz = graphics.sprite_dimensions("Ships/" .. type)
+    local sz = graphics.sprite_dimensions(type)
     local szt = math.sqrt(sz.x*sz.x + sz.y*sz.y)
     return 45.0 / szt
 end
@@ -38,7 +48,7 @@ function RandomShipType ()
 end
 
 for i=1,numShips do
-    local shipType = RandomShipType()
+    local shipType = data.sprites[RandomShipType()]
     if allies then
         ships[i] = { RandomReal(700, 1000), RandomReal(-580, 20), shipType, RandomReal(-1, 1), ShipSpeed(shipType) }
     else
@@ -58,8 +68,8 @@ function render ()
     graphics.set_camera(-240 * aspectRatio, -240, 240 * aspectRatio, 240)
     graphics.draw_image("Bootloader/Xsera", vec(0, 0), { x = 480 * aspectRatio, y = 480 })
     for id, ship in ipairs(ships) do
-        local sz = graphics.sprite_dimensions("Ships/" .. ship[3], goodSpriteSheetX, goodSpriteSheetY)
-        graphics.draw_sprite("Ships/" .. ship[3], { x = ship[1], y = ship[2] }, { x = sz.x * sizeFactor * DistanceFactor(ship[4]), y = sz.y * sizeFactor * DistanceFactor(ship[4])}, math.atan2(shipVelocity[2], shipVelocity[1]))
+        local sz = graphics.sprite_dimensions(ship[3], goodSpriteSheetX, goodSpriteSheetY)
+        graphics.draw_sprite(ship[3], { x = ship[1], y = ship[2] }, { x = sz.x * sizeFactor * DistanceFactor(ship[4]), y = sz.y * sizeFactor * DistanceFactor(ship[4])}, math.atan2(shipVelocity[2], shipVelocity[1]))
     end
     
     graphics.draw_text("D - Demo", MAIN_FONT, "left", { x = -240 * aspectRatio + 30, y = 0 }, 45)
@@ -120,7 +130,7 @@ function update ()
                 ships[ship][1] = RandomReal(-520, -800)
                 ships[ship][2] = RandomReal(450, -190)
             end
-            ships[ship][3] = RandomShipType()
+            ships[ship][3] = data.sprites[RandomShipType()]
             ships[ship][4] = RandomReal(-1, 1)
         end
     end
