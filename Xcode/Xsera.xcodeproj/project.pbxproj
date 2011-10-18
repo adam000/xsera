@@ -339,7 +339,6 @@
 				);
 				INFOPLIST_FILE = "Xsera-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				LLVM_LTO = NO;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -372,7 +371,6 @@
 				);
 				INFOPLIST_FILE = "Xsera-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				LLVM_LTO = YES;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -421,7 +419,6 @@
 				);
 				INFOPLIST_FILE = "Xsera-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				LLVM_LTO = NO;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
