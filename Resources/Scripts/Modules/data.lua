@@ -63085,7 +63085,8 @@ data = {
 	};
 	scenarios = {
 		[0] = {
-			name = [[\i Tutorial Lesson 1\iMoons for Goons]];
+			name = [[\i Tutorial Lesson 1
+\iMoons for Goons]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -64259,13 +64260,26 @@ data = {
 			angle = 5;
 			startTime = 0;
 			isTraining = true;
-			prologue = [[#+B2005\i PROLOGUE \i #+The Ishimans broadcast their plans to your crew -- your crew, once explorers, now reluctant warriors.Using their massive gateship, your new alien allies will transport the UNS Ares and its crew to strategic points along the winding route to Earth. With its jumpstream technology, the gateship can bridge great distances in an instant.  Were it not for the war, you would be home in weeks.You will be supplied with ships and, when possible, bases of operation. The Ishimans will provide you with tactical plans, but it will be up to you to execute them successfully.You have a vast expanse of space to cross, and it is filled with unknowable dangers.But first, you must prepare...]];
+			prologue = [[#+B2005
+\i PROLOGUE 
+\i 
+#+
+The Ishimans broadcast their plans to your crew -- your crew, once explorers, now reluctant warriors.
+
+Using their massive gateship, your new alien allies will transport the UNS Ares and its crew to strategic points along the winding route to Earth. With its jumpstream technology, the gateship can bridge great distances in an instant.  Were it not for the war, you would be home in weeks.
+
+You will be supplied with ships and, when possible, bases of operation. The Ishimans will provide you with tactical plans, but it will be up to you to execute them successfully.
+
+You have a vast expanse of space to cross, and it is filled with unknowable dangers.
+
+But first, you must prepare...]];
 			epilogue = [[]];
 			songId = 4002;
 			movie = nil;
 		};
 		[1] = {
-			name = [[\i Chapter 1 \iEasy Street]];
+			name = [[\i Chapter 1 
+\iEasy Street]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -64888,13 +64902,24 @@ data = {
 			angle = 0;
 			startTime = 0;
 			isTraining = false;
-			prologue = [[#+B2005\i PART 1 \i #+10016The Gaitori, ruthless mercenaries and minions of the Cantharan Order, are the first enemy you must face in your quest for Earth. The Gaitori Union, once an interstellar trading empire that linked the many disparate space-faring civilizations together, was brought to its knees by the Order, and now serves as sentry on the Cantharan frontier. #+Although disorganized and thinly dispersed along the Los-Selactos line, the Gaitori navy insulates the Order from the systems in the galactic south. To reach Earth, you must first punch a hole through this border zone.#+Under the guidance of the Ishimans, you will launch your initial strike against the Gaitori, and test your prowess in battle for the first time. You brace your crew for confrontation.]];
+			prologue = [[#+B2005
+\i PART 1 
+\i 
+#+10016
+The Gaitori, ruthless mercenaries and minions of the Cantharan Order, are the first enemy you must face in your quest for Earth. The Gaitori Union, once an interstellar trading empire that linked the many disparate space-faring civilizations together, was brought to its knees by the Order, and now serves as sentry on the Cantharan frontier. 
+
+#+
+Although disorganized and thinly dispersed along the Los-Selactos line, the Gaitori navy insulates the Order from the systems in the galactic south. To reach Earth, you must first punch a hole through this border zone.
+
+#+
+Under the guidance of the Ishimans, you will launch your initial strike against the Gaitori, and test your prowess in battle for the first time. You brace your crew for confrontation.]];
 			epilogue = [[]];
 			songId = 5000;
 			movie = [[:Ares Data ƒ:Part 2]];
 		};
 		[2] = {
-			name = [[\i Tutorial Lesson 2\iSection on Selection]];
+			name = [[\i Tutorial Lesson 2
+\iSection on Selection]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -66715,7 +66740,8 @@ data = {
 			movie = nil;
 		};
 		[3] = {
-			name = [[\i Chapter 2 \iThe Stars Have Ears]];
+			name = [[\i Chapter 2 
+\iThe Stars Have Ears]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -67357,7 +67383,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[The Gaitori in this system have deployed a series of long-range scanner relay dishes, designed to gather information on our ship movements.You are to put an end to this intrusion by destroying all four relay stations.]];
+					content = [[The Gaitori in this system have deployed a series of long-range scanner relay dishes, designed to gather information on our ship movements.
+
+You are to put an end to this intrusion by destroying all four relay stations.]];
 				};
 				[1] = {
 					title = [[Cruiser]];
@@ -67412,7 +67440,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[The third dish is your next target.^P1065^This dish is being guarded by a gunship. Gaitori gunships are not heavily armored, but they have converted atomic pulse mining guns, which fire powerful long-range homing pulses.]];
+					content = [[The third dish is your next target.
+^P1065^This dish is being guarded by a gunship. Gaitori gunships are not heavily armored, but they have converted atomic pulse mining guns, which fire powerful long-range homing pulses.]];
 				};
 				[6] = {
 					title = [[Relay Dish 4]];
@@ -67465,7 +67494,8 @@ data = {
 			movie = nil;
 		};
 		[4] = {
-			name = [[\i Tutorial Lesson 3\iThe Complete Idiot’s Guide to Commanding a Space Armada]];
+			name = [[\i Tutorial Lesson 3
+\iThe Complete Idiot’s Guide to Commanding a Space Armada]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -69681,7 +69711,8 @@ data = {
 			movie = nil;
 		};
 		[5] = {
-			name = [[\i Chapter 3 \iWhile The Iron Is Hot]];
+			name = [[\i Chapter 3 
+\iWhile The Iron Is Hot]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -69972,7 +70003,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[Our success in the Myrmidon System has caught the Gaitori by surprise. The last thing they expected was an offensive initiated by the Ishiman Stellar Navy. Your instinctual aggressiveness served you well.Your goal in the Demeter System is to capitalize on the Gaitori's disarray by seizing one of their planet-based outposts threatening our space. This is an opportunity for you to demonstrate the ability to coordinate a space-to-surface assault.]];
+					content = [[Our success in the Myrmidon System has caught the Gaitori by surprise. The last thing they expected was an offensive initiated by the Ishiman Stellar Navy. Your instinctual aggressiveness served you well.
+
+Your goal in the Demeter System is to capitalize on the Gaitori's disarray by seizing one of their planet-based outposts threatening our space. This is an opportunity for you to demonstrate the ability to coordinate a space-to-surface assault.]];
 				};
 				[1] = {
 					title = [[Cruiser]];
@@ -69994,7 +70027,10 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[You must protect our base on Demeter Alpha from enemy transports. If a Gaitori transport lands on Alpha, the mission will be aborted.The base on Alpha can produce two types of ships in addition to cruisers. ^P1014^Fighters are fast, but can only travel at sublight speeds. Their only weapons are photokinetic beam cannons.]];
+					content = [[You must protect our base on Demeter Alpha from enemy transports. If a Gaitori transport lands on Alpha, the mission will be aborted.
+
+The base on Alpha can produce two types of ships in addition to cruisers. 
+^P1014^Fighters are fast, but can only travel at sublight speeds. Their only weapons are photokinetic beam cannons.]];
 				};
 				[3] = {
 					title = [[Demeter Alpha]];
@@ -70005,7 +70041,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P1025^The transport is the only ship capable of space-to-surface assault. They are limited to sublight travel and are unarmed.For this mission you'll need to give a transport orders to go to Demeter Beta. It will attempt to land once it arrives.]];
+					content = [[^P1025^The transport is the only ship capable of space-to-surface assault. They are limited to sublight travel and are unarmed.
+
+For this mission you'll need to give a transport orders to go to Demeter Beta. It will attempt to land once it arrives.]];
 				};
 				[4] = {
 					title = [[Demeter Beta]];
@@ -70016,7 +70054,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[This planet is your objective. Land a transport here to complete the mission.The base here can produce four types of ships.]];
+					content = [[This planet is your objective. Land a transport here to complete the mission.
+
+The base here can produce four types of ships.]];
 				};
 				[5] = {
 					title = [[Demeter Beta]];
@@ -70027,7 +70067,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P1039^Gaitori fighters are slow, and poorly armored.^P1038^You've already encountered several of their cruisers.]];
+					content = [[^P1039^Gaitori fighters are slow, and poorly armored.
+^P1038^You've already encountered several of their cruisers.]];
 				};
 				[6] = {
 					title = [[Demeter Beta]];
@@ -70038,7 +70079,11 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P1087^Destroy any of their transports you find making its way towards our base on Alpha. If our base is lost, the mission will be aborted.The Gaitori base can also construct gunships.^P1065^Good luck.]];
+					content = [[^P1087^Destroy any of their transports you find making its way towards our base on Alpha. If our base is lost, the mission will be aborted.
+
+The Gaitori base can also construct gunships.
+^P1065^
+Good luck.]];
 				};
 			};
 			starmap = {
@@ -70060,7 +70105,8 @@ data = {
 			movie = nil;
 		};
 		[6] = {
-			name = [[\i Chapter 4 \iShoplifter 1]];
+			name = [[\i Chapter 4 
+\iShoplifter 1]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -70803,7 +70849,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[To pick up the prisoners, you'll be escorting this sublight Obish transport. It is armed with minimal defensive lasers capable of breaking the deep space cells open. Once a cell is breached, the prisoners will escape and attempt to enter the transport.The Obish prisoners will be vulnerable to your weapons fire, since your targeting systems will not be keyed to their suits. Be careful not to catch them in crossfire. They will also be disoriented, so give them plenty of time to enter the transport.]];
+					content = [[To pick up the prisoners, you'll be escorting this sublight Obish transport. It is armed with minimal defensive lasers capable of breaking the deep space cells open. Once a cell is breached, the prisoners will escape and attempt to enter the transport.
+
+The Obish prisoners will be vulnerable to your weapons fire, since your targeting systems will not be keyed to their suits. Be careful not to catch them in crossfire. They will also be disoriented, so give them plenty of time to enter the transport.]];
 				};
 				[4] = {
 					title = [[Cell 1]];
@@ -70876,7 +70924,8 @@ data = {
 			movie = nil;
 		};
 		[7] = {
-			name = [[\i Chapter 5 \iOut of the Frying Pan...]];
+			name = [[\i Chapter 5 
+\iOut of the Frying Pan...]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -71207,7 +71256,11 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[The Gaitori defeat in the Demeter system effectively ended their potency near Ishiman space; now we must take the battle to them.We traced the jumpstream from Elysium to here, the Aeneas system. We believe it's the primary base of operations for the Cantharan-loyal military.Your mission is to occupy their base, and to rout them from the system.]];
+					content = [[The Gaitori defeat in the Demeter system effectively ended their potency near Ishiman space; now we must take the battle to them.
+
+We traced the jumpstream from Elysium to here, the Aeneas system. We believe it's the primary base of operations for the Cantharan-loyal military.
+
+Your mission is to occupy their base, and to rout them from the system.]];
 				};
 				[1] = {
 					title = [[Cruiser]];
@@ -71229,7 +71282,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[The Gaitori have a planet base on Aeneas Beta, one of the two planets in the system. Their planet is defended by a flak drone.^P1094^Flak drones are indestructible. In addition to having guided rockets, they can fire deadly flak over a wide area. The only way to gain control of a flak drone is with an engineering pod.]];
+					content = [[The Gaitori have a planet base on Aeneas Beta, one of the two planets in the system. Their planet is defended by a flak drone.
+^P1094^Flak drones are indestructible. In addition to having guided rockets, they can fire deadly flak over a wide area. The only way to gain control of a flak drone is with an engineering pod.]];
 				};
 				[3] = {
 					title = [[Aeneas Alpha]];
@@ -71251,7 +71305,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P1096^In addition to fighters, cruisers, and transports, our base can produce engineering pods. Send these robot ships to flak drones to gain control of them. Once an engineering pod reaches a flak drone, the drone will be configured to fire on enemy ships.The engineering pods are equipped with defensive lasers, capable of protecting them briefly from missiles and enemy ships. The pods are invisible to the flak drones' sensors, but they are still susceptible to weapons fire.]];
+					content = [[^P1096^In addition to fighters, cruisers, and transports, our base can produce engineering pods. Send these robot ships to flak drones to gain control of them. Once an engineering pod reaches a flak drone, the drone will be configured to fire on enemy ships.
+
+The engineering pods are equipped with defensive lasers, capable of protecting them briefly from missiles and enemy ships. The pods are invisible to the flak drones' sensors, but they are still susceptible to weapons fire.]];
 				};
 				[5] = {
 					title = [[Aeneas Beta]];
@@ -71262,7 +71318,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[The Gaitori base on Beta is your objective. Land a transport here to complete the mission.^P1095^The Gaitori can also make fighters, cruisers, transports and engineering pods. Their engineering pods also have defensive lasers.]];
+					content = [[The Gaitori base on Beta is your objective. Land a transport here to complete the mission.
+^P1095^The Gaitori can also make fighters, cruisers, transports and engineering pods. Their engineering pods also have defensive lasers.]];
 				};
 				[6] = {
 					title = [[Flak Drone]];
@@ -71306,7 +71363,8 @@ data = {
 			movie = nil;
 		};
 		[8] = {
-			name = [[\i Chapter 6 \i...Into the Fire]];
+			name = [[\i Chapter 6 
+\i...Into the Fire]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -71820,7 +71878,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[The Gaitori military has one remaining foothold near our space:  a joint power station cluster, established as a gesture of cooperation between the Obish and Gaitori governments after the war.The Cantharan-loyalist Gaitori intend to destroy Obain's half of the Hades System's power stations. Your mission is to occupy their base, destroying as many Gaitori power stations as possible, and saving as many of the Obish stations as you can.]];
+					content = [[The Gaitori military has one remaining foothold near our space:  a joint power station cluster, established as a gesture of cooperation between the Obish and Gaitori governments after the war.
+
+The Cantharan-loyalist Gaitori intend to destroy Obain's half of the Hades System's power stations. Your mission is to occupy their base, destroying as many Gaitori power stations as possible, and saving as many of the Obish stations as you can.]];
 				};
 				[1] = {
 					title = [[Hades Alpha]];
@@ -71842,7 +71902,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P1115^This is the first of the three Obish power stations. Each station is guarded by a flak drone.Note that the power stations produce tremendous resources -- keeping the power stations from being destroyed will allow you to produce more ships.]];
+					content = [[^P1115^This is the first of the three Obish power stations. Each station is guarded by a flak drone.
+
+Note that the power stations produce tremendous resources -- keeping the power stations from being destroyed will allow you to produce more ships.]];
 				};
 				[3] = {
 					title = [[Power Station O-2]];
@@ -71930,7 +71992,8 @@ data = {
 			movie = nil;
 		};
 		[9] = {
-			name = [[\i Chapter 7 \iOn the Rocks]];
+			name = [[\i Chapter 7 
+\iOn the Rocks]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -72333,7 +72396,8 @@ data = {
 							delay = 0;
 							player = 1;
 							nextLevel = 0;
-							text = [[DEBUG Chapter 8, computer wins.Computer got enough asteroid fragments that player could never win (this should never happen).]];
+							text = [[DEBUG Chapter 8, computer wins.
+Computer got enough asteroid fragments that player could never win (this should never happen).]];
 						};
 					};
 					flags = {
@@ -72359,7 +72423,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[The miners in this system alerted us when they detected a Cantharan ship pursuing a rogue asteroid.^P10034^Our preliminary analysis suggests that the asteroid has been artificially manufactured.]];
+					content = [[The miners in this system alerted us when they detected a Cantharan ship pursuing a rogue asteroid.
+^P10034^Our preliminary analysis suggests that the asteroid has been artificially manufactured.]];
 				};
 				[1] = {
 					title = [[Asteroid IR7-7e]];
@@ -72381,7 +72446,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[The Cantharans' interest in this asteroid is alarmingly peculiar. We intend to destroy it, but we'd like to collect some samples to determine its purpose.^P1185^You must break the asteroid into pieces small enough to be collected. We require a minimum of four samples of its debris.]];
+					content = [[The Cantharans' interest in this asteroid is alarmingly peculiar. We intend to destroy it, but we'd like to collect some samples to determine its purpose.
+^P1185^You must break the asteroid into pieces small enough to be collected. We require a minimum of four samples of its debris.]];
 				};
 				[3] = {
 					title = [[Astrominer]];
@@ -72392,7 +72458,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P1081^The astrominer has been ordered to follow you. Guide it to the asteroid and the astrominer will attempt to break it apart. The miner’s bulky appearance belies its vulnerability to weapons fire. Protect it from attack: it is not a military vessel.The astrominer is equipped with two short-range non-concussive solitoid cannons, which will gradually weaken the asteroid's structure.]];
+					content = [[^P1081^The astrominer has been ordered to follow you. Guide it to the asteroid and the astrominer will attempt to break it apart. The miner’s bulky appearance belies its vulnerability to weapons fire. Protect it from attack: it is not a military vessel.
+The astrominer is equipped with two short-range non-concussive solitoid cannons, which will gradually weaken the asteroid's structure.]];
 				};
 				[4] = {
 					title = [[Philemon Beta]];
@@ -72450,13 +72517,37 @@ data = {
 			angle = 0;
 			startTime = 0;
 			isTraining = false;
-			prologue = [[#+B2006\i PART 2 \i #+With the Gaitori threat behind you, you turn your eyes to the principle enemy of your race: the Cantharan Order, servants to the Prophets and Crusaders against the Unenlightened.#+10020Centuries ago, the Cantharan Order, then a stable if inflexible defender of interstellar peace, was plunged into chaos by the Boodan Civil War. Although the Order prevailed, it was greatly changed by the conflict. Soon after the Order began its crusades, with its zealous devotion to the twin gods Zom and Doz fueling its thirst for conquest. One among the dozens of “primitive” worlds to fall under Cantharan rule was Earth.#+The Cantharan frontier is a thick swatch the Cantharans cut from the formerly free trading corridor that connected the Bazidanese Star League, the Ishiman Stellar Protectorate, the Elejeetian Empire, the Gaitori Union, and Obain. Once the Order’s crusades began to make trade in this corridor a risky and unprofitable practice, the races withdrew into their separate systems, none of them prepared to challenge the might of the Cantharan military force.#+You now must face that force. With the help of the Ishimans, you prepare to make a quick, decisive strike directly into the frontier. With speed and surprise still on your side, you hope to bisect the frontier and reach into Cantharan space before the Order has time to react.]];
-			epilogue = [[#+B2006The Ishimans’ initial analysis of the rogue asteroid was correct: it was artificially created, and originated in the Cantharan system of Los Ran during the Boodan War. Further examination of the samples you retrieved reveals a sinister secret.#+The asteroid was saturated with a biomechanical virus, apparently designed to lie dormant within the asteroid until it collided with a living planet. The artificial virus, millions of tiny mechanisms, would then activate and seek out compatible life which it could infest.#+A relic of the Boodan war, the biomechanisms could have been some kind of weapon, but the method of distribution--on artificial asteroids--would have been too slow for any tactical use. Its purpose is obscure.#+This Boodan Mechanism is beyond any known races’ ability. The ramifications of its discovery this far from Cantharis are staggering. It now seems the Cantharan Crusades have more to do with hunting down and harnessing this virus than they do with obliteration of the “Unenlightened.”]];
+			prologue = [[#+B2006
+\i PART 2 
+\i 
+#+
+With the Gaitori threat behind you, you turn your eyes to the principle enemy of your race: the Cantharan Order, servants to the Prophets and Crusaders against the Unenlightened.
+
+#+10020
+Centuries ago, the Cantharan Order, then a stable if inflexible defender of interstellar peace, was plunged into chaos by the Boodan Civil War. Although the Order prevailed, it was greatly changed by the conflict. Soon after the Order began its crusades, with its zealous devotion to the twin gods Zom and Doz fueling its thirst for conquest. One among the dozens of “primitive” worlds to fall under Cantharan rule was Earth.
+
+#+
+The Cantharan frontier is a thick swatch the Cantharans cut from the formerly free trading corridor that connected the Bazidanese Star League, the Ishiman Stellar Protectorate, the Elejeetian Empire, the Gaitori Union, and Obain. Once the Order’s crusades began to make trade in this corridor a risky and unprofitable practice, the races withdrew into their separate systems, none of them prepared to challenge the might of the Cantharan military force.
+
+#+
+You now must face that force. With the help of the Ishimans, you prepare to make a quick, decisive strike directly into the frontier. With speed and surprise still on your side, you hope to bisect the frontier and reach into Cantharan space before the Order has time to react.
+]];
+			epilogue = [[#+B2006
+The Ishimans’ initial analysis of the rogue asteroid was correct: it was artificially created, and originated in the Cantharan system of Los Ran during the Boodan War. Further examination of the samples you retrieved reveals a sinister secret.
+
+#+
+The asteroid was saturated with a biomechanical virus, apparently designed to lie dormant within the asteroid until it collided with a living planet. The artificial virus, millions of tiny mechanisms, would then activate and seek out compatible life which it could infest.
+
+#+
+A relic of the Boodan war, the biomechanisms could have been some kind of weapon, but the method of distribution--on artificial asteroids--would have been too slow for any tactical use. Its purpose is obscure.
+#+
+This Boodan Mechanism is beyond any known races’ ability. The ramifications of its discovery this far from Cantharis are staggering. It now seems the Cantharan Crusades have more to do with hunting down and harnessing this virus than they do with obliteration of the “Unenlightened.”]];
 			songId = 5001;
 			movie = [[:Ares Data ƒ:Part 3]];
 		};
 		[10] = {
-			name = [[\i Chapter 8 \iAstrotrash Plus!]];
+			name = [[\i Chapter 8 
+\iAstrotrash Plus!]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -72857,7 +72948,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P1185^Remember, to collect an asteroid sample, it must be first broken down to the smallest possible size. Also remember that we need at least ten samples before we'll pull you out.Finally, watch out for the parasitic zerbilite organisms, which are frequently found in mineral-rich asteroid belts. And make sure you or your astrominers don't collide with one of the green unstable asteroids. A collision with one of those giants is fatal.]];
+					content = [[^P1185^Remember, to collect an asteroid sample, it must be first broken down to the smallest possible size. Also remember that we need at least ten samples before we'll pull you out.
+
+Finally, watch out for the parasitic zerbilite organisms, which are frequently found in mineral-rich asteroid belts. And make sure you or your astrominers don't collide with one of the green unstable asteroids. A collision with one of those giants is fatal.]];
 				};
 			};
 			starmap = {
@@ -72879,7 +72972,8 @@ data = {
 			movie = nil;
 		};
 		[11] = {
-			name = [[\i Chapter 9 \iHand Over Fist]];
+			name = [[\i Chapter 9 
+\iHand Over Fist]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -73211,7 +73305,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[Our base Proteus Alpha will be at your disposal. It's well equipped and capable of producing a variety of ships.You must defend this planet from Cantharan occupation. If you allow the Cantharans to land a transport here, the mission will be aborted.]];
+					content = [[Our base Proteus Alpha will be at your disposal. It's well equipped and capable of producing a variety of ships.
+
+You must defend this planet from Cantharan occupation. If you allow the Cantharans to land a transport here, the mission will be aborted.]];
 				};
 				[2] = {
 					title = [[Proteus Alpha]];
@@ -73319,7 +73415,8 @@ data = {
 			movie = nil;
 		};
 		[12] = {
-			name = [[\i Chapter 10 \iAssassin]];
+			name = [[\i Chapter 10 
+\iAssassin]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -74113,7 +74210,8 @@ data = {
 			movie = nil;
 		};
 		[13] = {
-			name = [[\i Chapter 11 \iShoplifter 2]];
+			name = [[\i Chapter 11 
+\iShoplifter 2]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -74921,13 +75019,26 @@ data = {
 			angle = 0;
 			startTime = 0;
 			isTraining = false;
-			prologue = [[#+B2007#+10025The master race of the Cantharans, the Salrilians are believed to have the ability to predict the near future. Far from supernatural, this knowledge is the result of incredible investments in technology. Through a process of quantum simulation, the Salrilians’ massive Oracular Net of computers forecasts events well before they happen, anywhere in the known galaxy. The more information the Salrilians have, the more accurate the Oracles are. Thus, the Salrilians seek to learn all they can about the Universe and its denizens. What they cannot understand, they seek to contain. What they cannot contain they destroy.#+The Salrilians have a vested interest in the success of the Cantharans, a race they can influence and understand. You were warned that as you drew closer to Earth, you ran the risk of piquing the interest of the Prophets. But now, the Ishimans have unexpected information for the weary crew of the Ares.#+A string of deep space simlabs, Salrilian installations designed to probe and analyze alien intelligences, has been detected in a nearby system.#+The aliens in the simlabs are human.]];
+			prologue = [[#+B2007
+#+10025
+The master race of the Cantharans, the Salrilians are believed to have the ability to predict the near future. Far from supernatural, this knowledge is the result of incredible investments in technology. Through a process of quantum simulation, the Salrilians’ massive Oracular Net of computers forecasts events well before they happen, anywhere in the known galaxy. The more information the Salrilians have, the more accurate the Oracles are. Thus, the Salrilians seek to learn all they can about the Universe and its denizens. What they cannot understand, they seek to contain. What they cannot contain they destroy.
+
+#+
+The Salrilians have a vested interest in the success of the Cantharans, a race they can influence and understand. You were warned that as you drew closer to Earth, you ran the risk of piquing the interest of the Prophets. But now, the Ishimans have unexpected information for the weary crew of the Ares.
+
+#+
+A string of deep space simlabs, Salrilian installations designed to probe and analyze alien intelligences, has been detected in a nearby system.
+
+#+
+The aliens in the simlabs are human.
+]];
 			epilogue = [[]];
 			songId = 5000;
 			movie = nil;
 		};
 		[14] = {
-			name = [[\i Chapter 12 \iMake Way]];
+			name = [[\i Chapter 12 
+\iMake Way]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -75608,7 +75719,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[The Fansi System was once the front line Gaitori base of operations in Obish space during the Gaitori/Obish War. Today it's the last outpost of the Gaitori Isolationists--one of the few enemies of both Cantharis and Obain. It's also the last military obstacle between you and Cantharan Space.The Cantharans intend to capture the Fansi System. Your objective is to beat them to it.]];
+					content = [[The Fansi System was once the front line Gaitori base of operations in Obish space during the Gaitori/Obish War. Today it's the last outpost of the Gaitori Isolationists--one of the few enemies of both Cantharis and Obain. It's also the last military obstacle between you and Cantharan Space.
+
+The Cantharans intend to capture the Fansi System. Your objective is to beat them to it.]];
 				};
 				[1] = {
 					title = [[Orbital Shipyard]];
@@ -75652,7 +75765,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P1105^This is one of two bunker stations in the Fansi system, both of which are occupied by Gaitori Isolationists. The bunker stations have powerful armament, but their defenses can be knocked out using heavy fire to reduce their shields.Use assault transports to gain control of the bunker stations--occupying the stations will generate resources for you during the mission.]];
+					content = [[^P1105^This is one of two bunker stations in the Fansi system, both of which are occupied by Gaitori Isolationists. The bunker stations have powerful armament, but their defenses can be knocked out using heavy fire to reduce their shields.
+
+Use assault transports to gain control of the bunker stations--occupying the stations will generate resources for you during the mission.]];
 				};
 				[5] = {
 					title = [[Bunker Station 2]];
@@ -75685,7 +75800,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[In addition to fighters, cruisers, gunships, and transports, the base on Fansi can produce two special-purpose ships.^P1096^Build engineering pods to gain control of the flak drones. Make sure you commandeer the flak drone that lies between Bunker Station 1 and the orbital shipyard, to ensure the safe passage of the freighters.]];
+					content = [[In addition to fighters, cruisers, gunships, and transports, the base on Fansi can produce two special-purpose ships.
+^P1096^Build engineering pods to gain control of the flak drones. Make sure you commandeer the flak drone that lies between Bunker Station 1 and the orbital shipyard, to ensure the safe passage of the freighters.]];
 				};
 				[8] = {
 					title = [[Assault Transport]];
@@ -75707,7 +75823,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[The Cantharan base on Fansi Beta is your ultimate goal. Land a standard transport here to complete the mission. The Cantharans have ship building facilities equivalent to ours.^P1120^In addition to fighters, cruisers, transports, and gunships, the Cantharans have assault transports of their own. Destroy them, and the EVA Troopers they release.]];
+					content = [[The Cantharan base on Fansi Beta is your ultimate goal. Land a standard transport here to complete the mission. The Cantharans have ship building facilities equivalent to ours.
+^P1120^In addition to fighters, cruisers, transports, and gunships, the Cantharans have assault transports of their own. Destroy them, and the EVA Troopers they release.]];
 				};
 				[10] = {
 					title = [[Engineer Pod]];
@@ -75751,7 +75868,8 @@ data = {
 			movie = nil;
 		};
 		[15] = {
-			name = [[\i Chapter 13 \iYo Ho Ho]];
+			name = [[\i Chapter 13 
+\iYo Ho Ho]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -76566,7 +76684,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P1129^Don't allow any of the escape pods to be destroyed while you engage the Gaitori, or the mission will be aborted.When the Secorem system is clear, recover all six escape pods from the Banadee. ]];
+					content = [[^P1129^Don't allow any of the escape pods to be destroyed while you engage the Gaitori, or the mission will be aborted.
+
+When the Secorem system is clear, recover all six escape pods from the Banadee. ]];
 				};
 				[5] = {
 					title = [[Secorem Jump Gate]];
@@ -76577,7 +76697,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P10030^Once you've safely recovered all six escape pods, the civilian tractor tug will be entering here through the Secorem Jump Gate. It's bringing two heavy cruisers for escort.^P1128^]];
+					content = [[^P10030^Once you've safely recovered all six escape pods, the civilian tractor tug will be entering here through the Secorem Jump Gate. It's bringing two heavy cruisers for escort.
+^P1128^]];
 				};
 				[6] = {
 					title = [[Secorem]];
@@ -76586,7 +76707,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[The tractor tug will rendezvous with the Elejeetian liner Banadee, and tow it back to the jump gate. Once the liner passes through the gate, your mission will be complete.It's unusual to find Gaitori pirates this deep into Cantharan space, and unlikely that they would be capable of disabling an Elejeetian liner-- prepare for the unexpected.]];
+					content = [[The tractor tug will rendezvous with the Elejeetian liner Banadee, and tow it back to the jump gate. Once the liner passes through the gate, your mission will be complete.
+
+It's unusual to find Gaitori pirates this deep into Cantharan space, and unlikely that they would be capable of disabling an Elejeetian liner-- prepare for the unexpected.]];
 				};
 			};
 			starmap = {
@@ -76602,13 +76725,27 @@ data = {
 			angle = 0;
 			startTime = 0;
 			isTraining = false;
-			prologue = [[#+B2007\i PART 3 \i #+Word of your perseverance spreads across the stars. Even the mysterious Elejeetian Empire, an enemy of Cantharis, begins to recognize the power of human tenacity. The Emperor himself begins to wonder if, unlikely though it seems, these humans could deliver a crippling blow to the Order?#+10023Due to arrogance or innocence, the Elejeetians rarely arm their ships with weapons of any kind, preferring instead to rely on heavy defenses to protect them from attacks. However, on the rare occasions that they do choose to fight, their superior technology becomes readily apparent.#+Your crew is aware that, impressive though their victories have been, their most trying conflicts still lie ahead. From Fansi you must pass into Cantharan space, coming perilously close to the Audemedon Axis and the Salrilians.#+As you approach the Secorem System, these hazards that now face you are quickly illustrated by a faint distress signal, the last gasp of a supposedly invulnerable Elejeetian liner: "...HUMANS...HELP...NOW..."]];
+			prologue = [[#+B2007
+\i PART 3 
+\i 
+#+
+Word of your perseverance spreads across the stars. Even the mysterious Elejeetian Empire, an enemy of Cantharis, begins to recognize the power of human tenacity. The Emperor himself begins to wonder if, unlikely though it seems, these humans could deliver a crippling blow to the Order?
+
+#+10023
+Due to arrogance or innocence, the Elejeetians rarely arm their ships with weapons of any kind, preferring instead to rely on heavy defenses to protect them from attacks. However, on the rare occasions that they do choose to fight, their superior technology becomes readily apparent.
+
+#+
+Your crew is aware that, impressive though their victories have been, their most trying conflicts still lie ahead. From Fansi you must pass into Cantharan space, coming perilously close to the Audemedon Axis and the Salrilians.
+
+#+
+As you approach the Secorem System, these hazards that now face you are quickly illustrated by a faint distress signal, the last gasp of a supposedly invulnerable Elejeetian liner: "...HUMANS...HELP...NOW..."]];
 			epilogue = [[]];
 			songId = 5002;
 			movie = [[:Ares Data ƒ:Placeholder Movie]];
 		};
 		[16] = {
-			name = [[\i Chapter 14 \iCaptivating]];
+			name = [[\i Chapter 14 
+\iCaptivating]];
 			netRaceFlags = 34;
 			playerNum = 2;
 			players = {
@@ -77352,7 +77489,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P10037^We're not sure what it is, but the Order somehow managed to capture this Bazidanese vessel intact. Long range scans indicate that it is fairly massive, and apparently well armed.Since Bazidan has always been very secretive about its military technologies, we are assuming that the Cantharans are as curious as we are, and that they intend to reverse engineer this ship. Your objective is to prevent them from doing so by forcing them out of the Bokleo System.]];
+					content = [[^P10037^We're not sure what it is, but the Order somehow managed to capture this Bazidanese vessel intact. Long range scans indicate that it is fairly massive, and apparently well armed.
+Since Bazidan has always been very secretive about its military technologies, we are assuming that the Cantharans are as curious as we are, and that they intend to reverse engineer this ship. Your objective is to prevent them from doing so by forcing them out of the Bokleo System.]];
 				};
 				[2] = {
 					title = [[Tractor Moor]];
@@ -77396,7 +77534,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P1063^The Cantharans have established a base on Gamma. It's capable of producing fighters, heavy cruisers, gunships, and transports.Landing a transport on Bokleo Gamma to control the base is your primary objective.^P1026^]];
+					content = [[^P1063^The Cantharans have established a base on Gamma. It's capable of producing fighters, heavy cruisers, gunships, and transports.
+Landing a transport on Bokleo Gamma to control the base is your primary objective.
+^P1026^]];
 				};
 				[6] = {
 					title = [[Bokleo Alpha]];
@@ -77407,7 +77547,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P1001^We didn't have time to establish a strong presence on Alpha. Our base can only produce fighters, cruisers, and transports. Be prepared for heavy losses.^P1014^]];
+					content = [[^P1001^We didn't have time to establish a strong presence on Alpha. Our base can only produce fighters, cruisers, and transports. Be prepared for heavy losses.
+^P1014^]];
 				};
 				[7] = {
 					title = [[ISN 8738810]];
@@ -77489,13 +77630,21 @@ data = {
 			angle = 0;
 			startTime = 0;
 			isTraining = false;
-			prologue = [[#+B2006Before the Cantharan Crusades began, the Star League of Bazidan had trading outposts scattered throughout what is now Cantharan space. With enormous patience and a mastery of communication, the Bazidanese served as intermediaries between civilizations, facilitating free trade between alien species, opening their outposts to all.#+When the Order's belligerence began to disrupt the trading routes, and Elejee and Ishima broke off their diplomatic ties to Cantharis, the Bazidanese remained neutral in an effort to negotiate a peaceful end to the Order's expansion. However, the Cantharans have begun to exhaust even the legendary patience of Bazidan. #+In the Bokleo System, an opportunity presents itself to you when you learn of a brazen Cantharan attack on a Bazidanese outpost. Cantharis's new enemy could be Earth's new ally.]];
+			prologue = [[#+B2006
+Before the Cantharan Crusades began, the Star League of Bazidan had trading outposts scattered throughout what is now Cantharan space. With enormous patience and a mastery of communication, the Bazidanese served as intermediaries between civilizations, facilitating free trade between alien species, opening their outposts to all.
+
+#+
+When the Order's belligerence began to disrupt the trading routes, and Elejee and Ishima broke off their diplomatic ties to Cantharis, the Bazidanese remained neutral in an effort to negotiate a peaceful end to the Order's expansion. However, the Cantharans have begun to exhaust even the legendary patience of Bazidan. 
+
+#+
+In the Bokleo System, an opportunity presents itself to you when you learn of a brazen Cantharan attack on a Bazidanese outpost. Cantharis's new enemy could be Earth's new ally.]];
 			epilogue = [[]];
 			songId = 5003;
 			movie = nil;
 		};
 		[17] = {
-			name = [[\i Chapter 15 \iThe Left Hand]];
+			name = [[\i Chapter 15 
+\iThe Left Hand]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -77893,7 +78042,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[The Salrilians, the so-called Prophets, appear to have invested considerably in the Cantharan Order's success. While their motives remain obscure, their willingness to fight has become clear.The Salrilians orchestrated the attack on the Elejeetian liner Banadee from here, the Thasero System--and it is here that you will make your willingness to fight clear to the Salrilians.]];
+					content = [[The Salrilians, the so-called Prophets, appear to have invested considerably in the Cantharan Order's success. While their motives remain obscure, their willingness to fight has become clear.
+
+The Salrilians orchestrated the attack on the Elejeetian liner Banadee from here, the Thasero System--and it is here that you will make your willingness to fight clear to the Salrilians.]];
 				};
 				[1] = {
 					title = [[Thasero Alpha]];
@@ -77959,7 +78110,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[The base on Thasero Beta is your final goal. Land a transport here to complete the mission.^P1113^The Salrilian fighters are difficult to see by design.^P1111^Their cruisers have stealth fields.]];
+					content = [[The base on Thasero Beta is your final goal. Land a transport here to complete the mission.
+^P1113^The Salrilian fighters are difficult to see by design.
+^P1111^Their cruisers have stealth fields.]];
 				};
 				[7] = {
 					title = [[Thasero Beta]];
@@ -77970,7 +78123,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P1139^Salrilian gunships also have stealth fields. They are fast and well armed.^P1141^The Prophet's transports almost always operate with active stealth fields. Often the only way to prevent one them from sneaking onto a planet is by firing blindly.]];
+					content = [[^P1139^Salrilian gunships also have stealth fields. They are fast and well armed.
+^P1141^The Prophet's transports almost always operate with active stealth fields. Often the only way to prevent one them from sneaking onto a planet is by firing blindly.]];
 				};
 				[8] = {
 					title = [[The Actualizer]];
@@ -78001,7 +78155,8 @@ data = {
 			movie = nil;
 		};
 		[18] = {
-			name = [[\i Chapter 16 \iHornet's Nest]];
+			name = [[\i Chapter 16 
+\iHornet's Nest]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -79007,7 +79162,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P1130^We'll also be assigning two destroyers to help you escort the UNS 0917996 science vessel. These destroyers will be under the command of the UNS 0917996.When the UNS 0917996 has completed its analysis, we'll give you further instructions.]];
+					content = [[^P1130^We'll also be assigning two destroyers to help you escort the UNS 0917996 science vessel. These destroyers will be under the command of the UNS 0917996.
+
+When the UNS 0917996 has completed its analysis, we'll give you further instructions.]];
 				};
 			};
 			starmap = {
@@ -79023,13 +79180,21 @@ data = {
 			angle = 0;
 			startTime = 0;
 			isTraining = false;
-			prologue = [[#+B2007The Salrilians, seething from their defeat in the Thasero System, call upon their most dreaded ally: the Audemedon Axis, a race of intelligent machines.#+10017Almost nothing is known about the Audemedons. Their technology is incomprehensible, and their motives obscure.#+Apparently at the beck and call of the Prophets, the Audemedons serve as Salril's elite guard. Incensed that you have defied the Oracular Net's predictions, the Salrilians have the Axis ready a deadly response.]];
+			prologue = [[#+B2007
+The Salrilians, seething from their defeat in the Thasero System, call upon their most dreaded ally: the Audemedon Axis, a race of intelligent machines.
+
+#+10017
+Almost nothing is known about the Audemedons. Their technology is incomprehensible, and their motives obscure.
+
+#+
+Apparently at the beck and call of the Prophets, the Audemedons serve as Salril's elite guard. Incensed that you have defied the Oracular Net's predictions, the Salrilians have the Axis ready a deadly response.]];
 			epilogue = [[]];
 			songId = 5000;
 			movie = nil;
 		};
 		[19] = {
-			name = [[\i Chapter 17 \i...And It Feels So Good]];
+			name = [[\i Chapter 17 
+\i...And It Feels So Good]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -79572,7 +79737,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[You will have the services of the base on Alpha, and you will be manning this heavy destroyer.^P1130^The base is capable of building even carriers.]];
+					content = [[You will have the services of the base on Alpha, and you will be manning this heavy destroyer.^P1130^
+The base is capable of building even carriers.]];
 				};
 				[2] = {
 					title = [[Cruiser]];
@@ -79616,7 +79782,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[Your goal in this mission is to recapture the base on Lelande Beta. It is occupied by Audemedon forces.^P1149^The Audemedon ships greatly outmatch ours.^P1143^]];
+					content = [[Your goal in this mission is to recapture the base on Lelande Beta. It is occupied by Audemedon forces.^P1149^The Audemedon ships greatly outmatch ours.
+^P1143^]];
 				};
 			};
 			starmap = {
@@ -79638,7 +79805,8 @@ data = {
 			movie = nil;
 		};
 		[20] = {
-			name = [[\i Chapter 18 \iBlood, Toil, Tears, and Sweat]];
+			name = [[\i Chapter 18 
+\iBlood, Toil, Tears, and Sweat]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -80778,7 +80946,8 @@ data = {
 			movie = nil;
 		};
 		[21] = {
-			name = [[\i Chapter 19 \iYou Should Have Seen the One that Got Away]];
+			name = [[\i Chapter 19 
+\iYou Should Have Seen the One that Got Away]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -81479,7 +81648,8 @@ data = {
 			movie = nil;
 		};
 		[22] = {
-			name = [[\i Chapter 20 \iThe Mothership Connection]];
+			name = [[\i Chapter 20 
+\iThe Mothership Connection]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -82529,12 +82699,24 @@ data = {
 			startTime = 0;
 			isTraining = false;
 			prologue = [[]];
-			epilogue = [[#+B2005#+10031The Earth you left over one hundred and fifty years ago is greatly changed. The people you knew are long since dead, and the place you called home no longer exists.#+But neither time nor the Cantharans could destroy what you fought to salvage: humanity. A mercy you eventually found outside of mankind.#+You will be welcomed as a hero, to be sure. The individuals will be honored, and the crew of the Ares may even become legends.#+But the greatest victories this day do not belong to men. They belong to humanity. They belong to our unending faith in our place in the universe. And now humanity, with due arrogance, will claim that place.]];
+			epilogue = [[#+B2005
+#+10031
+The Earth you left over one hundred and fifty years ago is greatly changed. The people you knew are long since dead, and the place you called home no longer exists.
+
+#+
+But neither time nor the Cantharans could destroy what you fought to salvage: humanity. A mercy you eventually found outside of mankind.
+
+#+
+You will be welcomed as a hero, to be sure. The individuals will be honored, and the crew of the Ares may even become legends.
+
+#+
+But the greatest victories this day do not belong to men. They belong to humanity. They belong to our unending faith in our place in the universe. And now humanity, with due arrogance, will claim that place.]];
 			songId = 5004;
 			movie = nil;
 		};
 		[23] = {
-			name = [[\i Between a Rock and a Rock \i ]];
+			name = [[\i Between a Rock and a Rock 
+\i ]];
 			netRaceFlags = 483;
 			playerNum = 2;
 			players = {
@@ -82868,7 +83050,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P10016^Welcome to your first combat mission, humans.This system is under the control of the Gaitori, a race of ruthless mercenaries and minions of our common enemy, the Cantharan Order.]];
+					content = [[^P10016^Welcome to your first combat mission, humans.
+This system is under the control of the Gaitori, a race of ruthless mercenaries and minions of our common enemy, the Cantharan Order.]];
 				};
 			};
 			starmap = {
@@ -82890,7 +83073,8 @@ data = {
 			movie = nil;
 		};
 		[24] = {
-			name = [[\i **DEV-23** \i ]];
+			name = [[\i **DEV-23** 
+\i ]];
 			netRaceFlags = 0;
 			playerNum = 3;
 			players = {
@@ -83103,7 +83287,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P10016^Welcome to your first combat mission, humans.This system is under the control of the Gaitori, a race of ruthless mercenaries and minions of our common enemy, the Cantharan Order.]];
+					content = [[^P10016^Welcome to your first combat mission, humans.
+This system is under the control of the Gaitori, a race of ruthless mercenaries and minions of our common enemy, the Cantharan Order.]];
 				};
 			};
 			starmap = {
@@ -84198,7 +84383,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P10016^Welcome to your first combat mission, humans.This system is under the control of the Gaitori, a race of ruthless mercenaries and minions of our common enemy, the Cantharan Order.]];
+					content = [[^P10016^Welcome to your first combat mission, humans.
+This system is under the control of the Gaitori, a race of ruthless mercenaries and minions of our common enemy, the Cantharan Order.]];
 				};
 			};
 			starmap = {
@@ -84220,7 +84406,8 @@ data = {
 			movie = nil;
 		};
 		[26] = {
-			name = [[\i Scratching Post \i ]];
+			name = [[\i Scratching Post 
+\i ]];
 			netRaceFlags = 483;
 			playerNum = 2;
 			players = {
@@ -84632,7 +84819,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P10016^Welcome to your first combat mission, humans.This system is under the control of the Gaitori, a race of ruthless mercenaries and minions of our common enemy, the Cantharan Order.]];
+					content = [[^P10016^Welcome to your first combat mission, humans.
+This system is under the control of the Gaitori, a race of ruthless mercenaries and minions of our common enemy, the Cantharan Order.]];
 				};
 			};
 			starmap = {
@@ -84654,7 +84842,8 @@ data = {
 			movie = nil;
 		};
 		[27] = {
-			name = [[\i Capture the Flagpod \i ]];
+			name = [[\i Capture the Flagpod 
+\i ]];
 			netRaceFlags = 512;
 			playerNum = 2;
 			players = {
@@ -85326,7 +85515,8 @@ data = {
 			movie = nil;
 		};
 		[28] = {
-			name = [[\i Spaze Warz \i ]];
+			name = [[\i Spaze Warz 
+\i ]];
 			netRaceFlags = 512;
 			playerNum = 2;
 			players = {
@@ -85672,7 +85862,8 @@ data = {
 			movie = nil;
 		};
 		[29] = {
-			name = [[\i Location, Location, Location \i ]];
+			name = [[\i Location, Location, Location 
+\i ]];
 			netRaceFlags = 98;
 			playerNum = 2;
 			players = {
@@ -86280,7 +86471,8 @@ data = {
 			movie = nil;
 		};
 		[30] = {
-			name = [[\i Training \iMoons for Goons]];
+			name = [[\i Training 
+\iMoons for Goons]];
 			netRaceFlags = 0;
 			playerNum = 2;
 			players = {
@@ -88062,7 +88254,9 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[Your first mission is to acquaint yourself with the basic control of our ships. At Omisha station we have a set of buoys and practice drones which you can use to gain experience with our technologies.Position your ship over a buoy to receive instructions on the exercise it offers.]];
+					content = [[Your first mission is to acquaint yourself with the basic control of our ships. At Omisha station we have a set of buoys and practice drones which you can use to gain experience with our technologies.
+
+Position your ship over a buoy to receive instructions on the exercise it offers.]];
 				};
 				[1] = {
 					title = [[Command Buoy A]];
@@ -88106,7 +88300,8 @@ data = {
 						x = 0;
 						y = 0;
 					};
-					content = [[^P10091^At this buoy are two "extra" ships. When you feel comfortable selecting and controlling other ships, try experimenting with these two cruisers.^P1004^]];
+					content = [[^P10091^At this buoy are two "extra" ships. When you feel comfortable selecting and controlling other ships, try experimenting with these two cruisers.
+^P1004^]];
 				};
 				[5] = {
 					title = [[Omisha Jump Gate]];
@@ -88302,399 +88497,385 @@ data = {
 		};
 	};
 	sprites = {
-		[606] = [[Strange Explosion?]];
-		[525] = [[Carrier, Ishiman (Improved?)]];
-		[509] = [[Gunship Ishiman]];
-		[534] = [[Schooner Ishiman]];
-		[1036] = [[Another Earth]];
-		[526] = [[Blue Bullet]];
-		[615] = [[Assault Transport, Audemedon]];
-		[801] = [[Station Minor]];
-		[518] = [[Supply Pack]];
-		[607] = [[Destroyer, Audemedon]];
-		[543] = [[Asteroid]];
-		[535] = [[Battleship, Bazidanese (Hires)]];
-		[551] = [[Gaitori Fighter]];
-		[640] = [[Freighter, Ishiman]];
-		[527] = [[Defense Drone, Ishiman]];
-		[616] = [[Assault Transport, Gaitori]];
-		[552] = [[New Sensor Relay Dish R&N]];
-		[519] = [[Warp Flash]];
-		[608] = [[Destroyer, Gaitori]];
-		[544] = [[Asteroid Fragment Large]];
-		[561] = [[Engineer, Gaitori]];
-		[650] = [[cruiser, human]];
-		[536] = [[Moor, Cantharan]];
-		[528] = [[Missile, White & Yellow]];
-		[1013] = [[Planet Sandyred]];
-		[617] = [[Assault Transport, Human]];
-		[570] = [[Jump Gate Module]];
-		[609] = [[Destroyer, Human]];
-		[545] = [[Astroid Fragment Small]];
-		[562] = [[Engineer, Ishiman]];
-		[651] = [[fighter, human]];
-		[537] = [[Torpedo, Green]];
-		[529] = [[Drone Cantharan]];
-		[618] = [[Trooper, Audemedon]];
-		[553] = [[Gunship, Gaitori]];
-		[571] = [[Transport, Salrilian]];
-		[660] = [[Light Cruiser, Grolk]];
-		[546] = [[Astrominer, Ishiman]];
-		[563] = [[Transport, Gaitori]];
-		[652] = [[gunship, human]];
-		[538] = [[Torpedo, Green]];
-		[1014] = [[Planet Marble Streakedpurple]];
-		[580] = [[Pulse Blue]];
-		[619] = [[Trooper, Gaitori]];
-		[572] = [[Battlesation, Salrilian]];
-		[547] = [[Nate Photon 2 Green]];
-		[635] = [[Battleship, Bazidanese]];
-		[564] = [[Power Station]];
-		[653] = [=[pulse, red [nl]]=];
-		[539] = [[Ugly Shrinking Yellow Sphere]];
-		[581] = [[Pulse Orange]];
-		[645] = [[Gunfire]];
-		[636] = [[Hybrid Ishiman/Obish]];
-		[573] = [[Invisible]];
-		[548] = [[Nate Photon 2 Yellow]];
-		[641] = [[Orbital Shipyard]];
-		[565] = [[Battleship, Obish]];
-		[654] = [[Gate Ship]];
-		[1015] = [[Planet Tiedye Lava]];
-		[557] = [[Flack Explosion (6)]];
-		[646] = [[Destroyer, Ishiman]];
-		[582] = [[Cruiser, Elejeetian]];
-		[590] = [[Nastiroid]];
-		[549] = [[Marine, Human]];
-		[637] = [[Assault Transport, Cantharan]];
-		[566] = [[Fighter, Salrilian]];
-		[655] = [[Sonic Sparkle]];
-		[591] = [[Buoy]];
-		[558] = [[Jump Gate Sprite]];
-		[647] = [[Liner, Elejeetian]];
-		[583] = [[Missile, Audemedon]];
-		[554] = [[Original New Best Explosions]];
-		[642] = [[Engineer, Cantharan]];
-		[638] = [[Assault Troop Cantharan]];
-		[567] = [[Transport, Obish]];
-		[1016] = [[Planet Goldtone]];
-		[656] = [[Fireball Small]];
-		[559] = [[Assault Transport, Ishiman]];
-		[648] = [[Carrier, Salrilian]];
-		[584] = [[Pulse, Indigo Pulsing]];
-		[576] = [[Battlecruiser, Audemedon]];
-		[592] = [[Prison Salrilian]];
-		[555] = [[Fat Gold Ship New Colors]];
-		[568] = [[Escape Pod]];
-		[657] = [[Battlecruiser, Grolk]];
-		[593] = [[Human Turns]];
-		[585] = [[Research Vessel, Ishiman]];
-		[649] = [[carrier, human]];
-		[643] = [[Bunker Station]];
-		[577] = [[Fighter, Audemedon]];
-		[1012] = [[Planet Bluegas]];
-		[639] = [[Body, Cantharan]];
-		[1017] = [[Planet Purpleyellow Trouble]];
-		[569] = [[Gunship, Salrilian]];
-		[658] = [=[Moor, Grolk [jail]]=];
-		[586] = [[Jump Gate Inhibitor]];
-		[594] = [[Human Waves]];
-		[560] = [[Carrier, Gaitori]];
-		[578] = [[Cruiser, Audemedon]];
-		[556] = [[Meteor]];
-		[644] = [[Carrier, Audemedon]];
-		[595] = [[Prison Gaitori]];
-		[659] = [[Flag Pod White]];
-		[517] = [[Energy Pod]];
-		[587] = [[Gate Ship?]];
-		[579] = [[Gunship, Audemedon]];
-		[1018] = [[Planet Brightgas]];
-		[596] = [[Obiard Turns]];
 		[499] = [[question mark]];
-		[588] = [[Target Drone, Ishiman]];
-		[597] = [[Obiard Waves]];
-		[589] = [[Space Blob]];
-		[1019] = [[Planet Redwhite Excitement]];
-		[598] = [[Super Nova]];
-		[1020] = [[Planet Cloudtones]];
-		[599] = [[Ares/Apollo]];
-		[1021] = [[Planet Fall]];
-		[990] = [[Carrier Friend Placeholder]];
-		[1022] = [[Planet Purtygas]];
-		[991] = [[Cruiser Foe Placeholder]];
-		[992] = [[Fighter Friend Placeholder]];
-		[1023] = [[Planet Aqua Minerale]];
-		[993] = [[Carrier Foe Placeholder]];
-		[994] = [[Cruiser Friend Placeholder]];
-		[1024] = [[Planet Bruised]];
-		[995] = [[Fighter Foe Placeholder]];
-		[996] = [[Transport Foe Placeholder]];
-		[1025] = [[Planet Nastyswirl]];
-		[1001] = [[Planet Marslike]];
-		[997] = [[Transport Friend Placeholder]];
-		[1026] = [[Planet Moldymud]];
-		[1002] = [[Planet Jungle]];
-		[1027] = [[Planet Uglypaint]];
-		[1003] = [[Planet Yellow]];
-		[1028] = [[Planet Calmpurple]];
-		[1004] = [[Planet Graysplotch]];
-		[1029] = [[Planet Yerrear]];
-		[1030] = [[Planet Splatterpaint Pink]];
-		[1005] = [[Planet Blueyellow Marble]];
-		[1031] = [[Planet Marshmellow]];
-		[1006] = [[Planet Bahamas]];
 		[500] = [[Sprite Cursor]];
 		[501] = [[Shovelnose, Brighter]];
-		[1032] = [[Planet Clay]];
-		[1007] = [[Planet Purplegas]];
-		[510] = [[Fighter, Ishiman]];
 		[502] = [[Green Wing New Colors]];
-		[600] = [[Assault Transport, Salril]];
 		[503] = [[New Shots]];
-		[520] = [[Escort, Ishiman]];
-		[1008] = [[Planet Lava]];
-		[1200] = [[Habitat]];
-		[601] = [[Transport, Audemedon]];
-		[512] = [[Fighter, Cantharan]];
 		[504] = [[Mike Explosion]];
-		[1033] = [[Planet Sta-Puft]];
-		[521] = [[Cruiser, Heavy, Ishiman]];
-		[610] = [[Destroyer, Salrilian]];
-		[513] = [[Space Suit]];
-		[602] = [[Trooper, Salrilian]];
 		[505] = [[Earth]];
-		[530] = [[Dark Gunship 2]];
-		[522] = [=[Red Pulse [Mike]]=];
-		[611] = [[Small Blue Bucky Ball]];
-		[1009] = [[Planet Saturny]];
-		[514] = [[Cantharan Transport 2]];
-		[603] = [[Destroyer, Heavy Cantharan]];
-		[1010] = [[Planet Yellow Cookie]];
 		[506] = [[Gunship Cantharan 2]];
-		[620] = [[Twin Orbit Shot]];
-		[1034] = [[Planet Purple Stripes Ugly]];
-		[523] = [[Cruiser Heavy Cantharan]];
-		[612] = [[Fighter, Cantharan]];
-		[515] = [[Transport, Ishiman]];
-		[604] = [[Gateship, Cantharan 2]];
-		[540] = [[Moor, Cantharan]];
 		[507] = [[Debris]];
-		[532] = [[Cruiser, Obish]];
-		[524] = [[Carrier Cantharan?]];
-		[613] = [[Big Yellow Bucky Ball]];
-		[1035] = [[Planet Dirtcloud]];
-		[516] = [[Sun 3]];
-		[541] = [[Missle Poofy Explosion]];
-		[605] = [[Pulse, Aqua Ring Pulsing]];
 		[508] = [[Aqua Pulse]];
+		[509] = [[Gunship Ishiman]];
+		[510] = [[Fighter, Ishiman]];
+		[512] = [[Fighter, Cantharan]];
+		[513] = [[Space Suit]];
+		[514] = [[Cantharan Transport 2]];
+		[515] = [[Transport, Ishiman]];
+		[516] = [[Sun 3]];
+		[517] = [[Energy Pod]];
+		[518] = [[Supply Pack]];
+		[519] = [[Warp Flash]];
+		[520] = [[Escort, Ishiman]];
+		[521] = [[Cruiser, Heavy, Ishiman]];
+		[522] = [=[Red Pulse [Mike]]=];
+		[523] = [[Cruiser Heavy Cantharan]];
+		[524] = [[Carrier Cantharan?]];
+		[525] = [[Carrier, Ishiman (Improved?)]];
+		[526] = [[Blue Bullet]];
+		[527] = [[Defense Drone, Ishiman]];
+		[528] = [[Missile, White & Yellow]];
+		[529] = [[Drone Cantharan]];
+		[530] = [[Dark Gunship 2]];
+		[532] = [[Cruiser, Obish]];
 		[533] = [[Schooner Cantharan]];
-		[1011] = [[Planet Purpleblue]];
-		[800] = [[Mothership]];
-		[614] = [[Yellow Sparkle Shot]];
-		[550] = [[Gaitori Cruiser]];
+		[534] = [[Schooner Ishiman]];
+		[535] = [[Battleship, Bazidanese (Hires)]];
+		[536] = [[Moor, Cantharan]];
+		[537] = [[Torpedo, Green]];
+		[538] = [[Torpedo, Green]];
+		[539] = [[Ugly Shrinking Yellow Sphere]];
+		[540] = [[Moor, Cantharan]];
+		[541] = [[Missle Poofy Explosion]];
 		[542] = [[Border Drone]];
+		[543] = [[Asteroid]];
+		[544] = [[Asteroid Fragment Large]];
+		[545] = [[Astroid Fragment Small]];
+		[546] = [[Astrominer, Ishiman]];
+		[547] = [[Nate Photon 2 Green]];
+		[548] = [[Nate Photon 2 Yellow]];
+		[549] = [[Marine, Human]];
+		[550] = [[Gaitori Cruiser]];
+		[551] = [[Gaitori Fighter]];
+		[552] = [[New Sensor Relay Dish R&N]];
+		[553] = [[Gunship, Gaitori]];
+		[554] = [[Original New Best Explosions]];
+		[555] = [[Fat Gold Ship New Colors]];
+		[556] = [[Meteor]];
+		[557] = [[Flack Explosion (6)]];
+		[558] = [[Jump Gate Sprite]];
+		[559] = [[Assault Transport, Ishiman]];
+		[560] = [[Carrier, Gaitori]];
+		[561] = [[Engineer, Gaitori]];
+		[562] = [[Engineer, Ishiman]];
+		[563] = [[Transport, Gaitori]];
+		[564] = [[Power Station]];
+		[565] = [[Battleship, Obish]];
+		[566] = [[Fighter, Salrilian]];
+		[567] = [[Transport, Obish]];
+		[568] = [[Escape Pod]];
+		[569] = [[Gunship, Salrilian]];
+		[570] = [[Jump Gate Module]];
+		[571] = [[Transport, Salrilian]];
+		[572] = [[Battlesation, Salrilian]];
+		[573] = [[Invisible]];
+		[576] = [[Battlecruiser, Audemedon]];
+		[577] = [[Fighter, Audemedon]];
+		[578] = [[Cruiser, Audemedon]];
+		[579] = [[Gunship, Audemedon]];
+		[580] = [[Pulse Blue]];
+		[581] = [[Pulse Orange]];
+		[582] = [[Cruiser, Elejeetian]];
+		[583] = [[Missile, Audemedon]];
+		[584] = [[Pulse, Indigo Pulsing]];
+		[585] = [[Research Vessel, Ishiman]];
+		[586] = [[Jump Gate Inhibitor]];
+		[587] = [[Gate Ship?]];
+		[588] = [[Target Drone, Ishiman]];
+		[589] = [[Space Blob]];
+		[590] = [[Nastiroid]];
+		[591] = [[Buoy]];
+		[592] = [[Prison Salrilian]];
+		[593] = [[Human Turns]];
+		[594] = [[Human Waves]];
+		[595] = [[Prison Gaitori]];
+		[596] = [[Obiard Turns]];
+		[597] = [[Obiard Waves]];
+		[598] = [[Super Nova]];
+		[599] = [[Ares/Apollo]];
+		[600] = [[Assault Transport, Salril]];
+		[601] = [[Transport, Audemedon]];
+		[602] = [[Trooper, Salrilian]];
+		[603] = [[Destroyer, Heavy Cantharan]];
+		[604] = [[Gateship, Cantharan 2]];
+		[605] = [[Pulse, Aqua Ring Pulsing]];
+		[606] = [[Strange Explosion?]];
+		[607] = [[Destroyer, Audemedon]];
+		[608] = [[Destroyer, Gaitori]];
+		[609] = [[Destroyer, Human]];
+		[610] = [[Destroyer, Salrilian]];
+		[611] = [[Small Blue Bucky Ball]];
+		[612] = [[Fighter, Cantharan]];
+		[613] = [[Big Yellow Bucky Ball]];
+		[614] = [[Yellow Sparkle Shot]];
+		[615] = [[Assault Transport, Audemedon]];
+		[616] = [[Assault Transport, Gaitori]];
+		[617] = [[Assault Transport, Human]];
+		[618] = [[Trooper, Audemedon]];
+		[619] = [[Trooper, Gaitori]];
+		[620] = [[Twin Orbit Shot]];
+		[635] = [[Battleship, Bazidanese]];
+		[636] = [[Hybrid Ishiman/Obish]];
+		[637] = [[Assault Transport, Cantharan]];
+		[638] = [[Assault Troop Cantharan]];
+		[639] = [[Body, Cantharan]];
+		[640] = [[Freighter, Ishiman]];
+		[641] = [[Orbital Shipyard]];
+		[642] = [[Engineer, Cantharan]];
+		[643] = [[Bunker Station]];
+		[644] = [[Carrier, Audemedon]];
+		[645] = [[Gunfire]];
+		[646] = [[Destroyer, Ishiman]];
+		[647] = [[Liner, Elejeetian]];
+		[648] = [[Carrier, Salrilian]];
+		[649] = [[carrier, human]];
+		[650] = [[cruiser, human]];
+		[651] = [[fighter, human]];
+		[652] = [[gunship, human]];
+		[653] = [=[pulse, red [nl]]=];
+		[654] = [[Gate Ship]];
+		[655] = [[Sonic Sparkle]];
+		[656] = [[Fireball Small]];
+		[657] = [[Battlecruiser, Grolk]];
+		[658] = [=[Moor, Grolk [jail]]=];
+		[659] = [[Flag Pod White]];
+		[660] = [[Light Cruiser, Grolk]];
+		[800] = [[Mothership]];
+		[801] = [[Station Minor]];
+		[990] = [[Carrier Friend Placeholder]];
+		[991] = [[Cruiser Foe Placeholder]];
+		[992] = [[Fighter Friend Placeholder]];
+		[993] = [[Carrier Foe Placeholder]];
+		[994] = [[Cruiser Friend Placeholder]];
+		[995] = [[Fighter Foe Placeholder]];
+		[996] = [[Transport Foe Placeholder]];
+		[997] = [[Transport Friend Placeholder]];
+		[1001] = [[Planet Marslike]];
+		[1002] = [[Planet Jungle]];
+		[1003] = [[Planet Yellow]];
+		[1004] = [[Planet Graysplotch]];
+		[1005] = [[Planet Blueyellow Marble]];
+		[1006] = [[Planet Bahamas]];
+		[1007] = [[Planet Purplegas]];
+		[1008] = [[Planet Lava]];
+		[1009] = [[Planet Saturny]];
+		[1010] = [[Planet Yellow Cookie]];
+		[1011] = [[Planet Purpleblue]];
+		[1012] = [[Planet Bluegas]];
+		[1013] = [[Planet Sandyred]];
+		[1014] = [[Planet Marble Streakedpurple]];
+		[1015] = [[Planet Tiedye Lava]];
+		[1016] = [[Planet Goldtone]];
+		[1017] = [[Planet Purpleyellow Trouble]];
+		[1018] = [[Planet Brightgas]];
+		[1019] = [[Planet Redwhite Excitement]];
+		[1020] = [[Planet Cloudtones]];
+		[1021] = [[Planet Fall]];
+		[1022] = [[Planet Purtygas]];
+		[1023] = [[Planet Aqua Minerale]];
+		[1024] = [[Planet Bruised]];
+		[1025] = [[Planet Nastyswirl]];
+		[1026] = [[Planet Moldymud]];
+		[1027] = [[Planet Uglypaint]];
+		[1028] = [[Planet Calmpurple]];
+		[1029] = [[Planet Yerrear]];
+		[1030] = [[Planet Splatterpaint Pink]];
+		[1031] = [[Planet Marshmellow]];
+		[1032] = [[Planet Clay]];
+		[1033] = [[Planet Sta-Puft]];
+		[1034] = [[Planet Purple Stripes Ugly]];
+		[1035] = [[Planet Dirtcloud]];
+		[1036] = [[Another Earth]];
+		[1200] = [[Habitat]];
 	};
 	sounds = {
-		[519] = [[Space Shot 2:Burst:SShot 1]];
-		[526] = [[thonk warp 1.1]];
-		[533] = [[Rocket Launch]];
-		[540] = [[missile elejeetian 4-zap slink1]];
-		[2000] = [[HACK TEST--REMOVE!]];
-		[569] = [[audemedon let’s go 8:22.snd]];
-		[527] = [[Thonk Warp 1.2]];
-		[534] = [[Astrocrunch]];
-		[541] = [[missile, elejeetian sound 1]];
-		[28853] = [[Beam Scan Modified]];
-		[528] = [[Thonk Warp 1.3]];
 		[500] = [[Shot C]];
-		[535] = [[Teletype]];
-		[542] = [[missile, elejeetian sound 3]];
-		[2001] = [[Untitled Resource-1]];
-		[543] = [[human laser 2]];
-		[550] = [[handgun.05.cut]];
 		[501] = [[Combo Exp 11kHz]];
-		[529] = [[thonk warp 1.4]];
-		[536] = [[flack]];
-		[12558] = [[space scream]];
-		[544] = [[human torpedo 1]];
-		[31989] = [[Force Open Air Lock]];
-		[551] = [[target deactivate beep.snd]];
 		[502] = [[Nate Photon (from 245)]];
+		[503] = [[explosn.02 short]];
+		[504] = [[Wire Shot Low]];
+		[505] = [[Nate Alien Phton 2 (from 233)]];
+		[506] = [[Morse Code Received High]];
+		[507] = [[register.08 22x8]];
+		[508] = [[Combo Beep (Fax.01:Computer.04)]];
+		[509] = [[computer.01 short]];
+		[510] = [[zoom change]];
+		[511] = [[Very Naughty Beep]];
+		[512] = [[Lectro Zap Mixed]];
+		[513] = [[Space Woosh@11KhZ]];
+		[514] = [[Get Energy]];
+		[515] = [[Big Explosion]];
+		[516] = [[downsampled rumbleburst]];
+		[517] = [[Warp In]];
+		[518] = [[Warp Out]];
+		[519] = [[Space Shot 2:Burst:SShot 1]];
+		[520] = [[fighter launch]];
+		[521] = [[Lectro Zap Mixed Low]];
+		[522] = [[Stealth Off]];
+		[523] = [[Stealth On]];
+		[524] = [[Spark Thump]];
+		[525] = [[Beep Buzzer copy.22]];
+		[526] = [[thonk warp 1.1]];
+		[527] = [[Thonk Warp 1.2]];
+		[528] = [[Thonk Warp 1.3]];
+		[529] = [[thonk warp 1.4]];
+		[530] = [[Strike Long Phz copy]];
+		[531] = [[Zap Impact A copy]];
+		[532] = [[Missile Hit Mix]];
+		[533] = [[Rocket Launch]];
+		[534] = [[Astrocrunch]];
+		[535] = [[Teletype]];
+		[536] = [[flack]];
 		[537] = [[audemedon missile 2]];
 		[538] = [[audem missile 1]];
-		[545] = [[human laser 3]];
-		[552] = [[ricochet1]];
-		[503] = [[explosn.02 short]];
-		[510] = [[zoom change]];
 		[539] = [[laser, elejeetian sound 2]];
-		[511] = [[Very Naughty Beep]];
+		[540] = [[missile elejeetian 4-zap slink1]];
+		[541] = [[missile, elejeetian sound 1]];
+		[542] = [[missile, elejeetian sound 3]];
+		[543] = [[human laser 2]];
+		[544] = [[human torpedo 1]];
+		[545] = [[human laser 3]];
 		[546] = [[human torpedo 2]];
-		[553] = [[ricochet2]];
-		[560] = [[Stingy Whip Laser Misc]];
-		[504] = [[Wire Shot Low]];
 		[547] = [[space blob sucks]];
-		[505] = [[Nate Alien Phton 2 (from 233)]];
-		[512] = [[Lectro Zap Mixed]];
-		[554] = [[heavy destroyer (cantharan).8]];
-		[561] = [[gaitori gunship.8:22]];
-		[28007] = [[Zap Slink 3 Modified]];
-		[562] = [[lectrocute 8:11.snd]];
-		[506] = [[Morse Code Received High]];
-		[513] = [[Space Woosh@11KhZ]];
-		[520] = [[fighter launch]];
 		[548] = [[space blob dies]];
-		[17406] = [[Placeholder Sound]];
 		[549] = [[target drone laser]];
-		[514] = [[Get Energy]];
-		[521] = [[Lectro Zap Mixed Low]];
-		[507] = [[register.08 22x8]];
+		[550] = [[handgun.05.cut]];
+		[551] = [[target deactivate beep.snd]];
+		[552] = [[ricochet1]];
+		[553] = [[ricochet2]];
+		[554] = [[heavy destroyer (cantharan).8]];
 		[556] = [[salril destroyer]];
-		[563] = [[buzz short 8:11.snd]];
-		[570] = [[engineer works 8:22.snd]];
 		[557] = [[human destroyer]];
-		[515] = [[Big Explosion]];
-		[508] = [[Combo Beep (Fax.01:Computer.04)]];
-		[522] = [[Stealth Off]];
-		[564] = [[pulse beam+ 8:11.snd]];
-		[571] = [[pop]];
 		[558] = [[audemedon destroyer]];
-		[530] = [[Strike Long Phz copy]];
-		[509] = [[computer.01 short]];
-		[516] = [[downsampled rumbleburst]];
-		[523] = [[Stealth On]];
-		[565] = [[fire belch 8:22.snd]];
 		[559] = [[gaitori destroyer]];
-		[531] = [[Zap Impact A copy]];
-		[524] = [[Spark Thump]];
-		[10312] = [[Let's Go]];
-		[517] = [[Warp In]];
+		[560] = [[Stingy Whip Laser Misc]];
+		[561] = [[gaitori gunship.8:22]];
+		[562] = [[lectrocute 8:11.snd]];
+		[563] = [[buzz short 8:11.snd]];
+		[564] = [[pulse beam+ 8:11.snd]];
+		[565] = [[fire belch 8:22.snd]];
 		[566] = [[gaitori let's go 8:22.snd]];
 		[567] = [[cantharan let's go 8:22.snd]];
-		[532] = [[Missile Hit Mix]];
-		[525] = [[Beep Buzzer copy.22]];
-		[518] = [[Warp Out]];
-		[9800] = [[jumpgate opens hifi copy]];
 		[568] = [[salrilian let's go 8:22.snd]];
+		[569] = [[audemedon let’s go 8:22.snd]];
+		[570] = [[engineer works 8:22.snd]];
+		[571] = [[pop]];
+		[2000] = [[HACK TEST--REMOVE!]];
+		[2001] = [[Untitled Resource-1]];
+		[9800] = [[jumpgate opens hifi copy]];
+		[10312] = [[Let's Go]];
+		[12558] = [[space scream]];
+		[17406] = [[Placeholder Sound]];
+		[28007] = [[Zap Slink 3 Modified]];
+		[28853] = [[Beam Scan Modified]];
+		[31989] = [[Force Open Air Lock]];
 	};
 	images = {
-		[1062] = [[Cruiser, Heavy, Ishiman]];
-		[10045] = [[Jommo]];
-		[509] = [[Ares Logo Top]];
-		[1152] = [[cruiser, elejeetian]];
-		[10022] = [[human portrait]];
-		[10084] = [[Jump Gate Inhibitor]];
-		[1148] = [[Fighter, Audemedon]];
-		[2000] = [[Image 2000]];
-		[10057] = [[Obital Shipyard]];
-		[1063] = [[Cruiser, Heavy Cantharan]];
-		[1130] = [[Destoyer, Ishiman]];
-		[10034] = [[Asteroid Data Detailed]];
-		[1090] = [[Battleship, Obish Data]];
-		[1149] = [[Carrier, Audemedon]];
-		[1014] = [[fighter, ishiman]];
-		[2001] = [[Image 2001]];
-		[520] = [[Key Back]];
-		[1127] = [[Liner, Elejeetian]];
-		[1087] = [[Transport, Gaitori]];
-		[521] = [[Key Accel]];
-		[10023] = [[Elejeetian Portrait]];
-		[1015] = [[fighter, cantharan]];
-		[1038] = [[cruiser, gaitori]];
-		[2002] = [[Ambrosia for Credits]];
-		[1244] = [[Destroyer Gaitori Portrait]];
-		[1105] = [[Bunker Station]];
-		[522] = [[Key Stop]];
-		[1065] = [[Gunship, Gaitori]];
-		[1271] = [[Outpost Portrait]];
-		[1128] = [[Astrominer Ishiman Detailed]];
-		[523] = [[Key Rotate Counter]];
-		[1020] = [[gunship, ishiman portrait 2]];
 		[128] = [[PLACEHOLDER GRAPHIC]];
-		[1043] = [[cruiser, obish]];
-		[2003] = [[Ares Credit Tag]];
-		[1110] = [[Research Vessel]];
-		[524] = [[Rotate Clockwise]];
-		[1129] = [[Escape Pod]];
 		[129] = [[PLACEHOLDER GRAPHIC 2]];
-		[10090] = [[Practice Drone]];
-		[10024] = [[obiard portrait]];
-		[1089] = [[Transport, Obish]];
-		[525] = [[Key Weapon 1]];
-		[10001] = [[Habitat Station]];
-		[1111] = [[cruiser, salrilian detailed]];
-		[530] = [[Key Computer Controls]];
-		[526] = [[Key Weapon 2]];
-		[1094] = [[border drone data]];
-		[10040] = [[Los Ran Map]];
-		[1018] = [[gunship, cantharan]];
-		[527] = [[Key Special]];
-		[2005] = [[Scroll Text Background 1]];
-		[1251] = [[assault transport, audemedon]];
-		[1068] = [[battleship, bazidanese data]];
-		[528] = [[Key Superlight]];
-		[1095] = [[Engineer, Gaitori]];
-		[10091] = [[Buoy]];
-		[10025] = [[salrilian portrait]];
-		[1185] = [[Astrosmash Detail]];
-		[1046] = [[carrier cantharan detailed]];
-		[2006] = [[Scroll Text Background 1]];
-		[10002] = [[Ares Portrait]];
-		[529] = [[Key Commands]];
-		[1113] = [[Fighter, Salrilian data]];
-		[10037] = [[battleship, bazid unknwn data]];
-		[1140] = [[assault transport, salrilian]];
-		[1001] = [[cruiser ishiman detailed]];
-		[1096] = [[Engineer, Ishiman]];
-		[2007] = [[Scroll Text Background 1]];
-		[1114] = [[Carrier, Salrilian]];
-		[1141] = [[Transport, Salrilian]];
-		[10030] = [[Jumpgate]];
-		[10026] = [[new name for apollo]];
-		[1025] = [[transport, ishiman]];
-		[1048] = [[carrier ishiman detailed]];
-		[1115] = [[Power Station Data]];
-		[10077] = [[Battlestation, Salrilian]];
-		[10015] = [[relay station]];
-		[1026] = [[transport, cantharan]];
-		[1165] = [[cruiser, human]];
-		[1030] = [[fighter, gaitori]];
-		[1120] = [[Assault Transport, Cantharan]];
-		[1076] = [[moor cantharan data]];
-		[1139] = [[Gunship, Salrilian]];
-		[10031] = [[Ares Orbits Earth]];
-		[1143] = [[Cruiser, Audemedon]];
-		[10027] = [[strange stuff on screen]];
-		[1166] = [[fighter, human]];
 		[501] = [[Status Left]];
-		[1081] = [[Astrominer Ishiman Detailed]];
-		[1121] = [[Engineer, Cantharan]];
-		[10016] = [[gaitori data detailed]];
-		[1167] = [[gunship, human]];
-		[10020] = [[cantharan data detailed]];
-		[1055] = [[def drone, ishiman]];
-		[10028] = [[Confrontation]];
-		[8000] = [[Starmap]];
 		[504] = [[Big Panel Left]];
-		[1168] = [[carrier, human]];
-		[1060] = [[Schooner Cantharan Detailed]];
-		[10044] = [[Bazidanese Portrait]];
 		[505] = [[Box Top]];
-		[44604] = [[QT badge]];
-		[1119] = [[Freighter, Ishiman]];
-		[1079] = [[border drone data]];
-		[1150] = [[Gunship, Audemedon]];
-		[10017] = [[Audemedon Portrait]];
-		[10021] = [[ishiman data detailed]];
-		[510] = [[Image 510]];
 		[506] = [[Box Right]];
-		[1057] = [[drone, cantharan portrait 2]];
-		[511] = [[Image 511]];
 		[507] = [[Box Bottom]];
-		[10029] = [[apollo leaves earth]];
-		[10033] = [[thrntz]];
-		[1008] = [[cruiser, cantharan]];
-		[512] = [[Status Right]];
 		[508] = [[Image 508]];
+		[509] = [[Ares Logo Top]];
+		[510] = [[Image 510]];
+		[511] = [[Image 511]];
+		[512] = [[Status Right]];
+		[1001] = [[cruiser ishiman detailed]];
+		[1008] = [[cruiser, cantharan]];
+		[1014] = [[fighter, ishiman]];
+		[1015] = [[fighter, cantharan]];
+		[1018] = [[gunship, cantharan]];
+		[1020] = [[gunship, ishiman portrait 2]];
+		[1025] = [[transport, ishiman]];
+		[1026] = [[transport, cantharan]];
+		[1030] = [[fighter, gaitori]];
+		[1038] = [[cruiser, gaitori]];
+		[1043] = [[cruiser, obish]];
+		[1046] = [[carrier cantharan detailed]];
+		[1048] = [[carrier ishiman detailed]];
+		[1055] = [[def drone, ishiman]];
+		[1057] = [[drone, cantharan portrait 2]];
+		[1060] = [[Schooner Cantharan Detailed]];
+		[1062] = [[Cruiser, Heavy, Ishiman]];
+		[1063] = [[Cruiser, Heavy Cantharan]];
+		[1065] = [[Gunship, Gaitori]];
+		[1068] = [[battleship, bazidanese data]];
+		[1076] = [[moor cantharan data]];
+		[1079] = [[border drone data]];
+		[1081] = [[Astrominer Ishiman Detailed]];
+		[1087] = [[Transport, Gaitori]];
+		[1089] = [[Transport, Obish]];
+		[1090] = [[Battleship, Obish Data]];
+		[1094] = [[border drone data]];
+		[1095] = [[Engineer, Gaitori]];
+		[1096] = [[Engineer, Ishiman]];
 		[1102] = [[Assault Transport, Ishiman Data]];
+		[1105] = [[Bunker Station]];
+		[1110] = [[Research Vessel]];
+		[1111] = [[cruiser, salrilian detailed]];
+		[1113] = [[Fighter, Salrilian data]];
+		[1114] = [[Carrier, Salrilian]];
+		[1115] = [[Power Station Data]];
+		[1119] = [[Freighter, Ishiman]];
+		[1120] = [[Assault Transport, Cantharan]];
+		[1121] = [[Engineer, Cantharan]];
+		[1127] = [[Liner, Elejeetian]];
+		[1128] = [[Astrominer Ishiman Detailed]];
+		[1129] = [[Escape Pod]];
+		[1130] = [[Destoyer, Ishiman]];
+		[1139] = [[Gunship, Salrilian]];
+		[1140] = [[assault transport, salrilian]];
+		[1141] = [[Transport, Salrilian]];
+		[1143] = [[Cruiser, Audemedon]];
+		[1148] = [[Fighter, Audemedon]];
+		[1149] = [[Carrier, Audemedon]];
+		[1150] = [[Gunship, Audemedon]];
+		[1152] = [[cruiser, elejeetian]];
+		[1165] = [[cruiser, human]];
+		[1166] = [[fighter, human]];
+		[1167] = [[gunship, human]];
+		[1168] = [[carrier, human]];
+		[1185] = [[Astrosmash Detail]];
+		[1244] = [[Destroyer Gaitori Portrait]];
+		[1251] = [[assault transport, audemedon]];
+		[1271] = [[Outpost Portrait]];
+		[2001] = [[Image 2001]];
+		[2003] = [[Ares Credit Tag]];
+		[2005] = [[Scroll Text Background 1]];
+		[2006] = [[Scroll Text Background 1]];
+		[2007] = [[Scroll Text Background 1]];
+		[8000] = [[Starmap]];
+		[10001] = [[Habitat Station]];
+		[10002] = [[Ares Portrait]];
+		[10015] = [[relay station]];
+		[10016] = [[gaitori data detailed]];
+		[10017] = [[Audemedon Portrait]];
+		[10020] = [[cantharan data detailed]];
+		[10021] = [[ishiman data detailed]];
+		[10022] = [[human portrait]];
+		[10023] = [[Elejeetian Portrait]];
+		[10024] = [[obiard portrait]];
+		[10025] = [[salrilian portrait]];
+		[10026] = [[new name for apollo]];
+		[10027] = [[strange stuff on screen]];
+		[10028] = [[Confrontation]];
+		[10029] = [[apollo leaves earth]];
+		[10030] = [[Jumpgate]];
+		[10031] = [[Ares Orbits Earth]];
+		[10033] = [[thrntz]];
+		[10034] = [[Asteroid Data Detailed]];
+		[10037] = [[battleship, bazid unknwn data]];
+		[10040] = [[Los Ran Map]];
+		[10044] = [[Bazidanese Portrait]];
+		[10045] = [[Jommo]];
+		[10057] = [[Obital Shipyard]];
+		[10077] = [[Battlestation, Salrilian]];
+		[10084] = [[Jump Gate Inhibitor]];
+		[10090] = [[Practice Drone]];
+		[10091] = [[Buoy]];
 	};
 };
