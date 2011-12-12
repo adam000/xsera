@@ -29,11 +29,13 @@ function init()
 
     scen = LoadScenario(demoLevel)
 
+--[[
 	selection.control = scen.playership
 	selection.controlId = scen.playerShipId
 	selection.target = nil
 	selection.targetId = nil
-	
+--]]
+
 	window.mouse_toggle()
 end
 
@@ -405,11 +407,11 @@ function mouse_up()
         print(cameraRatio.current)
         local mousePos = GetMouseCoords()
         if keyboard[2][5].active then -- TARGET
-            selection.targetId, selection.target = NextTargetUnderCursor(selection.targetId, true)
+            scen.playerShip.ai.objectives.targetId, scen.playerShip.ai.objectives.target = NextTargetUnderCursor(scen.playerShip.ai.objectives.targetId, true)
         else -- CONTROL
-            selection.controlId, selection.control = NextTargetUnderCursor(selection.controlId, false)
-            if selection.control.base.attributes.canAcceptBuild then
-                selection.lastPlanet = selection.control
+            scen.playerShip.ai.objectives.controlId, scen.playerShip.ai.objectives.control = NextTargetUnderCursor(scen.playerShip.ai.objectives.controlId, false)
+            if scen.playerShip.ai.objectives.control.base.attributes.canAcceptBuild then
+                selection.lastPlanet = scen.playerShip.ai.objectives.control
                 CalculateBuildables(selection.lastPlanet, scen)
             end
         end
@@ -585,14 +587,14 @@ function DrawObject(o)
 		if o.base.beam.hex > 0 then
 			local from = o.gfx.source.position + o.gfx.offset
 			if o.base.beam.hex == "bolt" then
-				graphics.draw_lightning(from, o.physics.position, 1.0, 10.0, false,ClutColour(o.base.beam.color))
+				graphics.draw_lightning(from, o.physics.position, 1.0, 10.0, false,ClutColour(o.base.beam.color, 1))
 			elseif o.base.beam.type == "static" then
-				graphics.draw_line(from, o.physics.position, 3.0, ClutColour(o.base.beam.color))
+				graphics.draw_line(from, o.physics.position, 3.0, ClutColour(o.base.beam.color, 1))
 			end
 		else --kinetic
 			local p1 = o.physics.position
 			local p2 = PolarVec(BEAM_LENGTH,o.physics.angle)
-			graphics.draw_line(p1, p1 + p2, 1, ClutColour(o.base.beam.color))
+			graphics.draw_line(p1, p1 + p2, 1, ClutColour(o.base.beam.color, 1))
 		end
 	else
 		if cameraRatio.current >= 1 / 4 then

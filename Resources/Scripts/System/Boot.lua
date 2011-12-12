@@ -1,51 +1,22 @@
 -- Preload all sounds
 import("data")
-
+import('PrintRecursive')
 for idx, name in pairs(data.sounds) do
+    print(name)
     sound.preload(name)
 end
+
+for idx, name in pairs(data.sprites) do
+    if string.find(name, "/") == nil then
+        graphics.preload_sprite_sheet(name)
+    end
+end
+
+for idx, name in pairs(data.images) do
+    if string.find(name, "/") == nil then
+        graphics.preload_image(name)
+    end
+end
+
 -- graphics.preload_font("prototype")
 -- graphics.preload_font("sneakout")
-graphics.preload_image("Bootloader/Ares")
-graphics.preload_image("Bootloader/Xsera")
-graphics.preload_image("Panels/AmbrosiaLogo")
-graphics.preload_image("Panels/BrainpenLogo")
-graphics.preload_image("Panels/MainBottom")
-graphics.preload_image("Panels/MainTop")
-graphics.preload_image("Panels/MainLeft")
-graphics.preload_image("Panels/MainRight")
-graphics.preload_image("Panels/NLCredits")
-graphics.preload_image("Panels/PanelBottom")
-graphics.preload_image("Panels/PanelLeft")
-graphics.preload_image("Panels/PanelRight")
-graphics.preload_image("Panels/PanelTop")
-graphics.preload_image("Panels/SideLeft")
-graphics.preload_image("Panels/SideLeftTrans")
-graphics.preload_image("Panels/SideRight")
-graphics.preload_image("Panels/SideRightTrans")
-graphics.preload_image("Panels/XseraLogo")
-graphics.preload_sprite_sheet("Explosions/BestExplosion")
-graphics.preload_sprite_sheet("Explosions/MikeExplosion")
-graphics.preload_sprite_sheet("Explosions/MissileExplosion")
-graphics.preload_sprite_sheet("Explosions/StrangeExplosion")
-graphics.preload_sprite_sheet("Explosions/SuperNova")
-graphics.preload_sprite_sheet("Weapons/AquaPulse")
-graphics.preload_sprite_sheet("Weapons/AquaRingPulse")
-graphics.preload_sprite_sheet("Weapons/AudemedonMissile")
-graphics.preload_sprite_sheet("Weapons/BlueBullet")
-graphics.preload_sprite_sheet("Weapons/Fireball")
-graphics.preload_sprite_sheet("Weapons/FlackExplosion")
-graphics.preload_sprite_sheet("Weapons/GreenPhoton")
-graphics.preload_sprite_sheet("Weapons/GreenTorpedo")
-graphics.preload_sprite_sheet("Weapons/Gunfire")
-graphics.preload_sprite_sheet("Weapons/IndigoPulse")
-graphics.preload_sprite_sheet("Weapons/NewShots")
-graphics.preload_sprite_sheet("Weapons/PulseBlue")
-graphics.preload_sprite_sheet("Weapons/PulseOrange")
-graphics.preload_sprite_sheet("Weapons/PurpleTorpedo")
-graphics.preload_sprite_sheet("Weapons/RedPulse")
-graphics.preload_sprite_sheet("Weapons/RedPulseMike")
-graphics.preload_sprite_sheet("Weapons/TwinOrbitShot")
-graphics.preload_sprite_sheet("Weapons/YellowPhoton")
-graphics.preload_sprite_sheet("Weapons/YellowSparkleShot")
-graphics.preload_sprite_sheet("Weapons/Special/cMissile")

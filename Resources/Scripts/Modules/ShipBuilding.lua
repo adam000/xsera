@@ -7,6 +7,9 @@ function LookupBuildId(class, race)
 end
 
 function CalculateBuildables(object, scen)--[HACK]
+    if object.ai.owner == -1 then
+        return
+    end
     local race = scen.base.players[object.ai.owner+1].race
     for idx, class in ipairs(object.building.classes) do
         object.building.ids[idx] = LookupBuildId(class, race) 
@@ -60,8 +63,8 @@ function UpdatePlanet(planet, dt)
             newObj.physics.position = planet.physics.position
             newObj.ai.owner = planet.ai.owner
             if newObj.ai.owner == 0
-            and selection.target ~= nil then
-                newObj.ai.objectives.dest = selection.target
+            and scen.playerShip.ai.objectives.target ~= nil then
+                newObj.ai.objectives.dest = scen.playerShip.ai.objectives.target
             else
                 newObj.ai.objectives.dest = planet
             end

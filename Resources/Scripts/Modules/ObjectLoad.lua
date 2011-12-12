@@ -74,11 +74,11 @@ function NewObject(id)
 	end
 	
 	if base.spriteId ~= -1 then
-		object.gfx.sprite = "Id/"..base.spriteId;
+		object.gfx.sprite = data.sprites[base.spriteId]
 		
 		local dim = graphics.sprite_dimensions(object.gfx.sprite)
 		
-		object.gfx.dimensions = dim * (base.scale/4096 or 1.0)
+		object.gfx.dimensions = dim * base.scale
 		
 		object.physics.collision_radius = hypot1(object.gfx.dimensions) / 4.0
 	else

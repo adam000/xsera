@@ -89,5 +89,5 @@ menuLevel = menuOptions
 -- client-server variables
 isMultiplayer = false
 
--- metatable variable?
+-- metatable variable for garbage collection
 weak = {__mode = "v"}

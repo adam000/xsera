@@ -75,7 +75,7 @@ function update()
     end
     
     -- [TODO] [FIX] [ADAM] mouse button handling
-    -- What we need is a table in KeyboardControl.lua that shows 
+    -- What we need is a table in KeyboardControl.lua that shows (...? unfinished)
     if mup then
         mup = false
         mousePos = input.mouse_position()

@@ -3,13 +3,17 @@ import('BoxDrawing')
 import('Camera')
 import('TextManip')
 
+-- The below should be removed ASAP in favor of using scen.playerShip.ai.objectives,
+-- and lastPlanet should be put under the Admiral AI, as the player should have
+-- one "last planet" selected at a time? [TODO]
+
 selection = {
-    control = {},
-    target = {},
+--    control = {},
+--    target = {},
     lastPlanet = nil
 }
 
-setmetatable(selection, weak)
+-- setmetatable(selection, weak) -- is this line necessary?
 
 menuShift = 54
 topOfMenu = -87
@@ -21,6 +25,7 @@ menuBuild = { name = "BUILD",
     items = {},
     planet = nil -- this is used to check (if planet ~= lastPlanet,
                  -- we need to update the data in the items table)
+                 -- ^ or can we just update whenever lastPlanet is changed?
 }
 
 function UpdateBuildMenu()
@@ -481,12 +486,12 @@ function DrawPanels()
         end
     end
     
-    if selection.control ~= nil then
-        DrawTargetBox(selection.control, true)
+    if scen.playerShip.ai.objectives ~= nil and scen.playerShip.ai.objectives.control ~= nil then
+        DrawTargetBox(scen.playerShip.ai.objectives.control, true)
     end
     
-    if selection.target ~= nil then
-        DrawTargetBox(selection.target, false)
+    if scen.playerShip.ai.objectives ~= nil and scen.playerShip.ai.objectives.target ~= nil then
+        DrawTargetBox(scen.playerShip.ai.objectives.target, false)
     end
     
 --    printTable(panels)

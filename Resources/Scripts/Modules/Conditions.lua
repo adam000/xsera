@@ -78,7 +78,7 @@ Test["time"] = function(cond)
     --[[
     May need to measure from when the condition is first tested. Instead of scenario start.
     --]]
-    return cond.value / TIME_FACTOR >= realtime
+    return cond.value / TIME_FACTOR >= realTime
 end
 
 Test["velocity less than equal"] = function(cond)
