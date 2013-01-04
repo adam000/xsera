@@ -15,6 +15,8 @@
 		7A8B3D061696896600562224 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3CFF1696896600562224 /* SDL.framework */; };
 		7A8B3D071696896600562224 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3D001696896600562224 /* Cocoa.framework */; };
 		7A8B3D081696896600562224 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3D011696896600562224 /* OpenGL.framework */; };
+		7A8B3D121696914200562224 /* libApollo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3CFB1696883F00562224 /* libApollo.a */; };
+		7A8B3D131696917200562224 /* alure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3D021696896600562224 /* alure.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A8B3D121696914200562224 /* libApollo.a in Frameworks */,
 				5715EBE511E0104800897669 /* OpenAL.framework in Frameworks */,
 				7A8B3D031696896600562224 /* SDL_image.framework in Frameworks */,
 				7A8B3D041696896600562224 /* SDL_mixer.framework in Frameworks */,
@@ -67,6 +70,7 @@
 				7A8B3D061696896600562224 /* SDL.framework in Frameworks */,
 				7A8B3D071696896600562224 /* Cocoa.framework in Frameworks */,
 				7A8B3D081696896600562224 /* OpenGL.framework in Frameworks */,
+				7A8B3D131696917200562224 /* alure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
