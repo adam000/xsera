@@ -14,7 +14,6 @@
 		496924670EBE4D0600930DDD /* SDL_image.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 496924180EBE4CEA00930DDD /* SDL_image.framework */; };
 		496924690EBE4D0600930DDD /* SDL_ttf.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4969241A0EBE4CEA00930DDD /* SDL_ttf.framework */; };
 		496924830EBE516100930DDD /* Xsera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 496924820EBE516100930DDD /* Xsera.cpp */; };
-		496A28470F0ECB7B00C53BA1 /* libApollo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 496A27830F0EC9A300C53BA1 /* libApollo.a */; };
 		49A0E6940ECC3887007F3458 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A0E6930ECC3887007F3458 /* OpenGL.framework */; };
 		5715EBBF11E00FAE00897669 /* alure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5715EBBE11E00FAE00897669 /* alure.framework */; };
 		5715EBDF11E00FC100897669 /* alure.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 5715EBBE11E00FAE00897669 /* alure.framework */; };
@@ -26,18 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		496A27820F0EC9A300C53BA1 /* PBXContainerItemProxy */ = {
+		7A8B3CE91696867F00562224 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 496A27300F0EC29C00C53BA1 /* Apollo.xcodeproj */;
+			containerPortal = 7A8B3CE51696867F00562224 /* Apollo.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 496A277E0F0EC9A000C53BA1;
-			remoteInfo = Apollo;
-		};
-		496A28450F0ECB7200C53BA1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 496A27300F0EC29C00C53BA1 /* Apollo.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 496A277D0F0EC9A000C53BA1;
 			remoteInfo = Apollo;
 		};
 /* End PBXContainerItemProxy section */
@@ -73,7 +65,6 @@
 		496924180EBE4CEA00930DDD /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL_image.framework; sourceTree = "<group>"; };
 		4969241A0EBE4CEA00930DDD /* SDL_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL_ttf.framework; sourceTree = "<group>"; };
 		496924820EBE516100930DDD /* Xsera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Xsera.cpp; sourceTree = "<group>"; };
-		496A27300F0EC29C00C53BA1 /* Apollo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Apollo.xcodeproj; sourceTree = "<group>"; };
 		49A0E6930ECC3887007F3458 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 		49A315500ED6BDD90054BB8B /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ../Resources/Fonts; sourceTree = SOURCE_ROOT; };
 		49D543B80ED5E222002FC38E /* Sprites */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sprites; path = ../Resources/Sprites; sourceTree = SOURCE_ROOT; };
@@ -86,6 +77,7 @@
 		57FCA77C10ACF9F6002D6A9E /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Textures; path = ../Resources/Textures; sourceTree = SOURCE_ROOT; };
 		7A58AD4C108919F200C4F789 /* NewResources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NewResources; path = ../Resources/NewResources; sourceTree = SOURCE_ROOT; };
 		7A5FEA6D1130BE22009CFD8A /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Scripts; path = ../Resources/Scripts; sourceTree = SOURCE_ROOT; };
+		7A8B3CE51696867F00562224 /* Apollo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Apollo.xcodeproj; path = ../Apollo/Xcode/Apollo.xcodeproj; sourceTree = "<group>"; };
 		7A8C711F0EDB0FB700CFE5D3 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = ../Resources/Sounds; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -94,7 +86,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				496A28470F0ECB7B00C53BA1 /* libApollo.a in Frameworks */,
 				496924290EBE4CEA00930DDD /* SDL.framework in Frameworks */,
 				4969242A0EBE4CEA00930DDD /* SDL_image.framework in Frameworks */,
 				4969242C0EBE4CEA00930DDD /* SDL_ttf.framework in Frameworks */,
@@ -112,7 +103,7 @@
 		496923C90EBE4B7600930DDD = {
 			isa = PBXGroup;
 			children = (
-				496A27300F0EC29C00C53BA1 /* Apollo.xcodeproj */,
+				7A8B3CE51696867F00562224 /* Apollo.xcodeproj */,
 				496923E40EBE4C4000930DDD /* Source */,
 				496923E30EBE4C3900930DDD /* External */,
 				496923E20EBE4C3500930DDD /* Resources */,
@@ -174,10 +165,10 @@
 			path = ../Source;
 			sourceTree = "<group>";
 		};
-		496A27310F0EC29C00C53BA1 /* Products */ = {
+		7A8B3CE61696867F00562224 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				496A27830F0EC9A300C53BA1 /* libApollo.a */,
+				7A8B3CEA1696867F00562224 /* libApollo.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,7 +188,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				496A28460F0ECB7200C53BA1 /* PBXTargetDependency */,
 			);
 			name = Xsera;
 			productName = Xsera;
@@ -229,8 +219,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 496A27310F0EC29C00C53BA1 /* Products */;
-					ProjectRef = 496A27300F0EC29C00C53BA1 /* Apollo.xcodeproj */;
+					ProductGroup = 7A8B3CE61696867F00562224 /* Products */;
+					ProjectRef = 7A8B3CE51696867F00562224 /* Apollo.xcodeproj */;
 				},
 			);
 			projectRoot = ..;
@@ -241,11 +231,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		496A27830F0EC9A300C53BA1 /* libApollo.a */ = {
+		7A8B3CEA1696867F00562224 /* libApollo.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libApollo.a;
-			remoteRef = 496A27820F0EC9A300C53BA1 /* PBXContainerItemProxy */;
+			remoteRef = 7A8B3CE91696867F00562224 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -277,14 +267,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		496A28460F0ECB7200C53BA1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Apollo;
-			targetProxy = 496A28450F0ECB7200C53BA1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
 		496923CC0EBE4B7600930DDD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -295,9 +277,9 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx10.7;
 			};
 			name = Debug;
 		};
@@ -311,8 +293,8 @@
 				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				SDKROOT = macosx10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};
@@ -390,9 +372,9 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx10.7;
 			};
 			name = "Debug (quiet)";
 		};
