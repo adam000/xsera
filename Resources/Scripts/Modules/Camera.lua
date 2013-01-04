@@ -75,7 +75,7 @@ function CameraInterpolate(dt)
 
 	if (cameraRatio.current < 1 / 4 and oldRatio > 1 / 4)
 	or (cameraRatio.current > 1 / 4 and oldRatio < 1 / 4) then
-		sound.play("ZoomChange")
+		sound.play("zoom change")
 	end
 
 	camera = { w = WINDOW.width / cameraRatio.current, h }

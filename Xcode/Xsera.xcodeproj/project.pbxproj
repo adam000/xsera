@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		496924830EBE516100930DDD /* Xsera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 496924820EBE516100930DDD /* Xsera.cpp */; };
-		5715EBE511E0104800897669 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5715EBE411E0104800897669 /* OpenAL.framework */; };
+		5715EBE511E0104800897669 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5715EBE411E0104800897669 /* OpenAL.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7A3FE9471697884100A659B7 /* alure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3D021696896600562224 /* alure.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		7A8B3D031696896600562224 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3CFC1696896600562224 /* SDL_image.framework */; };
 		7A8B3D041696896600562224 /* SDL_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3CFD1696896600562224 /* SDL_mixer.framework */; };
 		7A8B3D051696896600562224 /* SDL_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3CFE1696896600562224 /* SDL_ttf.framework */; };
 		7A8B3D061696896600562224 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3CFF1696896600562224 /* SDL.framework */; };
-		7A8B3D071696896600562224 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3D001696896600562224 /* Cocoa.framework */; };
-		7A8B3D081696896600562224 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3D011696896600562224 /* OpenGL.framework */; };
+		7A8B3D071696896600562224 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3D001696896600562224 /* Cocoa.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7A8B3D081696896600562224 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3D011696896600562224 /* OpenGL.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		7A8B3D121696914200562224 /* libApollo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3CFB1696883F00562224 /* libApollo.a */; };
-		7A8B3D131696917200562224 /* alure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3D021696896600562224 /* alure.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,7 @@
 		7A8B3CFF1696896600562224 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = /Users/atg/scm/git/xsera/Apollo/Xcode/../External/SDL.framework; sourceTree = "<absolute>"; };
 		7A8B3D001696896600562224 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		7A8B3D011696896600562224 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
-		7A8B3D021696896600562224 /* alure.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = alure.framework; path = ../Apollo/External/alure.framework; sourceTree = "<group>"; };
+		7A8B3D021696896600562224 /* alure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = alure.framework; path = ../Apollo/External/alure.framework; sourceTree = "<group>"; };
 		7A8C711F0EDB0FB700CFE5D3 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = ../Resources/Sounds; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -67,10 +67,10 @@
 				7A8B3D031696896600562224 /* SDL_image.framework in Frameworks */,
 				7A8B3D041696896600562224 /* SDL_mixer.framework in Frameworks */,
 				7A8B3D051696896600562224 /* SDL_ttf.framework in Frameworks */,
+				7A8B3D081696896600562224 /* OpenGL.framework in Frameworks */,
 				7A8B3D061696896600562224 /* SDL.framework in Frameworks */,
 				7A8B3D071696896600562224 /* Cocoa.framework in Frameworks */,
-				7A8B3D081696896600562224 /* OpenGL.framework in Frameworks */,
-				7A8B3D131696917200562224 /* alure.framework in Frameworks */,
+				7A3FE9471697884100A659B7 /* alure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +278,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Apollo/External/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../Apollo/External/**",
+					"\"$(SRCROOT)/../Apollo/External\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
@@ -291,6 +294,10 @@
 				);
 				INFOPLIST_FILE = "Xsera-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Apollo/External\"",
+				);
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -305,7 +312,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Apollo/External/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../Apollo/External/**",
+					"\"$(SRCROOT)/../Apollo/External\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
@@ -317,6 +327,10 @@
 				);
 				INFOPLIST_FILE = "Xsera-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Apollo/External\"",
+				);
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -346,7 +360,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Apollo/External/**";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../Apollo/External/**",
+					"\"$(SRCROOT)/../Apollo/External\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
@@ -359,6 +376,10 @@
 				);
 				INFOPLIST_FILE = "Xsera-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Apollo/External\"",
+				);
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,

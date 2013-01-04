@@ -574,7 +574,7 @@ function DrawMouse2()
     ship = scen.playerShip.physics.position
     
     if mode_manager.time() - mouseStart < 2.0 and realPos.x < panels.left.center.x + panels.left.width / 2 then
-        graphics.draw_sprite("Misc/Cursor", realPos, graphics.sprite_dimensions("Misc/Cursor"), 0)
+        graphics.draw_sprite("Sprite Cursor", realPos, graphics.sprite_dimensions("Sprite Cursor"), 0)
     end
 end
 

@@ -541,7 +541,11 @@ function Warp(object)
             warp.factor = warp.factor + dt / WARP_TIME
             if warp.factor >= warp.lastPlayed / 4 then
                 warp.lastPlayed = warp.lastPlayed + 1
-                sound.play("Warp"..warp.lastPlayed)
+                if (warp.lastPlayed < 5) then
+                    sound.play("thonk warp 1." .. warp.lastPlayed)
+                else
+                    sound.play("warp in")
+                end
             end
             if warp.factor >= 1.0 then
                 warp.stage = WARP_RUNNING
