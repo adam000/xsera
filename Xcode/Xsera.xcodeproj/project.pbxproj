@@ -7,51 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		496924290EBE4CEA00930DDD /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496924170EBE4CEA00930DDD /* SDL.framework */; };
-		4969242A0EBE4CEA00930DDD /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496924180EBE4CEA00930DDD /* SDL_image.framework */; };
-		4969242C0EBE4CEA00930DDD /* SDL_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4969241A0EBE4CEA00930DDD /* SDL_ttf.framework */; };
-		496924660EBE4D0600930DDD /* SDL.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 496924170EBE4CEA00930DDD /* SDL.framework */; };
-		496924670EBE4D0600930DDD /* SDL_image.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 496924180EBE4CEA00930DDD /* SDL_image.framework */; };
-		496924690EBE4D0600930DDD /* SDL_ttf.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4969241A0EBE4CEA00930DDD /* SDL_ttf.framework */; };
 		496924830EBE516100930DDD /* Xsera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 496924820EBE516100930DDD /* Xsera.cpp */; };
-		49A0E6940ECC3887007F3458 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A0E6930ECC3887007F3458 /* OpenGL.framework */; };
-		5715EBBF11E00FAE00897669 /* alure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5715EBBE11E00FAE00897669 /* alure.framework */; };
-		5715EBDF11E00FC100897669 /* alure.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 5715EBBE11E00FAE00897669 /* alure.framework */; };
 		5715EBE511E0104800897669 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5715EBE411E0104800897669 /* OpenAL.framework */; };
-		5736261F11E02CD200DC2698 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5736261E11E02CD200DC2698 /* Ogg.framework */; };
-		5736262111E02CD200DC2698 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5736262011E02CD200DC2698 /* Vorbis.framework */; };
-		5736262D11E02CDE00DC2698 /* Ogg.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 5736261E11E02CD200DC2698 /* Ogg.framework */; };
-		5736262E11E02CDE00DC2698 /* Vorbis.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 5736262011E02CD200DC2698 /* Vorbis.framework */; };
+		7A8B3D031696896600562224 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3CFC1696896600562224 /* SDL_image.framework */; };
+		7A8B3D041696896600562224 /* SDL_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3CFD1696896600562224 /* SDL_mixer.framework */; };
+		7A8B3D051696896600562224 /* SDL_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3CFE1696896600562224 /* SDL_ttf.framework */; };
+		7A8B3D061696896600562224 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3CFF1696896600562224 /* SDL.framework */; };
+		7A8B3D071696896600562224 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3D001696896600562224 /* Cocoa.framework */; };
+		7A8B3D081696896600562224 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8B3D011696896600562224 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7A8B3CE91696867F00562224 /* PBXContainerItemProxy */ = {
+		7A8B3CFA1696883F00562224 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7A8B3CE51696867F00562224 /* Apollo.xcodeproj */;
+			containerPortal = 7A8B3CF31696883F00562224 /* Apollo.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 496A277E0F0EC9A000C53BA1;
 			remoteInfo = Apollo;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		496924030EBE4CD600930DDD /* Copy Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				5736262D11E02CDE00DC2698 /* Ogg.framework in Copy Frameworks */,
-				5736262E11E02CDE00DC2698 /* Vorbis.framework in Copy Frameworks */,
-				5715EBDF11E00FC100897669 /* alure.framework in Copy Frameworks */,
-				496924660EBE4D0600930DDD /* SDL.framework in Copy Frameworks */,
-				496924670EBE4D0600930DDD /* SDL_image.framework in Copy Frameworks */,
-				496924690EBE4D0600930DDD /* SDL_ttf.framework in Copy Frameworks */,
-			);
-			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		490CDB270ECCE572004B7D04 /* Music */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Music; path = ../Resources/Music; sourceTree = SOURCE_ROOT; };
@@ -61,23 +35,23 @@
 		49597A0B0ED4D47C00173D17 /* Config */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Config; path = ../Resources/Config; sourceTree = SOURCE_ROOT; };
 		496923DB0EBE4BC300930DDD /* Xsera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xsera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		496923DE0EBE4BC300930DDD /* Xsera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Xsera-Info.plist"; sourceTree = "<group>"; };
-		496924170EBE4CEA00930DDD /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL.framework; sourceTree = "<group>"; };
-		496924180EBE4CEA00930DDD /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL_image.framework; sourceTree = "<group>"; };
-		4969241A0EBE4CEA00930DDD /* SDL_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL_ttf.framework; sourceTree = "<group>"; };
 		496924820EBE516100930DDD /* Xsera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Xsera.cpp; sourceTree = "<group>"; };
-		49A0E6930ECC3887007F3458 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 		49A315500ED6BDD90054BB8B /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ../Resources/Fonts; sourceTree = SOURCE_ROOT; };
 		49D543B80ED5E222002FC38E /* Sprites */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sprites; path = ../Resources/Sprites; sourceTree = SOURCE_ROOT; };
-		5715EBBE11E00FAE00897669 /* alure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = alure.framework; sourceTree = "<group>"; };
 		5715EBE411E0104800897669 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = /System/Library/Frameworks/OpenAL.framework; sourceTree = "<absolute>"; };
-		5736261E11E02CD200DC2698 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Ogg.framework; sourceTree = "<group>"; };
-		5736262011E02CD200DC2698 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Vorbis.framework; sourceTree = "<group>"; };
 		5766341410AF74600025BA67 /* Particles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Particles; path = ../Resources/Particles; sourceTree = SOURCE_ROOT; };
 		57FCA77910ACF9F6002D6A9E /* Objects */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Objects; path = ../Resources/Objects; sourceTree = SOURCE_ROOT; };
 		57FCA77C10ACF9F6002D6A9E /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Textures; path = ../Resources/Textures; sourceTree = SOURCE_ROOT; };
 		7A58AD4C108919F200C4F789 /* NewResources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = NewResources; path = ../Resources/NewResources; sourceTree = SOURCE_ROOT; };
 		7A5FEA6D1130BE22009CFD8A /* Scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Scripts; path = ../Resources/Scripts; sourceTree = SOURCE_ROOT; };
-		7A8B3CE51696867F00562224 /* Apollo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Apollo.xcodeproj; path = ../Apollo/Xcode/Apollo.xcodeproj; sourceTree = "<group>"; };
+		7A8B3CF31696883F00562224 /* Apollo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Apollo.xcodeproj; path = ../Apollo/Xcode/Apollo.xcodeproj; sourceTree = "<group>"; };
+		7A8B3CFC1696896600562224 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = /Users/atg/scm/git/xsera/Apollo/Xcode/../External/SDL_image.framework; sourceTree = "<absolute>"; };
+		7A8B3CFD1696896600562224 /* SDL_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_mixer.framework; path = /Users/atg/scm/git/xsera/Apollo/Xcode/../External/SDL_mixer.framework; sourceTree = "<absolute>"; };
+		7A8B3CFE1696896600562224 /* SDL_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_ttf.framework; path = /Users/atg/scm/git/xsera/Apollo/Xcode/../External/SDL_ttf.framework; sourceTree = "<absolute>"; };
+		7A8B3CFF1696896600562224 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = /Users/atg/scm/git/xsera/Apollo/Xcode/../External/SDL.framework; sourceTree = "<absolute>"; };
+		7A8B3D001696896600562224 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		7A8B3D011696896600562224 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		7A8B3D021696896600562224 /* alure.framework */ = {isa = PBXFileReference; lastKnownFileType = file; name = alure.framework; path = ../Apollo/External/alure.framework; sourceTree = "<group>"; };
 		7A8C711F0EDB0FB700CFE5D3 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = ../Resources/Sounds; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -86,14 +60,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				496924290EBE4CEA00930DDD /* SDL.framework in Frameworks */,
-				4969242A0EBE4CEA00930DDD /* SDL_image.framework in Frameworks */,
-				4969242C0EBE4CEA00930DDD /* SDL_ttf.framework in Frameworks */,
-				49A0E6940ECC3887007F3458 /* OpenGL.framework in Frameworks */,
-				5715EBBF11E00FAE00897669 /* alure.framework in Frameworks */,
 				5715EBE511E0104800897669 /* OpenAL.framework in Frameworks */,
-				5736261F11E02CD200DC2698 /* Ogg.framework in Frameworks */,
-				5736262111E02CD200DC2698 /* Vorbis.framework in Frameworks */,
+				7A8B3D031696896600562224 /* SDL_image.framework in Frameworks */,
+				7A8B3D041696896600562224 /* SDL_mixer.framework in Frameworks */,
+				7A8B3D051696896600562224 /* SDL_ttf.framework in Frameworks */,
+				7A8B3D061696896600562224 /* SDL.framework in Frameworks */,
+				7A8B3D071696896600562224 /* Cocoa.framework in Frameworks */,
+				7A8B3D081696896600562224 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +76,7 @@
 		496923C90EBE4B7600930DDD = {
 			isa = PBXGroup;
 			children = (
-				7A8B3CE51696867F00562224 /* Apollo.xcodeproj */,
+				7A8B3CF31696883F00562224 /* Apollo.xcodeproj */,
 				496923E40EBE4C4000930DDD /* Source */,
 				496923E30EBE4C3900930DDD /* External */,
 				496923E20EBE4C3500930DDD /* Resources */,
@@ -143,14 +116,14 @@
 		496923E30EBE4C3900930DDD /* External */ = {
 			isa = PBXGroup;
 			children = (
+				7A8B3CFC1696896600562224 /* SDL_image.framework */,
+				7A8B3CFD1696896600562224 /* SDL_mixer.framework */,
+				7A8B3CFE1696896600562224 /* SDL_ttf.framework */,
+				7A8B3CFF1696896600562224 /* SDL.framework */,
+				7A8B3D001696896600562224 /* Cocoa.framework */,
+				7A8B3D011696896600562224 /* OpenGL.framework */,
+				7A8B3D021696896600562224 /* alure.framework */,
 				5715EBE411E0104800897669 /* OpenAL.framework */,
-				49A0E6930ECC3887007F3458 /* OpenGL.framework */,
-				496924170EBE4CEA00930DDD /* SDL.framework */,
-				496924180EBE4CEA00930DDD /* SDL_image.framework */,
-				4969241A0EBE4CEA00930DDD /* SDL_ttf.framework */,
-				5715EBBE11E00FAE00897669 /* alure.framework */,
-				5736261E11E02CD200DC2698 /* Ogg.framework */,
-				5736262011E02CD200DC2698 /* Vorbis.framework */,
 			);
 			name = External;
 			path = ../External;
@@ -165,10 +138,10 @@
 			path = ../Source;
 			sourceTree = "<group>";
 		};
-		7A8B3CE61696867F00562224 /* Products */ = {
+		7A8B3CF41696883F00562224 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A8B3CEA1696867F00562224 /* libApollo.a */,
+				7A8B3CFB1696883F00562224 /* libApollo.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,7 +154,6 @@
 			buildConfigurationList = 496923E10EBE4BC400930DDD /* Build configuration list for PBXNativeTarget "Xsera" */;
 			buildPhases = (
 				7A0E7E0311321B17000B823C /* ShellScript */,
-				496924030EBE4CD600930DDD /* Copy Frameworks */,
 				496923D80EBE4BC300930DDD /* Sources */,
 				496923D90EBE4BC300930DDD /* Frameworks */,
 			);
@@ -219,8 +191,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 7A8B3CE61696867F00562224 /* Products */;
-					ProjectRef = 7A8B3CE51696867F00562224 /* Apollo.xcodeproj */;
+					ProductGroup = 7A8B3CF41696883F00562224 /* Products */;
+					ProjectRef = 7A8B3CF31696883F00562224 /* Apollo.xcodeproj */;
 				},
 			);
 			projectRoot = ..;
@@ -231,11 +203,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		7A8B3CEA1696867F00562224 /* libApollo.a */ = {
+		7A8B3CFB1696883F00562224 /* libApollo.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libApollo.a;
-			remoteRef = 7A8B3CE91696867F00562224 /* PBXContainerItemProxy */;
+			remoteRef = 7A8B3CFA1696883F00562224 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -276,7 +248,7 @@
 				CURRENT_PROJECT_VERSION = 0.0.2d;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx10.7;
@@ -292,7 +264,7 @@
 				DEPLOYMENT_POSTPROCESSING = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx10.7;
 			};
@@ -302,22 +274,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../External\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Apollo/External/**";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../External",
-					"$(SRCROOT)/../External/SDL.framework/Headers",
-					"$(SRCROOT)/../External/eNet",
+					"$(SRCROOT)/../Apollo/Engine",
+					"$(SRCROOT)/../Apollo/External/**",
 					"$(SRCROOT)/../Source",
-					"$(SRCROOT)/../External/Lua",
-					"$(SRCROOT)/../Engine",
 				);
 				INFOPLIST_FILE = "Xsera-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
@@ -335,21 +301,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../External\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Apollo/External/**";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../External",
-					"$(SRCROOT)/../External/SDL.framework/Headers",
-					"$(SRCROOT)/../External/eNet",
+					"$(SRCROOT)/../Apollo/Engine",
+					"$(SRCROOT)/../Apollo/External/**",
 					"$(SRCROOT)/../Source",
-					"$(SRCROOT)/../External/Lua",
-					"$(SRCROOT)/../Engine",
 				);
 				INFOPLIST_FILE = "Xsera-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
@@ -371,7 +331,7 @@
 				CURRENT_PROJECT_VERSION = 0.0.2q;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx10.7;
@@ -382,22 +342,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../External\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Apollo/External/**";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../External",
-					"$(SRCROOT)/../External/SDL.framework/Headers",
-					"$(SRCROOT)/../External/eNet",
+					"$(SRCROOT)/../Apollo/Engine",
+					"$(SRCROOT)/../Apollo/External/**",
 					"$(SRCROOT)/../Source",
-					"$(SRCROOT)/../External/Lua",
-					"$(SRCROOT)/../Engine",
 				);
 				INFOPLIST_FILE = "Xsera-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";

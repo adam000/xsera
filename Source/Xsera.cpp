@@ -1,6 +1,6 @@
 #include <SDL/SDL.h>
 
-#include "Apollo.h"
+#include <Apollo.h>
 
 namespace XseraMain
 {
